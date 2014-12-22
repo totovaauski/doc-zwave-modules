@@ -1,2 +1,14 @@
 FIBARO FGRM 221-222
 -------
+<<aresume, RESUME>>
+
+[[resume]]
+Le nouveau micromodule FGRM-222 (ou FGRM-221) va vous permettre de gérer les motorisations de volet à butée électronique, les stores vénitiens ou en encore les portes de garage grâce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.
+
+De plus, ce micromodule est capable de transmettre la consommation électrique instantanée (W) et cumulée (KWh) de l'équipement qui lui est rattaché.  
+
+Un contrôleur Z-Wave (télécommande, dongle ...) est nécessaire afin d'intégrer ce module dans votre réseau si vous avez déjà un réseau existant.
+
+Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres modules, afin d'assurer une couverture totale de votre habitation.
+
+Note : Ce module nécessite le neutre pour fonctionner. 
