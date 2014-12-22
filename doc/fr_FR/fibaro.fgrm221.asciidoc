@@ -1,14 +1,14 @@
 FIBARO FGRM 221-222
 -------
-<<aresume, RESUME>>
+<<resume, RESUME>>
 
 [[resume]]
-Le nouveau micromodule FGRM-222 (ou FGRM-221) va vous permettre de gérer les motorisations de volet à butée électronique, les stores vénitiens ou en encore les portes de garage grâce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.
+Le nouveau micromodule FGRM-222 (ou FGRM-221) va vous permettre de gÃ©rer les motorisations de volet Ã  butÃ©e Ã©lectronique, les stores vÃ©nitiens ou en encore les portes de garage grÃ¢ce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connectÃ© en utilisant l'interrupteur existant, un Ã©metteur Z-Wave ou directement depuis le bouton prÃ©sent sur le micromodule.
 
-De plus, ce micromodule est capable de transmettre la consommation électrique instantanée (W) et cumulée (KWh) de l'équipement qui lui est rattaché.  
+De plus, ce micromodule est capable de transmettre la consommation Ã©lectrique instantanÃ©e (W) et cumulÃ©e (KWh) de l'Ã©quipement qui lui est rattachÃ©.  
 
-Un contrôleur Z-Wave (télécommande, dongle ...) est nécessaire afin d'intégrer ce module dans votre réseau si vous avez déjà un réseau existant.
+Un contrÃ´leur Z-Wave (tÃ©lÃ©commande, dongle ...) est nÃ©cessaire afin d'intÃ©grer ce module dans votre rÃ©seau si vous avez dÃ©jÃ  un rÃ©seau existant.
 
-Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres modules, afin d'assurer une couverture totale de votre habitation.
+Chaque module Z-Wave fonctionne comme un rÃ©pÃ©teur sans fil avec les autres modules, afin d'assurer une couverture totale de votre habitation.
 
-Note : Ce module nécessite le neutre pour fonctionner. 
+Note : Ce module nÃ©cessite le neutre pour fonctionner. 
