@@ -1,6 +1,6 @@
 === Module Fibaro FGRM 221-222
 
-image::images/fibaro.fgrm221.jpg[Image du produit]
+image::../images/fibaro.fgrm221.jpg[Image du produit]
 
 <<resume, Résumé>>
 
