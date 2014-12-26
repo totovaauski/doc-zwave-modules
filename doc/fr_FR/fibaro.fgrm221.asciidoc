@@ -72,10 +72,11 @@ Une fois le module reconnu, il est nécessaire d’effectuer la configuration de
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
 image::../images/fibaro.fgrm221/plugin_zwave-bouton_configuration.png[Configuration plugin Zwave]
-Voici les paramètres de base :
+=== Paramètres de base
 
 image::../images/fibaro.fgrm221/plugin_zwave-configuration.png[Configuration plugin Zwave]
 
+== Important
 IMPORTANT: &nbsp;
 Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de forcer l'étalonnage de l'equipement (paramètre 29 à "Oui") et le positionnement doit être actif (paramètre 10 aux valeurs "Active direct", "Active vénitien" ou "Active porte").
 A la fin de l’etalonnage, il faut cliquer sur le bouton "Renvoyer commande(s) de configuration"
