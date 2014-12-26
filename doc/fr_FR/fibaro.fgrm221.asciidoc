@@ -1,4 +1,4 @@
-image::../images/fibaro.fgrm221.jpg[Image du produit]
+image::../images/fibaro.fgrm221/module.jpg[Image du produit]
 
 <<resume, Résumé>>
 
@@ -61,5 +61,19 @@ Note : Ce module nécessite le neutre pour fonctionner.
 
 [[configuration]]
 ===== Configuration
+Pour configurer le module il suffit de l'inclure grâce au bouton image::../images/fibaro.fgrm221/plugin_zwave-bouton_inclusion.png[Mode Inclusion plugin Zwave] du plugin Zwave de Jeedom.
+La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+image::../images/fibaro.fgrm221/plugin_zwave.png[Plugin Zwave]
 
-En cours...
+Une fois le module reconnu, il est nécessaire d’effectuer la configuration de celui-ci en fonction de votre installation.
+Il faut pour cela passer par la bouton image::../images/fibaro.fgrm221/plugin_zwave-bouton_configuration.png[Configuration plugin Zwave] du plugin Zwave de Jeedom.
+
+
+Voici quelques paramètres de base :
+image::../images/fibaro.fgrm221/plugin_zwave-configuration.png[Configuration plugin Zwave]
+
+
+==Important
+Pour que le retour d'état fonctionne il est nécessaire de forcer l'étalonnage de l'equipement (paramètre 29 à "Oui") et le positionnement doit être actif (paramètre 10 aux valeurs "Active direct", "Active vénitien" ou "Active porte").
+A la fin de l’etalonnage, il faut cliquer sur le bouton image::../images/fibaro.fgrm221/plugin_zwave-bouton_renvoyer_cmd.png[Renvoyer commande(s) de configuration plugin Zwave]
+Le retour d'information est désormais actif dans Jeedom.
