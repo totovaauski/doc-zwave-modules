@@ -60,11 +60,8 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Produit ID : 4097 
 
 [[configuration]]
-<<<<<<< HEAD
 == Configuration
-=======
-===== Configuration
->>>>>>> origin/master
+
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
 image::../images/fibaro.fgrm221/plugin_zwave-bouton_inclusion.png[Mode Inclusion plugin Zwave]
@@ -73,27 +70,14 @@ La configuration des commandes se fait automatiquement une fois le module reconn
 image::../images/fibaro.fgrm221/plugin_zwave.png[Plugin Zwave]
 Une fois le module reconnu, il est nécessaire d’effectuer la configuration de celui-ci en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
-<<<<<<< HEAD
 
 image::../images/fibaro.fgrm221/plugin_zwave-bouton_configuration.png[Configuration plugin Zwave]
 Voici les paramètres de base :
 
 image::../images/fibaro.fgrm221/plugin_zwave-configuration.png[Configuration plugin Zwave]
 
-IMPORTANT: Important:
+IMPORTANT: &nbsp;
 Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de forcer l'étalonnage de l'equipement (paramètre 29 à "Oui") et le positionnement doit être actif (paramètre 10 aux valeurs "Active direct", "Active vénitien" ou "Active porte").
 A la fin de l’etalonnage, il faut cliquer sur le bouton "Renvoyer commande(s) de configuration"
 
 image::../images/fibaro.fgrm221/plugin_zwave-bouton_renvoyer_cmd.png[Renvoyer commande(s) de configuration plugin Zwave]
-=======
-
-image::../images/fibaro.fgrm221/plugin_zwave-bouton_configuration.png[Configuration plugin Zwave]
-Voici quelques paramètres de base :
-
-image::../images/fibaro.fgrm221/plugin_zwave-configuration.png[Configuration plugin Zwave]
-
-[red]=== Important[/red]
-Pour que le retour d'état fonctionne il est nécessaire de forcer l'étalonnage de l'equipement (paramètre 29 à "Oui") et le positionnement doit être actif (paramètre 10 aux valeurs "Active direct", "Active vénitien" ou "Active porte").
-A la fin de l’etalonnage, il faut cliquer sur le bouton image::../images/fibaro.fgrm221/plugin_zwave-bouton_renvoyer_cmd.png[Renvoyer commande(s) de configuration plugin Zwave]
-Le retour d'information est désormais actif dans Jeedom.
->>>>>>> origin/master
