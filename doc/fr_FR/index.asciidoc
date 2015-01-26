@@ -1,3 +1,3 @@
 == Documentation sur les modules zwaves
-=== Fibaro FGRM 221-222
-include::fibaro.fgrm221.asciidoc[]
+=== Fibaro FGRM 222
+include::fibaro.fgrm222.asciidoc[]
