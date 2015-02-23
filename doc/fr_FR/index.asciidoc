@@ -1,3 +1,5 @@
 == Documentation sur les modules zwaves
-=== Fibaro FGRM 222
+=== Fibaro FGRM 222 [Volet Roulant]
 include::fibaro.fgrm222.asciidoc[]
+=== Fibaro Wall Plug FGWPE-101
+include::fibaro.fgwpe101.asciidoc[]
