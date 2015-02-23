@@ -77,7 +77,7 @@ image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
 image::../images/fibaro.fgrm222/configurations.png[Configuration plugin Zwave]
 
 == Important
-IMPORTANT: &nbsp;
+IMPORTANT:
 Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de forcer l'étalonnage de l'equipement (paramètre 29 à "Oui") et le positionnement doit être actif (paramètre 10 aux valeurs "Active direct", "Active vénitien" ou "Active porte").
 A la fin de l’etalonnage, il faut cliquer sur le bouton "Renvoyer commande(s) de configuration"
 
