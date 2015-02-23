@@ -67,7 +67,7 @@ Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusio
 image::../images/plugin/bouton_inclusion.png[Mode Inclusion plugin Zwave]
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
-image::../images/plugin/bouton_configuration.png[Plugin Zwave]
+image::../images/fibaro.fgrm222/informations.png[Plugin Zwave]
 Une fois le module reconnu, il est nécessaire d’effectuer la configuration de celui-ci en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
