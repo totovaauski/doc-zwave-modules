@@ -1,17 +1,17 @@
 image::../images/fibaro.fgrm222/module.png[Image du produit]
 
-<<resumefgrm222, Résumé>>
+<<resume, Résumé>>
 
-<<fonctionsfgrm222, Fonctions>>
+<<fonctions, Fonctions>>
 
-<<techniquefgrm222, Caractéristiques Techniques>>
+<<technique, Caractéristiques Techniques>>
 
-<<donneesfgrm222,  Données du module>>
+<<donnees,  Données du module>>
 
-<<configurationfgrm222,  Configuration>>
+<<configuration,  Configuration>>
 
 
-[[resumefgrm222]]
+[[resume]]
 ==== Résumé
 Le micromodule FGRM-222 va vous permettre de gérer les motorisations de volet à butée électronique, les stores vénitiens ou en encore les portes de garage grâce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.
 
@@ -23,7 +23,7 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 
 Note : Ce module nécessite le neutre pour fonctionner.
 
-[[fonctionsfgrm222]]
+[[fonctions]]
 ==== Fonctions
 * Commandez vos stores ou volets roulants à distance
 * Compatible avec BSO et store vénitien avec positionnement des lamelles
@@ -36,7 +36,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Petit, discret et esthétique
 * Facilité d'utilisation et d'installation
 
-[[techniquefgrm222]]
+[[technique]]
 ==== Caractéristiques Techniques
 * Type de module : Récepteur Z-Wave
 * Alimentation : 230V, 50 Hz
@@ -51,7 +51,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Température limite : 105°C
 * Normes : LVD (2006/95/EC), EMC (2004/10B/EC), R&TTE(1999/5/EC)
 
-[[donneesfgrm222]]
+[[donnees]]
 ==== Données du module
 * Marque : Fibar Group
 * Nom : Fibaro FGRM-222
@@ -59,7 +59,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Type Produit : 769
 * Produit ID : 4097
 
-[[configurationfgrm222]]
+[[configuration]]
 ==== Configuration
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
