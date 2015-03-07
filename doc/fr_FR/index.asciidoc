@@ -1,14 +1,14 @@
 == Documentation sur les modules zwaves
-=== Fibaro
-==== Fibaro FGRM 222 (Volet Roulant)
+
+=== Fibaro FGRM 222 (Volet Roulant)
 include::fibaro.fgrm222.asciidoc[]
 
-==== Fibaro Wall Plug FGWPE-101
+=== Fibaro Wall Plug FGWPE-101
 include::fibaro.fgwpe101.asciidoc[]
 
-==== Fibaro Smoke FGSD-002 (Norme EN14604)
+=== Fibaro Smoke FGSD-002 (Norme EN14604)
 include::fibaro.fgsd002.asciidoc[]
 
-=== Zipato
-==== Zipato miniKeypad RFID
+
+=== Zipato miniKeypad RFID
 include::fibaro.fgsd002.asciidoc[]
