@@ -1,6 +1,7 @@
 image::../images/fibaro.fgsd002/module.jpg[Image du produit]
 image::../images/fibaro.fgsd002/vuedefaut1.jpg[Image du produit1]
 image::../images/fibaro.fgsd002/widget1.jpg[Image du produit2]
+[big red]*Index*
 
 <<resumefgsd002, Résumé>>
 
@@ -70,9 +71,10 @@ La configuration des commandes se fait automatiquement une fois le module reconn
 image::../images/fibaro.fgsd002/information.png[Plugin Zwave]
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
 
-image::../images/fibaro.fgsd002/commandes.jpg[Commandes]
+image::../images/fibaro.fgsd002/commandes.PNG[Commandes]
 
-===== Voici la liste des commandes :
+[big red]*Voici la liste des commandes :*
+
 * Fumées : C'est la commande d'alerte du module (pour la fumée, la chaleur ...)
 * Température : C'est la commande de mesure de la température
 * Sabotage : C'est la commande de sabotage. Elle signale l'ouverture du boitier
@@ -83,7 +85,9 @@ Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom
 
 image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
 
-Vous arriverez sur cette page
+[big]*Vous arriverez sur cette page*
 
-image::../images/fibaro.fgsd002/config1.png[Config1]
-image::../images/fibaro.fgsd002/config2.png[Config2]
+image::../images/fibaro.fgsd002/config1.PNG[Config1]
+image::../images/fibaro.fgsd002/config2.PNG[Config2]
+
+[big red yellow-background]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom*
