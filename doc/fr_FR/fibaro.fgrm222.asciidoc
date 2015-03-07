@@ -1,17 +1,17 @@
-image::../images/fibaro.fgsd002/module.png[Image du produit]
+image::../images/fibaro.fgrm222/module.png[Image du produit]
 
-<<resumefgsd002, Résumé>>
+<<resumefgrm222, Résumé>>
 
-<<fonctionsfgsd002, Fonctions>>
+<<fonctionsfgrm222, Fonctions>>
 
-<<techniquefgsd002, Caractéristiques Techniques>>
+<<techniquefgrm222, Caractéristiques Techniques>>
 
-<<donneesfgsd002,  Données du module>>
+<<donneesfgrm222,  Données du module>>
 
-<<configurationfgsd002,  Configuration>>
+<<configurationfgrm222,  Configuration>>
 
 
-[[resumefgsd002]]
+[[resumefgrm222]]
 ==== Résumé
 Le micromodule FGRM-222 va vous permettre de gérer les motorisations de volet à butée électronique, les stores vénitiens ou en encore les portes de garage grâce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.
 
@@ -23,7 +23,7 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 
 Note : Ce module nécessite le neutre pour fonctionner.
 
-[[fonctionsfgsd002]]
+[[fonctionsfgrm222]]
 ==== Fonctions
 * Commandez vos stores ou volets roulants à distance
 * Compatible avec BSO et store vénitien avec positionnement des lamelles
@@ -36,7 +36,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Petit, discret et esthétique
 * Facilité d'utilisation et d'installation
 
-[[techniquefgsd002]]
+[[techniquefgrm222]]
 ==== Caractéristiques Techniques
 * Type de module : Récepteur Z-Wave
 * Alimentation : 230V, 50 Hz
@@ -51,7 +51,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Température limite : 105°C
 * Normes : LVD (2006/95/EC), EMC (2004/10B/EC), R&TTE(1999/5/EC)
 
-[[donneesfgsd002]]
+[[donneesfgrm222]]
 ==== Données du module
 * Marque : Fibar Group
 * Nom : Fibaro FGRM-222
@@ -59,7 +59,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Type Produit : 769
 * Produit ID : 4097
 
-[[configurationfgsd002]]
+[[configurationfgrm222]]
 ==== Configuration
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
