@@ -1,4 +1,4 @@
-image::../images/fibaro.fgwpe101/module.png[Image du produit]
+image::../images/fibaro.fgsd002/module.png[Image du produit]
 
 <<resume, Résumé>>
 
