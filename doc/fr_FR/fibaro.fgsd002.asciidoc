@@ -1,4 +1,6 @@
 image::../images/fibaro.fgsd002/module.jpg[Image du produit]
+image::../images/fibaro.fgsd002/vuedefaut1.jpg[Image du produit1]
+image::../images/fibaro.fgsd002/widget1.jpg[Image du produit2]
 
 <<resumefgsd002, Résumé>>
 
@@ -13,38 +15,48 @@ image::../images/fibaro.fgsd002/module.jpg[Image du produit]
 
 [[resumefgsd002]]
 ==== Résumé
-Le Wall Plug Fibaro est un récepteur-prise-transmetteur universel sous forme d`un adaptateur pour brancher celui-ci sur une prise murale au réseau électrique, compatible avec le standard Z-Wave.
-Il permet de gérer n'importe quel dispositif ayant une puissance maximale de 2,5kW, tout en intégrant la fonctionnalité de mesurer la puissance active du courant et la consommation d’énergie des dispositifs.
-Ce module est équipé d`un anneau lumineux avec des LEDs signalant son état et la consommation d’énergie de tout dispositif branché.
-Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien depuis n'importe quel contrôleur compatible avec le standard Z-Wave
+Doté de lignes douces, d'une surface polie et d'une petite taille, ce détecteur de fumée vous permettra d’être alerté d’une menace avec des Leds RGB multi-couleur et une sirène intégrée. Le grand format de la grille permet de détecter la plus petite quantité de fumée afin d’obtenir une réaction rapide. Il trouvera ainsi très facilement sa place dans votre domicile pour préserver la sécurité de toute la famille.
+Le détecteur de fumée Fibaro FGSD-002 est un Détecteur Avertisseur Autonome de Fumée (DAAF) conforme à la norme EN 14604:2005. Bien qu'autonome, il est également communiquant grâce à la technologie Z-Wave Plus.
+Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibaro ont décidé d'inclure une protection supplémentaire dans leur détecteur de fumée sous la forme d'un capteur de température. Si la quantité de fumée n'est pas suffisante pour déclencher l'alarme, l'appareil sera toujours en mesure de détecter une menace en détectant un changement rapide de la température causée par le feu. Un changement rapide de la température ou une augmentation jusqu'à 54°C est suffisant pour que le capteur de fumée détecte une menace et le signale aux habitants de la maison. Seul ce type de capteur de fumée offre une efficacité élevée, indépendamment de ce qui brûle.
 
 [[fonctionsfgsd002]]
 ==== Fonctions
-* Contrôlé depuis un contrôleur compatible avec le standard Z-Wave.
-* Contrôle à micro-chips.
-* Élément d`exécution: relais.
-* Mesure de puissance active du courant et de l`énergie électrique du récepteur.
+* Détecteur de fumée Z-Wave
+* Alimenté sur batterie
+* Sensibilité du capteur réglable (3 niveaux)
+* Protection contre le sabotage
+* Alarme signalée par le son, une lumière LED et un signal Z-Wave
+* Détection d'incendie par mesure de la température de l'air
+* Test d'efficacité automatique, effectuée toutes les 5 secondes
+* Testeur de couverture du réseau Z-Wave intégré
+* Conforme avec la norme EN 14604:2005
+* Compatible Z-Wave Plus
+* Installation très simple - il suffit de l'installer dans un endroit ou il y a un risque de feu
 
 [[techniquefgsd002]]
 ==== Caractéristiques Techniques
-* Type de module : Récepteur Z-Wave
-* Alimentation : 230V, 50Hz
-* Consommation électrique : jusqu'à 0.8W
-* Charge maxi : 2.5kW
-* Fréquence : 868,42 Mhz EU
+* Type de module : Emetteur Z-Wave
+* Alimentation : Batterie Lithium 3V CR123A
+* Autonomie de la batterie : 3 ans
+* Fréquence : 868,42 MHz
 * Distance de transmission : 50m champ libre, 30m en intérieur
-* Dimensions: 17 x 42 x 37 mm
-* Température de fonctionnement : 0-40°C
-* Température limite : 105°C
-* Normes : LVD (2006/95/WE), EMC (2004/108/EC), R&TTE(1999/5/WE)
+* Dimensions : 65 x 28 mm (diamètre x hauteur)
+* Température de fonctionnement : 0-55°C
+* Humidité de fonctionnement : 0% - 93%
+* Gamme de mesure de la température : -20 à 100°C
+* Sensibilité à la fumée : 1er niveau - 1,20 +/- 0,5% obs/m; 2e niveau - 1,80 +/- 0,5% obs/m; 3e niveau - 2,80 +/- 0,5% obs/m
+* Niveau sonore: 85 dB à 3m
+* Précision de la mesure : 0,5°C (dans une gamme de 0 à 55°C)
+* Normes : EMC 2004/108/EC et R&TTE 199/5/WE
+* Certifications : EN 14604:2005
 
 [[donneesfgsd002]]
 ==== Données du module
 * Marque : Fibar Group
-* Nom : Wall Plug FGWPE-101
+* Nom : Fibaro Smoke Sensor FGSD-002
 * Fabricant ID : 271
-* Type Produit : 1536
-* Produit ID : 4096
+* Type Produit : 3074
+* Produit ID : 4098
 
 [[configurationfgsd002]]
 ==== Configuration
@@ -52,10 +64,26 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_inclusion.png[Mode Inclusion plugin Zwave]
+Une fois Jeedom en mode inclusion. Cliquez 3 fois sur le bouton central du module (conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
-image::../images/fibaro.fgwpe101/information.png[Plugin Zwave]
-Une fois le module reconnu, il est nécessaire d’effectuer la configuration de celui-ci en fonction de votre installation.
+image::../images/fibaro.fgsd002/information.png[Plugin Zwave]
+Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+image::../images/fibaro.fgsd002/commandes.png[Commandes]
+
+===== Voici la liste des commandes :
+* Fumées : C'est la commande d'alerte du module (pour la fumée, la chaleur ...)
+* Température : C'est la commande de mesure de la température
+* Sabotage : C'est la commande de sabotage. Elle signale l'ouverture du boitier
+* Batterie : C'est la commande batterie
+
+Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
+
+Vous arriverez sur cette page
+
+image::../images/fibaro.fgsd002/config1.png[Config1]
+image::../images/fibaro.fgsd002/config2.png[Config2]
