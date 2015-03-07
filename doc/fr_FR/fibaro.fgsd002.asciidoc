@@ -70,7 +70,7 @@ La configuration des commandes se fait automatiquement une fois le module reconn
 image::../images/fibaro.fgsd002/information.png[Plugin Zwave]
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
 
-image::../images/fibaro.fgsd002/commandes.png[Commandes]
+image::../images/fibaro.fgsd002/commandes.jpg[Commandes]
 
 ===== Voici la liste des commandes :
 * Fumées : C'est la commande d'alerte du module (pour la fumée, la chaleur ...)
@@ -81,9 +81,9 @@ image::../images/fibaro.fgsd002/commandes.png[Commandes]
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
-image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
 
 Vous arriverez sur cette page
 
-image::../images/fibaro.fgsd002/config1.png[Config1]
-image::../images/fibaro.fgsd002/config2.png[Config2]
+image::../images/fibaro.fgsd002/config1.jpg[Config1]
+image::../images/fibaro.fgsd002/config2.jpg[Config2]
