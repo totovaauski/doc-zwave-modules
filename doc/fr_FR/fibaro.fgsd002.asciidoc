@@ -69,11 +69,11 @@ Une fois Jeedom en mode inclusion. Cliquez 3 fois sur le bouton central du modul
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
 image::../images/fibaro.fgsd002/information.png[Plugin Zwave]
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+[big]*Une fois le module reconnu, les commandes associées aux modules seront disponibles.*
 
 image::../images/fibaro.fgsd002/commandes.PNG[Commandes]
 
-[big red]*Voici la liste des commandes :*
+[big]*Voici la liste des commandes :*
 
 * Fumées : C'est la commande d'alerte du module (pour la fumée, la chaleur ...)
 * Température : C'est la commande de mesure de la température
@@ -89,5 +89,28 @@ image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
 
 image::../images/fibaro.fgsd002/config1.PNG[Config1]
 image::../images/fibaro.fgsd002/config2.PNG[Config2]
+
+[big]*Détails des paramètres :*
+
+* Wakeup : il est déconseillé de changer cette valeur
+* 1: permet de régler la sensibilité de la détection de fumée
+* 2: permet de choisir les notifications qui seront envoyées à Jeedom (conseil : toutes)
+* 3: permet de choisir quelles notifications seront accompagnées d'une indication visuelle
+* 4: permet de choisir quelles notifications seront accompagnées d'une indication sonore (dans tous les cas les detections de chaleurs et d'incendies feront sonner le module)
+* 10: ne pas changer ce paramètre sauf si vous savez ce que vous faites
+* 11: idem
+* 12: idem
+* 13: permet de notifier d'autres modules zwave (à désactiver sauf si vous savez pourquoi vous l'activez)
+* 20: durée entre deux rapports de températures
+* 21: différence de température a partir de laquelle meme si la durée du dessus n'est pas atteinte la température sera envoyée à Jeedom
+* 30: température de déclenchement de l'alarme Chaleur
+* 31: intervalle de signalisation des pics de températures
+* 32: intervalle de signal si perte de Zwave
+
+[big]*Groupes :*
+
+Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé à minima aux groupes 1 4 et 5:
+
+image::../images/fibaro.fgsd002/groupe.PNG[Groupe]
 
 [big red yellow-background]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom*
