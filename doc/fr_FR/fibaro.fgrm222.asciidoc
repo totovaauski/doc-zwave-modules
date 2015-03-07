@@ -1,17 +1,17 @@
-image::../images/fibaro.fgrm222/module.png[Image du produit]
+image::../images/fibaro.fgsd002/module.png[Image du produit]
 
-<<resume, Résumé>>
+<<resumefgsd002, Résumé>>
 
-<<fonctions, Fonctions>>
+<<fonctionsfgsd002, Fonctions>>
 
-<<technique, Caractéristiques Techniques>>
+<<techniquefgsd002, Caractéristiques Techniques>>
 
-<<donnees,  Données du module>>
+<<donneesfgsd002,  Données du module>>
 
-<<configuration,  Configuration>>
+<<configurationfgsd002,  Configuration>>
 
 
-[[resume]]
+[[resumefgsd002]]
 ==== Résumé
 Le micromodule FGRM-222 va vous permettre de gérer les motorisations de volet à butée électronique, les stores vénitiens ou en encore les portes de garage grâce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.
 
@@ -23,7 +23,7 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 
 Note : Ce module nécessite le neutre pour fonctionner.
 
-[[fonctions]]
+[[fonctionsfgsd002]]
 ==== Fonctions
 * Commandez vos stores ou volets roulants à distance
 * Compatible avec BSO et store vénitien avec positionnement des lamelles
@@ -36,7 +36,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Petit, discret et esthétique
 * Facilité d'utilisation et d'installation
 
-[[technique]]
+[[techniquefgsd002]]
 ==== Caractéristiques Techniques
 * Type de module : Récepteur Z-Wave
 * Alimentation : 230V, 50 Hz
@@ -51,7 +51,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Température limite : 105°C
 * Normes : LVD (2006/95/EC), EMC (2004/10B/EC), R&TTE(1999/5/EC)
 
-[[donnees]]
+[[donneesfgsd002]]
 ==== Données du module
 * Marque : Fibar Group
 * Nom : Fibaro FGRM-222
@@ -59,7 +59,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Type Produit : 769
 * Produit ID : 4097
 
-[[configuration]]
+[[configurationfgsd002]]
 ==== Configuration
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
