@@ -61,7 +61,7 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 
 [[configurationfgsd002]]
 ==== Configuration
-
+Avant de commencer assuré vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGSD-002 "Smoke Sensor 2".
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_inclusion.png[Mode Inclusion plugin Zwave]
