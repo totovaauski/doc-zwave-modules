@@ -1,31 +1,31 @@
 image::../images/fibaro.fgwpe101/module.png[Image du produit]
 
-<<resume, Résumé>>
+<<resumefgwpe101, Résumé>>
 
-<<fonctions, Fonctions>>
+<<fonctionsfgwpe101, Fonctions>>
 
-<<technique, Caractéristiques Techniques>>
+<<techniquefgwpe101, Caractéristiques Techniques>>
 
-<<donnees,  Données du module>>
+<<donneesfgwpe101,  Données du module>>
 
-<<configuration,  Configuration>>
+<<configurationfgwpe101,  Configuration>>
 
 
-[[resume]]
+[[resumefgwpe101]]
 ===== Résumé
 Le Wall Plug Fibaro est un récepteur-prise-transmetteur universel sous forme d`un adaptateur pour brancher celui-ci sur une prise murale au réseau électrique, compatible avec le standard Z-Wave.
 Il permet de gérer n'importe quel dispositif ayant une puissance maximale de 2,5kW, tout en intégrant la fonctionnalité de mesurer la puissance active du courant et la consommation d’énergie des dispositifs.
 Ce module est équipé d`un anneau lumineux avec des LEDs signalant son état et la consommation d’énergie de tout dispositif branché.
 Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien depuis n'importe quel contrôleur compatible avec le standard Z-Wave
 
-[[fonctions]]
+[[fonctionsfgwpe101]]
 ===== Fonctions
 * Contrôlé depuis un contrôleur compatible avec le standard Z-Wave.
 * Contrôle à micro-chips.
 * Élément d`exécution: relais.
 * Mesure de puissance active du courant et de l`énergie électrique du récepteur.
 
-[[technique]]
+[[techniquefgwpe101]]
 ===== Caractéristiques Techniques
 * Type de module : Récepteur Z-Wave
 * Alimentation : 230V, 50Hz
@@ -38,7 +38,7 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 * Température limite : 105°C
 * Normes : LVD (2006/95/WE), EMC (2004/108/EC), R&TTE(1999/5/WE)
 
-[[donnees]]
+[[donneesfgwpe101]]
 ===== Données du module
 * Marque : Fibar Group
 * Nom : Wall Plug FGWPE-101
@@ -46,7 +46,7 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 * Type Produit : 1536
 * Produit ID : 4096
 
-[[configuration]]
+[[configurationfgwpe101]]
 ===== Configuration
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
