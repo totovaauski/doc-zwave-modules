@@ -134,6 +134,7 @@ Le keypad envoit les infos de deux manières :
 
 * le code est dans la mémoire, dans ce cas il envoit la mémoire (dernier badge), l'action et l'évènement (home/away)
 * le code n'est pas dans la mémoire, il envoit un sabotage et le code dans la commande code.
+* les commandes dernier badge et action seront vides tant qu'un badge/code n'aura pas été mémorisé et utilisé
 
 ==== Visuel alternatif
 
