@@ -71,7 +71,7 @@ La configuration des commandes se fait automatiquement une fois le module reconn
 image::../images/zipato.minikeypad/information.png[Plugin Zwave]
 [big]*Une fois le module reconnu, les commandes associées aux modules seront disponibles.*
 
-image::../images/zipato.minikeypad/commandes.PNG[Commandes]
+image::../images/zipato.minikeypad/commandes.png[Commandes]
 
 [big]*Voici la liste des commandes :*
 
@@ -128,12 +128,14 @@ Sinon (forcément 5) on l'active.
 Il est aussi possible de faire des actions différentes en fonction du badge ou du code puisque la valeur dernier badge vous donnera la mémoire concernée par l'action.
 
 [big]*Bon à savoir :*
+
 Le keypad envoit les infos de deux manières :
 
 * le code est dans la mémoire, dans ce cas il envoit la mémoire (dernier badge), l'action et l'évènement (home/away)
 * le code n'est pas dans la mémoire, il envoit un sabotage et le code dans la commande code.
 
 [big]*Wakeup et prise en compte changement :*
+
 Pour réveiller ce module il ya deux façons de procéder :
 * appuie sur le bouton tamper puis relacher au bout de 1 à 2 secondes
 * ou simplement appuyer sur home un chiffre au hasard et enter

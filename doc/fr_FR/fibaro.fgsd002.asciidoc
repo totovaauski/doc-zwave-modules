@@ -115,6 +115,7 @@ Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé
 
 image::../images/fibaro.fgsd002/groupe.PNG[Groupe]
 [big]*Wakeup et prise en compte changement :*
+
 Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
 [big red yellow-background]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom*
