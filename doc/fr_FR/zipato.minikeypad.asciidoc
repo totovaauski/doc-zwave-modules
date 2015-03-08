@@ -137,6 +137,7 @@ Le keypad envoit les infos de deux manières :
 [big]*Wakeup et prise en compte changement :*
 
 Pour réveiller ce module il ya deux façons de procéder :
+
 * appuie sur le bouton tamper puis relacher au bout de 1 à 2 secondes
 * ou simplement appuyer sur home un chiffre au hasard et enter
 
