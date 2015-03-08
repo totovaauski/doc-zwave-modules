@@ -1,3 +1,5 @@
+== Zipato miniKeypad RFID
+
 image::../images/zipato.minikeypad/module.jpg[Image du produit]
 image::../images/zipato.minikeypad/vuedefaut1.jpg[Image du produit1]
 
@@ -15,7 +17,7 @@ image::../images/zipato.minikeypad/vuedefaut1.jpg[Image du produit1]
 
 
 [[resumeminikeypad]]
-==== Résumé
+=== Résumé
 Contrôlez votre système de sécurité grâce à ce mini clavier mural Zipato !
 
 Avec ce clavier RFID compatible Z-Wave, vous allez pouvoir activer ou désactiver facilement votre système d'alarme.
@@ -24,7 +26,7 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 
 
 [[fonctionsminikeypad]]
-==== Fonctions
+=== Fonctions
 *	Clavier à code et RFID
 *	Supporte la technologie Z-Wave
 *	Armer/désarmer votre système de sécurité
@@ -36,7 +38,7 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 
 
 [[techniqueminikeypad]]
-==== Caractéristiques Techniques
+=== Caractéristiques Techniques
 *	Type : Esclave Z-Wave
 *	Alimentation : 2x AA 1,5V batteries
 *	Fréquence : 868.42 MHz
@@ -51,7 +53,7 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 *	Certifications :	Sécurité : UL EMC : FCC, CE RoHS
 
 [[donneesminikeypad]]
-==== Données du module
+=== Données du module
 * Marque : Zipato
 * Nom : Zipato Mini Keypad RFID
 * Fabricant ID : 151
@@ -59,7 +61,7 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 * Produit ID : 17665
 
 [[configurationminikeypad]]
-==== Configuration
+=== Configuration
 Avant de commencer assuré vous d'avoir récupéré la configuration suivante sur le market : Zipato Mini Keypad RFID .
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
