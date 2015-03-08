@@ -60,7 +60,7 @@ Une fois le module reconnu, les commandes associées aux modules seront disponib
 
 image::../images/zipato.minikeypad/commandes.png[Commandes]
 
-[big]*Voici la liste des commandes :*
+Voici la liste des commandes :
 
 * Evènement : C'est la commande qui remontera le home/away (5 pour away 6 pour home) (commande non affichée mais à utiliser comme déclencheur de scénario et qui permettra de savoir quel bouton à été appuyé)
 * Action : La meme chose qu'au dessus mais sous forme de texte (affiché par défaut sur le dashboard)
@@ -76,7 +76,7 @@ Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom
 
 image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
 
-[big]*Vous arriverez sur cette page*
+Vous arriverez sur cette page
 
 image::../images/zipato.minikeypad/config1.png[Config1]
 
@@ -89,7 +89,7 @@ Détails des paramètres :
 * 4: nombre de bips par seconde (ne pas modifier n'a pas d'effet)
 * 5: mode de fonctionnement : normal ou mode toujours reveillé (déconseillé car très très consommateur de piles)
 
-==== Groupes :
+==== Groupes
 
 Ce module possède un seul groupe d'association
 
@@ -107,7 +107,7 @@ image::../images/zipato.minikeypad/config2.png[Config2]
 * Pour vider toutes vos mémoires, vous pouvez exclure et inclure le module
 
 
-=== Exemple d'utilisation
+=== Exemples d'utilisation
 
 image::../images/zipato.minikeypad/exemple.jpg[exemple]
 L'élément déclencheur et la commande évènement, en effet celle-ci est mise à jour uniquement lorsqu'un code/badge valide à été présenté.
@@ -129,5 +129,7 @@ Pour réveiller ce module il ya deux façons de procéder :
 
 * appuie sur le bouton tamper puis relacher au bout de 1 à 2 secondes
 * ou simplement appuyer sur home un chiffre au hasard et enter
+
+=== Note importante
 
 [big red yellow-background]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom. Il peut être nécessaire de le réveiller plusieurs fois de suite. Pour le savoir il suffit de regarder la queue Zwave et de s'assurer qu'il n'y a plus de commande en attente pour le module. Quand ca sera le cas. Le module sera complétement configuré avec Jeedom. Il faudra reprocéder ainsi que lorsque vous changerez une config ou un groupe.*
