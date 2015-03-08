@@ -72,7 +72,7 @@ image::../images/fibaro.fgsd102/information.png[Plugin Zwave]
 
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
 
-image::../images/fibaro.fgsd102/commandes.PNG[Commandes]
+image::../images/fibaro.fgsd102/commandes.png[Commandes]
 
 [underline]#Voici la liste des commandes :#
 
@@ -90,8 +90,8 @@ image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
 
 [underline]#Vous arriverez sur cette page#
 
-image::../images/fibaro.fgsd102/config1.PNG[Config1]
-image::../images/fibaro.fgsd102/config2.PNG[Config2]
+image::../images/fibaro.fgsd102/config1.png[Config1]
+image::../images/fibaro.fgsd102/config2.png[Config2]
 
 [underline]#Détails des paramètres :#
 
@@ -114,7 +114,7 @@ image::../images/fibaro.fgsd102/config2.PNG[Config2]
 
 Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé à minima aux groupes 1 4 et 5:
 
-image::../images/fibaro.fgsd102/groupe.PNG[Groupe]
+image::../images/fibaro.fgsd102/groupe.png[Groupe]
 
 ==== Visuel alternatif
 
