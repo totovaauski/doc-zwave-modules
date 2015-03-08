@@ -123,7 +123,7 @@ Le keypad envoit les infos de deux manières :
 * le code est dans la mémoire, dans ce cas il envoit la mémoire (dernier badge), l'action et l'évènement (home/away)
 * le code n'est pas dans la mémoire, il envoit un sabotage et le code dans la commande code.
 
-=== Wakeup et prise en compte changement :
+=== Wakeup
 
 Pour réveiller ce module il ya deux façons de procéder :
 
