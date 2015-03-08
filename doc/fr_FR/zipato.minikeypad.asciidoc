@@ -1,9 +1,15 @@
 == Zipato miniKeypad RFID
 
-image::../images/zipato.minikeypad/module.jpg[Image du produit]
-image::../images/zipato.minikeypad/vuedefaut1.jpg[Image du produit1]
+* Le module
+
+image::../images/zipato.minikeypad/module.jpg[Image du produit,align="center"]
+
+* Le visuel Jeedom
+
+image::../images/zipato.minikeypad/vuedefaut1.jpg[Image du produit1,align="center"]
 
 === Résumé
+
 Contrôlez votre système de sécurité grâce à ce mini clavier mural Zipato !
 
 Avec ce clavier RFID compatible Z-Wave, vous allez pouvoir activer ou désactiver facilement votre système d'alarme.
@@ -11,6 +17,7 @@ Les touches "Home" et "Away" vous permettent d'armer/désarmer le système de s�
 En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID devant le clavier pour armer/désarmer le système. Le clavier transmet à votre contrôleur domotique l'identifiant du badge qui a été reconnu. Vous pouvez ainsi facilement créer des scénarios en fonction de la personne qui a utilisé son badge.
 
 === Fonctions
+
 *	Clavier à code et RFID
 *	Supporte la technologie Z-Wave
 *	Armer/désarmer votre système de sécurité
@@ -21,6 +28,7 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 *	Buzzer intégré pour indication sonore de l'armement/désarmement de l'alarme par exemple
 
 === Caractéristiques Techniques
+
 *	Type : Esclave Z-Wave
 *	Alimentation : 2x AA 1,5V batteries
 *	Fréquence : 868.42 MHz
@@ -35,6 +43,7 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 *	Certifications :	Sécurité : UL EMC : FCC, CE RoHS
 
 === Données du module
+
 * Marque : Zipato
 * Nom : Zipato Mini Keypad RFID
 * Fabricant ID : 151
@@ -42,25 +51,26 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 * Produit ID : 17665
 
 === Configuration
+
 ==== Inclusion
 
 Avant de commencer assuré vous d'avoir récupéré la configuration suivante sur le market : Zipato Mini Keypad RFID .
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
-image::../images/plugin/bouton_inclusion.png[Mode Inclusion plugin Zwave]
+image::../images/plugin/bouton_inclusion.png[Mode Inclusion plugin Zwave,align="center"]
 Une fois Jeedom en mode inclusion. Mettez le module en inclusion (conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
-image::../images/zipato.minikeypad/information.png[Plugin Zwave]
+image::../images/zipato.minikeypad/information.png[Plugin Zwave,align="center"]
 
 ==== Commandes
 
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
 
-image::../images/zipato.minikeypad/commandes.png[Commandes]
+image::../images/zipato.minikeypad/commandes.png[Commandes,align="center"]
 
-Voici la liste des commandes :
+[underline]#Voici la liste des commandes :#
 
 * Evènement : C'est la commande qui remontera le home/away (5 pour away 6 pour home) (commande non affichée mais à utiliser comme déclencheur de scénario et qui permettra de savoir quel bouton à été appuyé)
 * Action : La meme chose qu'au dessus mais sous forme de texte (affiché par défaut sur le dashboard)
@@ -74,13 +84,13 @@ Voici la liste des commandes :
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
-image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
+image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave,align="center"]
 
-Vous arriverez sur cette page
+[underline]#Vous arriverez sur cette page#
 
-image::../images/zipato.minikeypad/config1.png[Config1]
+image::../images/zipato.minikeypad/config1.png[Config1,align="center"]
 
-Détails des paramètres :
+[underline]#Détails des paramètres :#
 
 * Wakeup : il est déconseillé de changer cette valeur
 * 1: permet de remettre la config par défaut (déconseillé)
@@ -91,14 +101,14 @@ Détails des paramètres :
 
 ==== Groupes
 
-Ce module possède un seul groupe d'association
+Ce module possède un seul groupe d'association.
 
 ==== Les badges /codes
 
 Dans la page de configuration il y a un onglet spécifique. Celui-ci permet de rajouter des codes.
 Vous y verrez un tableau.
 
-image::../images/zipato.minikeypad/config2.png[Config2]
+image::../images/zipato.minikeypad/config2.png[Config2,align="center"]
 * Ce tableau vous permet de visualiser les mémoires occupées sur votre clavier
 * Pour enregistrer un nouveau code cliquez sur le bouton Vert sur la mémoire désirée et suivez les étapes
 * Le zipato ne permet pas de supprimer une mémoire, cependant vous pouvez remplacer le code d'une mémoire exsitante
@@ -109,7 +119,7 @@ image::../images/zipato.minikeypad/config2.png[Config2]
 
 === Exemples d'utilisation
 
-image::../images/zipato.minikeypad/exemple.jpg[exemple]
+image::../images/zipato.minikeypad/exemple.jpg[exemple,align="center"]
 L'élément déclencheur et la commande évènement, en effet celle-ci est mise à jour uniquement lorsqu'un code/badge valide à été présenté.
 Si la valeur est 6 (home) on désactives l'alarme
 Sinon (forcément 5) on l'active.
@@ -118,10 +128,14 @@ Il est aussi possible de faire des actions différentes en fonction du badge ou 
 
 === Bon à savoir
 
+==== Spécificités
+
 Le keypad envoit les infos de deux manières :
 
 * le code est dans la mémoire, dans ce cas il envoit la mémoire (dernier badge), l'action et l'évènement (home/away)
 * le code n'est pas dans la mémoire, il envoit un sabotage et le code dans la commande code.
+
+==== Visuel alternatif
 
 === Wakeup
 
