@@ -1,29 +1,23 @@
-image::../images/fibaro.fgsd002/module.jpg[Image du produit]
-image::../images/fibaro.fgsd002/vuedefaut1.jpg[Image du produit1]
-image::../images/fibaro.fgsd002/widget1.jpg[Image du produit2]
-[big red]*Index*
+== Fibaro FGSD-002 "Smoke Sensor 2"
 
-<<resumefgsd002, Résumé>>
+* Le module
 
-<<fonctionsfgsd002, Fonctions>>
+image::../images/fibaro.fgsd102/module.jpg[Image du produit]
 
-<<techniquefgsd002, Caractéristiques Techniques>>
+* Le visuel jeedom
 
-<<donneesfgsd002,  Données du module>>
+image::../images/fibaro.fgsd102/vuedefaut1.jpg[Image du produit1]
 
-<<configurationfgsd002,  Configuration>>
+=== Résumé
 
-
-[[resumefgsd002]]
-==== Résumé
 Doté de lignes douces, d'une surface polie et d'une petite taille, ce détecteur de fumée vous permettra d’être alerté d’une menace avec des Leds RGB multi-couleur et une sirène intégrée. Le grand format de la grille permet de détecter la plus petite quantité de fumée afin d’obtenir une réaction rapide. Il trouvera ainsi très facilement sa place dans votre domicile pour préserver la sécurité de toute la famille.
 
 Le détecteur de fumée Fibaro FGSD-002 est un Détecteur Avertisseur Autonome de Fumée (DAAF) conforme à la norme EN 14604:2005. Bien qu'autonome, il est également communiquant grâce à la technologie Z-Wave Plus.
 
 Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibaro ont décidé d'inclure une protection supplémentaire dans leur détecteur de fumée sous la forme d'un capteur de température. Si la quantité de fumée n'est pas suffisante pour déclencher l'alarme, l'appareil sera toujours en mesure de détecter une menace en détectant un changement rapide de la température causée par le feu. Un changement rapide de la température ou une augmentation jusqu'à 54°C est suffisant pour que le capteur de fumée détecte une menace et le signale aux habitants de la maison. Seul ce type de capteur de fumée offre une efficacité élevée, indépendamment de ce qui brûle.
 
-[[fonctionsfgsd002]]
-==== Fonctions
+=== Fonctions
+
 * Détecteur de fumée Z-Wave
 * Alimenté sur batterie
 * Sensibilité du capteur réglable (3 niveaux)
@@ -36,8 +30,8 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 * Compatible Z-Wave Plus
 * Installation très simple - il suffit de l'installer dans un endroit ou il y a un risque de feu
 
-[[techniquefgsd002]]
-==== Caractéristiques Techniques
+=== Caractéristiques Techniques
+
 * Type de module : Emetteur Z-Wave
 * Alimentation : Batterie Lithium 3V CR123A
 * Autonomie de la batterie : 3 ans
@@ -53,16 +47,18 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 * Normes : EMC 2004/108/EC et R&TTE 199/5/WE
 * Certifications : EN 14604:2005
 
-[[donneesfgsd002]]
-==== Données du module
+=== Données du module
+
 * Marque : Fibar Group
 * Nom : Fibaro Smoke Sensor FGSD-002
 * Fabricant ID : 271
 * Type Produit : 3074
 * Produit ID : 4098
 
-[[configurationfgsd002]]
-==== Configuration
+=== Configuration
+
+==== Inclusion
+
 Avant de commencer assuré vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGSD-002 "Smoke Sensor 2".
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
@@ -70,29 +66,34 @@ image::../images/plugin/bouton_inclusion.png[Mode Inclusion plugin Zwave]
 Une fois Jeedom en mode inclusion. Cliquez 3 fois sur le bouton central du module (conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
-image::../images/fibaro.fgsd002/information.png[Plugin Zwave]
-[big]*Une fois le module reconnu, les commandes associées aux modules seront disponibles.*
+image::../images/fibaro.fgsd102/information.png[Plugin Zwave]
 
-image::../images/fibaro.fgsd002/commandes.PNG[Commandes]
+==== Commandes
 
-[big]*Voici la liste des commandes :*
+Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+image::../images/fibaro.fgsd102/commandes.PNG[Commandes]
+
+[underline]#Voici la liste des commandes :#
 
 * Fumées : C'est la commande d'alerte du module (pour la fumée, la chaleur ...)
 * Température : C'est la commande de mesure de la température
 * Sabotage : C'est la commande de sabotage. Elle signale l'ouverture du boitier
 * Batterie : C'est la commande batterie
 
+==== Configuration du module
+
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
 
-[big]*Vous arriverez sur cette page*
+[underline]#Vous arriverez sur cette page#
 
-image::../images/fibaro.fgsd002/config1.PNG[Config1]
-image::../images/fibaro.fgsd002/config2.PNG[Config2]
+image::../images/fibaro.fgsd102/config1.PNG[Config1]
+image::../images/fibaro.fgsd102/config2.PNG[Config2]
 
-[big]*Détails des paramètres :*
+[underline]#Détails des paramètres :#
 
 * Wakeup : il est déconseillé de changer cette valeur
 * 1: permet de régler la sensibilité de la détection de fumée
@@ -109,13 +110,20 @@ image::../images/fibaro.fgsd002/config2.PNG[Config2]
 * 31: intervalle de signalisation des pics de températures
 * 32: intervalle de signal si perte de Zwave
 
-[big]*Groupes :*
+==== Groupes
 
 Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé à minima aux groupes 1 4 et 5:
 
-image::../images/fibaro.fgsd002/groupe.PNG[Groupe]
-[big]*Wakeup et prise en compte changement :*
+image::../images/fibaro.fgsd102/groupe.PNG[Groupe]
+
+==== Visuel alternatif
+
+image::../images/fibaro.fgsd102/widget1.jpg[Image du produit2]
+
+=== Wakeup
 
 Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
-[big red yellow-background]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom. Il peut être nécessaire de le réveiller plusieurs fois de suite. Pour le savoir il suffit de regarder la queue Zwave et de s'assurer qu'il n'y a plus de commande en attente pour le module. Quand ca sera le cas. Le module sera complétement configuré avec Jeedom. Il faudra reprocéder ainsi que lorsque vous changerez une config ou un groupe.*
+=== Note importante
+
+[big red]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom. Il peut être nécessaire de le réveiller plusieurs fois de suite. Pour le savoir il suffit de regarder la queue Zwave et de s'assurer qu'il n'y a plus de commande en attente pour le module. Quand ca sera le cas. Le module sera complétement configuré avec Jeedom. Il faudra reprocéder ainsi que lorsque vous changerez une config ou un groupe.*
