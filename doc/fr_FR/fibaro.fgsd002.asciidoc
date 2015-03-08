@@ -17,7 +17,9 @@ image::../images/fibaro.fgsd002/widget1.jpg[Image du produit2]
 [[resumefgsd002]]
 ==== Résumé
 Doté de lignes douces, d'une surface polie et d'une petite taille, ce détecteur de fumée vous permettra d’être alerté d’une menace avec des Leds RGB multi-couleur et une sirène intégrée. Le grand format de la grille permet de détecter la plus petite quantité de fumée afin d’obtenir une réaction rapide. Il trouvera ainsi très facilement sa place dans votre domicile pour préserver la sécurité de toute la famille.
+
 Le détecteur de fumée Fibaro FGSD-002 est un Détecteur Avertisseur Autonome de Fumée (DAAF) conforme à la norme EN 14604:2005. Bien qu'autonome, il est également communiquant grâce à la technologie Z-Wave Plus.
+
 Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibaro ont décidé d'inclure une protection supplémentaire dans leur détecteur de fumée sous la forme d'un capteur de température. Si la quantité de fumée n'est pas suffisante pour déclencher l'alarme, l'appareil sera toujours en mesure de détecter une menace en détectant un changement rapide de la température causée par le feu. Un changement rapide de la température ou une augmentation jusqu'à 54°C est suffisant pour que le capteur de fumée détecte une menace et le signale aux habitants de la maison. Seul ce type de capteur de fumée offre une efficacité élevée, indépendamment de ce qui brûle.
 
 [[fonctionsfgsd002]]
@@ -112,5 +114,7 @@ image::../images/fibaro.fgsd002/config2.PNG[Config2]
 Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé à minima aux groupes 1 4 et 5:
 
 image::../images/fibaro.fgsd002/groupe.PNG[Groupe]
+[big]*Wakeup et prise en compte changement :*
+Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
 [big red yellow-background]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom*

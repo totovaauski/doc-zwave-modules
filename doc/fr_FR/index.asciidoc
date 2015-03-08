@@ -9,6 +9,5 @@ include::fibaro.fgwpe101.asciidoc[]
 === Fibaro Smoke FGSD-002 (Norme EN14604)
 include::fibaro.fgsd002.asciidoc[]
 
-
 === Zipato miniKeypad RFID
-include::fibaro.fgsd002.asciidoc[]
+include::zipato.minikeypad.asciidoc[]
