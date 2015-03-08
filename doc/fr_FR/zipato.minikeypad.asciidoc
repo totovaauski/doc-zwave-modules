@@ -75,7 +75,7 @@ image::../images/zipato.minikeypad/commandes.png[Commandes,align="center"]
 * Evènement : C'est la commande qui remontera le home/away (5 pour away 6 pour home) (commande non affichée mais à utiliser comme déclencheur de scénario et qui permettra de savoir quel bouton à été appuyé)
 * Action : La meme chose qu'au dessus mais sous forme de texte (affiché par défaut sur le dashboard)
 * Dernier Badge : C'est la commande qui permet de remonter la mémoire du dernier code/badge valide présenté
-* Sabotage : C'est la commande sabotage (elle est déclenchée en cas d'arrachement ou de code/badge non mémorisé)
+* Sabotage : C'est la commande sabotage (elle est déclenchée en cas d'arrachement)
 * Code : Affiche le code du badge ou du clavier lorsque le code saisi n'est pas dans une des mémoires
 * Batterie : C'est la commande batterie
 
@@ -133,7 +133,7 @@ Il est aussi possible de faire des actions différentes en fonction du badge ou 
 Le keypad envoit les infos de deux manières :
 
 * le code est dans la mémoire, dans ce cas il envoit la mémoire (dernier badge), l'action et l'évènement (home/away)
-* le code n'est pas dans la mémoire, il envoit un sabotage et le code dans la commande code.
+* le code n'est pas dans la mémoire, il envoit le code dans la commande code.
 * les commandes dernier badge et action seront vides tant qu'un badge/code n'aura pas été mémorisé et utilisé
 
 ==== Visuel alternatif
