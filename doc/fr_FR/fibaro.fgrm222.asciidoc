@@ -1,6 +1,6 @@
 == Fibaro FGRM-222 "Volet roulant"
 
-image::../images/fibaro.fgrm222/module.jpg[Image du produit]
+image::../images/fibaro.fgrm222/module.jpg[width=256]
 
 === Résumé
 Le micromodule FGRM-222 va vous permettre de gérer les motorisations de volet à butée électronique, les stores vénitiens ou en encore les portes de garage grâce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.

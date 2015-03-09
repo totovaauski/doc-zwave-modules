@@ -6,7 +6,7 @@ image::../images/fibaro.fgms001/module.jpg[width=256]
 
 * Le visuel Jeedom
 
-image::../images/fibaro.fgms001/vuedefaut1.jpg[width=256]
+image::../images/fibaro.fgms001/vuedefaut1.jpg[width=350]
 
 === Résumé
 
