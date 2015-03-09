@@ -56,7 +56,7 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 
 ==== Inclusion
 
-Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGMS-001 [Motion Sensor] .
+Avant de commencer assuré vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGMS-001 [Motion Sensor] .
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
@@ -74,26 +74,14 @@ image::../images/fibaro.fgms001/commandes.jpg[Commandes,align="center"]
 
 [underline]#Voici la liste des commandes :#
 
-* Présence : C'est la commande qui remontera une détection de présence
-* Température : C'est la commande qui permet de remonter la température
-* Luminosité : C'est la commande qui permet de remonter la luminosité
-* Sabotage : C'est la commande sabotage (elle est déclenchée en cas de vibration)
+* Evènement : C'est la commande qui remontera le home/away (5 pour away 6 pour home) (commande non affichée mais à utiliser comme déclencheur de scénario et qui permettra de savoir quel bouton à été appuyé)
+* Action : La meme chose qu'au dessus mais sous forme de texte (affiché par défaut sur le dashboard)
+* Dernier Badge : C'est la commande qui permet de remonter la mémoire du dernier code/badge valide présenté
+* Sabotage : C'est la commande sabotage (elle est déclenchée en cas d'arrachement)
+* Code : Affiche le code du badge ou du clavier lorsque le code saisi n'est pas dans une des mémoires
 * Batterie : C'est la commande batterie
 
 ==== Configuration du module
-
-Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
-
-Pour cela cliquez sur le bouton pour voir la queue zwave :
-
-image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
-
-Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion (l'oeil s'allume en bleu).
-Vous devriez voir la queue se vider des messages concernant le fibaro motion.
-
-Si ce n'est pas le cas ou si il reste des messages pour le fibaro motion refaite un réveil.
-[red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
-
 
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
@@ -103,73 +91,62 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 [underline]#Vous arriverez sur cette page#
 
 image::../images/fibaro.fgms001/config1.jpg[Config1,align="center"]
-image::../images/fibaro.fgms001/config2.jpg[Config2,align="center"]
-image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
 
 [underline]#Détails des paramètres :#
 
-* Wakeup : il est déconseillé de changer cette valeur (valeur recommandée 7200)
-* 1: permet de régler la sensibilité du capteur de présence
-* 2: permet de régler l'inertie du capteur de présence
-* 3: déconseillé de changer ce paramètre
-* 4: déconseillé de changer ce paramètre
-* 6: temps après lequel le capteur enverra le signal "plus de mouvement" (valeur conseillée 30)
-* 8: permet d'activer le mode nuit / jour ou les deux (valeur conseillée : toujours actif)
-* 9: permet de régler le seuil de passage en mode nuit (utile si vous avez changé le paramètre 8)
-* 12: à modifier que si vous savez pouruqoi vous le faites (association avec un module par exemple)
-* 14: idem
-* 16: idem
-* 20: sensibilité du capteur gyroscopique (valeur conseillée 15)
-* 22: temps après lequel le capteur enverra le signal "plus de sabotage" (valeur conseillée 30)
-* 24: permet de dire comment le sabotage est notifiée (IMPORTANT : valeur conseillée : Capteur anti-sabotage notifié à SensorAlarm command class/ Annulation est notifiée après le temps défini en paramètre 22 )
-* 26: à modifier que si vous savez pouruqoi vous le faites
-* 40: permet de dire de combien doit être modifiée la valeur de luminosité pour être envoyée (valeur conseillée 50)
-* 42: permet de donner une durée minimum entre deux envois successifs même si la luminosité n'a pas changée (valeur conseillée 3600)
-* 60: permet de dire de combien doit être modifiée la valeur de température pour être envoyée (valeur conseillée 2  soit 0.2 degrés)
-* 62: permet de donner la fréquence des mesures de températures (valeur conseillée 900)
-* 64: permet de donner une durée minimum entre deux envois successifs même si la température n'a pas changée (valeur conseillée 2700)
-* 66: permet d'ajuster la température
-* 80: permet de choisir la couleur de la led lorsqu'il ya détection de mouvement (voir de la désactiver)
-* 81: permet de régler la luminosité de la led
-* 82: permet de régler le seuil minimal de luminosité pour mettre la led à 1% (lié au paramètre 81)
-* 83: permet de régler le seuil maximal de luminosité pour mettre la led à 100% (lié au paramètre 81)
-* 86: température en dessous de laquelle la led s'allumera en bleu (lié au paramètre 81)
-* 87: température au dessus de laquelle la led s'allumera en rouge (lié au paramètre 81)
-* 89: permet de faire clignoter la led en bleu blanc rouge en cas de sabotage
-
+* Wakeup : il est déconseillé de changer cette valeur
+* 1: permet de remettre la config par défaut (déconseillé)
+* 2: durée d'annulation (à ne pas modifier)
+* 3: retour par bip : permet d'activer ou non une série de 8 bips apres reconnaissance d'un badge/code
+* 4: nombre de bips par seconde (ne pas modifier n'a pas d'effet)
+* 5: mode de fonctionnement : normal ou mode toujours reveillé (déconseillé car très très consommateur de piles)
 
 ==== Groupes
 
-Ce module possède trois groupes d'association, seul le troisième est indispensable.
+Ce module possède un seul groupe d'association.
 
-image::../images/fibaro.fgms001/groupe.jpg[Groupe]
+==== Les badges /codes
+
+Dans la page de configuration il y a un onglet spécifique. Celui-ci permet de rajouter des codes.
+Vous y verrez un tableau.
+
+image::../images/fibaro.fgms001/config2.jpg[Config2,align="center"]
+* Ce tableau vous permet de visualiser les mémoires occupées sur votre clavier
+* Pour enregistrer un nouveau code cliquez sur le bouton Vert sur la mémoire désirée et suivez les étapes
+* Le zipato ne permet pas de supprimer une mémoire, cependant vous pouvez remplacer le code d'une mémoire exsitante
+* Il est impossible d'enregistrer le même code/badge sur deux mémoires différentes
+* Il est est impossible (par mesure de sécurité) de lire la valeur d'un code enregistré
+* Pour vider toutes vos mémoires, vous pouvez exclure et inclure le module
+
+
+=== Exemples d'utilisation
+
+image::../images/fibaro.fgms001/exemple.jpg[exemple,align="center"]
+L'élément déclencheur et la commande évènement, en effet celle-ci est mise à jour uniquement lorsqu'un code/badge valide à été présenté.
+Si la valeur est 6 (home) on désactives l'alarme
+Sinon (forcément 5) on l'active.
+
+Il est aussi possible de faire des actions différentes en fonction du badge ou du code puisque la valeur dernier badge vous donnera la mémoire concernée par l'action.
 
 === Bon à savoir
 
 ==== Spécificités
 
-Ce module est très capricieux sur les wakeup et très mal configuré d'usine.
-Il est primordial de bien le réveiller après l'inclusion (plusieurs fois vallent mieux qu'une). De bien le configurer
-selon vos souhaits. Et de bien le réveiller pour que la config soit prise en compte.
+Le keypad envoit les infos de deux manières :
+
+* le code est dans la mémoire, dans ce cas il envoit la mémoire (dernier badge), l'action et l'évènement (home/away)
+* le code n'est pas dans la mémoire, il envoit le code dans la commande code.
+* les commandes dernier badge et action seront vides tant qu'un badge/code n'aura pas été mémorisé et utilisé
 
 ==== Visuel alternatif
 
-image::../images/fibaro.fgms001/vuewidget.jpg[width=300]
-
 === Wakeup
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Pour réveiller ce module il ya deux façons de procéder :
 
-*appuyer 3 fois sur le bouton d'inclusion (la lumière s'allume en bleue). Même si la lumière
-s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
-
-=== F.A.Q.
+* appuie sur le bouton tamper puis relacher au bout de 1 à 2 secondes
+* ou simplement appuyer sur home un chiffre au hasard et enter
 
 === Note importante
 
-[underline]#Il faut réveiller le module :#
-[red]
-* Après son inclusion
-* Après un changement de la configuration
-* Après un changement de wakeup
-* Après un changement des groupes d'association
+[big red]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom. Il peut être nécessaire de le réveiller plusieurs fois de suite. Pour le savoir il suffit de regarder la queue Zwave et de s'assurer qu'il n'y a plus de commande en attente pour le module. Quand ca sera le cas. Le module sera complétement configuré avec Jeedom. Il faudra reprocéder ainsi que lorsque vous changerez une config ou un groupe.*
