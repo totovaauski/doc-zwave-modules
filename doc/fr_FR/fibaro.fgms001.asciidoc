@@ -2,11 +2,11 @@
 
 * Le module
 
-image::../images/fibaro.fgms001/module.jpg[width=256]
+image::../images/fibaro.fgms001/module.jpg[width=256,align="center"]
 
 * Le visuel Jeedom
 
-image::../images/fibaro.fgms001/vuedefaut1.jpg[Image du produit1,width=256]
+image::../images/fibaro.fgms001/vuedefaut1.jpg[width=256,align="center"]
 
 === Résumé
 
