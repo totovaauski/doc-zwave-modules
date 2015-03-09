@@ -62,17 +62,17 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 Avant de commencer assuré vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGSD-002 "Smoke Sensor 2".
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
-image::../images/plugin/bouton_inclusion.png[Mode Inclusion plugin Zwave]
+image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
 Une fois Jeedom en mode inclusion. Cliquez 3 fois sur le bouton central du module (conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
-image::../images/fibaro.fgsd102/information.png[Plugin Zwave]
+image::../images/fibaro.fgsd102/information.jpg[Plugin Zwave]
 
 ==== Commandes
 
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
 
-image::../images/fibaro.fgsd102/commandes.png[Commandes]
+image::../images/fibaro.fgsd102/commandes.jpg[Commandes]
 
 [underline]#Voici la liste des commandes :#
 
@@ -86,12 +86,12 @@ image::../images/fibaro.fgsd102/commandes.png[Commandes]
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
-image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
 
 [underline]#Vous arriverez sur cette page#
 
-image::../images/fibaro.fgsd102/config1.png[Config1]
-image::../images/fibaro.fgsd102/config2.png[Config2]
+image::../images/fibaro.fgsd102/config1.jpg[Config1]
+image::../images/fibaro.fgsd102/config2.jpg[Config2]
 
 [underline]#Détails des paramètres :#
 
@@ -114,7 +114,7 @@ image::../images/fibaro.fgsd102/config2.png[Config2]
 
 Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé à minima aux groupes 1 4 et 5:
 
-image::../images/fibaro.fgsd102/groupe.png[Groupe]
+image::../images/fibaro.fgsd102/groupe.jpg[Groupe]
 
 ==== Visuel alternatif
 

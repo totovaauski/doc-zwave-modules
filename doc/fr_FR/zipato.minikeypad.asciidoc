@@ -2,11 +2,11 @@
 
 * Le module
 
-image::../images/zipato.minikeypad/module.jpg[Image du produit,align="center"]
+image::../images/zipato.minikeypad/module.jpg[width=256]
 
 * Le visuel Jeedom
 
-image::../images/zipato.minikeypad/vuedefaut1.jpg[Image du produit1,align="center"]
+image::../images/zipato.minikeypad/vuedefaut1.jpg[width=256]
 
 === Résumé
 
@@ -58,17 +58,17 @@ Avant de commencer assuré vous d'avoir récupéré la configuration suivante su
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
-image::../images/plugin/bouton_inclusion.png[Mode Inclusion plugin Zwave,align="center"]
+image::../images/plugin/bouton_inclusion.jpg[align="center"]
 Une fois Jeedom en mode inclusion. Mettez le module en inclusion (conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
-image::../images/zipato.minikeypad/information.png[Plugin Zwave,align="center"]
+image::../images/zipato.minikeypad/information.jpg[align="center"]
 
 ==== Commandes
 
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
 
-image::../images/zipato.minikeypad/commandes.png[Commandes,align="center"]
+image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 
 [underline]#Voici la liste des commandes :#
 
@@ -84,11 +84,11 @@ image::../images/zipato.minikeypad/commandes.png[Commandes,align="center"]
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
-image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave,align="center"]
+image::../images/plugin/bouton_configuration.jpg[align="center"]
 
 [underline]#Vous arriverez sur cette page#
 
-image::../images/zipato.minikeypad/config1.png[Config1,align="center"]
+image::../images/zipato.minikeypad/config1.jpg[align="center"]
 
 [underline]#Détails des paramètres :#
 
@@ -108,7 +108,7 @@ Ce module possède un seul groupe d'association.
 Dans la page de configuration il y a un onglet spécifique. Celui-ci permet de rajouter des codes.
 Vous y verrez un tableau.
 
-image::../images/zipato.minikeypad/config2.png[Config2,align="center"]
+image::../images/zipato.minikeypad/config2.jpg[align="center"]
 * Ce tableau vous permet de visualiser les mémoires occupées sur votre clavier
 * Pour enregistrer un nouveau code cliquez sur le bouton Vert sur la mémoire désirée et suivez les étapes
 * Le zipato ne permet pas de supprimer une mémoire, cependant vous pouvez remplacer le code d'une mémoire exsitante
@@ -119,7 +119,7 @@ image::../images/zipato.minikeypad/config2.png[Config2,align="center"]
 
 === Exemples d'utilisation
 
-image::../images/zipato.minikeypad/exemple.jpg[exemple,align="center"]
+image::../images/zipato.minikeypad/exemple.jpg[align="center"]
 L'élément déclencheur et la commande évènement, en effet celle-ci est mise à jour uniquement lorsqu'un code/badge valide à été présenté.
 Si la valeur est 6 (home) on désactives l'alarme
 Sinon (forcément 5) on l'active.

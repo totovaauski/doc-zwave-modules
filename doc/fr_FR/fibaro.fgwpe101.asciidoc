@@ -1,6 +1,6 @@
 == Fibaro FGRWPE-101 "Wall plug"
 
-image::../images/fibaro.fgwpe101/module.png[Image du produit]
+image::../images/fibaro.fgwpe101/module.jpg[Image du produit]
 
 === Résumé
 Le Wall Plug Fibaro est un récepteur-prise-transmetteur universel sous forme d`un adaptateur pour brancher celui-ci sur une prise murale au réseau électrique, compatible avec le standard Z-Wave.
@@ -37,11 +37,11 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
-image::../images/plugin/bouton_inclusion.png[Mode Inclusion plugin Zwave]
+image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
-image::../images/fibaro.fgwpe101/information.png[Plugin Zwave]
+image::../images/fibaro.fgwpe101/information.jpg[Plugin Zwave]
 Une fois le module reconnu, il est nécessaire d’effectuer la configuration de celui-ci en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
-image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave]
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
