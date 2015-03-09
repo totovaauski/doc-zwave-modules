@@ -54,7 +54,7 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 
 ==== Inclusion
 
-Avant de commencer assuré vous d'avoir récupéré la configuration suivante sur le market : Zipato Mini Keypad RFID .
+Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Zipato Mini Keypad RFID .
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
@@ -80,6 +80,18 @@ image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 * Batterie : C'est la commande batterie
 
 ==== Configuration du module
+Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
+
+Pour cela cliquez sur le bouton pour voir la queue zwave :
+
+image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
+
+Pour réveiller le module il faut appuyer sur le tamper 1 seconde puis le relacher.
+Vous devriez voir la queue se vider des messages concernant le miniKeypad.
+
+Si ce n'est pas le cas ou si il reste des messages pour le miniKeypad refaite un réveil.
+[red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
+
 
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
@@ -142,9 +154,14 @@ Le keypad envoit les infos de deux manières :
 
 Pour réveiller ce module il ya deux façons de procéder :
 
-* appuie sur le bouton tamper puis relacher au bout de 1 à 2 secondes
-* ou simplement appuyer sur home un chiffre au hasard et enter
+* appuyer sur le bouton tamper puis relacher au bout de 1 à 2 secondes
+* appuyer sur home un chiffre au hasard et enter
 
 === Note importante
 
-[big red]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom. Il peut être nécessaire de le réveiller plusieurs fois de suite. Pour le savoir il suffit de regarder la queue Zwave et de s'assurer qu'il n'y a plus de commande en attente pour le module. Quand ca sera le cas. Le module sera complétement configuré avec Jeedom. Il faudra reprocéder ainsi que lorsque vous changerez une config ou un groupe.*
+[underline]#Il faut réveiller le module :#
+[red]
+* Après son inclusion
+* Après un changement de la configuration
+* Après un changement de wakeup
+* Après un changement des groupes d'association

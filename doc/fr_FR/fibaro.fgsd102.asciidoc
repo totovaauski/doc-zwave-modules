@@ -59,7 +59,7 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 
 ==== Inclusion
 
-Avant de commencer assuré vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGSD-002 "Smoke Sensor 2".
+Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGSD-002 "Smoke Sensor 2".
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
@@ -82,6 +82,17 @@ image::../images/fibaro.fgsd102/commandes.jpg[Commandes]
 * Batterie : C'est la commande batterie
 
 ==== Configuration du module
+Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
+
+Pour cela cliquez sur le bouton pour voir la queue zwave :
+
+image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
+
+Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion.
+Vous devriez voir la queue se vider des messages concernant le fgsd002.
+
+Si ce n'est pas le cas ou si il reste des messages pour le fgsd002 refaite un réveil.
+[red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
 
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
@@ -124,6 +135,13 @@ image::../images/fibaro.fgsd102/widget1.jpg[width=350]
 
 Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
+=== F.A.Q.
+
 === Note importante
 
-[big red]*Pour la prise en compte de la modification des groupes ou de la configuration il faut réveiller le module. Cela à chaque modification et la première fois juste après la détection par Jeedom. Il peut être nécessaire de le réveiller plusieurs fois de suite. Pour le savoir il suffit de regarder la queue Zwave et de s'assurer qu'il n'y a plus de commande en attente pour le module. Quand ca sera le cas. Le module sera complétement configuré avec Jeedom. Il faudra reprocéder ainsi que lorsque vous changerez une config ou un groupe.*
+[underline]#Il faut réveiller le module :#
+[red]
+* Après son inclusion
+* Après un changement de la configuration
+* Après un changement de wakeup
+* Après un changement des groupes d'association
