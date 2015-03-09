@@ -160,7 +160,7 @@ image::../images/fibaro.fgms001/vuewidget.jpg[width=300]
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
-*appuyer 3 fois sur le bouton d'inclusion (la lumière s'allume en bleue). Même si la lumière
+* appuyer 3 fois sur le bouton d'inclusion (la lumière s'allume en bleue). Même si la lumière
 s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 
 === F.A.Q.
