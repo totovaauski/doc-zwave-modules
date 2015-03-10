@@ -125,7 +125,7 @@ image::../images/zipato.minikeypad/config2.jpg[align="center"]
 * Pour enregistrer un nouveau code cliquez sur le bouton Vert sur la mémoire désirée et suivez les étapes
 * Le zipato ne permet pas de supprimer une mémoire, cependant vous pouvez remplacer le code d'une mémoire exsitante
 * Il est impossible d'enregistrer le même code/badge sur deux mémoires différentes
-* Il est est impossible (par mesure de sécurité) de lire la valeur d'un code enregistré
+* Il est impossible (par mesure de sécurité) de lire la valeur d'un code enregistré
 * Pour vider toutes vos mémoires, vous pouvez exclure et inclure le module
 
 
@@ -147,6 +147,11 @@ Le keypad envoit les infos de deux manières :
 * le code est dans la mémoire, dans ce cas il envoit la mémoire (dernier badge), l'action et l'évènement (home/away)
 * le code n'est pas dans la mémoire, il envoit le code dans la commande code.
 * les commandes dernier badge et action seront vides tant qu'un badge/code n'aura pas été mémorisé et utilisé
+
+Le keypad lit les codes/badges de deux manières :
+
+* lorsque vous appuyez sur home/away pendant les une à deux premières secondes si vous commencez à tape un code il lira ce code
+* si rien n'est fait dans les 1 à 2 premières secondes, il se met en mode lecture de badge RFID (lumière rouge allumée). A ce moment là il peut lire un badge pas avant.
 
 ==== Visuel alternatif
 
