@@ -74,11 +74,11 @@ image::../images/fibaro.fgms001/commandes.jpg[Commandes,align="center"]
 
 [underline]#Voici la liste des commandes :#
 
-* Présence : C'est la commande qui remontera une détection de présence
-* Température : C'est la commande qui permet de remonter la température
-* Luminosité : C'est la commande qui permet de remonter la luminosité
-* Sabotage : C'est la commande sabotage (elle est déclenchée en cas de vibration)
-* Batterie : C'est la commande batterie
+* Présence : c'est la commande qui remontera une détection de présence
+* Température : c'est la commande qui permet de remonter la température
+* Luminosité : c'est la commande qui permet de remonter la luminosité
+* Sabotage : c'est la commande sabotage (elle est déclenchée en cas de vibration)
+* Batterie : c'est la commande batterie
 
 ==== Configuration du module
 
@@ -95,8 +95,8 @@ Si ce n'est pas le cas ou si il reste des messages pour le fibaro motion refaite
 [red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
 
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
+il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
 
@@ -116,13 +116,13 @@ image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
 * 6: temps après lequel le capteur enverra le signal "plus de mouvement" (valeur conseillée 30)
 * 8: permet d'activer le mode nuit / jour ou les deux (valeur conseillée : toujours actif)
 * 9: permet de régler le seuil de passage en mode nuit (utile si vous avez changé le paramètre 8)
-* 12: à modifier que si vous savez pouruqoi vous le faites (association avec un module par exemple)
+* 12: à modifier seulement si vous savez pourquoi vous le faites (association avec un module par exemple)
 * 14: idem
 * 16: idem
 * 20: sensibilité du capteur gyroscopique (valeur conseillée 15)
 * 22: temps après lequel le capteur enverra le signal "plus de sabotage" (valeur conseillée 30)
 * 24: permet de dire comment le sabotage est notifiée (IMPORTANT : valeur conseillée : Capteur anti-sabotage notifié à SensorAlarm command class/ Annulation est notifiée après le temps défini en paramètre 22 )
-* 26: à modifier que si vous savez pouruqoi vous le faites
+* 26: à modifier seulement si vous savez pourquoi vous le faites
 * 40: permet de dire de combien doit être modifiée la valeur de luminosité pour être envoyée (valeur conseillée 50)
 * 42: permet de donner une durée minimum entre deux envois successifs même si la luminosité n'a pas changée (valeur conseillée 3600)
 * 60: permet de dire de combien doit être modifiée la valeur de température pour être envoyée (valeur conseillée 2  soit 0.2 degrés)
@@ -149,8 +149,8 @@ image::../images/fibaro.fgms001/groupe.jpg[Groupe]
 ==== Spécificités
 
 Ce module est très capricieux sur les wakeup et très mal configuré d'usine.
-Il est primordial de bien le réveiller après l'inclusion (plusieurs fois vallent mieux qu'une). De bien le configurer
-selon vos souhaits. Et de bien le réveiller pour que la config soit prise en compte.
+Il est primordial de bien le réveiller après l'inclusion (plusieurs fois vallent mieux qu'une), de bien le configurer
+selon vos souhaits, et de bien le réveiller pour que la config soit prise en compte.
 
 ==== Visuel alternatif
 
@@ -169,7 +169,7 @@ s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 
 [underline]#Il faut réveiller le module :#
 [red]
-* Après son inclusion
-* Après un changement de la configuration
-* Après un changement de wakeup
-* Après un changement des groupes d'association
+* après son inclusion
+* après un changement de la configuration
+* après un changement de wakeup
+* après un changement des groupes d'association
