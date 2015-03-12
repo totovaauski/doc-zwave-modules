@@ -72,15 +72,16 @@ image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 
 [underline]#Voici la liste des commandes :#
 
-* Evènement : C'est la commande qui remontera le home/away (5 pour away 6 pour home) (commande non affichée mais à utiliser comme déclencheur de scénario et qui permettra de savoir quel bouton à été appuyé)
-* Action : La meme chose qu'au dessus mais sous forme de texte (affiché par défaut sur le dashboard)
-* Dernier Badge : C'est la commande qui permet de remonter la mémoire du dernier code/badge valide présenté
-* Sabotage : C'est la commande sabotage (elle est déclenchée en cas d'arrachement)
-* Code : Affiche le code du badge ou du clavier lorsque le code saisi n'est pas dans une des mémoires
-* Batterie : C'est la commande batterie
+* Evènement : c'est la commande qui remontera le home/away (5 pour away 6 pour home) (commande non affichée mais à utiliser comme déclencheur de scénario et qui permettra de savoir quel bouton à été appuyé)
+* Action : la même chose qu'au dessus mais sous forme de texte (affiché par défaut sur le dashboard)
+* Dernier Badge : c'est la commande qui permet de remonter la mémoire du dernier code/badge valide présenté
+* Sabotage : c'est la commande sabotage (elle est déclenchée en cas d'arrachement)
+* Code : affiche le code du badge ou du clavier lorsque le code saisi n'est pas dans une des mémoires
+* Batterie : c'est la commande batterie
 
 ==== Configuration du module
-Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
+Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et 
+de s'assurer que la queue zwave est vide.
 
 Pour cela cliquez sur le bouton pour voir la queue zwave :
 
@@ -93,8 +94,8 @@ Si ce n'est pas le cas ou si il reste des messages pour le miniKeypad refaite un
 [red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
 
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
+il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_configuration.jpg[align="center"]
 
@@ -107,7 +108,7 @@ image::../images/zipato.minikeypad/config1.jpg[align="center"]
 * Wakeup : il est déconseillé de changer cette valeur
 * 1: permet de remettre la config par défaut (déconseillé)
 * 2: durée d'annulation (à ne pas modifier)
-* 3: retour par bip : permet d'activer ou non une série de 8 bips apres reconnaissance d'un badge/code
+* 3: retour par bip : permet d'activer ou non une série de 8 bips après reconnaissance d'un badge/code
 * 4: nombre de bips par seconde (ne pas modifier n'a pas d'effet)
 * 5: mode de fonctionnement : normal ou mode toujours reveillé (déconseillé car très très consommateur de piles)
 
@@ -123,7 +124,7 @@ Vous y verrez un tableau.
 image::../images/zipato.minikeypad/config2.jpg[align="center"]
 * Ce tableau vous permet de visualiser les mémoires occupées sur votre clavier
 * Pour enregistrer un nouveau code cliquez sur le bouton Vert sur la mémoire désirée et suivez les étapes
-* Le zipato ne permet pas de supprimer une mémoire, cependant vous pouvez remplacer le code d'une mémoire exsitante
+* Le zipato ne permet pas de supprimer une mémoire, cependant vous pouvez remplacer le code d'une mémoire existante
 * Il est impossible d'enregistrer le même code/badge sur deux mémoires différentes
 * Il est impossible (par mesure de sécurité) de lire la valeur d'un code enregistré
 * Pour vider toutes vos mémoires, vous pouvez exclure et inclure le module
@@ -132,7 +133,7 @@ image::../images/zipato.minikeypad/config2.jpg[align="center"]
 === Exemples d'utilisation
 
 image::../images/zipato.minikeypad/exemple.jpg[align="center"]
-L'élément déclencheur et la commande évènement, en effet celle-ci est mise à jour uniquement lorsqu'un code/badge valide à été présenté.
+L'élément déclencheur est la commande évènement, en effet celle-ci est mise à jour uniquement lorsqu'un code/badge valide à été présenté.
 Si la valeur est 6 (home) on désactives l'alarme
 Sinon (forcément 5) on l'active.
 
@@ -150,8 +151,8 @@ Le keypad envoit les infos de deux manières :
 
 Le keypad lit les codes/badges de deux manières :
 
-* lorsque vous appuyez sur home/away pendant les une à deux premières secondes si vous commencez à tape un code il lira ce code
-* si rien n'est fait dans les 1 à 2 premières secondes, il se met en mode lecture de badge RFID (lumière rouge allumée). A ce moment là il peut lire un badge pas avant.
+* lorsque vous appuyez sur home/away pendant les une à deux premières secondes si vous commencez à taper un code, il lira ce code
+* si rien n'est fait dans les 1 à 2 premières secondes, il se met en mode lecture de badge RFID (lumière rouge allumée). A ce moment là il peut lire un badge, pas avant.
 
 ==== Visuel alternatif
 
