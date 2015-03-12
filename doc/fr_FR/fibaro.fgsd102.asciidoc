@@ -63,7 +63,7 @@ Avant de commencer assurez vous d'avoir récupéré la configuration suivante su
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
-Une fois Jeedom en mode inclusion. Cliquez 3 fois sur le bouton central du module (conformément à sa documentation papier)
+Une fois Jeedom en mode inclusion. Cliquez 3 fois sur le bouton central du module (conformément à sa documentation papier).
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
 image::../images/fibaro.fgsd102/information.jpg[Plugin Zwave]
@@ -76,10 +76,10 @@ image::../images/fibaro.fgsd102/commandes.jpg[Commandes]
 
 [underline]#Voici la liste des commandes :#
 
-* Fumées : C'est la commande d'alerte du module (pour la fumée, la chaleur ...)
-* Température : C'est la commande de mesure de la température
-* Sabotage : C'est la commande de sabotage. Elle signale l'ouverture du boitier
-* Batterie : C'est la commande batterie
+* Fumées : c'est la commande d'alerte du module (pour la fumée, la chaleur ...)
+* Température : c'est la commande de mesure de la température
+* Sabotage : c'est la commande de sabotage. Elle signale l'ouverture du boitier
+* Batterie : c'est la commande batterie
 
 ==== Configuration du module
 Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
@@ -95,7 +95,7 @@ Si ce n'est pas le cas ou si il reste des messages pour le fgsd002 refaite un r�
 [red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
 
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
 
@@ -116,7 +116,7 @@ image::../images/fibaro.fgsd102/config2.jpg[Config2]
 * 12: idem
 * 13: permet de notifier d'autres modules zwave (à désactiver sauf si vous savez pourquoi vous l'activez)
 * 20: durée entre deux rapports de températures
-* 21: différence de température a partir de laquelle meme si la durée du dessus n'est pas atteinte la température sera envoyée à Jeedom
+* 21: différence de température à partir de laquelle, meme si la durée du dessus n'est pas atteinte, la température sera envoyée à Jeedom
 * 30: température de déclenchement de l'alarme Chaleur
 * 31: intervalle de signalisation des pics de températures
 * 32: intervalle de signal si perte de Zwave
@@ -141,7 +141,7 @@ Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
 [underline]#Il faut réveiller le module :#
 [red]
-* Après son inclusion
-* Après un changement de la configuration
-* Après un changement de wakeup
-* Après un changement des groupes d'association
+* après son inclusion
+* après un changement de la configuration
+* après un changement de wakeup
+* après un changement des groupes d'association
