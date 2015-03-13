@@ -1,62 +1,68 @@
-== Fibaro Motion Sensor - FGMS-001
+== Fibaro Dimmer - FGD-211
 
 * Le module
 
-image::../images/fibaro.fgms001/module.jpg[width=256]
+image::../images/fibaro.fgd211/module.jpg[width=256]
 
 * Le visuel Jeedom
 
-image::../images/fibaro.fgms001/vuedefaut1.jpg[width=350]
+image::../images/fibaro.fgd211/vuedefaut1.jpg[width=200]
 
 === Résumé
 
-Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave. En plus de la détection de mouvement, ce dispositif mesure la température et l'intensité lumineuse. Ce détecteur comporte aussi un accéléromètre intégré afin de détecter toute tentative d'altération du dispositif.
+Le micromodule variateur FGD-211 va vous permettre de contrôler une lampe ou plafonnier à distance grâce au protocole Z-Wave tout en conservant votre interrupteur existant.
 
-Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu pour être installé rapidement et facilement sur n'importe quelle surface. Le voyant LED signale le mouvement, le niveau de température, le mode de fonctionnement et peut être utilisé pour voir si l'appareil est dans le réseau Z-Wave.
+Vous allez donc pouvoir actionner la lampe connectée et faire varier son intensité en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.
+Il est compatible avec tout type de lampe supportant la variation (incandescence, fluo-compact, LED, ...). Le micromodule variateur Fibaro est un concentré de technologie, il détecte automatiquement le type de charge connectée et est protégé contre les surtensions.
 
-Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et les systèmes de surveillance de la sécurité.
+Pour les ampoules fluorescente qui ne supportent pas la variation, le module agit alors automatiquement en tant que module commutateur (ON/OFF uniquement).
+
+Il peut être utilisé en mode 2 fils (sans neutre), en remplacement d'un interrupteur existant, ou trois fils avec une alimentation classique du module (Phase + Neutre).
+
+Pour des lampes ayant une très faible consommation (lampe LED par exemple), vous pourrez utiliser la charge (bypass) FGB-001 qui permet un fonctionnement correct du module.
+Un contrôleur Z-Wave (télécommande, dongle ...) est nécessaire afin d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau existant.
+Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres modules, afin d'assurer une couverture totale de votre habitation.
 
 === Fonctions
 
-*	Détecteur de mouvement sans fil
-*	Détecte les mouvements à l'aide d'un capteur infrarouge passif
-*	Mesure de la température
-*	Mesure de l'intensité lumineuse
-*	Protection contre l'effraction et le vol
-*	Alertes de mouvement et de température signalées par le clignotement de la diode LED
-*	Mode de détection de tremblement de terre
-*	Bouton pour inclure/exclure le détecteur
-*	Détection pile faible
-*	Très petit, dimensions réduites
-*	Facilité d'installation sur un mur ou toute autre surface
+* Commandez un éclairage à distance
+* S'installe derrière un interrupteur existant
+* Fonction ON/OFF et Variation
+* Utilisation en mode 2 fils (neutre pas nécessaire)
+* Détection automatique de la charge
+* Protégé contre les surcharges
+* Petit, discret et esthétique
+* Facilité d'utilisation et d'installation
 
 === Caractéristiques Techniques
 
-*	Type de module : Emetteur Z-Wave
-*	Alimentation : Pile CR123A 3,6VDC
-*	Hauteur recommandée pour l'installation : 2,4m
-*	Plage de température mesurée : -20°C à 100°C
-*	Précision de la mesure : 0,5°C
-*	Plage de mesure de la luminosité : 0-32000 LUX
-*	Fréquence : 868,42 Mhz
-*	Distance de transmission : 50m champ libre, 30m en intérieur
-*	Dimensions: 4,4 cm de diamètre
-*	Température de fonctionnement : 0-40°C
-*	Certifications : LVD 2006/95/WE EMC 2004/108/WE R&TTE 1999/5/WE RoHS II
+* Type de module : Récepteur Z-Wave
+* Alimentation : 230V, 50 Hz
+* Câblage : neutre pas nécessaire
+* Charge maxi : 25-500W (charge résistive) ou 1.5A (charge inductive)
+* Type de lampe compatible (dimmable) : Incandescente, Fluocompacte, Halogène (230VAC et 12VDC avec tranformateur électronique), LED
+* Type de lampe compatible (non dimmable) : Fluocompacte, LED
+* Fusible : 2.5A
+* Fréquence : 868,42 Mhz
+* Distance de transmission : 50m champ libre, 30m en intérieur
+* Dimensions: 15 x 42 x 36 mm
+* Température de fonctionnement : 0-40°C
+* Température limite : 105°C
+* Normes : EN 55015 et EN 60669-2-1
 
 === Données du module
 
 * Marque : Fibar Group
 * Nom : Fibaro FGMS-001 [Motion Sensor]
 * Fabricant ID : 271
-* Type Produit : 2048
-* Produit ID : 4097
+* Type Produit : 256
+* Produit ID : 4106
 
 === Configuration
 
 ==== Inclusion
 
-Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGMS-001 [Motion Sensor] .
+Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGD-211 [Dimmer] .
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
@@ -64,51 +70,40 @@ image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="
 Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant 3 fois sur le bouton d'inclusion, conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
-image::../images/fibaro.fgms001/information.jpg[Plugin Zwave,align="center"]
+[red]*BON A SAVOIR : si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en faisant de nombreux aller retour sur l'interrupteur ou de nombreux appuis si vous avez un interrupteur sur bouton poussoir.*
+
+image::../images/fibaro.fgd211/information.jpg[Plugin Zwave,align="center"]
 
 ==== Commandes
 
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
 
-image::../images/fibaro.fgms001/commandes.jpg[Commandes,align="center"]
+image::../images/fibaro.fgd211/commandes.jpg[Commandes,align="center"]
 
 [underline]#Voici la liste des commandes :#
 
-* Présence : C'est la commande qui remontera une détection de présence
-* Température : C'est la commande qui permet de remonter la température
-* Luminosité : C'est la commande qui permet de remonter la luminosité
-* Sabotage : C'est la commande sabotage (elle est déclenchée en cas de vibration)
-* Batterie : C'est la commande batterie
+* Intensité : C'est la commande qui permet de régler l'intensité de la lumière
+* On : C'est la commande qui permet d'allumer la lumière
+* Off : C'est la commande qui permet d'éteindre la lumière
+* Etat : C'est la commande qui permet de connaitre le statut de la lumière
+
+A noter que sur le dashboard toutes les infos se retrouvent sur le même icone
 
 ==== Configuration du module
 
-Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
-
-Pour cela cliquez sur le bouton pour voir la queue zwave :
-
-image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
-
-Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion (l'oeil s'allume en bleu).
-Vous devriez voir la queue se vider des messages concernant le fibaro motion.
-
-Si ce n'est pas le cas ou si il reste des messages pour le fibaro motion refaite un réveil.
-[red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
-
-
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+Vous pouvez effectuer la configuration du module en fonction de votre installation.
+Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
 
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
 
 [underline]#Vous arriverez sur cette page#
 
-image::../images/fibaro.fgms001/config1.jpg[Config1,align="center"]
-image::../images/fibaro.fgms001/config2.jpg[Config2,align="center"]
-image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
+image::../images/fibaro.fgd211/config1.jpg[Config1,align="center"]
+image::../images/fibaro.fgd211/config2.jpg[Config2,align="center"]
+image::../images/fibaro.fgd211/config3.jpg[Config3,align="center"]
 
 [underline]#Détails des paramètres :#
 
-* Wakeup : il est déconseillé de changer cette valeur (valeur recommandée 7200)
 * 1: permet de régler la sensibilité du capteur de présence
 * 2: permet de régler l'inertie du capteur de présence
 * 3: déconseillé de changer ce paramètre
@@ -142,34 +137,18 @@ image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
 
 Ce module possède trois groupes d'association, seul le troisième est indispensable.
 
-image::../images/fibaro.fgms001/groupe.jpg[Groupe]
+image::../images/fibaro.fgd211/groupe.jpg[Groupe]
 
 === Bon à savoir
 
 ==== Spécificités
 
-Ce module est très capricieux sur les wakeup et très mal configuré d'usine.
-Il est primordial de bien le réveiller après l'inclusion (plusieurs fois vallent mieux qu'une). De bien le configurer
-selon vos souhaits. Et de bien le réveiller pour que la config soit prise en compte.
-
 ==== Visuel alternatif
 
-image::../images/fibaro.fgms001/vuewidget.jpg[width=300]
+image::../images/fibaro.fgd211/vuewidget.jpg[width=300]
 
 === Wakeup
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
-
-* appuyer 3 fois sur le bouton d'inclusion (la lumière s'allume en bleue). Même si la lumière
-s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
+Pas de notion de wakeup sur ce module.
 
 === F.A.Q.
-
-=== Note importante
-
-[underline]#Il faut réveiller le module :#
-[red]
-* Après son inclusion
-* Après un changement de la configuration
-* Après un changement de wakeup
-* Après un changement des groupes d'association
