@@ -142,7 +142,7 @@ d'interrupteur bi stable)
 
 ==== Visuel alternatif
 
-image::../images/fibaro.fgd211/vuewidget.jpg[width=300]
+image::../images/fibaro.fgd211/vuewidget.jpg[width=200]
 
 === Wakeup
 
