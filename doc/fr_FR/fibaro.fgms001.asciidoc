@@ -108,7 +108,7 @@ image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
 
 [underline]#Détails des paramètres :#
 
-* Wakeup : il est déconseillé de changer cette valeur (valeur recommandée 7200)
+* Wakeup : c'est l'interval de réveil du module (valeur recommandée 7200)
 * 1: permet de régler la sensibilité du capteur de présence
 * 2: permet de régler l'inertie du capteur de présence
 * 3: déconseillé de changer ce paramètre

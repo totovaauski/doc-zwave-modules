@@ -80,7 +80,7 @@ image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 * Batterie : c'est la commande batterie
 
 ==== Configuration du module
-Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et 
+Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et
 de s'assurer que la queue zwave est vide.
 
 Pour cela cliquez sur le bouton pour voir la queue zwave :
@@ -105,7 +105,7 @@ image::../images/zipato.minikeypad/config1.jpg[align="center"]
 
 [underline]#Détails des paramètres :#
 
-* Wakeup : il est déconseillé de changer cette valeur
+* Wakeup : c'est l'interval de réveil du module (valeur recommandée 7200)
 * 1: permet de remettre la config par défaut (déconseillé)
 * 2: durée d'annulation (à ne pas modifier)
 * 3: retour par bip : permet d'activer ou non une série de 8 bips après reconnaissance d'un badge/code
