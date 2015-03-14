@@ -104,34 +104,25 @@ image::../images/fibaro.fgd211/config3.jpg[Config3,align="center"]
 
 [underline]#Détails des paramètres :#
 
-* 1: permet de régler la sensibilité du capteur de présence
-* 2: permet de régler l'inertie du capteur de présence
-* 3: déconseillé de changer ce paramètre
-* 4: déconseillé de changer ce paramètre
-* 6: temps après lequel le capteur enverra le signal "plus de mouvement" (valeur conseillée 30)
-* 8: permet d'activer le mode nuit / jour ou les deux (valeur conseillée : toujours actif)
-* 9: permet de régler le seuil de passage en mode nuit (utile si vous avez changé le paramètre 8)
-* 12: à modifier que si vous savez pouruqoi vous le faites (association avec un module par exemple)
-* 14: idem
-* 16: idem
-* 20: sensibilité du capteur gyroscopique (valeur conseillée 15)
-* 22: temps après lequel le capteur enverra le signal "plus de sabotage" (valeur conseillée 30)
-* 24: permet de dire comment le sabotage est notifiée (IMPORTANT : valeur conseillée : Capteur anti-sabotage notifié à SensorAlarm command class/ Annulation est notifiée après le temps défini en paramètre 22 )
-* 26: à modifier que si vous savez pouruqoi vous le faites
-* 40: permet de dire de combien doit être modifiée la valeur de luminosité pour être envoyée (valeur conseillée 50)
-* 42: permet de donner une durée minimum entre deux envois successifs même si la luminosité n'a pas changée (valeur conseillée 3600)
-* 60: permet de dire de combien doit être modifiée la valeur de température pour être envoyée (valeur conseillée 2  soit 0.2 degrés)
-* 62: permet de donner la fréquence des mesures de températures (valeur conseillée 900)
-* 64: permet de donner une durée minimum entre deux envois successifs même si la température n'a pas changée (valeur conseillée 2700)
-* 66: permet d'ajuster la température
-* 80: permet de choisir la couleur de la led lorsqu'il ya détection de mouvement (voir de la désactiver)
-* 81: permet de régler la luminosité de la led
-* 82: permet de régler le seuil minimal de luminosité pour mettre la led à 1% (lié au paramètre 81)
-* 83: permet de régler le seuil maximal de luminosité pour mettre la led à 100% (lié au paramètre 81)
-* 86: température en dessous de laquelle la led s'allumera en bleu (lié au paramètre 81)
-* 87: température au dessus de laquelle la led s'allumera en rouge (lié au paramètre 81)
-* 89: permet de faire clignoter la led en bleu blanc rouge en cas de sabotage
-
+* 1: Fonctions ALL ON / ALL OFF : utilise que si vous avez associé le FGD-211 à un autre module
+* 6: permet de dire comment les informations sont envoyées au groupe d'association 1
+* 7: permet de vérifier ou non le statut du module associé avant d'envoyer une commande
+* 8: permet de définir le pourcentage de variation (auto)
+* 9: durée de la variation entre les deux extêmes (manuel)
+* 10: durée de la variation entre les deux extêmes (auto)
+* 11: permet de définir le pourcentage de variation (manuel)
+* 12: permet de définir le niveau maximal autorisé
+* 13: permet de définir le niveau minimal autorisé
+* 14: REGLAGE IMPORTANT : permet de choisir entre interrupteur BISTABLE ou MONOSTABLE (bouton poussoir)
+* 15: active l'option permettant de mettre la luminosité au maximum sur doubles appuis (ou aller retour sur bistable)
+* 16: option permettant d'activer la mémorisation du dernier état
+* 17: permet de choisir entre le mode va et vient et le mode télérupteur
+* 18: permet de synchroniser le niveau de variation aux autres variateurs associés
+* 19: mode fonctionnement de l'interrupteur bi stable (inversion ou non)
+* 20: permet d'ajuster le niveau minimum pour des ampoules LEDS dimmables par exemples
+* 30: permet de définir le mode de fonctionnement du module en cas de réception d'un signal broadcast Alarm
+* 39: durée de l'alarme défini en paramètre 30
+* 41: permet d'activer ou non la fonction d'Activations des scènes
 
 ==== Groupes
 
@@ -142,6 +133,12 @@ image::../images/fibaro.fgd211/groupe.jpg[Groupe]
 === Bon à savoir
 
 ==== Spécificités
+
+Le paramètre le plus important de la configuration est le 14. Il permet de choisir le type d'interrupteur utilisé. Par défaut le type est défini sur
+monostable.
+
+Si vous voulez exclure/inclure le module sans démonter votre interrupteur, vous pouvez appuyer plusieurs fois sur votre interrupteur (ou faire des allers retours en cas
+d'interrupteur bi stable)
 
 ==== Visuel alternatif
 
