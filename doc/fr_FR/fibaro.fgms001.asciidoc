@@ -1,3 +1,4 @@
+:icons:
 == Fibaro Motion Sensor - FGMS-001
 
 * Le module
@@ -55,7 +56,8 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 === Configuration
 
 ==== Inclusion
-
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGMS-001 [Motion Sensor] .
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
@@ -81,7 +83,8 @@ image::../images/fibaro.fgms001/commandes.jpg[Commandes,align="center"]
 * Batterie : c'est la commande batterie
 
 ==== Configuration du module
-
+[icon="../images/plugin/warning.png"]
+[WARNING]
 Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
 
 Pour cela cliquez sur le bouton pour voir la queue zwave :
@@ -92,7 +95,10 @@ Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion (l'oe
 Vous devriez voir la queue se vider des messages concernant le fibaro motion.
 
 Si ce n'est pas le cas ou si il reste des messages pour le fibaro motion refaite un réveil.
-[red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
 
 
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
@@ -147,7 +153,8 @@ image::../images/fibaro.fgms001/groupe.jpg[Groupe]
 === Bon à savoir
 
 ==== Spécificités
-
+[icon="../images/plugin/tip.png"]
+[TIP]
 Ce module est très capricieux sur les wakeup et très mal configuré d'usine.
 Il est primordial de bien le réveiller après l'inclusion (plusieurs fois vallent mieux qu'une), de bien le configurer
 selon vos souhaits, et de bien le réveiller pour que la config soit prise en compte.
@@ -166,10 +173,8 @@ s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 === F.A.Q.
 
 === Note importante
-
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
 [underline]#Il faut réveiller le module :#
-[red]
-* après son inclusion
-* après un changement de la configuration
-* après un changement de wakeup
-* après un changement des groupes d'association
+ après son inclusion, après un changement de la configuration
+, après un changement de wakeup, après un changement des groupes d'association

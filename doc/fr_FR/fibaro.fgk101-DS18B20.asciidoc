@@ -134,7 +134,7 @@ image::../images/fibaro.fgk101-DS18B20/groupe.jpg[Groupe]
 
 ==== Spécificités
 [icon="../images/plugin/tip.png"]
-[TIP
+[TIP]
 Ce module est très capricieux sur les wakeup et nécessite une très forte proximité avec le contrôleur lors de son inclusion
 
 ==== Visuel alternatif
@@ -153,7 +153,5 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 [underline]#Il faut réveiller le module :#
-* après son inclusion
-* après un changement de la configuration
-* après un changement de wakeup
-* après un changement des groupes d'association
+ après son inclusion, après un changement de la configuration
+, après un changement de wakeup, après un changement des groupes d'association

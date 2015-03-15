@@ -1,3 +1,4 @@
+:icons:
 == Fibaro FGSD-002 "Smoke Sensor 2"
 
 * Le module
@@ -58,7 +59,8 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 === Configuration
 
 ==== Inclusion
-
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGSD-002 "Smoke Sensor 2".
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
@@ -82,6 +84,8 @@ image::../images/fibaro.fgsd102/commandes.jpg[Commandes]
 * Batterie : c'est la commande batterie
 
 ==== Configuration du module
+[icon="../images/plugin/warning.png"]
+[WARNING]
 Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
 
 Pour cela cliquez sur le bouton pour voir la queue zwave :
@@ -92,7 +96,10 @@ Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion.
 Vous devriez voir la queue se vider des messages concernant le fgsd002.
 
 Si ce n'est pas le cas ou si il reste des messages pour le fgsd002 refaite un réveil.
-[red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
 
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
@@ -127,6 +134,10 @@ Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé
 
 image::../images/fibaro.fgsd102/groupe.jpg[Groupe]
 
+=== Bon à savoir
+
+==== Spécificités
+
 ==== Visuel alternatif
 
 image::../images/fibaro.fgsd102/widget1.jpg[width=350]
@@ -139,9 +150,9 @@ Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
 === Note importante
 
+=== Note importante
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
 [underline]#Il faut réveiller le module :#
-[red]
-* après son inclusion
-* après un changement de la configuration
-* après un changement de wakeup
-* après un changement des groupes d'association
+ après son inclusion, après un changement de la configuration
+, après un changement de wakeup, après un changement des groupes d'association

@@ -1,3 +1,4 @@
+:icons:
 == Zipato miniKeypad RFID
 
 * Le module
@@ -53,7 +54,8 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 === Configuration
 
 ==== Inclusion
-
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Zipato Mini Keypad RFID .
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
@@ -80,6 +82,8 @@ image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 * Batterie : c'est la commande batterie
 
 ==== Configuration du module
+[icon="../images/plugin/warning.png"]
+[WARNING]
 Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et
 de s'assurer que la queue zwave est vide.
 
@@ -91,7 +95,10 @@ Pour réveiller le module il faut appuyer sur le tamper 1 seconde puis le relach
 Vous devriez voir la queue se vider des messages concernant le miniKeypad.
 
 Si ce n'est pas le cas ou si il reste des messages pour le miniKeypad refaite un réveil.
-[red]*Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.*
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
 
 
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
@@ -164,10 +171,8 @@ Pour réveiller ce module il y a deux façons de procéder :
 * appuyer sur home un chiffre au hasard et enter
 
 === Note importante
-
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
 [underline]#Il faut réveiller le module :#
-[red]
-* Après son inclusion
-* Après un changement de la configuration
-* Après un changement de wakeup
-* Après un changement des groupes d'association
+ après son inclusion, après un changement de la configuration
+, après un changement de wakeup, après un changement des groupes d'association
