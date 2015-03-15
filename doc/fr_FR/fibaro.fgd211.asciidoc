@@ -1,3 +1,4 @@
+:icons:
 == Fibaro Dimmer - FGD-211
 
 * Le module
@@ -73,7 +74,7 @@ La configuration des commandes se fait automatiquement une fois le module reconn
 
 [icon="../images/plugin/tip.png"]
 [TIP]
-[red]*BON A SAVOIR : si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en faisant de nombreux aller retour sur l'interrupteur ou de nombreux appuis si vous avez un interrupteur sur bouton poussoir.*
+Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en faisant de nombreux aller retour sur l'interrupteur ou de nombreux appuis si vous avez un interrupteur sur bouton poussoir.
 
 image::../images/fibaro.fgd211/information.jpg[Plugin Zwave,align="center"]
 
