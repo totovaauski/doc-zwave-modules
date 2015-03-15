@@ -1,3 +1,4 @@
+:icons:
 == Fibaro Dimmer - FGD-211
 
 * Le module
