@@ -61,7 +61,8 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 === Configuration
 
 ==== Inclusion
-
+[icon="../images/plugin/"]
+[IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGD-211 [Dimmer] .
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
@@ -70,6 +71,8 @@ image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="
 Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant 3 fois sur le bouton d'inclusion, conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
+[icon="../images/plugin/"]
+[TIP]
 [red]*BON A SAVOIR : si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en faisant de nombreux aller retour sur l'interrupteur ou de nombreux appuis si vous avez un interrupteur sur bouton poussoir.*
 
 image::../images/fibaro.fgd211/information.jpg[Plugin Zwave,align="center"]
