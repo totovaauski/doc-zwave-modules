@@ -149,6 +149,24 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 === F.A.Q.
 
+[panel,primary]
+.J'ai l'impression que le module ne se réveille pas.
+--
+Ce module se réveille en appuyant 3 fois sur un des boutons tampers. Mais il faut que l'autre bouton tamper soit enfoncé.
+--
+
+[panel,primary]
+.Je n'arrive pas à inclure le module.
+--
+Ce module à une portée très faible. Il est conseillé de faire l'inclusion au plus proche de votre box.
+--
+
+[panel,primary]
+.J'ai changé la configuration mais elle n'est pas prise en compte.
+--
+Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
+--
+
 === Note importante
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
