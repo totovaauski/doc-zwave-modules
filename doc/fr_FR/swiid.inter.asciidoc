@@ -152,5 +152,5 @@ Non.
 [panel,primary]
 .Un appui long n'allume pas ma lumière de la pièce.
 --
-Avez vous associer les deux modules et avez vous bien configuré la partie spécifique.
+Avez vous associé les deux modules et avez vous bien configuré la partie spécifique.
 --
