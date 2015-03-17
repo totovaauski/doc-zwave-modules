@@ -1,5 +1,5 @@
 :icons:
-== FIBARO Détecteur d'ouverture avec entrée contact sec - FGK-101
+== FIBARO Détecteur d'ouverture - FGK-101
 
 * Le module
 
