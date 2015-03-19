@@ -172,15 +172,13 @@ Pour réveiller ce module il y a deux façons de procéder :
 
 === F.A.Q.
 
-==== Foire aux questions
-
-[panel,primary]
+[panel]
 .J'ai l'impression que le module ne se réveille pas.
 --
 Ce module se réveille soit en appuyant sur le bouton tamper et en le relachant. Il peut aussi se réveiller en appuyant sur Home puis 1 puis enter.
 --
 
-[panel,primary]
+[panel]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.

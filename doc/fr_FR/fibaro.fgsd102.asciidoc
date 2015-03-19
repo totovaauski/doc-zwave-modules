@@ -148,15 +148,13 @@ Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
 === F.A.Q.
 
-==== Foire aux questions
-
-[panel,primary]
+[panel]
 .J'ai l'impression que le module ne se réveille pas.
 --
 Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
 --
 
-[panel,primary]
+[panel]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.

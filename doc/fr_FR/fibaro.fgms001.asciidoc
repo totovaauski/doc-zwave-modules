@@ -172,21 +172,19 @@ s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 
 === F.A.Q.
 
-==== Foire aux questions
-
-[panel,primary]
+[panel]
 .J'ai l'impression que le module ne se réveille pas.
 --
 Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
 --
 
-[panel,primary]
+[panel]
 .Je n'arrive pas à inclure le module.
 --
 Ce module est très capricieux. Il est conseillé de faire l'inclusion au plus proche de votre box et de s'y reprendre plusieurs fois.
 --
 
-[panel,primary]
+[panel]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
