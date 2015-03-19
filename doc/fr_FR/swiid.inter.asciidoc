@@ -146,6 +146,9 @@ Pas de notion de wakeup sur ce module.
 [panel,primary]
 .La lumière bleue me dérange puis je la désactiver.
 --
+puis je la désactiver ?
+
+
 Non. Le module ne le permet pas.
 --
 
