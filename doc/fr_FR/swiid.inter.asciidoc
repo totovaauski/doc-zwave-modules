@@ -143,7 +143,7 @@ Pas de notion de wakeup sur ce module.
 
 === F.A.Q.
 
-[panel,primary]
+[panel,secondary]
 .La lumière bleue me dérange
 --
 puis je la désactiver ?
