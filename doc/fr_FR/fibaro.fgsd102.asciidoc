@@ -148,6 +148,8 @@ Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
 === F.A.Q.
 
+==== Foire aux questions
+
 [panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --

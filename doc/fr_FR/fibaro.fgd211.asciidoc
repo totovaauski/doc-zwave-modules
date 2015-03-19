@@ -155,6 +155,8 @@ Pas de notion de wakeup sur ce module.
 
 === F.A.Q.
 
+==== Foire aux questions
+
 [panel,primary]
 .Suis je obligé de démonter ma prise pour l'inclure ou l'exclure.
 --

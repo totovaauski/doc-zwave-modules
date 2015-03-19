@@ -172,6 +172,8 @@ s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 
 === F.A.Q.
 
+==== Foire aux questions
+
 [panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --
