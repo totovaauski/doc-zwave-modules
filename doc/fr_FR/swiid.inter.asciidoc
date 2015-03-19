@@ -143,7 +143,13 @@ Pas de notion de wakeup sur ce module.
 
 === F.A.Q.
 
-[panel,secondary]
+[panel,info]
+.Un appui long n'allume pas ma lumière de la pièce.
+--
+Avez vous associé les deux modules et avez vous bien configuré la partie spécifique.
+--
+
+[panel,success]
 .La lumière bleue me dérange
 --
 puis je la désactiver ?
@@ -152,14 +158,8 @@ puis je la désactiver ?
 Non. Le module ne le permet pas.
 --
 
-[panel]
+[panel,warning]
 .La lumière bleue me dérange puis je la désactiver.
 --
 Non.
---
-
-[panel,primary]
-.Un appui long n'allume pas ma lumière de la pièce.
---
-Avez vous associé les deux modules et avez vous bien configuré la partie spécifique.
 --
