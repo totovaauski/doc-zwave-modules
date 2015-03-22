@@ -1,15 +1,30 @@
 :icons:
 == Fibaro Motion Sensor - FGMS-001
 
+{nbsp} +
+
+
 * Le module
+
+{nbsp} +
+
 
 image::../images/fibaro.fgms001/module.jpg[width=256]
 
+{nbsp} +
+
+
 * Le visuel Jeedom
+
+{nbsp} +
+
 
 image::../images/fibaro.fgms001/vuedefaut1.jpg[width=350]
 
+{nbsp} +
+
 === Résumé
+{nbsp} +
 
 Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave. En plus de la détection de mouvement, ce dispositif mesure la température et l'intensité lumineuse. Ce détecteur comporte aussi un accéléromètre intégré afin de détecter toute tentative d'altération du dispositif.
 
@@ -17,7 +32,12 @@ Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu pour 
 
 Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et les systèmes de surveillance de la sécurité.
 
+{nbsp} +
+
 === Fonctions
+
+{nbsp} +
+
 
 *	Détecteur de mouvement sans fil
 *	Détecte les mouvements à l'aide d'un capteur infrarouge passif
@@ -31,7 +51,13 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 *	Très petit, dimensions réduites
 *	Facilité d'installation sur un mur ou toute autre surface
 
+{nbsp} +
+
+
 === Caractéristiques Techniques
+
+{nbsp} +
+
 
 *	Type de module : Emetteur Z-Wave
 *	Alimentation : Pile CR123A 3,6VDC
@@ -45,7 +71,13 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 *	Température de fonctionnement : 0-40°C
 *	Certifications : LVD 2006/95/WE EMC 2004/108/WE R&TTE 1999/5/WE RoHS II
 
+{nbsp} +
+
+
 === Données du module
+
+{nbsp} +
+
 
 * Marque : Fibar Group
 * Nom : Fibaro FGMS-001 [Motion Sensor]
@@ -53,28 +85,66 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 * Type Produit : 2048
 * Produit ID : 4097
 
+{nbsp} +
+
+
 === Configuration
 
+{nbsp} +
+
+
 ==== Inclusion
+
+{nbsp} +
+
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGMS-001 [Motion Sensor] .
 
+{nbsp} +
+
+
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
+
 image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="center"]
+
+{nbsp} +
+
+
 Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant 3 fois sur le bouton d'inclusion, conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
+{nbsp} +
+
+
 image::../images/fibaro.fgms001/information.jpg[Plugin Zwave,align="center"]
+
+{nbsp} +
+
 
 ==== Commandes
 
+{nbsp} +
+
+
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
+
 
 image::../images/fibaro.fgms001/commandes.jpg[Commandes,align="center"]
 
+{nbsp} +
+
+
 [underline]#Voici la liste des commandes :#
+
+{nbsp} +
+
 
 * Présence : c'est la commande qui remontera une détection de présence
 * Température : c'est la commande qui permet de remonter la température
@@ -82,37 +152,76 @@ image::../images/fibaro.fgms001/commandes.jpg[Commandes,align="center"]
 * Sabotage : c'est la commande sabotage (elle est déclenchée en cas de vibration)
 * Batterie : c'est la commande batterie
 
+{nbsp} +
+
+
 ==== Configuration du module
+
+{nbsp} +
+
+
 [icon="../images/plugin/warning.png"]
 [WARNING]
 Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
 
+{nbsp} +
+
+
 Pour cela cliquez sur le bouton pour voir la queue zwave :
 
+{nbsp} +
+
+
 image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
+
+{nbsp} +
+
 
 Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion (l'oeil s'allume en bleu).
 Vous devriez voir la queue se vider des messages concernant le fibaro motion.
 
 Si ce n'est pas le cas ou si il reste des messages pour le fibaro motion refaite un réveil.
 
+{nbsp} +
+
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
 
 
+{nbsp} +
+
+
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
 il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
+
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
 
+{nbsp} +
+
+
 [underline]#Vous arriverez sur cette page#
+
+{nbsp} +
+
+
 
 image::../images/fibaro.fgms001/config1.jpg[Config1,align="center"]
 image::../images/fibaro.fgms001/config2.jpg[Config2,align="center"]
 image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
 
+{nbsp} +
+
+
 [underline]#Détails des paramètres :#
+
+{nbsp} +
+
+
 
 * Wakeup : c'est l'interval de réveil du module (valeur recommandée 7200)
 * 1: permet de régler la sensibilité du capteur de présence
@@ -143,34 +252,72 @@ image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
 * 87: température au dessus de laquelle la led s'allumera en rouge (lié au paramètre 81)
 * 89: permet de faire clignoter la led en bleu blanc rouge en cas de sabotage
 
+{nbsp} +
+
+
 
 ==== Groupes
 
+{nbsp} +
+
+
+
 Ce module possède trois groupes d'association, seul le troisième est indispensable.
+
+{nbsp} +
+
 
 image::../images/fibaro.fgms001/groupe.jpg[Groupe]
 
+{nbsp} +
+
+
 === Bon à savoir
 
+{nbsp} +
+
+
 ==== Spécificités
+
+{nbsp} +
+
+
 [icon="../images/plugin/tip.png"]
 [TIP]
 Ce module est très capricieux sur les wakeup et très mal configuré d'usine.
 Il est primordial de bien le réveiller après l'inclusion (plusieurs fois vallent mieux qu'une), de bien le configurer
 selon vos souhaits, et de bien le réveiller pour que la config soit prise en compte.
 
+{nbsp} +
+
+
 ==== Visuel alternatif
+
+{nbsp} +
+
 
 image::../images/fibaro.fgms001/vuewidget.jpg[width=300]
 
+{nbsp} +
+
+
 === Wakeup
+
+{nbsp} +
+
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 * appuyer 3 fois sur le bouton d'inclusion (la lumière s'allume en bleue). Même si la lumière
 s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 
+{nbsp} +
+
+
 === F.A.Q.
+
+{nbsp} +
+
 
 [panel]
 .J'ai l'impression que le module ne se réveille pas.
@@ -178,11 +325,17 @@ s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
 --
 
+{nbsp} +
+
+
 [panel]
 .Je n'arrive pas à inclure le module.
 --
 Ce module est très capricieux. Il est conseillé de faire l'inclusion au plus proche de votre box et de s'y reprendre plusieurs fois.
 --
+
+{nbsp} +
+
 
 [panel]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
@@ -190,7 +343,13 @@ Ce module est très capricieux. Il est conseillé de faire l'inclusion au plus p
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
 --
 
+{nbsp} +
+
+
 === Note importante
+{nbsp} +
+
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 [underline]#Il faut réveiller le module :#
