@@ -1,15 +1,27 @@
 :icons:
 == Swiid Interrupteur - Swiidinter
 
+{nbsp} +
+
 * Le module
+
+{nbsp} +
 
 image::../images/swiid.inter/module.jpg[width=256]
 
+{nbsp} +
+
 * Le visuel Jeedom
+
+{nbsp} +
 
 image::../images/swiid.inter/vuedefaut1.jpg[width=200]
 
+{nbsp} +
+
 === Résumé
+
+{nbsp} +
 
 SwiidInter est le premier interrupteur sur cordon dans l'environnement domotique Z-Wave qui soit suffisamment petit
 et discret pour être comparable à un interrupteur sur cordon ordinaire.
@@ -29,7 +41,11 @@ simple et rapide qui ne nécessite aucun outil spécialisé. Il doit ensuite êt
 un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule télécommande qui commande votre interrupteur SwiidInter
 à distance.
 
+{nbsp} +
+
 === Fonctions
+
+{nbsp} +
 
 * Interrupteur sur cordon utilisable à la fois manuellement (appui court) et par radio à distance (Z-Wave)
 * Utilisation en remplacement d'un interrupteur à cordon standard d'une lampe de chevet, de table ou de bureau
@@ -39,7 +55,11 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 * S'installe comme un interrupteur sur cordon ordinaire
 * Convient pour tous types d'ampoules de lampe
 
+{nbsp} +
+
 === Caractéristiques Techniques
+
+{nbsp} +
 
 * Type de module : Récepteur Z-Wave
 * Couleur : noire
@@ -55,7 +75,11 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 * Dimensions : 84 x 32 x 29 mm
 * Normes UE : EN 61058-2-1:2011 EN 55015
 
+{nbsp} +
+
 === Données du module
+
+{nbsp} +
 
 * Marque : Swiid
 * Nom : Swiidinter
@@ -63,85 +87,161 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 * Type Produit : 256
 * Produit ID : 256
 
+{nbsp} +
+
 === Configuration
 
+{nbsp} +
+
 ==== Inclusion
+
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Swiidinter.
 
+{nbsp} +
+
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="center"]
+
+{nbsp} +
+
 Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant sur le bouton à l'arrière, conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
+{nbsp} +
+
 image::../images/swiid.inter/information.jpg[Plugin Zwave,align="center"]
+
+{nbsp} +
 
 ==== Commandes
 
+{nbsp} +
+
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
 
 image::../images/swiid.inter/commandes.jpg[Commandes,align="center"]
 
+{nbsp} +
+
 [underline]#Voici la liste des commandes :#
+
+{nbsp} +
 
 * Etat : C'est la commande qui permet de connaitre le statut de la lumière
 * On : C'est la commande qui permet d'allumer la lumière
 * Off : C'est la commande qui permet d'éteindre la lumière
 
+{nbsp} +
+
 A noter que sur le dashboard toutes les infos se retrouvent sur le même icone
 
+{nbsp} +
+
 ==== Configuration du module
+
+{nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
+
+{nbsp} +
 
 [underline]#Vous arriverez sur cette page#
 
+{nbsp} +
+
 image::../images/swiid.inter/config1.jpg[Config1,align="center"]
+
+{nbsp} +
 
 Comme vous pourrez le constater il n'y a aucune configuration pour ce module.
 
 La seule configuration possible se retrouve dans l'onglet spécifique.
 
+{nbsp} +
+
 image::../images/swiid.inter/config2.jpg[Config1,align="center"]
+
+{nbsp} +
 
 [underline]#Détails du paramètre :#
 
+{nbsp} +
+
 Ce paramètre permet de choisir le comportement lorsque vous associez le swiidinter à un autre module (appui long)
+
+{nbsp} +
+
+{nbsp} +
 
 * Inactif : n'aura aucun effet sur les autres lumières
 * Uniquement Off : sera effectif uniquement pour éteindre les autres lumières
 * Uniquement On : sera effectif uniquement pour allumer les autres lumières
 * On et Off : sera effectif pour allumer et éteindre les autres lumières
 
+{nbsp} +
+
 ==== Groupes
+
+{nbsp} +
 
 Ce module possède deux groupes d'association.
 
+{nbsp} +
+
 image::../images/swiid.inter/groupe.jpg[Groupe]
 
+{nbsp} +
+
 === Associer à une autre lumière
+
+{nbsp} +
 
 Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de l'allumage d'une autre lumière, il suffit de la rajouter au groupe
 d'association 1 via l'interface groupes de Jeedom.
 
+{nbsp} +
+
 === Bon à savoir
+
+{nbsp} +
 
 ==== Spécificités
 
+{nbsp} +
+
 ==== Visuel alternatif
+
+{nbsp} +
 
 image::../images/swiid.inter/vuewidget.jpg[width=200]
 
+{nbsp} +
+
 === Wakeup
+
+{nbsp} +
 
 Pas de notion de wakeup sur ce module.
 
+{nbsp} +
+
 === F.A.Q.
+
+{nbsp} +
 
 [panel]
 .Un appui long n'allume pas ma lumière de la pièce ?
@@ -149,8 +249,12 @@ Pas de notion de wakeup sur ce module.
 Avez vous associé les deux modules et avez vous bien configuré la partie spécifique.
 --
 
+{nbsp} +
+
 [panel]
 .La lumière bleue me dérange, puis je la désactiver ?
 --
 Non. Le module ne le permet pas.
 --
+
+{nbsp} +

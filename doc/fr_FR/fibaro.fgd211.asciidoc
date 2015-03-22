@@ -1,15 +1,27 @@
 :icons:
 == Fibaro Dimmer - FGD-211
 
+{nbsp} +
+
 * Le module
+
+{nbsp} +
 
 image::../images/fibaro.fgd211/module.jpg[width=256]
 
+{nbsp} +
+
 * Le visuel Jeedom
+
+{nbsp} +
 
 image::../images/fibaro.fgd211/vuedefaut1.jpg[width=200]
 
+{nbsp} +
+
 === Résumé
+
+{nbsp} +
 
 Le micromodule variateur FGD-211 va vous permettre de contrôler une lampe ou plafonnier à distance grâce au protocole Z-Wave tout en conservant votre interrupteur existant.
 
@@ -24,7 +36,11 @@ Pour des lampes ayant une très faible consommation (lampe LED par exemple), vou
 Un contrôleur Z-Wave (télécommande, dongle ...) est nécessaire afin d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau existant.
 Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres modules, afin d'assurer une couverture totale de votre habitation.
 
+{nbsp} +
+
 === Fonctions
+
+{nbsp} +
 
 * Commandez un éclairage à distance
 * S'installe derrière un interrupteur existant
@@ -35,7 +51,11 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 * Petit, discret et esthétique
 * Facilité d'utilisation et d'installation
 
+{nbsp} +
+
 === Caractéristiques Techniques
+
+{nbsp} +
 
 * Type de module : Récepteur Z-Wave
 * Alimentation : 230V, 50 Hz
@@ -51,7 +71,11 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 * Température limite : 105°C
 * Normes : EN 55015 et EN 60669-2-1
 
+{nbsp} +
+
 === Données du module
+
+{nbsp} +
 
 * Marque : Fibar Group
 * Nom : Fibaro FGMS-001 [Motion Sensor]
@@ -59,32 +83,60 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 * Type Produit : 256
 * Produit ID : 4106
 
+{nbsp} +
+
 === Configuration
 
+{nbsp} +
+
 ==== Inclusion
+
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGD-211 [Dimmer] .
 
+{nbsp} +
+
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="center"]
+
+{nbsp} +
+
 Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant 3 fois sur le bouton d'inclusion, conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+
+{nbsp} +
 
 [icon="../images/plugin/tip.png"]
 [TIP]
 Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en faisant de nombreux aller retour sur l'interrupteur ou de nombreux appuis si vous avez un interrupteur sur bouton poussoir.
 
+{nbsp} +
+
 image::../images/fibaro.fgd211/information.jpg[Plugin Zwave,align="center"]
+
+{nbsp} +
 
 ==== Commandes
 
+{nbsp} +
+
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
 
 image::../images/fibaro.fgd211/commandes.jpg[Commandes,align="center"]
 
+{nbsp} +
+
 [underline]#Voici la liste des commandes :#
+
+{nbsp} +
 
 * Intensité : C'est la commande qui permet de régler l'intensité de la lumière
 * On : C'est la commande qui permet d'allumer la lumière
@@ -93,20 +145,34 @@ image::../images/fibaro.fgd211/commandes.jpg[Commandes,align="center"]
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même icone
 
+{nbsp} +
+
 ==== Configuration du module
+
+{nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
 
+{nbsp} +
+
 [underline]#Vous arriverez sur cette page#
+
+{nbsp} +
 
 image::../images/fibaro.fgd211/config1.jpg[Config1,align="center"]
 image::../images/fibaro.fgd211/config2.jpg[Config2,align="center"]
 image::../images/fibaro.fgd211/config3.jpg[Config3,align="center"]
 
+{nbsp} +
+
 [underline]#Détails des paramètres :#
+
+{nbsp} +
 
 * 1: Fonctions ALL ON / ALL OFF : utilise que si vous avez associé le FGD-211 à un autre module
 * 6: permet de dire comment les informations sont envoyées au groupe d'association 1
@@ -128,35 +194,64 @@ image::../images/fibaro.fgd211/config3.jpg[Config3,align="center"]
 * 39: durée de l'alarme défini en paramètre 30
 * 41: permet d'activer ou non la fonction d'Activations des scènes
 
+{nbsp} +
+
 ==== Groupes
+
+{nbsp} +
 
 Ce module possède trois groupes d'association, seul le troisième est indispensable.
 
+{nbsp} +
+
 image::../images/fibaro.fgd211/groupe.jpg[Groupe]
+
+{nbsp} +
 
 === Bon à savoir
 
+{nbsp} +
+
 ==== Spécificités
+
+{nbsp} +
+
 [icon="../images/plugin/caution.png"]
 [CAUTION]
 Le paramètre le plus important de la configuration est le 14. Il permet de choisir le type d'interrupteur utilisé. Par défaut le type est défini sur
 monostable.
 
+{nbsp} +
+
 Si vous voulez exclure/inclure le module sans démonter votre interrupteur, vous pouvez appuyer plusieurs fois sur votre interrupteur (ou faire des allers retours en cas
 d'interrupteur bi stable)
 
+{nbsp} +
+
 ==== Visuel alternatif
+
+{nbsp} +
 
 image::../images/fibaro.fgd211/vuewidget.jpg[width=200]
 
+{nbsp} +
+
 === Wakeup
+
+{nbsp} +
 
 Pas de notion de wakeup sur ce module.
 
+{nbsp} +
+
 === F.A.Q.
+
+{nbsp} +
 
 [panel]
 .Suis je obligé de démonter ma prise pour l'inclure ou l'exclure.
 --
 Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois sur l'interrupteur.
 --
+
+{nbsp} +

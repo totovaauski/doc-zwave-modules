@@ -1,8 +1,15 @@
 == Fibaro FGRM-222 "Volet roulant"
 
+{nbsp} +
+
 image::../images/fibaro.fgrm222/module.jpg[width=256]
 
+{nbsp} +
+
 === Résumé
+
+{nbsp} +
+
 Le micromodule FGRM-222 va vous permettre de gérer les motorisations de volet à butée électronique, les stores vénitiens ou en encore les portes de garage grâce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.
 
 De plus, ce micromodule est capable de transmettre la consommation électrique instantanée (W) et cumulée (KWh) de l'équipement qui lui est rattaché.
@@ -13,8 +20,13 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 
 Note : Ce module nécessite le neutre pour fonctionner.
 
+{nbsp} +
+
 
 === Fonctions
+
+{nbsp} +
+
 * Commandez vos stores ou volets roulants à distance
 * Compatible avec BSO et store vénitien avec positionnement des lamelles
 * S'installe derrière un interrupteur existant
@@ -27,7 +39,12 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Facilité d'utilisation et d'installation
 
 
+{nbsp} +
+
 === Caractéristiques Techniques
+
+{nbsp} +
+
 * Type de module : Récepteur Z-Wave
 * Alimentation : 230V, 50 Hz
 * Consommation électrique : < 0,8W
@@ -42,33 +59,66 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Normes : LVD (2006/95/EC), EMC (2004/10B/EC), R&TTE(1999/5/EC)
 
 
+{nbsp} +
+
 === Données du module
+
+{nbsp} +
+
 * Marque : Fibar Group
 * Nom : Fibaro FGRM-222
 * Fabricant ID : 271
 * Type Produit : 769
 * Produit ID : 4097
 
+{nbsp} +
+
 
 === Configuration
 
+{nbsp} +
+
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
+
+{nbsp} +
+
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
+{nbsp} +
+
 image::../images/fibaro.fgrm222/information.jpg[Plugin Zwave]
+
+{nbsp} +
+
 Une fois le module reconnu, il est nécessaire d’effectuer la configuration de celui-ci en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
+
+{nbsp} +
+
 === Paramètres de base
+
+{nbsp} +
 
 image::../images/fibaro.fgrm222/configuration.jpg[Configuration plugin Zwave]
 
+{nbsp} +
+
 === Important
+
+{nbsp} +
+
 IMPORTANT:
 Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de forcer l'étalonnage de l'equipement (paramètre 29 à "Oui") et le positionnement doit être actif (paramètre 10 aux valeurs "Active direct", "Active vénitien" ou "Active porte").
 A la fin de l’étalonnage, il faut cliquer sur le bouton "Renvoyer commande(s) de configuration"
+
+{nbsp} +
 
 image::../images/plugin/bouton_renvoyer_cmd.jpg[Renvoyer commande(s) de configuration plugin Zwave]

@@ -1,15 +1,27 @@
 :icons:
 == Fibaro Détecteur d'ouverture - FGK-101
 
+{nbsp} +
+
 * Le module
+
+{nbsp} +
 
 image::../images/fibaro.fgk101-DS18B20/module.jpg[width=256]
 
+{nbsp} +
+
 * Le visuel Jeedom
+
+{nbsp} +
 
 image::../images/fibaro.fgk101-DS18B20/vuedefaut1.jpg[width=350]
 
+{nbsp} +
+
 === Résumé
+
+{nbsp} +
 
 Ce détecteur alimenté par pile et compatible Z-Wave dispose d'un capteur reed, un interrupteur de proximité à fonctionnement
 magnétique, qui permet de détecter l'ouverture d'une porte ou d'une fenêtre lorsque les deux éléments sont éloignés.
@@ -26,7 +38,11 @@ de fumée, de gaz ou de monoxyde de carbone, etc.
 Un contrôleur Z-Wave (télécommande, dongle ...) est nécessaire afin d'intégrer ce détecteur dans votre réseau si vous avez
 déjà un réseau existant.
 
+{nbsp} +
+
 === Fonctions
+
+{nbsp} +
 
 * Détecteur d'ouverture
 * Bouton pour inclure/exclure le détecteur
@@ -37,7 +53,11 @@ déjà un réseau existant.
 * Très petit, dimensions réduites
 * Facilité d'utilisation et d'installation
 
+{nbsp} +
+
 === Caractéristiques Techniques
+
+{nbsp} +
 
 * Type de module : Emetteur Z-Wave
 * Couleur : Blanc
@@ -47,7 +67,11 @@ déjà un réseau existant.
 * Dimensions: 76 x 17 x 19 mm
 * Température de fonctionnement : 0-40°C
 
+{nbsp} +
+
 === Données du module
+
+{nbsp} +
 
 * Marque : Fibar Group
 * Nom : Fibaro FGK-101 avec sonde de température (DS18B20)
@@ -55,63 +79,113 @@ déjà un réseau existant.
 * Type Produit : 1792
 * Produit ID : 4096
 
+{nbsp} +
+
 === Configuration
 
+{nbsp} +
+
 ==== Inclusion
+
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGK-101 avec sonde de température (DS18B20) .
 
+{nbsp} +
+
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="center"]
+
+{nbsp} +
+
 Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant 3 fois sur le bouton d'inclusion, conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
+{nbsp} +
+
 image::../images/fibaro.fgk101-DS18B20/information.jpg[Plugin Zwave,align="center"]
+
+{nbsp} +
 
 ==== Commandes
 
+{nbsp} +
+
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
 
 image::../images/fibaro.fgk101-DS18B20/commandes.jpg[Commandes,align="center"]
 
+{nbsp} +
+
 [underline]#Voici la liste des commandes :#
+
+{nbsp} +
 
 * Etat : c'est la commande qui remontera l'état ouvert ou fermé du module
 * Température : c'est la commande qui permet de remonter la température mesurée par une éventuelle sonde one wire
 * Entrée Contact : c'est la commande qui permet de remonter l'état d'un éventuel contact sec relié sur le bornier
 
+{nbsp} +
+
 ==== Configuration du module
+
+{nbsp} +
+
 [icon="../images/plugin/warning.png"]
 [WARNING]
 Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
 
+{nbsp} +
+
 Pour cela cliquez sur le bouton pour voir la queue zwave :
 
+{nbsp} +
+
 image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
+
+{nbsp} +
 
 Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion (4 fois peuvent être nécessaire).
 Vous devriez voir la queue se vider des messages concernant le fibaro motion.
 
 Si ce n'est pas le cas ou si il reste des messages pour le module refaite un réveil.
 
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
 
+{nbsp} +
 
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
 il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
 
+{nbsp} +
+
 [underline]#Vous arriverez sur cette page#
+
+{nbsp} +
 
 image::../images/fibaro.fgk101-DS18B20/config1.jpg[Config1,align="center"]
 image::../images/fibaro.fgk101-DS18B20/config2.jpg[Config2,align="center"]
 
+{nbsp} +
+
 [underline]#Détails des paramètres :#
+
+{nbsp} +
 
 * Wakeup : c'est l'interval de réveil du module (valeur recommandée 7200)
 * 1: permet de régler le délai d'annulation de l'alarme de l'entrée in (contact sec)
@@ -124,30 +198,55 @@ image::../images/fibaro.fgk101-DS18B20/config2.jpg[Config2,align="center"]
 * 13: permet de régler l'envoi en mode broadcast des signaux de températures et de tamper
 * 14: permet d'acitver la fonctionnalité d'activation de scènes
 
+{nbsp} +
+
 ==== Groupes
+
+{nbsp} +
 
 Ce module possède trois groupes d'association, seul le troisième est indispensable.
 
+{nbsp} +
+
 image::../images/fibaro.fgk101-DS18B20/groupe.jpg[Groupe]
+
+{nbsp} +
 
 === Bon à savoir
 
+{nbsp} +
+
 ==== Spécificités
+
+{nbsp} +
+
 [icon="../images/plugin/tip.png"]
 [TIP]
 Ce module est très capricieux sur les wakeup et nécessite une très forte proximité avec le contrôleur lors de son inclusion
 
+{nbsp} +
+
 ==== Visuel alternatif
+
+{nbsp} +
 
 image::../images/fibaro.fgk101-DS18B20/vuewidget.jpg[width=300]
 
+{nbsp} +
+
 === Wakeup
+
+{nbsp} +
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 * appuyer 3/4 fois sur le bouton d'inclusion. Il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 
+{nbsp} +
+
 === F.A.Q.
+
+{nbsp} +
 
 [panel]
 .J'ai l'impression que le module ne se réveille pas.
@@ -155,11 +254,15 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 Ce module se réveille en appuyant 3 fois sur un des boutons tampers. Mais il faut que l'autre bouton tamper soit enfoncé.
 --
 
+{nbsp} +
+
 [panel]
 .Je n'arrive pas à inclure le module.
 --
 Ce module à une portée très faible. Il est conseillé de faire l'inclusion au plus proche de votre box.
 --
+
+{nbsp} +
 
 [panel]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
@@ -167,7 +270,12 @@ Ce module à une portée très faible. Il est conseillé de faire l'inclusion au
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
 --
 
+{nbsp} +
+
 === Note importante
+
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 [underline]#Il faut réveiller le module :#

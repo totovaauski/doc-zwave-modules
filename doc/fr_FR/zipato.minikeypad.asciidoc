@@ -1,15 +1,27 @@
 :icons:
 == Zipato miniKeypad RFID
 
+{nbsp} +
+
 * Le module
+
+{nbsp} +
 
 image::../images/zipato.minikeypad/module.jpg[width=256]
 
+{nbsp} +
+
 * Le visuel Jeedom
+
+{nbsp} +
 
 image::../images/zipato.minikeypad/vuedefaut1.jpg[width=256]
 
+{nbsp} +
+
 === Résumé
+
+{nbsp} +
 
 Contrôlez votre système de sécurité grâce à ce mini clavier mural Zipato !
 
@@ -17,7 +29,11 @@ Avec ce clavier RFID compatible Z-Wave, vous allez pouvoir activer ou désactive
 Les touches "Home" et "Away" vous permettent d'armer/désarmer le système de sécurité et/ou exécuter des scénarios domotique rapidement.
 En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID devant le clavier pour armer/désarmer le système. Le clavier transmet à votre contrôleur domotique l'identifiant du badge qui a été reconnu. Vous pouvez ainsi facilement créer des scénarios en fonction de la personne qui a utilisé son badge.
 
+{nbsp} +
+
 === Fonctions
+
+{nbsp} +
 
 *	Clavier à code et RFID
 *	Supporte la technologie Z-Wave
@@ -28,7 +44,11 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 *	Indicateur LED pour confirmer chaque action
 *	Buzzer intégré pour indication sonore de l'armement/désarmement de l'alarme par exemple
 
+{nbsp} +
+
 === Caractéristiques Techniques
+
+{nbsp} +
 
 *	Type : Esclave Z-Wave
 *	Alimentation : 2x AA 1,5V batteries
@@ -43,7 +63,11 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 *	Dimensions : 62 x 62 x 20 mm
 *	Certifications :	Sécurité : UL EMC : FCC, CE RoHS
 
+{nbsp} +
+
 === Données du module
+
+{nbsp} +
 
 * Marque : Zipato
 * Nom : Zipato Mini Keypad RFID
@@ -51,28 +75,54 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 * Type Produit : 24881
 * Produit ID : 17665
 
+{nbsp} +
+
 === Configuration
 
+{nbsp} +
+
 ==== Inclusion
+
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Zipato Mini Keypad RFID .
 
+{nbsp} +
+
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_inclusion.jpg[align="center"]
+
+{nbsp} +
+
 Une fois Jeedom en mode inclusion. Mettez le module en inclusion (conformément à sa documentation papier)
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
+{nbsp} +
+
 image::../images/zipato.minikeypad/information.jpg[align="center"]
+
+{nbsp} +
 
 ==== Commandes
 
+{nbsp} +
+
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
 
 image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 
+{nbsp} +
+
 [underline]#Voici la liste des commandes :#
+
+{nbsp} +
 
 * Evènement : c'est la commande qui remontera le home/away (5 pour away 6 pour home) (commande non affichée mais à utiliser comme déclencheur de scénario et qui permettra de savoir quel bouton à été appuyé)
 * Action : la même chose qu'au dessus mais sous forme de texte (affiché par défaut sur le dashboard)
@@ -81,36 +131,63 @@ image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 * Code : affiche le code du badge ou du clavier lorsque le code saisi n'est pas dans une des mémoires
 * Batterie : c'est la commande batterie
 
+{nbsp} +
+
 ==== Configuration du module
+
+{nbsp} +
+
 [icon="../images/plugin/warning.png"]
 [WARNING]
 Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et
 de s'assurer que la queue zwave est vide.
 
+{nbsp} +
+
 Pour cela cliquez sur le bouton pour voir la queue zwave :
 
+{nbsp} +
+
 image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
+
+{nbsp} +
 
 Pour réveiller le module il faut appuyer sur le tamper 1 seconde puis le relacher.
 Vous devriez voir la queue se vider des messages concernant le miniKeypad.
 
+{nbsp} +
+
 Si ce n'est pas le cas ou si il reste des messages pour le miniKeypad refaite un réveil.
+
+{nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
 
+{nbsp} +
+
 
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
 il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_configuration.jpg[align="center"]
+
+{nbsp} +
 
 [underline]#Vous arriverez sur cette page#
 
+{nbsp} +
+
 image::../images/zipato.minikeypad/config1.jpg[align="center"]
 
+{nbsp} +
+
 [underline]#Détails des paramètres :#
+
+{nbsp} +
 
 * Wakeup : c'est l'interval de réveil du module (valeur recommandée 7200)
 * 1: permet de remettre la config par défaut (déconseillé)
@@ -119,16 +196,29 @@ image::../images/zipato.minikeypad/config1.jpg[align="center"]
 * 4: nombre de bips par seconde (ne pas modifier n'a pas d'effet)
 * 5: mode de fonctionnement : normal ou mode toujours reveillé (déconseillé car très très consommateur de piles)
 
+{nbsp} +
+
 ==== Groupes
+
+{nbsp} +
 
 Ce module possède un seul groupe d'association.
 
+{nbsp} +
+
 ==== Les badges /codes
+
+{nbsp} +
 
 Dans la page de configuration il y a un onglet spécifique. Celui-ci permet de rajouter des codes.
 Vous y verrez un tableau.
 
+{nbsp} +
+
 image::../images/zipato.minikeypad/config2.jpg[align="center"]
+
+{nbsp} +
+
 * Ce tableau vous permet de visualiser les mémoires occupées sur votre clavier
 * Pour enregistrer un nouveau code cliquez sur le bouton Vert sur la mémoire désirée et suivez les étapes
 * Le zipato ne permet pas de supprimer une mémoire, cependant vous pouvez remplacer le code d'une mémoire existante
@@ -137,40 +227,73 @@ image::../images/zipato.minikeypad/config2.jpg[align="center"]
 * Pour vider toutes vos mémoires, vous pouvez exclure et inclure le module
 
 
+{nbsp} +
+
 === Exemples d'utilisation
 
+{nbsp} +
+
 image::../images/zipato.minikeypad/exemple.jpg[align="center"]
+
+{nbsp} +
+
 L'élément déclencheur est la commande évènement, en effet celle-ci est mise à jour uniquement lorsqu'un code/badge valide à été présenté.
 Si la valeur est 6 (home) on désactives l'alarme
 Sinon (forcément 5) on l'active.
 
+{nbsp} +
+
 Il est aussi possible de faire des actions différentes en fonction du badge ou du code puisque la valeur dernier badge vous donnera la mémoire concernée par l'action.
+
+{nbsp} +
 
 === Bon à savoir
 
+{nbsp} +
+
 ==== Spécificités
 
+{nbsp} +
+
 Le keypad envoit les infos de deux manières :
+
+{nbsp} +
 
 * le code est dans la mémoire, dans ce cas il envoit la mémoire (dernier badge), l'action et l'évènement (home/away)
 * le code n'est pas dans la mémoire, il envoit le code dans la commande code.
 * les commandes dernier badge et action seront vides tant qu'un badge/code n'aura pas été mémorisé et utilisé
 
+{nbsp} +
+
 Le keypad lit les codes/badges de deux manières :
+
+{nbsp} +
 
 * lorsque vous appuyez sur home/away pendant les une à deux premières secondes si vous commencez à taper un code, il lira ce code
 * si rien n'est fait dans les 1 à 2 premières secondes, il se met en mode lecture de badge RFID (lumière rouge allumée). A ce moment là il peut lire un badge, pas avant.
 
+{nbsp} +
+
 ==== Visuel alternatif
+
+{nbsp} +
 
 === Wakeup
 
+{nbsp} +
+
 Pour réveiller ce module il y a deux façons de procéder :
+
+{nbsp} +
 
 * appuyer sur le bouton tamper puis relacher au bout de 1 à 2 secondes
 * appuyer sur home un chiffre au hasard et enter
 
+{nbsp} +
+
 === F.A.Q.
+
+{nbsp} +
 
 [panel]
 .J'ai l'impression que le module ne se réveille pas.
@@ -178,13 +301,20 @@ Pour réveiller ce module il y a deux façons de procéder :
 Ce module se réveille soit en appuyant sur le bouton tamper et en le relachant. Il peut aussi se réveiller en appuyant sur Home puis 1 puis enter.
 --
 
+{nbsp} +
+
 [panel]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
 --
 
+{nbsp} +
+
 === Note importante
+
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 [underline]#Il faut réveiller le module :#

@@ -1,15 +1,27 @@
 :icons:
 == Fibaro FGSD-002 "Smoke Sensor 2"
 
+{nbsp} +
+
 * Le module
+
+{nbsp} +
 
 image::../images/fibaro.fgsd102/module.jpg[width=256]
 
+{nbsp} +
+
 * Le visuel jeedom
+
+{nbsp} +
 
 image::../images/fibaro.fgsd102/vuedefaut1.jpg[width=350]
 
+{nbsp} +
+
 === Résumé
+
+{nbsp} +
 
 Doté de lignes douces, d'une surface polie et d'une petite taille, ce détecteur de fumée vous permettra d’être alerté d’une menace avec des Leds RGB multi-couleur et une sirène intégrée. Le grand format de la grille permet de détecter la plus petite quantité de fumée afin d’obtenir une réaction rapide. Il trouvera ainsi très facilement sa place dans votre domicile pour préserver la sécurité de toute la famille.
 
@@ -17,7 +29,11 @@ Le détecteur de fumée Fibaro FGSD-002 est un Détecteur Avertisseur Autonome d
 
 Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibaro ont décidé d'inclure une protection supplémentaire dans leur détecteur de fumée sous la forme d'un capteur de température. Si la quantité de fumée n'est pas suffisante pour déclencher l'alarme, l'appareil sera toujours en mesure de détecter une menace en détectant un changement rapide de la température causée par le feu. Un changement rapide de la température ou une augmentation jusqu'à 54°C est suffisant pour que le capteur de fumée détecte une menace et le signale aux habitants de la maison. Seul ce type de capteur de fumée offre une efficacité élevée, indépendamment de ce qui brûle.
 
+{nbsp} +
+
 === Fonctions
+
+{nbsp} +
 
 * Détecteur de fumée Z-Wave
 * Alimenté sur batterie
@@ -31,7 +47,11 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 * Compatible Z-Wave Plus
 * Installation très simple - il suffit de l'installer dans un endroit ou il y a un risque de feu
 
+{nbsp} +
+
 === Caractéristiques Techniques
+
+{nbsp} +
 
 * Type de module : Emetteur Z-Wave
 * Alimentation : Batterie Lithium 3V CR123A
@@ -48,7 +68,11 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 * Normes : EMC 2004/108/EC et R&TTE 199/5/WE
 * Certifications : EN 14604:2005
 
+{nbsp} +
+
 === Données du module
+
+{nbsp} +
 
 * Marque : Fibar Group
 * Nom : Fibaro Smoke Sensor FGSD-002
@@ -56,62 +80,113 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 * Type Produit : 3074
 * Produit ID : 4098
 
+{nbsp} +
+
 === Configuration
 
+{nbsp} +
+
 ==== Inclusion
+
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGSD-002 "Smoke Sensor 2".
+
+{nbsp} +
+
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
+
+{nbsp} +
 Une fois Jeedom en mode inclusion. Cliquez 3 fois sur le bouton central du module (conformément à sa documentation papier).
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
+{nbsp} +
+
 image::../images/fibaro.fgsd102/information.jpg[Plugin Zwave]
+
+{nbsp} +
 
 ==== Commandes
 
+{nbsp} +
+
 Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
 
 image::../images/fibaro.fgsd102/commandes.jpg[Commandes]
 
+{nbsp} +
+
 [underline]#Voici la liste des commandes :#
+
+{nbsp} +
 
 * Fumées : c'est la commande d'alerte du module (pour la fumée, la chaleur ...)
 * Température : c'est la commande de mesure de la température
 * Sabotage : c'est la commande de sabotage. Elle signale l'ouverture du boitier
 * Batterie : c'est la commande batterie
 
+{nbsp} +
+
 ==== Configuration du module
+
+{nbsp} +
+
 [icon="../images/plugin/warning.png"]
 [WARNING]
 Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
 
+{nbsp} +
+
 Pour cela cliquez sur le bouton pour voir la queue zwave :
 
+{nbsp} +
+
 image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
+
+{nbsp} +
 
 Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion.
 Vous devriez voir la queue se vider des messages concernant le fgsd002.
 
 Si ce n'est pas le cas ou si il reste des messages pour le fgsd002 refaite un réveil.
 
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
 
+{nbsp} +
+
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
 
+{nbsp} +
+
 [underline]#Vous arriverez sur cette page#
+
+{nbsp} +
 
 image::../images/fibaro.fgsd102/config1.jpg[Config1]
 image::../images/fibaro.fgsd102/config2.jpg[Config2]
 
+{nbsp} +
+
 [underline]#Détails des paramètres :#
+
+{nbsp} +
 
 * Wakeup : c'est l'interval de réveil du module (valeur recommandée 21600)
 * 1: permet de régler la sensibilité de la détection de fumée
@@ -128,25 +203,47 @@ image::../images/fibaro.fgsd102/config2.jpg[Config2]
 * 31: intervalle de signalisation des pics de températures
 * 32: intervalle de signal si perte de Zwave
 
+{nbsp} +
+
 ==== Groupes
+
+{nbsp} +
 
 Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé à minima aux groupes 1 4 et 5:
 
+{nbsp} +
+
 image::../images/fibaro.fgsd102/groupe.jpg[Groupe]
+
+{nbsp} +
 
 === Bon à savoir
 
+{nbsp} +
+
 ==== Spécificités
+
+{nbsp} +
 
 ==== Visuel alternatif
 
+{nbsp} +
+
 image::../images/fibaro.fgsd102/widget1.jpg[width=350]
+
+{nbsp} +
 
 === Wakeup
 
+{nbsp} +
+
 Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
+{nbsp} +
+
 === F.A.Q.
+
+{nbsp} +
 
 [panel]
 .J'ai l'impression que le module ne se réveille pas.
@@ -154,13 +251,20 @@ Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
 --
 
+{nbsp} +
+
 [panel]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
 --
 
+{nbsp} +
+
 === Note importante
+
+{nbsp} +
+
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 [underline]#Il faut réveiller le module :#

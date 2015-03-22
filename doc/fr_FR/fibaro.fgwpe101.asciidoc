@@ -1,20 +1,37 @@
 == Fibaro FGRWPE-101 "Wall plug"
 
+{nbsp} +
+
 image::../images/fibaro.fgwpe101/module.jpg[width=256]
 
+{nbsp} +
+
 === Résumé
+
+{nbsp} +
+
 Le Wall Plug Fibaro est un récepteur-prise-transmetteur universel sous forme d`un adaptateur pour brancher celui-ci sur une prise murale au réseau électrique, compatible avec le standard Z-Wave.
 Il permet de gérer n'importe quel dispositif ayant une puissance maximale de 2,5kW, tout en intégrant la fonctionnalité de mesurer la puissance active du courant et la consommation d’énergie des dispositifs.
 Ce module est équipé d`un anneau lumineux avec des LEDs signalant son état et la consommation d’énergie de tout dispositif branché.
 Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien depuis n'importe quel contrôleur compatible avec le standard Z-Wave
 
+{nbsp} +
+
 === Fonctions
+
+{nbsp} +
+
 * Contrôlé depuis un contrôleur compatible avec le standard Z-Wave.
 * Contrôle à micro-chips.
 * Élément d`exécution: relais.
 * Mesure de puissance active du courant et de l`énergie électrique du récepteur.
 
+{nbsp} +
+
 === Caractéristiques Techniques
+
+{nbsp} +
+
 * Type de module : Récepteur Z-Wave
 * Alimentation : 230V, 50Hz
 * Consommation électrique : jusqu'à 0.8W
@@ -26,22 +43,45 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 * Température limite : 105°C
 * Normes : LVD (2006/95/WE), EMC (2004/108/EC), R&TTE(1999/5/WE)
 
+{nbsp} +
+
 === Données du module
+
+{nbsp} +
+
 * Marque : Fibar Group
 * Nom : Wall Plug FGWPE-101
 * Fabricant ID : 271
 * Type Produit : 1536
 * Produit ID : 4096
 
+{nbsp} +
+
 === Configuration
+
+{nbsp} +
 
 Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
+
+{nbsp} +
+
 La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
 
+{nbsp} +
+
 image::../images/fibaro.fgwpe101/information.jpg[Plugin Zwave]
+
+{nbsp} +
+
 Une fois le module reconnu, il est nécessaire d’effectuer la configuration de celui-ci en fonction de votre installation.
 Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
 
+{nbsp} +
+
 image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
+
+{nbsp} +
