@@ -278,7 +278,7 @@ Le keypad lit les codes/badges de deux manières :
 
 {nbsp} +
 
-image::../images/zipato.minikeypad/vuewidget.jpg[width=200]
+image::../images/zipato.minikeypad/vuewidget.jpg[width=300]
 
 {nbsp} +
 
