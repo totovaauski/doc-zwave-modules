@@ -30,7 +30,7 @@ Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave. En pl
 
 Le détecteur de mouvement Fibaro est alimenté par batterie et est conçu pour être installé rapidement et facilement sur n'importe quelle surface. Le voyant LED signale le mouvement, le niveau de température, le mode de fonctionnement et peut être utilisé pour voir si l'appareil est dans le réseau Z-Wave.
 
-Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et les systèmes de surveillance de la sécurité.
+Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et les systèmes de surveillance et/ou de sécurité.
 
 {nbsp} +
 
@@ -44,7 +44,7 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 *	Mesure de la température
 *	Mesure de l'intensité lumineuse
 *	Protection contre l'effraction et le vol
-*	Alertes de mouvement et de température signalées par le clignotement de la diode LED
+*	Alertes de mouvement et de température signalé par le clignotement de la diode LED
 *	Mode de détection de tremblement de terre
 *	Bouton pour inclure/exclure le détecteur
 *	Détection pile faible
@@ -236,7 +236,7 @@ image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
 * 16: idem
 * 20: sensibilité du capteur gyroscopique (valeur conseillée 15)
 * 22: temps après lequel le capteur enverra le signal "plus de sabotage" (valeur conseillée 30)
-* 24: permet de dire comment le sabotage est notifiée (IMPORTANT : valeur conseillée : Capteur anti-sabotage notifié à SensorAlarm command class/ Annulation est notifiée après le temps défini en paramètre 22 )
+* 24: permet de dire comment le sabotage est notifié (IMPORTANT : valeur conseillée : Capteur anti-sabotage notifié à SensorAlarm command class/ Annulation est notifié après le temps défini en paramètre 22 )
 * 26: à modifier seulement si vous savez pourquoi vous le faites
 * 40: permet de dire de combien doit être modifiée la valeur de luminosité pour être envoyée (valeur conseillée 50)
 * 42: permet de donner une durée minimum entre deux envois successifs même si la luminosité n'a pas changée (valeur conseillée 3600)
@@ -285,7 +285,7 @@ image::../images/fibaro.fgms001/groupe.jpg[Groupe]
 [icon="../images/plugin/tip.png"]
 [TIP]
 Ce module est très capricieux sur les wakeup et très mal configuré d'usine.
-Il est primordial de bien le réveiller après l'inclusion (plusieurs fois vallent mieux qu'une), de bien le configurer
+Il est primordial de bien le réveiller après l'inclusion (plusieurs fois valent mieux qu'une), de bien le configurer
 selon vos souhaits, et de bien le réveiller pour que la config soit prise en compte.
 
 {nbsp} +
