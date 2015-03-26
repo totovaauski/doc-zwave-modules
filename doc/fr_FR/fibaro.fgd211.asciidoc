@@ -178,13 +178,13 @@ image::../images/fibaro.fgd211/config3.jpg[Config3,align="center"]
 * 6: permet de dire comment les informations sont envoyées au groupe d'association 1
 * 7: permet de vérifier ou non le statut du module associé avant d'envoyer une commande
 * 8: permet de définir le pourcentage de variation (auto)
-* 9: durée de la variation entre les deux extêmes (manuel)
-* 10: durée de la variation entre les deux extêmes (auto)
+* 9: durée de la variation entre les deux extrêmes (manuel)
+* 10: durée de la variation entre les deux extrêmes (auto)
 * 11: permet de définir le pourcentage de variation (manuel)
 * 12: permet de définir le niveau maximal autorisé
 * 13: permet de définir le niveau minimal autorisé
 * 14: REGLAGE IMPORTANT : permet de choisir entre interrupteur BISTABLE ou MONOSTABLE (bouton poussoir)
-* 15: active l'option permettant de mettre la luminosité au maximum sur doubles appuis (ou aller retour sur bistable)
+* 15: active l'option permettant de mettre la luminosité au maximum sur double appui (ou aller retour sur bistable)
 * 16: option permettant d'activer la mémorisation du dernier état
 * 17: permet de choisir entre le mode va et vient et le mode télérupteur
 * 18: permet de synchroniser le niveau de variation aux autres variateurs associés
