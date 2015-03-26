@@ -27,10 +27,10 @@ Ce détecteur alimenté par pile et compatible Z-Wave dispose d'un capteur reed,
 magnétique, qui permet de détecter l'ouverture d'une porte ou d'une fenêtre lorsque les deux éléments sont éloignés.
 
 Le dispositif est constitué d'une partie avec un aimant (la partie mobile), fixé sur la porte ou la fenêtre, ainsi que de
-l'unité principal positionné sur la partie fixe de la fenêtre/porte avec des vis ou un adhesif. Lorsque les deux parties ne
+l'unité principal positionné sur la partie fixe de la fenêtre/porte avec des vis ou un adhésif. Lorsque les deux parties ne
 sont plus en face, un signal radio Z-Wave est automatiquement envoyé.
 
-De plus, ce détecteur dispose d'une entrée analogique permettant d'y connecter une sonde de température 1-WireDS18B20.
+De plus, ce détecteur dispose d'une entrée analogique permettant d'y connecter une sonde de température 1-Wire DS18B20.
 Ce détecteur dispose aussi d'une entrée filaire, il peut ainsi être utilisé comme un transmetteur universel : laissez de
 côté son contact magnétique, et reliez ses entrées à vis à tout détecteur (normalement fermé) de votre choix tel qu'un détecteur
 de fumée, de gaz ou de monoxyde de carbone, etc.
