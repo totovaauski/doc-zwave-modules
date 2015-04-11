@@ -254,6 +254,8 @@ Pas de notion de wakeup pour ce module.
 
 {nbsp} +
 
- Ce module est sur batterie et je peux pas régler le wakeup !!
-
+[panel,primary]
+.Ce module est sur batterie et je peux pas régler le wakeup !!
+--
 Pas de notion de wakeup sur ce module lire le paragraphe spécificités.
+--
