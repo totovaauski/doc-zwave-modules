@@ -137,7 +137,7 @@ image::../images/polycontrol.polylock/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-* Etat : c'est la commande qui remontera la dernière action éxécuté (ouvrir/fermer)
+* Statut : c'est la commande qui remontera la dernière action éxécuté (ouvrir/fermer)
 * Ouvrir : c'est la commande qui permet d'ouvrir la serrure
 * Fermer : c'est la commande qui permet de fermer la serrure
 * Batterie : c'est la commande batterie
@@ -236,7 +236,7 @@ Ce module ne renvoit pas son état, si vous actionnez la serrure à la main l'é
 {nbsp} +
 
 
-image::../images/polycontrol.polylock/vuewidget.jpg[width=300]
+image::../images/polycontrol.polylock/vuewidget.jpg[width=200]
 
 {nbsp} +
 
