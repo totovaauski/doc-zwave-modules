@@ -93,8 +93,6 @@ include::template.installationzwave.asciidoc[]
 
 include::template.inclusion.asciidoc[]
 
-{nbsp} +
-
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'inclusion, conformément à sa documentation papier.
@@ -111,7 +109,7 @@ Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en fais
 
 {nbsp} +
 
-Une fois inclus vous devriez obtenir ceci :
+[underline]#Une fois inclus vous devriez obtenir ceci :
 
 {nbsp} +
 
