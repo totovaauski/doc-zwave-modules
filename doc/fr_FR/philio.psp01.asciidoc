@@ -107,6 +107,8 @@ si vous avez déjà un réseau existant.
 
 {nbsp} +
 
+include::template.installationzwave.asciidoc[]
+
 
 ==== Inclusion
 

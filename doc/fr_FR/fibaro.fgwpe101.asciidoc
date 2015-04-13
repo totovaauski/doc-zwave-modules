@@ -57,6 +57,8 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 
 {nbsp} +
 
+include::template.installationzwave.asciidoc[]
+
 === Configuration
 
 {nbsp} +

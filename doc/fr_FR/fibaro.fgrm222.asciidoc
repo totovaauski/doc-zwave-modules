@@ -73,6 +73,8 @@ Note : Ce module nécessite le neutre pour fonctionner.
 
 {nbsp} +
 
+include::template.installationzwave.asciidoc[]
+
 
 === Configuration
 

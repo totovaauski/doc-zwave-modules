@@ -89,6 +89,8 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 
 {nbsp} +
 
+include::template.installationzwave.asciidoc[]
+
 === Configuration
 
 {nbsp} +

@@ -81,6 +81,8 @@ déjà un réseau existant.
 
 {nbsp} +
 
+include::template.installationzwave.asciidoc[]
+
 === Configuration
 
 {nbsp} +

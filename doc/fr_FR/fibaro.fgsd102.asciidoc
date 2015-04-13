@@ -82,6 +82,8 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 
 {nbsp} +
 
+include::template.installationzwave.asciidoc[]
+
 === Configuration
 
 {nbsp} +

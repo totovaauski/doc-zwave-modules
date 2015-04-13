@@ -78,6 +78,8 @@ Le système Poly-Control peut être utilisé dans un environnement domestique ou
 
 {nbsp} +
 
+include::template.installationzwave.asciidoc[]
+
 
 === Configuration
 

@@ -87,6 +87,8 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 
 {nbsp} +
 
+include::template.installationzwave.asciidoc[]
+
 
 === Configuration
 
