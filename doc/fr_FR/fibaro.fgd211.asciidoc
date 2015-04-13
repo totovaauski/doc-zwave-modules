@@ -109,7 +109,7 @@ Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en fais
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :
+[underline]#Une fois inclus vous devriez obtenir ceci :#
 
 {nbsp} +
 
@@ -245,8 +245,8 @@ Pas de notion de wakeup sur ce module.
 
 [panel,primary]
 .Suis je obligé de démonter
---
-ma prise pour l'inclure ou l'exclure.
+
+[underline]#ma prise pour l'inclure ou l'exclure.#
 --
 Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois sur l'interrupteur.
 --
