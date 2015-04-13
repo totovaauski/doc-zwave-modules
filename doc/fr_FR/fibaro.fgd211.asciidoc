@@ -243,9 +243,8 @@ Pas de notion de wakeup sur ce module.
 
 {nbsp} +
 
-[panel,primary]
-.Suis je obligé de démonter
-[underline]#ma prise pour l'inclure ou l'exclure.#
+[panel,danger]
+.Suis je obligé de démonter ma prise pour l'inclure ou l'exclure.
 --
 Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois sur l'interrupteur.
 --
