@@ -91,32 +91,27 @@ include::template.installationzwave.asciidoc[]
 
 {nbsp} +
 
-==== Inclusion
+include::template.inclusion.asciidoc[]
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGD-211 [Dimmer] .
+Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'inclusion, conformément à sa documentation papier.
 
 {nbsp} +
 
-Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
-
-{nbsp} +
-
-image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="center"]
-
-{nbsp} +
-
-Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant 3 fois sur le bouton d'inclusion, conformément à sa documentation papier)
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+image::../images/fibaro.fgd211/inclusion.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
 [icon="../images/plugin/tip.png"]
 [TIP]
 Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en faisant de nombreux aller retour sur l'interrupteur ou de nombreux appuis si vous avez un interrupteur sur bouton poussoir.
+
+{nbsp} +
+
+Une fois inclus vous devriez obtenir ceci :
 
 {nbsp} +
 
