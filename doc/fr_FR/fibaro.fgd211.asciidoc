@@ -99,7 +99,7 @@ Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'i
 
 {nbsp} +
 
-image::../images/fibaro.fgd211/inclusion.jpg[Plugin Zwave,align="center"]
+image::../images/fibaro.fgd211/inclusion.jpg[width=350]
 
 {nbsp} +
 
