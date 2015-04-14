@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* Le module
+* *Le module*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/fibaro.fgsd102/module.jpg[width=256]
 
 {nbsp} +
 
-* Le visuel jeedom
+* *Le visuel jeedom*
 
 {nbsp} +
 
@@ -88,25 +88,21 @@ include::template.installationzwave.asciidoc[]
 
 {nbsp} +
 
-==== Inclusion
+include::template.inclusion.asciidoc[]
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGSD-002 "Smoke Sensor 2".
+Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton central d'inclusion, conformément à sa documentation papier.
 
 {nbsp} +
 
-Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
+image::../images/fibaro.fgsd102/inclusion.jpg[width=350]
 
 {nbsp} +
 
-image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
-
-{nbsp} +
-Une fois Jeedom en mode inclusion. Cliquez 3 fois sur le bouton central du module (conformément à sa documentation papier).
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+[underline]#Une fois inclus vous devriez obtenir ceci :#
 
 {nbsp} +
 
@@ -133,6 +129,8 @@ image::../images/fibaro.fgsd102/commandes.jpg[Commandes]
 * Fumées : c'est la commande d'alerte du module (pour la fumée, la chaleur ...)
 * Température : c'est la commande de mesure de la température
 * Sabotage : c'est la commande de sabotage. Elle signale l'ouverture du boitier
+* Alerte Test : c'est la commande qui remontera le fait que le module est en mode test
+* Alerte Chaleur : c'est la commande qui remontera une alerte chaleur (pas fiable encore)
 * Batterie : c'est la commande batterie
 
 {nbsp} +
@@ -247,7 +245,7 @@ Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 
 {nbsp} +
 
-[panel]
+[panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --
 Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
@@ -255,7 +253,7 @@ Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
 
 {nbsp} +
 
-[panel]
+[panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
