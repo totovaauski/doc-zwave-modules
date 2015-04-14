@@ -8,7 +8,7 @@ Pour ce faire, il suffit de se rendre dans le menu « Général », puis « Plug
 
 {nbsp} +
 
-image::../images/plugin/innstallationzwave1.jpg[width=256]
+image::../images/plugin/innstallationzwave1.jpg[width=180]
 
 {nbsp} +
 
