@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* Le module
+* *Le module*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/zipato.minikeypad/module.jpg[width=256]
 
 {nbsp} +
 
-* Le visuel Jeedom
+* *Le visuel Jeedom*
 
 {nbsp} +
 
@@ -83,26 +83,21 @@ include::template.installationzwave.asciidoc[]
 
 {nbsp} +
 
-==== Inclusion
+include::template.inclusion.asciidoc[]
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Zipato Mini Keypad RFID .
+Pour mettre ce module en mode inclusion il suffit d'appuyer deux secondes sur la languette métallique (la led rouge de la face avant doit clignoter deux fois) et relâcher la languette pour que l’inclusion s’opère.
 
 {nbsp} +
 
-Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
+image::../images/zipato.minikeypad//inclusion.jpg[width=350]
 
 {nbsp} +
 
-image::../images/plugin/bouton_inclusion.jpg[align="center"]
-
-{nbsp} +
-
-Une fois Jeedom en mode inclusion. Mettez le module en inclusion (conformément à sa documentation papier)
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+[underline]#Une fois inclus vous devriez obtenir ceci :#
 
 {nbsp} +
 
@@ -301,7 +296,7 @@ Pour réveiller ce module il y a deux façons de procéder :
 
 {nbsp} +
 
-[panel]
+[panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --
 Ce module se réveille soit en appuyant sur le bouton tamper et en le relachant. Il peut aussi se réveiller en appuyant sur Home puis 1 puis enter.
@@ -309,7 +304,7 @@ Ce module se réveille soit en appuyant sur le bouton tamper et en le relachant.
 
 {nbsp} +
 
-[panel]
+[panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
