@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* Le module
+* *Le module*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/swiid.inter/module.jpg[width=256]
 
 {nbsp} +
 
-* Le visuel Jeedom
+* *Le visuel Jeedom*
 
 {nbsp} +
 
@@ -95,26 +95,21 @@ include::template.installationzwave.asciidoc[]
 
 {nbsp} +
 
-==== Inclusion
+include::template.inclusion.asciidoc[]
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Swiidinter.
+Pour mettre ce module en mode inclusion  il faut appuyer sur le bouton à l'arrière, conformément à sa documentation papier
 
 {nbsp} +
 
-Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
+image::../images/swiid.inter/inclusion.jpg[width=350]
 
 {nbsp} +
 
-image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="center"]
-
-{nbsp} +
-
-Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant sur le bouton à l'arrière, conformément à sa documentation papier)
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+[underline]#Une fois inclus vous devriez obtenir ceci :#
 
 {nbsp} +
 
@@ -245,7 +240,7 @@ Pas de notion de wakeup sur ce module.
 
 {nbsp} +
 
-[panel]
+[panel,primary]
 .Un appui long n'allume pas ma lumière de la pièce ?
 --
 Avez vous associé les deux modules et avez vous bien configuré la partie spécifique.
@@ -253,7 +248,7 @@ Avez vous associé les deux modules et avez vous bien configuré la partie spéc
 
 {nbsp} +
 
-[panel]
+[panel,primary]
 .La lumière bleue me dérange, puis je la désactiver ?
 --
 Non. Le module ne le permet pas.
