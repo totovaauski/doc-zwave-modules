@@ -122,6 +122,11 @@ image::../images/fibaro.fgk101-DS18B20/commandes.jpg[Commandes,align="center"]
 * Etat : c'est la commande qui remontera l'état ouvert ou fermé du module
 * Température : c'est la commande qui permet de remonter la température mesurée par une éventuelle sonde one wire
 * Entrée Contact : c'est la commande qui permet de remonter l'état d'un éventuel contact sec relié sur le bornier
+* Batterie : c'est la commande qui permet de remonter l'état de la batterie
+
+{nbsp} +
+
+Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
 {nbsp} +
 
