@@ -25,7 +25,7 @@ Sélectionnez le plugin et installez le, ensuite, il suffit de l’activer en cl
 
 {nbsp} +
 
-image::../images/plugin/innstallationzwave3.jpg[width=756]
+image::../images/plugin/innstallationzwave3.jpg[]
 
 {nbsp} +
 
@@ -34,6 +34,6 @@ Dans le cas contraire, la configuration sera à adapter en fonction de votre typ
 
 {nbsp} +
 
-image::../images/plugin/configzwave.jpg[width=756]
+image::../images/plugin/configzwave.jpg[]
 
 {nbsp} +
