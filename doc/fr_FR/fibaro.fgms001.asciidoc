@@ -4,7 +4,7 @@
 {nbsp} +
 
 
-* Le module
+* *Le module*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/fibaro.fgms001/module.jpg[width=256]
 {nbsp} +
 
 
-* Le visuel Jeedom
+* *Le visuel Jeedom*
 
 {nbsp} +
 
@@ -94,34 +94,23 @@ include::template.installationzwave.asciidoc[]
 
 {nbsp} +
 
-
-==== Inclusion
+include::template.inclusion.asciidoc[]
 
 {nbsp} +
-
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGMS-001 [Motion Sensor] .
+Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'inclusion, conformément à sa documentation papier.
 
 {nbsp} +
 
-
-Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
-
-{nbsp} +
-
-
-image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="center"]
+image::../images/fibaro.fgms001/inclusion.jpg[width=350]
 
 {nbsp} +
 
-
-Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant 3 fois sur le bouton d'inclusion, conformément à sa documentation papier)
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+[underline]#Une fois inclus vous devriez obtenir ceci :#
 
 {nbsp} +
-
 
 image::../images/fibaro.fgms001/information.jpg[Plugin Zwave,align="center"]
 
@@ -321,7 +310,7 @@ s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
 {nbsp} +
 
 
-[panel]
+[panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --
 Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
@@ -330,7 +319,7 @@ Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
 {nbsp} +
 
 
-[panel]
+[panel,primary]
 .Je n'arrive pas à inclure le module.
 --
 Ce module est très capricieux. Il est conseillé de faire l'inclusion au plus proche de votre box et de s'y reprendre plusieurs fois.
@@ -339,7 +328,7 @@ Ce module est très capricieux. Il est conseillé de faire l'inclusion au plus p
 {nbsp} +
 
 
-[panel]
+[panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
