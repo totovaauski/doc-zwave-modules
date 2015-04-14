@@ -4,7 +4,7 @@
 {nbsp} +
 
 
-* Le module
+* *Le module*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/philio.psp01/module.jpg[width=256]
 {nbsp} +
 
 
-* Le visuel Jeedom
+* *Le visuel Jeedom*
 
 {nbsp} +
 
@@ -102,41 +102,32 @@ si vous avez déjà un réseau existant.
 
 {nbsp} +
 
+include::template.installationzwave.asciidoc[]
+
+{nbsp} +
+
 
 === Configuration
 
 {nbsp} +
 
-include::template.installationzwave.asciidoc[]
-
-
-==== Inclusion
+include::template.inclusion.asciidoc[]
 
 {nbsp} +
-
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Philio PSP01 .
+Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'inclusion, conformément à sa documentation papier.
 
 {nbsp} +
 
-
-Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
-
-{nbsp} +
-
-
-image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="center"]
+image::../images/philio.psp01/inclusion.jpg[width=350]
 
 {nbsp} +
 
-
-Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant 3 fois sur le bouton tamper, conformément à sa documentation papier)
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+[underline]#Une fois inclus vous devriez obtenir ceci :#
 
 {nbsp} +
-
 
 image::../images/philio.psp01/information.jpg[Plugin Zwave,align="center"]
 
@@ -258,8 +249,6 @@ image::../images/philio.psp01/config2.jpg[Config2,align="center"]
 
 {nbsp} +
 
-
-
 Ce module possède deux groupes d'association, seul le premier est indispensable.
 
 {nbsp} +
@@ -316,7 +305,7 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 {nbsp} +
 
 
-[panel]
+[panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --
 Ce module se réveille en appuyant sur son bouton tamper.
@@ -325,7 +314,7 @@ Ce module se réveille en appuyant sur son bouton tamper.
 {nbsp} +
 
 
-[panel]
+[panel,primary]
 .J'utilise la détection de mouvement dans mes scénarios mais le scénario est appelé plusieurs fois.
 --
 Cochez la case "Evènement sur changement".
@@ -334,7 +323,7 @@ Cochez la case "Evènement sur changement".
 {nbsp} +
 
 
-[panel]
+[panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
