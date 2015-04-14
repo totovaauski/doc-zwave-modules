@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* Le module
+* *Le module*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/fibaro.fgd211/module.jpg[width=256]
 
 {nbsp} +
 
-* Le visuel Jeedom
+* *Le visuel Jeedom*
 
 {nbsp} +
 
