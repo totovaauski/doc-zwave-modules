@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* Le module
+* *Le module*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/fibaro.fgk101-DS18B20/module.jpg[width=256]
 
 {nbsp} +
 
-* Le visuel Jeedom
+* *Le visuel Jeedom*
 
 {nbsp} +
 
@@ -87,26 +87,15 @@ include::template.installationzwave.asciidoc[]
 
 {nbsp} +
 
-==== Inclusion
-
-{nbsp} +
+include::template.inclusion.asciidoc[]
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Avant de commencer assurez vous d'avoir récupéré la configuration suivante sur le market : Fibaro FGK-101 avec sonde de température (DS18B20) .
+Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'inclusion, conformément à sa documentation papier.
 
 {nbsp} +
 
-Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
-
-{nbsp} +
-
-image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave,align="center"]
-
-{nbsp} +
-
-Une fois Jeedom en mode inclusion. Mettez le module en inclusion (en appuyant 3 fois sur le bouton d'inclusion, conformément à sa documentation papier)
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+[underline]#Une fois inclus vous devriez obtenir ceci :#
 
 {nbsp} +
 
