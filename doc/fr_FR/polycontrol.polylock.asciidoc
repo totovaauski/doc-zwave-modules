@@ -199,6 +199,19 @@ image::../images/polycontrol.polylock/groupe.jpg[Groupe]
 
 {nbsp} +
 
+=== Exemples d'utilisation
+
+{nbsp} +
+
+image::../images/polycontrol.polylock/exemple.jpg[align="center"]
+
+{nbsp} +
+
+L'élément déclencheur est la commande évènement d'un clavier zipato (cela peut être n'importe quoi d'autre).
+Si la valeur est 6 (home) on ferme la porte à clé. En effet on vient de rentrer donc on peut fermer la porte à clé.
+Sinon (forcément 5) on ouvre la porte à clé et 2 minutes après on la referme. En effet on veut sortir la porte s'ouvre et se refermera peu de temps après.
+
+{nbsp} +
 
 === Bon à savoir
 
