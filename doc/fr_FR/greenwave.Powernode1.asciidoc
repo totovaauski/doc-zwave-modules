@@ -228,7 +228,7 @@ Avez vous associé le groupe 3 du module à Jeedom .
 [panel,primary]
 .La lumière blanche me dérange, puis je la désactiver ?
 --
-Non. Le module ne le permet pas.
+Non. Le module ne le permet pas. Mettez du scotch noir dessus.
 --
 
 {nbsp} +
