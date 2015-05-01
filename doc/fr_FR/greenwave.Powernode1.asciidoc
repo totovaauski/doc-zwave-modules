@@ -128,9 +128,9 @@ image::../images/greenwave.Powernode1/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-* Etat : C'est la commande qui permet de connaitre le statut de la lumière
-* On : C'est la commande qui permet d'allumer la lumière
-* Off : C'est la commande qui permet d'éteindre la lumière
+* Etat : C'est la commande qui permet de connaitre le statut de la prise
+* On : C'est la commande qui permet d'allumer la prise
+* Off : C'est la commande qui permet d'éteindre la prise
 * Reset : C'est la commande qui permet de remettre à zéro la consommation cumulée
 * Puissance : C'est la commande qui remonte la puissance instatanée consommée
 * Conso : C'est la commande qui remonte la consommation totale
@@ -232,3 +232,5 @@ Non. Le module ne le permet pas. Mettez du scotch noir dessus.
 --
 
 {nbsp} +
+
+[small]#_@sarakha63_#

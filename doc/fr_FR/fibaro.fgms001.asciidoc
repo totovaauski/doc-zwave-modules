@@ -338,6 +338,7 @@ Ce module est un module sur batterie, la nouvelle configuration sera prise en co
 
 
 === Note importante
+
 {nbsp} +
 
 
@@ -346,3 +347,7 @@ Ce module est un module sur batterie, la nouvelle configuration sera prise en co
 [underline]#Il faut réveiller le module :#
  après son inclusion, après un changement de la configuration
 , après un changement de wakeup, après un changement des groupes d'association
+
+{nbsp} +
+
+[small]#_@sarakha63_#
