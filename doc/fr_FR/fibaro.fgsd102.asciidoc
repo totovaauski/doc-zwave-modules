@@ -82,13 +82,13 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 
 {nbsp} +
 
-include::template.installationzwave.asciidoc[]
+include::template_installationzwave.asciidoc[]
 
 === Configuration
 
 {nbsp} +
 
-include::template.inclusion.asciidoc[]
+include::template_inclusion.asciidoc[]
 
 {nbsp} +
 

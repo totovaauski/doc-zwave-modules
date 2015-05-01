@@ -102,7 +102,7 @@ si vous avez déjà un réseau existant.
 
 {nbsp} +
 
-include::template.installationzwave.asciidoc[]
+include::template_installationzwave.asciidoc[]
 
 {nbsp} +
 
@@ -111,7 +111,7 @@ include::template.installationzwave.asciidoc[]
 
 {nbsp} +
 
-include::template.inclusion.asciidoc[]
+include::template_inclusion.asciidoc[]
 
 {nbsp} +
 

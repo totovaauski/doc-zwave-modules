@@ -89,13 +89,13 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 
 {nbsp} +
 
-include::template.installationzwave.asciidoc[]
+include::template_installationzwave.asciidoc[]
 
 === Configuration
 
 {nbsp} +
 
-include::template.inclusion.asciidoc[]
+include::template_inclusion.asciidoc[]
 
 {nbsp} +
 

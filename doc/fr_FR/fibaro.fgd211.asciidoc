@@ -85,13 +85,13 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 
 {nbsp} +
 
-include::template.installationzwave.asciidoc[]
+include::template_installationzwave.asciidoc[]
 
 === Configuration
 
 {nbsp} +
 
-include::template.inclusion.asciidoc[]
+include::template_inclusion.asciidoc[]
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]

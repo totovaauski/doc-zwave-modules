@@ -77,13 +77,13 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 
 {nbsp} +
 
-include::template.installationzwave.asciidoc[]
+include::template_installationzwave.asciidoc[]
 
 === Configuration
 
 {nbsp} +
 
-include::template.inclusion.asciidoc[]
+include::template_inclusion.asciidoc[]
 
 {nbsp} +
 

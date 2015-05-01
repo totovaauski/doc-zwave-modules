@@ -84,13 +84,13 @@ Le module prise PowerNode est équipé d'une protection contre les surintensité
 
 {nbsp} +
 
-include::template.installationzwave.asciidoc[]
+include::template_installationzwave.asciidoc[]
 
 === Configuration
 
 {nbsp} +
 
-include::template.inclusion.asciidoc[]
+include::template_inclusion.asciidoc[]
 
 {nbsp} +
 
