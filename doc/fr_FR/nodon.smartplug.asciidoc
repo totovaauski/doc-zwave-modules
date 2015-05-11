@@ -203,7 +203,7 @@ Lorsque la Smart Plug détecte un retour du courant, elle désactive les apparei
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-A minima Jeedom devrait se retrouver dans les groupes 1 et
+A minima Jeedom devrait se retrouver dans les groupes 1 et 4
 {nbsp} +
 
 === Bon à savoir
