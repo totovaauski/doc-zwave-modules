@@ -284,4 +284,4 @@ Ce module est un module sur batterie, la nouvelle configuration sera prise en co
 
 {nbsp} +
 
-[small]#_@sarakha63_#
+#_@sarakha63_#

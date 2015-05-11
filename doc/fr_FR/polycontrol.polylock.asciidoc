@@ -266,4 +266,4 @@ Pas de notion de wakeup sur ce module lire le paragraphe spécificités.
 
 {nbsp} +
 
-[small]#_@sarakha63_#
+#_@sarakha63_#

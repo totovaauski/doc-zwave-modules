@@ -174,7 +174,7 @@ image::../images/nodon.smartplug/groupe.jpg[Groupe]
 
 {nbsp} +
 
-* Group 1 – Lifeline :
+* Groupe 1 – Lifeline :
 Ce groupe est généralement utilisé pour reporter des informations de la Smart Plug au Contrôleur Principal du réseau.
 
 * Groupe 2 – Suivi de l’état de la Smart Plug
@@ -201,8 +201,9 @@ Lorsque la Smart Plug détecte un retour du courant, elle désactive les apparei
 
 {nbsp} +
 
-A minima Jeedom devrait se retrouver dans les groupes 1 et 4
-
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+A minima Jeedom devrait se retrouver dans les groupes 1 et
 {nbsp} +
 
 === Bon à savoir
@@ -248,4 +249,4 @@ Avez vous bien paramétré le paramètre 2 ? Avez vous bien jeedom au moins dans
 
 {nbsp} +
 
-[small]#_@sarakha63_#
+#_@sarakha63_#
