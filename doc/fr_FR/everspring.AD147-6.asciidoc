@@ -158,7 +158,7 @@ image::../images/everspring.AD147-6/config1.jpg[Config1,align="center"]
 {nbsp} +
 
 * 1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas conseillé de changer cette valeur.
-* 2 : Ce paramètre définit le délai d'envoit cu changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
+* 2 : Ce paramètre définit le délai d'envoit du changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
 * 3 : Ce paramètre permet de définir si la prise reprendra son statut (ON ou OFF) après une reprise de courant.
 * 4 : Ce paramètre permet de définir si la prise fontionnera en mode variation ou en mode on/off
 
