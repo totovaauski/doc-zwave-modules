@@ -1,5 +1,5 @@
 :icons:
-== Noton Prise Intelligente - Smartplug
+== Nodon Prise Intelligente - Smartplug
 
 {nbsp} +
 
