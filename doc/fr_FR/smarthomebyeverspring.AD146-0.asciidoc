@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/smarthomebyeverspring.AD146-0/module.jpg[width=256]
+image::../images/smarthomebyeverspring.AD146-0/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/smarthomebyeverspring.AD146-0/module.jpg[width=256]
 
 {nbsp} +
 
-image::../images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg[width=200]
+image::../images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
@@ -86,13 +86,11 @@ contrôleur Z-Wave de votre réseau.
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -103,7 +101,7 @@ Il est important de noter que ce module se met directement en inclusion lorsqu'i
 
 {nbsp} +
 
-image::../images/smarthomebyeverspring.AD146-0/inclusion.jpg[width=350]
+image::../images/smarthomebyeverspring.AD146-0/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -147,7 +145,7 @@ A noter que sur le dashboard, les infos Etat, ON/OFF, intensité se retrouvent s
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
+Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -155,7 +153,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -207,7 +205,7 @@ A minima Jeedom devrait se retrouver dans le groupe 1
 
 {nbsp} +
 
-image::../images//smarthomebyeverspring.AD146-0/vuewidget.jpg[width=200]
+image::../images//smarthomebyeverspring.AD146-0/vuewidget.jpg[width=200,align="center"]
 
 {nbsp} +
 
