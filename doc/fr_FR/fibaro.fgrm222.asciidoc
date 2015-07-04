@@ -2,7 +2,21 @@
 
 {nbsp} +
 
-image::../images/fibaro.fgrm222/module.jpg[width=256]
+
+* *Le module*
+
+{nbsp} +
+
+image::../images/fibaro.fgrm222/module.jpg[width=256,align="center"]
+
+{nbsp} +
+
+* *Le visuel Jeedom*
+
+{nbsp} +
+
+
+image::../images/fibaro.fgrm222/vuedefaut1.jpg[width=250,align="center"]
 
 {nbsp} +
 
@@ -73,54 +87,193 @@ Note : Ce module nécessite le neutre pour fonctionner.
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
-
 === Configuration
 
 {nbsp} +
 
-Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
-image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'inclusion, conformément à sa documentation papier.
 
 {nbsp} +
 
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+image::../images/fibaro.fgrm222/inclusion.jpg[width=250,align="center"]
 
 {nbsp} +
 
-image::../images/fibaro.fgrm222/information.jpg[Plugin Zwave]
+[underline]#Une fois inclus vous devriez obtenir ceci :#
 
 {nbsp} +
 
-Une fois le module reconnu, il est nécessaire d’effectuer la configuration de celui-ci en fonction de votre installation.
-Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+image::../images/fibaro.fgrm222/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
+==== Commandes
 
 {nbsp} +
 
-=== Paramètres de base
+
+Une fois le module reconnu, les commandes associées aux modules seront disponibles.
 
 {nbsp} +
 
-image::../images/fibaro.fgrm222/configuration.jpg[Configuration plugin Zwave]
+
+image::../images/fibaro.fgrm222/commandes.jpg[Commandes,align="center"]
+image::../images/fibaro.fgrm222/commandes2.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-=== Important
+
+[underline]#Voici la liste des commandes :#
 
 {nbsp} +
 
-IMPORTANT:
+
+* Etat : C'est la commande qui permet de connaitre la position de votre volet
+* Positionnement : C'est la commande qui permet de définir le pourcentage d'ouverture
+* Up : C'est la commande qui permet d'ouvrir complétement le volet
+* Down : C'est la commande qui permet de fermer complétement le volet
+* Rafraichir : C'est la commande qui permet de redemander la position du volet
+* Puissance : Commande permettant d'avoir la consommation du module
+* Consommation : Commande permettant de connaitre la puissance instantanée utilisée par le module
+* STOP : Commande pour Stopper le mouvement du volet
+* STOP BSO : Commande pour stopper le mouvement (en mode lamelle orientable)
+* Incliner : Permet d'incliner les lamelles (mode lamelle orientable)
+* Décliner : Permet de décliner les lamelles (mode lamelle orientable)
+* Pas : Permet de définir le pas pour un appui sur Décliner ou Incliner
+
+{nbsp} +
+
+==== Configuration du module
+
+{nbsp} +
+
+Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
+il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+
+{nbsp} +
+
+
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
+
+{nbsp} +
+
+
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+
+{nbsp} +
+
+
+
+image::../images/fibaro.fgrm222/config1.jpg[Config1,align="center"]
+image::../images/fibaro.fgrm222/config2.jpg[Config2,align="center"]
+image::../images/fibaro.fgrm222/config3.jpg[Config3,align="center"]
+image::../images/fibaro.fgrm222/config4.jpg[Config4,align="center"]
+
+{nbsp} +
+
+
+[underline]#Détails des paramètres :#
+
+{nbsp} +
+
+
+
+* 1: permet de bloquer le module (pour figer un volet) (dasn el cas d'appui sur un interrupteur)
+* 2: idem mais pour les commandes zwave
+* 3: type de rapports (classique ou fibar)
+* 10: mode de fonctionnement (store venitien, volet etc...)
+* 12: durée d'un tour complet (en mode store venitien)
+* 13: permet de choisir quand les lamelles doivent revenir à leur précédente position
+* 14: permet de choisir le type d'interrupteur
+* 17: permet de choisir combien de temps après la limite définit en 18 le volet s'arrete
+* 18: puissance de sécurité pour le moteur
+* 22: NA
+* 29: permet de calibrer le volet
+* 30 à 35: permet de définir le comportement du module face aux différentes alarmes zwave
+* 40: delta de puissance pour déclencher une remontée d'infos (même en dehors de la période définie en 42)
+* 42: période de remontée d'infos
+* 43: delta d'énergie pour déclencher une remontée d'infos (même en dehors de la période définie en 42)
+* 44: permet de choisir si oui ou non la consommation et puissance doit prendre en compte celle du module lui même
+* 50: permet de choisir si le module doit envoyer les infos aux noeuds en association en mode scene ou en mode association
+
+{nbsp} +
+
+==== Groupes
+
+{nbsp} +
+
+Ce module possède 3 groupes d'association, seul le troisième est indispensable.
+
+{nbsp} +
+
+
+image::../images/fibaro.fgrm222/groupe.jpg[Groupe]
+
+{nbsp} +
+
+
+=== Bon à savoir
+
+{nbsp} +
+
+==== Reset
+
+{nbsp} +
+
+image::../images/fibaro.fgrm222/config5.jpg[Config5,align="center"]
+
+{nbsp} +
+
+Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système.
+
+{nbsp} +
+
+==== Important
+
+{nbsp} +
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
 Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de forcer l'étalonnage de l'equipement (paramètre 29 à "Oui") et le positionnement doit être actif (paramètre 10 aux valeurs "Active direct", "Active vénitien" ou "Active porte").
-A la fin de l’étalonnage, il faut cliquer sur le bouton "Renvoyer commande(s) de configuration"
 
 {nbsp} +
 
-image::../images/plugin/bouton_renvoyer_cmd.jpg[Renvoyer commande(s) de configuration plugin Zwave]
+==== Visuel alternatif
+
+{nbsp} +
+
+
+image::../images/fibaro.fgrm222/vuewidget.jpg[width=250,align="center"]
+
+{nbsp} +
+
+
+=== Wakeup
+
+{nbsp} +
+
+Pas de notion de wakeup sur ce module.
+
+{nbsp} +
+
+
+=== F.A.Q.
+
+{nbsp} +
+
+
+[panel,primary]
+.Je veux remettre à 0 mon compteur de consommation comment faire.
+--
+Lire la section Reset de cette doc.
+--
+
+{nbsp} +
+
+#_@sarakha63_#
