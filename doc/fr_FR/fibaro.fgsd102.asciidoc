@@ -148,7 +148,7 @@ Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Je
 
 {nbsp} +
 
-image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
 
 {nbsp} +
 
