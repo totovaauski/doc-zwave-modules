@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/greenwave.Powernode1/module.jpg[width=256]
+image::../images/greenwave.Powernode1/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/greenwave.Powernode1/module.jpg[width=256]
 
 {nbsp} +
 
-image::../images/greenwave.Powernode1/vuedefaut1.jpg[width=200]
+image::../images/greenwave.Powernode1/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
@@ -84,13 +84,11 @@ Le module prise PowerNode est équipé d'une protection contre les surintensité
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -100,7 +98,7 @@ Pour mettre ce module en mode inclusion  il faut appuyer sur le bouton inclusion
 
 {nbsp} +
 
-image::../images/greenwave.Powernode1/inclusion.jpg[width=350]
+image::../images/greenwave.Powernode1/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -131,13 +129,12 @@ image::../images/greenwave.Powernode1/commandes.jpg[Commandes,align="center"]
 * Etat : C'est la commande qui permet de connaitre le statut de la prise
 * On : C'est la commande qui permet d'allumer la prise
 * Off : C'est la commande qui permet d'éteindre la prise
-* Reset : C'est la commande qui permet de remettre à zéro la consommation cumulée
 * Puissance : C'est la commande qui remonte la puissance instatanée consommée
 * Conso : C'est la commande qui remonte la consommation totale
 
 {nbsp} +
 
-A noter que sur le dashboard le bouton reset n'est pas visible par défaut. De plus les commandes ON/OFF/ETAT sont regroupées en un seul bouton.
+A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées en un seul bouton.
 
 {nbsp} +
 
@@ -146,7 +143,7 @@ A noter que sur le dashboard le bouton reset n'est pas visible par défaut. De p
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
+Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -154,7 +151,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -193,15 +190,22 @@ image::../images/greenwave.Powernode1/groupe.jpg[Groupe]
 
 Contrairement à sa grande soeur multiprise, cette prise ne nécessite pas de polling pour remonter la consommation.
 
+{nbsp} +
+
+==== Reset
+
+{nbsp} +
+
+image::../images/greenwave.Powernode1/config2.jpg[Config2,align="center"]
+
+{nbsp} +
+
+Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système.
+
+{nbsp} +
+
+
 ==== Spécificités
-
-{nbsp} +
-
-==== Visuel alternatif
-
-{nbsp} +
-
-image::../images/greenwave.Powernode1/vuewidget.jpg[width=150]
 
 {nbsp} +
 
