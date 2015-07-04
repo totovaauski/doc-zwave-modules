@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/swiid.inter/module.jpg[width=256]
+image::../images/swiid.inter/module.jpg[width=356,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/swiid.inter/module.jpg[width=256]
 
 {nbsp} +
 
-image::../images/swiid.inter/vuedefaut1.jpg[width=200]
+image::../images/swiid.inter/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
@@ -89,13 +89,11 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -105,7 +103,7 @@ Pour mettre ce module en mode inclusion  il faut appuyer sur le bouton à l'arri
 
 {nbsp} +
 
-image::../images/swiid.inter/inclusion.jpg[width=350]
+image::../images/swiid.inter/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -148,7 +146,7 @@ A noter que sur le dashboard toutes les infos se retrouvent sur le même icone
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
+Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -156,21 +154,11 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
 image::../images/swiid.inter/config1.jpg[Config1,align="center"]
-
-{nbsp} +
-
-Comme vous pourrez le constater il n'y a aucune configuration pour ce module.
-
-La seule configuration possible se retrouve dans l'onglet spécifique.
-
-{nbsp} +
-
-image::../images/swiid.inter/config2.jpg[Config1,align="center"]
 
 {nbsp} +
 
@@ -187,7 +175,7 @@ Ce paramètre permet de choisir le comportement lorsque vous associez le swiidin
 * Inactif : n'aura aucun effet sur les autres lumières
 * Uniquement Off : sera effectif uniquement pour éteindre les autres lumières
 * Uniquement On : sera effectif uniquement pour allumer les autres lumières
-* On et Off : sera effectif pour allumer et éteindre les autres lumières
+* On et Off (fully) : sera effectif pour allumer et éteindre les autres lumières
 
 {nbsp} +
 
@@ -203,20 +191,17 @@ image::../images/swiid.inter/groupe.jpg[Groupe]
 
 {nbsp} +
 
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé à minima au groupe 2.
+
+{nbsp} +
+
 === Associer à une autre lumière
 
 {nbsp} +
 
-Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de l'allumage d'une autre lumière, il suffit de la rajouter au groupe
-d'association 1 via l'interface groupes de Jeedom.
-
-{nbsp} +
-
-=== Bon à savoir
-
-{nbsp} +
-
-==== Spécificités
+Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de l'allumage d'une autre lumière, il suffit de la rajouter au groupe d'association 1 via l'écran cité au dessus.
 
 {nbsp} +
 

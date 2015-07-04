@@ -146,7 +146,7 @@ image::../images/plugin/bouton_configuration.jpg[align="center"]
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
