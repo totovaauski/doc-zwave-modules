@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/fibaro.fgsd102/module.jpg[width=256]
+image::../images/fibaro.fgsd102/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/fibaro.fgsd102/module.jpg[width=256]
 
 {nbsp} +
 
-image::../images/fibaro.fgsd102/vuedefaut1.jpg[width=350]
+image::../images/fibaro.fgsd102/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -82,13 +82,11 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -98,7 +96,7 @@ Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton cen
 
 {nbsp} +
 
-image::../images/fibaro.fgsd102/inclusion.jpg[width=350]
+image::../images/fibaro.fgsd102/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -139,27 +137,6 @@ image::../images/fibaro.fgsd102/commandes.jpg[Commandes]
 
 {nbsp} +
 
-[icon="../images/plugin/warning.png"]
-[WARNING]
-Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
-
-{nbsp} +
-
-Pour cela cliquez sur le bouton pour voir la queue zwave :
-
-{nbsp} +
-
-image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
-
-{nbsp} +
-
-Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion.
-Vous devriez voir la queue se vider des messages concernant le fgsd002.
-
-Si ce n'est pas le cas ou si il reste des messages pour le fgsd002 refaite un réveil.
-
-{nbsp} +
-
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
@@ -167,7 +144,7 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
+Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -175,7 +152,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -229,7 +206,7 @@ image::../images/fibaro.fgsd102/groupe.jpg[Groupe]
 
 {nbsp} +
 
-image::../images/fibaro.fgsd102/widget1.jpg[width=350]
+image::../images/fibaro.fgsd102/widget1.jpg[width=350,align="center"]
 
 {nbsp} +
 
