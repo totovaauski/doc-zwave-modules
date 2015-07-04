@@ -170,8 +170,6 @@ Ce paramètre permet de choisir le comportement lorsque vous associez le swiidin
 
 {nbsp} +
 
-{nbsp} +
-
 * Inactif : n'aura aucun effet sur les autres lumières
 * Uniquement Off : sera effectif uniquement pour éteindre les autres lumières
 * Uniquement On : sera effectif uniquement pour allumer les autres lumières
