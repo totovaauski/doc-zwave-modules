@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/fibaro.fgk101-DS18B20/module.jpg[width=256]
+image::../images/fibaro.fgk101-DS18B20/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/fibaro.fgk101-DS18B20/module.jpg[width=256]
 
 {nbsp} +
 
-image::../images/fibaro.fgk101-DS18B20/vuedefaut1.jpg[width=350]
+image::../images/fibaro.fgk101-DS18B20/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
@@ -81,13 +81,13 @@ déjà un réseau existant.
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
+
+{nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
@@ -95,7 +95,7 @@ Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'i
 
 {nbsp} +
 
-image::../images/fibaro.fgk101-DS18B20/inclusion.jpg[width=350]
+image::../images/fibaro.fgk101-DS18B20/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -124,8 +124,6 @@ image::../images/fibaro.fgk101-DS18B20/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 * Etat : c'est la commande qui remontera l'état ouvert ou fermé du module
-* Température : c'est la commande qui permet de remonter la température mesurée par une éventuelle sonde one wire
-* Entrée Contact : c'est la commande qui permet de remonter l'état d'un éventuel contact sec relié sur le bornier
 * Batterie : c'est la commande qui permet de remonter l'état de la batterie
 
 {nbsp} +
@@ -138,27 +136,6 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
 {nbsp} +
 
-[icon="../images/plugin/warning.png"]
-[WARNING]
-Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
-
-{nbsp} +
-
-Pour cela cliquez sur le bouton pour voir la queue zwave :
-
-{nbsp} +
-
-image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
-
-{nbsp} +
-
-Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion (4 fois peuvent être nécessaire).
-Vous devriez voir la queue se vider des messages concernant le fibaro motion.
-
-Si ce n'est pas le cas ou si il reste des messages pour le module refaite un réveil.
-
-{nbsp} +
-
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
@@ -166,7 +143,7 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -174,7 +151,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -230,7 +207,7 @@ Ce module est très capricieux sur les wakeup et nécessite une très forte prox
 
 {nbsp} +
 
-image::../images/fibaro.fgk101-DS18B20/vuewidget.jpg[width=300]
+image::../images/fibaro.fgk101-DS18B20/vuewidget.jpg[width=200,align="center"]
 
 {nbsp} +
 
