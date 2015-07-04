@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/nodon.smartplug/module.jpg[width=256]
+image::../images/nodon.smartplug/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/nodon.smartplug/module.jpg[width=256]
 
 {nbsp} +
 
-image::../images/nodon.smartplug/vuedefaut1.jpg[width=200]
+image::../images/nodon.smartplug/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
@@ -73,13 +73,11 @@ L’apprentissage de la prise avec son contrôleur nécessite seulement quelqu
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -89,7 +87,7 @@ Pour mettre ce module en mode inclusion  il faut appuyer sur le bouton jusqu'à 
 
 {nbsp} +
 
-image::../images/nodon.smartplug/inclusion.jpg[width=350]
+image::../images/nodon.smartplug/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -141,7 +139,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -216,8 +214,6 @@ A minima Jeedom devrait se retrouver dans les groupes 1 et 4
 
 * Il est inutile de s'amuser à brancher debrancher la prise pour observer l'alarme. Celle ci ne marchera à peu pres que 3 fois. Au dela la prise doit rester alimenté un petit moment
 pour recharger la pile interne.
-
-* Bien qu'un widget permet d'afficher le statut de l'alarme il peut être utile de connaitre les valeurs associées pour faire des scénarios, les voici : 2 = coupure de courant | 3 ou 254 = reprise de courant
 
 {nbsp} +
 
