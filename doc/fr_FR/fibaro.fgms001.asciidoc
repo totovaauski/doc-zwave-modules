@@ -9,7 +9,7 @@
 {nbsp} +
 
 
-image::../images/fibaro.fgms001/module.jpg[width=256]
+image::../images/fibaro.fgms001/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/fibaro.fgms001/module.jpg[width=256]
 {nbsp} +
 
 
-image::../images/fibaro.fgms001/vuedefaut1.jpg[width=350]
+image::../images/fibaro.fgms001/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -87,14 +87,11 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -104,7 +101,7 @@ Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'i
 
 {nbsp} +
 
-image::../images/fibaro.fgms001/inclusion.jpg[width=350]
+image::../images/fibaro.fgms001/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -150,42 +147,14 @@ image::../images/fibaro.fgms001/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-
-[icon="../images/plugin/warning.png"]
-[WARNING]
-Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
-
-{nbsp} +
-
-
-Pour cela cliquez sur le bouton pour voir la queue zwave :
-
-{nbsp} +
-
-
-image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
-
-{nbsp} +
-
-
-Pour réveiller le module il faut cliquer 3 fois sur le bouton d'inclusion (l'oeil s'allume en bleu).
-Vous devriez voir la queue se vider des messages concernant le fibaro motion.
-
-Si ce n'est pas le cas ou si il reste des messages pour le fibaro motion refaite un réveil.
-
-{nbsp} +
-
-
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
 
-
 {nbsp} +
 
-
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -195,7 +164,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -204,6 +173,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 image::../images/fibaro.fgms001/config1.jpg[Config1,align="center"]
 image::../images/fibaro.fgms001/config2.jpg[Config2,align="center"]
 image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
+image::../images/fibaro.fgms001/config4.jpg[Config3,align="center"]
 
 {nbsp} +
 
@@ -211,8 +181,6 @@ image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
 [underline]#Détails des paramètres :#
 
 {nbsp} +
-
-
 
 * Wakeup : c'est l'interval de réveil du module (valeur recommandée 7200)
 * 1: permet de régler la sensibilité du capteur de présence
@@ -245,12 +213,9 @@ image::../images/fibaro.fgms001/config3.jpg[Config3,align="center"]
 
 {nbsp} +
 
-
-
 ==== Groupes
 
 {nbsp} +
-
 
 
 Ce module possède trois groupes d'association, seul le troisième est indispensable.
@@ -287,7 +252,7 @@ selon vos souhaits, et de bien le réveiller pour que la config soit prise en co
 {nbsp} +
 
 
-image::../images/fibaro.fgms001/vuewidget.jpg[width=300]
+image::../images/fibaro.fgms001/vuewidget.jpg[width=300,align="center"]
 
 {nbsp} +
 
