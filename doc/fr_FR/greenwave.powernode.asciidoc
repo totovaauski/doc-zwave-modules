@@ -261,14 +261,6 @@ Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce 
 
 {nbsp} +
 
-==== Visuel alternatif
-
-{nbsp} +
-
-image::../images/greenwave.powernode/vuewidget.jpg[width=550,align="center"]
-
-{nbsp} +
-
 === Wakeup
 
 {nbsp} +
