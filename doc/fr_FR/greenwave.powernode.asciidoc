@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/greenwave.powernode/module.jpg[width=256]
+image::../images/greenwave.powernode/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/greenwave.powernode/module.jpg[width=256]
 
 {nbsp} +
 
-image::../images/greenwave.powernode/vuedefaut1.jpg[width=400]
+image::../images/greenwave.powernode/vuedefaut1.jpg[width=400,align="center"]
 
 {nbsp} +
 
@@ -82,13 +82,11 @@ Cette multiprise est idéale pour contrôler des appareils multimédia dans un m
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -98,7 +96,7 @@ Pour mettre ce module en mode inclusion  il faut appuyer sur le bouton inclusion
 
 {nbsp} +
 
-image::../images/greenwave.powernode/inclusion.jpg[width=250]
+image::../images/greenwave.powernode/inclusion.jpg[width=250,align="center"]
 
 {nbsp} +
 
@@ -133,43 +131,37 @@ image::../images/greenwave.powernode/commandes5.jpg[Commandes,align="center"]
 * Etat-1 : C'est la commande qui permet de connaitre le statut de la prise 1
 * On-1 : C'est la commande qui permet d'allumer la prise 1
 * Off-1 : C'est la commande qui permet d'éteindre la prise 1
-* Reset-1 : C'est la commande qui permet de remettre à zéro la consommation cumulée de la prise 1
 * Puissance-1 : C'est la commande qui remonte la puissance instatanée consommée de la prise 1
 * Conso-1 : C'est la commande qui remonte la consommation totale de la prise 1
 * Etat-2 : C'est la commande qui permet de connaitre le statut de la prise 2
 * On-2 : C'est la commande qui permet d'allumer la prise 2
 * Off-2 : C'est la commande qui permet d'éteindre la prise 2
-* Reset-2 : C'est la commande qui permet de remettre à zéro la consommation cumulée de la prise 2
 * Puissance-2 : C'est la commande qui remonte la puissance instatanée consommée de la prise 2
 * Conso-2 : C'est la commande qui remonte la consommation totale de la prise 2
 * Etat-3 : C'est la commande qui permet de connaitre le statut de la prise 3
 * On-3 : C'est la commande qui permet d'allumer la prise 3
 * Off-3 : C'est la commande qui permet d'éteindre la prise 3
-* Reset-3 : C'est la commande qui permet de remettre à zéro la consommation cumulée de la prise 3
 * Puissance-3 : C'est la commande qui remonte la puissance instatanée consommée de la prise 3
 * Conso-3 : C'est la commande qui remonte la consommation totale de la prise 3
 * Etat-4 : C'est la commande qui permet de connaitre le statut de la prise 4
 * On-4 : C'est la commande qui permet d'allumer la prise 4
 * Off-4 : C'est la commande qui permet d'éteindre la prise 4
-* Reset-4 : C'est la commande qui permet de remettre à zéro la consommation cumulée de la prise 4
 * Puissance-4 : C'est la commande qui remonte la puissance instatanée consommée de la prise 4
 * Conso-4 : C'est la commande qui remonte la consommation totale de la prise 4
 * Etat-5 : C'est la commande qui permet de connaitre le statut de la prise 5
 * On-5 : C'est la commande qui permet d'allumer la prise 5
 * Off-5 : C'est la commande qui permet d'éteindre la prise 5
-* Reset-5 : C'est la commande qui permet de remettre à zéro la consommation cumulée de la prise 5
 * Puissance-5 : C'est la commande qui remonte la puissance instatanée consommée de la prise 5
 * Conso-5 : C'est la commande qui remonte la consommation totale de la prise 5
 * Etat-6 : C'est la commande qui permet de connaitre le statut de la prise 6
 * On-6 : C'est la commande qui permet d'allumer la prise 6
 * Off-6 : C'est la commande qui permet d'éteindre la prise 6
-* Reset-6 : C'est la commande qui permet de remettre à zéro la consommation cumulée de la prise 6
 * Puissance-6 : C'est la commande qui remonte la puissance instatanée consommée de la prise 6
 * Conso-6 : C'est la commande qui remonte la consommation totale de la prise 6
 
 {nbsp} +
 
-A noter que sur le dashboard les boutons reset ne sont pas visibles par défaut. De plus les commandes ON/OFF/ETAT sont regroupées en un seul bouton.
+A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées en un seul bouton.
 
 {nbsp} +
 
@@ -178,7 +170,7 @@ A noter que sur le dashboard les boutons reset ne sont pas visibles par défaut.
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
+Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -186,7 +178,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -232,17 +224,11 @@ Contrairement à sa petite soeur "Une prise", cette multiprise nécessite un pol
 
 {nbsp} +
 
-image::../images/greenwave.powernode/Cron.jpg[width=350]
+image::../images/greenwave.powernode/config2.jpg[Config2,align="center"]
 
 {nbsp} +
 
-Le cron par défaut est de 15 minutes, mais vous pouvez le modifier selon vos besoins
-
-{nbsp} +
-
-[icon="../images/plugin/important.png"]
-[IMPORTANT]
-Un polling/CRON trop bas peut saturer et rendre inopérant votre réseau Zwave. Il est déconseillé de descendre en dessous de 10 minutes.
+Il est juste necessaire de l'activer pour la commande Power de chaque prise. Cela aura pour effet de remonter les deux (conso et puissance)
 
 {nbsp} +
 
@@ -250,7 +236,7 @@ Un polling/CRON trop bas peut saturer et rendre inopérant votre réseau Zwave. 
 
 {nbsp} +
 
-image::../images/greenwave.powernode/consocumul.jpg[width=150]
+image::../images/greenwave.powernode/consocumul.jpg[width=150,align="center"]
 
 {nbsp} +
 
@@ -258,16 +244,28 @@ Vous pouvez à l'aide d'un virtuel vous créer un cumul de consommation des 6 pr
 
 {nbsp} +
 
-image::../images/greenwave.powernode/consocumul2.jpg[width=550]
+image::../images/greenwave.powernode/consocumul2.jpg[align="center"]
 
 {nbsp} +
 
+
+==== Reset
+
+{nbsp} +
+
+image::../images/greenwave.powernode/config3.jpg[Config3,align="center"]
+
+{nbsp} +
+
+Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système. (Il y a un reset par prise)
+
+{nbsp} +
 
 ==== Visuel alternatif
 
 {nbsp} +
 
-image::../images/greenwave.powernode/vuewidget.jpg[width=350]
+image::../images/greenwave.powernode/vuewidget.jpg[width=550,align="center"]
 
 {nbsp} +
 
