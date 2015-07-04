@@ -1,5 +1,5 @@
 :icons:
-== Philio PSP01 3 en 1
+== Philio PSP01
 
 {nbsp} +
 
@@ -9,7 +9,7 @@
 {nbsp} +
 
 
-image::../images/philio.psp01/module.jpg[width=256]
+image::../images/philio.psp01/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/philio.psp01/module.jpg[width=256]
 {nbsp} +
 
 
-image::../images/philio.psp01/vuedefaut1.jpg[width=350]
+image::../images/philio.psp01/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -102,16 +102,11 @@ si vous avez déjà un réseau existant.
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
-{nbsp} +
-
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -121,7 +116,7 @@ Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'i
 
 {nbsp} +
 
-image::../images/philio.psp01/inclusion.jpg[width=350]
+image::../images/philio.psp01/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -155,6 +150,7 @@ image::../images/philio.psp01/commandes.jpg[Commandes,align="center"]
 
 
 * Présence : c'est la commande qui remontera une détection de présence
+* Ouverture : c'est la commande qui remontera une détection d'ouverture
 * Température : c'est la commande qui permet de remonter la température
 * Luminosité : c'est la commande qui permet de remonter la luminosité
 * Sabotage : c'est la commande sabotage (elle est déclenchée en cas d'arrachement)
@@ -162,33 +158,9 @@ image::../images/philio.psp01/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
+Tous les modules de la gamme ayant les mêmes ids. A vous d'afficher ceux correspondant à votre module.
 
 ==== Configuration du module
-
-{nbsp} +
-
-
-[icon="../images/plugin/warning.png"]
-[WARNING]
-Si c'est votre première inclusion il est fortemment recommandé de réveiller votre module et de s'assurer que la queue zwave est vide.
-
-{nbsp} +
-
-
-Pour cela cliquez sur le bouton pour voir la queue zwave :
-
-{nbsp} +
-
-
-image::../images/plugin/bouton_queue.jpg[queue plugin Zwave,align="center"]
-
-{nbsp} +
-
-
-Pour réveiller le module il faut relacher le bouton tamper au dos et réappuyer dessus.
-Vous devriez voir la queue se vider des messages concernant le philio psp01.
-
-Si ce n'est pas le cas ou si il reste des messages pour le  philio psp01 refaite un réveil.
 
 {nbsp} +
 
@@ -202,7 +174,7 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 
 
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -212,7 +184,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -283,7 +255,7 @@ si vous utilisez cette commande en déclencheur de scénario.
 {nbsp} +
 
 
-image::../images/philio.psp01/vuewidget.jpg[width=300]
+image::../images/philio.psp01/vuewidget.jpg[width=300,align="center"]
 
 {nbsp} +
 
