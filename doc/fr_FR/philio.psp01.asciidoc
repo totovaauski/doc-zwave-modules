@@ -24,6 +24,7 @@ image::../images/philio.psp01/vuedefaut1.jpg[width=350,align="center"]
 {nbsp} +
 
 === Résumé
+
 {nbsp} +
 
 Le détecteur PSP01 propose 3 fonctions différentes : détection de mouvement, capteur de température et détecteur

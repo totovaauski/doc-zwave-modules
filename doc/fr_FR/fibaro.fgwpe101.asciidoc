@@ -2,7 +2,23 @@
 
 {nbsp} +
 
-image::../images/fibaro.fgwpe101/module.jpg[width=256]
+
+* *Le module*
+
+{nbsp} +
+
+
+image::../images/fibaro.fgwpe101/module.jpg[width=256,align="center"]
+
+{nbsp} +
+
+
+* *Le visuel Jeedom*
+
+{nbsp} +
+
+
+image::../images/fibaro.fgwpe101/vuedefaut1.jpg[width=250,align="center"]
 
 {nbsp} +
 
@@ -57,33 +73,183 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-Pour configurer le module il suffit de l'inclure grâce au bouton "Mode inclusion" du plugin Zwave de Jeedom.
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
-image::../images/plugin/bouton_inclusion.jpg[Mode Inclusion plugin Zwave]
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'inclusion, conformément à sa documentation papier.
 
 {nbsp} +
 
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+image::../images/fibaro.fgwpe101/inclusion.jpg[width=250,align="center"]
 
 {nbsp} +
 
-image::../images/fibaro.fgwpe101/information.jpg[Plugin Zwave]
+[underline]#Une fois inclus vous devriez obtenir ceci :#
 
 {nbsp} +
 
-Une fois le module reconnu, il est nécessaire d’effectuer la configuration de celui-ci en fonction de votre installation.
-Il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+image::../images/fibaro.fgwpe101/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave]
+==== Commandes
 
 {nbsp} +
+
+
+Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
+
+
+image::../images/fibaro.fgwpe101/commandes.jpg[Commandes,align="center"]
+
+{nbsp} +
+
+
+[underline]#Voici la liste des commandes :#
+
+{nbsp} +
+
+
+* Etat : C'est la commande qui permet de connaitre le statut de la prise
+* On : C'est la commande qui permet d'allumer la prise
+* Off : C'est la commande qui permet d'éteindre la prise
+* Puissance : C'est la commande qui remonte la puissance instatanée consommée
+* Conso : C'est la commande qui remonte la consommation totale
+
+{nbsp} +
+
+A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées en un seul bouton.
+
+{nbsp} +
+
+==== Configuration du module
+
+{nbsp} +
+
+Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
+il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+
+{nbsp} +
+
+
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
+
+{nbsp} +
+
+
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+
+{nbsp} +
+
+
+
+image::../images/fibaro.fgwpe101/config1.jpg[Config1,align="center"]
+image::../images/fibaro.fgwpe101/config2.jpg[Config2,align="center"]
+image::../images/fibaro.fgwpe101/config3.jpg[Config3,align="center"]
+image::../images/fibaro.fgwpe101/config4.jpg[Config4,align="center"]
+
+{nbsp} +
+
+
+[underline]#Détails des paramètres :#
+
+{nbsp} +
+
+
+
+* 1: permet de bloquer le module en toujours ON
+* 16: permet de se souvenir du dernier état en cas de coupure de courant
+* 34: permet de choisir a quel type d'alarm du réseau Zwave la prise doit réagir
+* 35: permet de régler comment la prise réagira aux alarmes
+* 39: permet de définir la durée de l'alarme
+* 40: permet de définir de combien doit varier la puissance pour être remontée (en %)
+* 42: idem mais en mode standard (jusqu'à 5 fois par pas définis en param 43)
+* 43: intervalle de remontée de la puissance
+* 45: intervalle de remontée de la consommation (en kWh 10=0,1 kWh)
+* 47: intervalle en secondes de remontée des infos independamment d'une variation
+* 49: prendre en compte la consommation du module lui même dans les valeurs
+* 50: valeur minimal utilisée par le param 52
+* 51: valeur maximale utilisée par le param 52
+* 52: action à faire si la puissance sort des bornes définies en param 50 et 51
+* 60: puissance au dela de laquelle la prise clignotera en violet
+* 61: couleur quand la prise est allumée
+* 62: couleur quand la prise est éteinte
+* 63: couleur lorsqu'une alarme Zwave est détectée
+* 70: puissance de sécurité (la prise se coupera lorsque la puissance atteindra ce seuil)
+
+{nbsp} +
+
+==== Groupes
+
+{nbsp} +
+
+Ce module possède 3 groupes d'association, seul le troisième est indispensable.
+
+{nbsp} +
+
+
+image::../images/fibaro.fgwpe101/groupe.jpg[Groupe]
+
+{nbsp} +
+
+
+=== Bon à savoir
+
+{nbsp} +
+
+==== Reset
+
+{nbsp} +
+
+image::../images/fibaro.fgwpe101/config5.jpg[Config5,align="center"]
+
+{nbsp} +
+
+Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système.
+
+{nbsp} +
+
+
+
+==== Visuel alternatif
+
+{nbsp} +
+
+
+image::../images/fibaro.fgwpe101/vuewidget.jpg[width=250,align="center"]
+
+{nbsp} +
+
+
+=== Wakeup
+
+{nbsp} +
+
+Pas de notion de wakeup sur ce module.
+
+{nbsp} +
+
+
+=== F.A.Q.
+
+{nbsp} +
+
+
+[panel,primary]
+.Je veux remettre à 0 mon compteur de consommation comment faire.
+--
+Lire la section Reset de cette doc.
+--
+
+{nbsp} +
+
+#_@sarakha63_#

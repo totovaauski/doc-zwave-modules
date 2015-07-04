@@ -9,7 +9,7 @@
 {nbsp} +
 
 
-image::../images/polycontrol.polylock/module.jpg[width=256]
+image::../images/polycontrol.polylock/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/polycontrol.polylock/module.jpg[width=256]
 {nbsp} +
 
 
-image::../images/polycontrol.polylock/vuedefaut1.jpg[width=220]
+image::../images/polycontrol.polylock/vuedefaut1.jpg[width=220,align="center"]
 
 {nbsp} +
 
@@ -78,14 +78,11 @@ Le système Poly-Control peut être utilisé dans un environnement domestique ou
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -95,7 +92,7 @@ Pour mettre ce module en mode inclusion il faut appuyer 1 fois sur le bouton d'i
 
 {nbsp} +
 
-image::../images/polycontrol.polylock/inclusion.jpg[width=350]
+image::../images/polycontrol.polylock/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -150,7 +147,7 @@ de wake-up et de réveil. Il récupérera toutes modifications de configutation 
 
 
 Si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin Zwave de Jeedom.
+il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -160,7 +157,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -240,7 +237,7 @@ Ce module ne renvoit pas son état, si vous actionnez la serrure à la main l'é
 {nbsp} +
 
 
-image::../images/polycontrol.polylock/vuewidget.jpg[width=200]
+image::../images/polycontrol.polylock/vuewidget.jpg[width=200,align="center"]
 
 {nbsp} +
 
