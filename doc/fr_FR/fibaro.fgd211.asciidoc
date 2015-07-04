@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/fibaro.fgd211/module.jpg[width=256]
+image::../images/fibaro.fgd211/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/fibaro.fgd211/module.jpg[width=256]
 
 {nbsp} +
 
-image::../images/fibaro.fgd211/vuedefaut1.jpg[width=200]
+image::../images/fibaro.fgd211/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
@@ -85,13 +85,13 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
+
+{nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
@@ -99,7 +99,7 @@ Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'i
 
 {nbsp} +
 
-image::../images/fibaro.fgd211/inclusion.jpg[width=350]
+image::../images/fibaro.fgd211/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -147,7 +147,7 @@ A noter que sur le dashboard toutes les infos se retrouvent sur le même icone
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
+Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -155,7 +155,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -203,10 +203,6 @@ image::../images/fibaro.fgd211/groupe.jpg[Groupe]
 
 {nbsp} +
 
-=== Bon à savoir
-
-{nbsp} +
-
 ==== Spécificités
 
 {nbsp} +
@@ -227,7 +223,7 @@ d'interrupteur bi stable)
 
 {nbsp} +
 
-image::../images/fibaro.fgd211/vuewidget.jpg[width=200]
+image::../images/fibaro.fgd211/vuewidget.jpg[width=200,align="center"]
 
 {nbsp} +
 
