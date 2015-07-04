@@ -232,6 +232,10 @@ Sinon (forcément 5) on active l'alarme, on coupe la multiprise, on envoit une n
 
 {nbsp} +
 
+=== Bon à savoir
+
+{nbsp} +
+
 ==== Spécificités
 
 {nbsp} +

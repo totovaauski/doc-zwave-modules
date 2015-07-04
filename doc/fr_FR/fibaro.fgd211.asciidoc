@@ -203,6 +203,10 @@ image::../images/fibaro.fgd211/groupe.jpg[Groupe]
 
 {nbsp} +
 
+=== Bon à savoir
+
+{nbsp} +
+
 ==== Spécificités
 
 {nbsp} +

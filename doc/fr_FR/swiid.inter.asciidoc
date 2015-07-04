@@ -203,6 +203,10 @@ Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de l'a
 
 {nbsp} +
 
+=== Bon à savoir
+
+{nbsp} +
+
 ==== Visuel alternatif
 
 {nbsp} +
