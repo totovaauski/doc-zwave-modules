@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/everspring.AN180-6/module.jpg[width=256]
+image::../images/everspring.AN180-6/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/everspring.AN180-6/module.jpg[width=256]
 
 {nbsp} +
 
-image::../images/everspring.AN180-6/vuedefaut1.jpg[width=200]
+image::../images/everspring.AN180-6/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
@@ -75,13 +75,11 @@ La Mini Prise On/Off est un appareil compatible Z-Wave™ qui est destiné pour 
 
 {nbsp} +
 
-include::template_installationzwave.asciidoc[]
-
 === Configuration
 
 {nbsp} +
 
-include::template_inclusion.asciidoc[]
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
@@ -92,7 +90,7 @@ Il est important de noter que ce module se met directement en inclusion lorsqu'i
 
 {nbsp} +
 
-image::../images/everspring.AN180-6/inclusion.jpg[width=350]
+image::../images/everspring.AN180-6/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -135,7 +133,7 @@ A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur le même 
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
+Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
 
@@ -143,7 +141,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#
+[underline]#Vous arriverez sur cette page#  (après avoir cliqué sur l'onglet paramètres)
 
 {nbsp} +
 
@@ -152,7 +150,7 @@ image::../images/everspring.AN180-6/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Détails des paramètres :# 
 
 {nbsp} +
 
