@@ -1,5 +1,5 @@
 :icons:
-== Philio PSP01
+== Philio PST02 A - 4 en 1
 
 {nbsp} +
 
@@ -9,7 +9,7 @@
 {nbsp} +
 
 
-image::../images/philio.psp01/module.jpg[width=256,align="center"]
+image::../images/philio.pst02a/module.jpg[width=356,align="center"]
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/philio.psp01/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-image::../images/philio.psp01/vuedefaut1.jpg[width=350,align="center"]
+image::../images/philio.pst02a/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -27,32 +27,22 @@ image::../images/philio.psp01/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-Le détecteur PSP01 propose 3 fonctions différentes : détection de mouvement, capteur de température et détecteur
-de luminosité.
+Le détecteur ZIP-PSM02-EU propose 4 fonctions différentes : détection de mouvement, détection d'ouverture, capteur de température et détecteur de luminosité. Il se compose de deux parties : un détecteur et d'un aimant. Ils sont conçus pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la partie qui s'ouvre et le détecteur sur la partie fixe.
 
+L'ouverture de la porte ou de la fenêtre éloignera l'aimant du détecteur, ce qui enclenchera le détecteur qui enverra un signal Z-Wave d'alarme, si le système est armé (ce signal peut être exploité par une sirène ou par une box domotique par exemple).
+Ce détecteur peut être utilisé pour la sécurité ou pour l'automatisation. Quand le détecteur est associé avec des appareils de sécurité, il sert comme déclencheur d'alertes en détectant des changements dans les niveaux de radiation infra-rouge ou d'ouverture de porte/fenêtre. Si une personne bouge dans le champ de vision du détecteur ou ouvre une porte/fenêtre, un signal radio est transmis, ce qui déclenche une alarme afin de dissuader les intrus.
 
-Ce détecteur peut être utilisé pour la sécurité ou pour l'automatisation.
-Quand le détecteur est associé avec des appareils de sécurité, il sert comme déclencheur d'alertes en détectant des
-changements dans les niveaux de radiation infra-rouge.
-Si une personne bouge dans le champ de vision du détecteur, un signal radio est transmis, ce qui déclenche une
-alarme afin de dissuader les intrus.
+Le détecteur peut également être utilisé en association avec un contrôleur Z-Wave pour des usages domotiques, en détectant à la fois les changements dans les niveaux de radiation infrarouge (présence) ou d'ouverture de porte/fenêtre et les modifications dans le niveau de luminosité. Ainsi, on peut déclencher un éclairage lors d'une détection de mouvement ou d'ouverture de porte dans l'obscurité.
 
-Le détecteur peut également être utilisé en association avec un contrôleur Z-Wave pour des usages domotiques,
-en détectant à la fois les changements dans les niveaux de radiation infrarouge (présence) et les modifications dans
-le niveau de luminosité. Ainsi, on peut déclencher un éclairage lors d'une détection de mouvement dans l'obscurité.
-
-Le détecteur remontera aussi la luminosité et la température, soit en cas de changement important, et à chaque fois
-qu'un mouvement est détecté.
-Un contrôleur Z-Wave (télécommande, dongle ...) est nécessaire afin d'intégrer ce détecteur dans votre réseau
-si vous avez déjà un réseau existant.
-
+Le détecteur remontera aussi la luminosité et la température, soit en cas de changement important, et à chaque fois qu'un mouvement ou ouverture/fermeture est détecté.
+Un contrôleur Z-Wave (télécommande, dongle ...) est nécessaire afin d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau existant.
 {nbsp} +
 
 === Fonctions
 
 {nbsp} +
 
-* Détecteur 3 en 1: mouvement, température, lumière
+* Détecteur 4 en 1: mouvement, ouverture, température, lumière
 * Adopte la récente puce Z-Wave 400series pour supporter les opérations multicanaux et un débit de données plus élevé (9.6/40/100kbps)
 * Utilise le SDK Z-Wave 6.02
 * Portée de l'antenne optimisée
@@ -70,7 +60,6 @@ si vous avez déjà un réseau existant.
 
 {nbsp} +
 
-
 * Type de module : Emetteur Z-Wave
 * Alimentation : 1 pile 3V CR123A
 * Durée de vie des piles : 2 ans
@@ -80,8 +69,10 @@ si vous avez déjà un réseau existant.
 * Capteur de luminosité : 0 à 500 lux
 * Angle de détection PIR : 90°
 * Portée de détection PIR : 8 à 10m
-* Dimensions : 28 x 96 x 23 mm
-* Poids : 39g
+* Dimensions :
+* Détecteur : 28 x 96 x 23 mm
+* Aimant : 10 x 50 x 12 mm
+* Poids : 52g
 * Température de fonctionnement : -10 à 40° C
 * Humidité de fonctionnement : 85%RH max
 * Norme CE : EN300 220-1
@@ -96,10 +87,10 @@ si vous avez déjà un réseau existant.
 
 
 * Marque : Philio Technology Corporation
-* Nom : Philio PSP01
+* Nom : PST02-A 4 in 1 Multi-Sensor
 * Fabricant ID : 316
 * Type Produit : 2
-* Produit ID : 2
+* Produit ID : 12
 
 {nbsp} +
 
@@ -117,7 +108,7 @@ Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'i
 
 {nbsp} +
 
-image::../images/philio.psp01/inclusion.jpg[width=350,align="center"]
+image::../images/philio.pst02a/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -125,7 +116,7 @@ image::../images/philio.psp01/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-image::../images/philio.psp01/information.jpg[Plugin Zwave,align="center"]
+image::../images/philio.pst02a/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
@@ -140,7 +131,7 @@ Une fois le module reconnu, les commandes associées aux modules seront disponib
 {nbsp} +
 
 
-image::../images/philio.psp01/commandes.jpg[Commandes,align="center"]
+image::../images/philio.pst02a/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
@@ -159,8 +150,6 @@ image::../images/philio.psp01/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-Tous les modules de la gamme ayant les mêmes ids. A vous d'afficher ceux correspondant à votre module.
-
 ==== Configuration du module
 
 {nbsp} +
@@ -172,7 +161,6 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 
 
 {nbsp} +
-
 
 Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
 il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
@@ -191,8 +179,9 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 
 
-image::../images/philio.psp01/config1.jpg[Config1,align="center"]
-image::../images/philio.psp01/config2.jpg[Config2,align="center"]
+image::../images/philio.pst02a/config1.jpg[Config1,align="center"]
+image::../images/philio.pst02a/config2.jpg[Config2,align="center"]
+image::../images/philio.pst02a/config3.jpg[Config3,align="center"]
 
 {nbsp} +
 
@@ -204,16 +193,20 @@ image::../images/philio.psp01/config2.jpg[Config2,align="center"]
 * 2: permet de régler le signal envoyé aux modules dans le groupe d'association 2
 * 3: permet de régler la sensibilité du capteur de présence (0 : désactivé  99: sensibilité max)
 * 4: permet de régler le niveau de luminosité à partir duquel le signal défini en paramètre 2 sera envoyé aux modules associés au groupe 2
-* 5: mode de fonctionnement (déconseillé de le changer : se reporter sur la documentation constructeur)
-* 6: mode de fonctionnement du multi-sensor (déconseillé de le changer : se reporter sur la documentation constructeur)
+* 5: mode de fonctionnement (se reporter sur la documentation constructeur) Valeur recommandée : 8
+* 6: mode de fonctionnement du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandée : 4
+* 7: mode de fonctionnement personnalisée du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandée : 6 (pour avoir un retour sur OFF de la présence)
+* 8: permet de définir la durée par pas de 8 secondes de redection de mouvement
 * 9: permet de définir au bout de combien de temps le signal OFF sera envoyé aux modules associés au groupe 2
-* 10: permet de définir la durée entre deux rapports de batterie (une unité = 30 minutes)
-* 12: permet de définir la durée entre deux rapports de luminosité (une unité = 30 minutes)
-* 13: permet de définir la durée entre deux rapports de température (une unité = 30 minutes)
+* 10: permet de définir la durée entre deux rapports de batterie (une unité = parametre 20)
+* 11: permet de définir la durée entre deux rapports auto d'ouverture (une unité = parametre 20)
+* 12: permet de définir la durée entre deux rapports auto de luminosité (une unité = parametre 20)
+* 13: permet de définir la durée entre deux rapports auto de température (une unité = parametre 20)
+* 20: durée d'un intervalle pour les paramètres 10 à 13
+* 21: valeur de variation en °F de température pour déclencher un rapport
+* 22: valeur en % de variation de luminosité pour déclencher un rapport
 
 {nbsp} +
-
-
 
 ==== Groupes
 
@@ -224,7 +217,7 @@ Ce module possède deux groupes d'association, seul le premier est indispensable
 {nbsp} +
 
 
-image::../images/philio.psp01/groupe.jpg[Groupe]
+image::../images/philio.pst02a/groupe.jpg[Groupe]
 
 {nbsp} +
 
@@ -233,27 +226,12 @@ image::../images/philio.psp01/groupe.jpg[Groupe]
 
 {nbsp} +
 
-
-==== Spécificités
-
-{nbsp} +
-
-
-[icon="../images/plugin/tip.png"]
-[TIP]
-Ce module à une particularité, n'ayant pas de rapport basé sur les variations mais uniquement sur la durée, il envoit toutes ses infos à chaque détection.
-Il envoit aussi plusieurs fois le signal de détection de présence à la suite. Il est donc conseillé de cocher la case "Evènement sur changement" sur la présence
-si vous utilisez cette commande en déclencheur de scénario.
-
-{nbsp} +
-
-
 ==== Visuel alternatif
 
 {nbsp} +
 
 
-image::../images/philio.psp01/vuewidget.jpg[width=300,align="center"]
+image::../images/philio.pst02a/vuewidget.jpg[width=300,align="center"]
 
 {nbsp} +
 
@@ -282,16 +260,6 @@ Ce module se réveille en appuyant sur son bouton tamper.
 --
 
 {nbsp} +
-
-
-[panel,primary]
-.J'utilise la détection de mouvement dans mes scénarios mais le scénario est appelé plusieurs fois.
---
-Cochez la case "Evènement sur changement".
---
-
-{nbsp} +
-
 
 [panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
