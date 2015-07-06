@@ -199,7 +199,7 @@ image::../images/aeotec.keyfob-gen5/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-Ce module possède quatre groupes d'association, le premier est le seul indispensable.
+Ce module possède deux groupes d'association, le premier est le seul indispensable.
 
 {nbsp} +
 
