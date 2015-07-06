@@ -9,7 +9,7 @@
 {nbsp} +
 
 
-image::../images/aeotec.keyfob.gen5/module.jpg[width=256,align="center"]
+image::../images/aeotec.keyfob-gen5/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/aeotec.keyfob.gen5/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-image::../images/aeotec.keyfob.gen5/vuedefaut1.jpg[width=200,align="center"]
+image::../images/aeotec.keyfob-gen5/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
@@ -99,7 +99,7 @@ Pour mettre ce module en mode inclusion il faut appuyer sur le bouton LEARN, con
 
 {nbsp} +
 
-image::../images/aeotec.keyfob.gen5/inclusion.jpg[width=350,align="center"]
+image::../images/aeotec.keyfob-gen5/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -107,7 +107,7 @@ image::../images/aeotec.keyfob.gen5/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-image::../images/aeotec.keyfob.gen5/information.jpg[Plugin Zwave,align="center"]
+image::../images/aeotec.keyfob-gen5/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
@@ -122,7 +122,7 @@ Une fois le module reconnu, les commandes associées aux modules seront disponib
 {nbsp} +
 
 
-image::../images/aeotec.keyfob.gen5/commandes.jpg[Commandes,align="center"]
+image::../images/aeotec.keyfob-gen5/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
@@ -181,7 +181,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 
 
-image::../images/aeotec.keyfob.gen5/config1.jpg[Config1,align="center"]
+image::../images/aeotec.keyfob-gen5/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
@@ -204,7 +204,7 @@ Ce module possède quatre groupes d'association, le premier est le seul indispen
 {nbsp} +
 
 
-image::../images/aeotec.keyfob.gen5/groupe.jpg[Groupe]
+image::../images/aeotec.keyfob-gen5/groupe.jpg[Groupe]
 
 {nbsp} +
 
