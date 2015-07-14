@@ -1,0 +1,259 @@
+:icons:
+== Aeotec Minimote
+
+{nbsp} +
+
+
+* *Le module*
+
+{nbsp} +
+
+
+image::../images/aeotec.minimote/module.jpg[width=256,align="center"]
+
+{nbsp} +
+
+
+* *Le visuel Jeedom*
+
+{nbsp} +
+
+
+image::../images/aeotec.minimote/vuedefaut1.jpg[width=200,align="center"]
+
+{nbsp} +
+
+=== Résumé
+
+{nbsp} +
+
+Ce mini contrôleur Aeon Labs est compatible avec une grande variété de modules Z-Wave tels que des interrupteurs, variateurs, détecteurs de mouvement, interrupteurs pour stores... Ainsi, vous pourrez commander à distance vos éclairages, appareils ou volets roulants.
+Avec cette télécommande, vous pourrez également inclure/exclure des modules de votre réseau Z-Wave et associer des scènes aux boutons de la télécommande. Un clapet coulissant dissimule les boutons permettant de paramétrer le réseau Z-Wave.
+
+{nbsp} +
+
+=== Fonctions
+
+{nbsp} +
+
+* Paramétrage du réseau Z-Wave (inclusion/exclusion de modules)
+* Permet de piloter jusqu'à 4 scènes
+* 8 touches : 4 pour les scènes, 4 pour le paramétrage du réseau
+* Fonctions marche/arrêt et variation
+* Fonction ALL ON/ALL OFF
+* Batterie interne rehargeable sur USB
+* Mise à jour du firmware par USB
+
+{nbsp} +
+
+
+=== Caractéristiques Techniques
+
+{nbsp} +
+
+
+* Type de module : Contrôleur Z-Wave
+* Couleur : Blanc
+* Alimentation : batterie interne rechargeable via USB
+* Affichage: LED bleue et rouge
+* Fréquence : 868,42MHz 
+* Portée : jusqu'à 30 m
+* Dimensions : 0.8cm x 3.3cm x 9.3cm
+* Température de fonctionnement : -35 to +85 °C
+
+{nbsp} +
+
+
+=== Données du module
+
+{nbsp} +
+
+
+* Marque : Aeotec
+* Nom : Minimote
+* Fabricant ID : 134
+* Type Produit : 1
+* Produit ID : 3
+
+{nbsp} +
+
+=== Configuration
+
+{nbsp} +
+
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
+
+{nbsp} +
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Pour mettre ce module en mode inclusion il faut appuyer sur le bouton LEARN, conformément à sa documentation papier.
+
+{nbsp} +
+
+image::../images/aeotec.minimote/inclusion.jpg[width=100,align="center"]
+
+{nbsp} +
+
+[underline]#Une fois inclus vous devriez obtenir ceci :#
+
+{nbsp} +
+
+image::../images/aeotec.minimote/information.jpg[Plugin Zwave,align="center"]
+
+{nbsp} +
+
+
+==== Commandes
+
+{nbsp} +
+
+
+Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
+
+
+image::../images/aeotec.minimote/commandes.jpg[Commandes,align="center"]
+
+{nbsp} +
+
+
+[underline]#Voici la liste des commandes :#
+
+{nbsp} +
+
+
+* Boutons : c'est la commande qui remontera le bouton appuyé
+
+1 : Bouton 1 appui court
+
+2 : Bouton 1 appui long
+
+3 : Bouton 2 appui court
+
+4 : Bouton 2 appui long
+
+5 : Bouton 3 appui court
+
+6 : Bouton 3 appui long
+
+7 : Bouton 4 appui court
+
+8 : Bouton 4 appui long
+
+{nbsp} +
+
+==== Configuration du module
+
+{nbsp} +
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
+
+
+{nbsp} +
+
+
+Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
+il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+
+{nbsp} +
+
+
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
+
+{nbsp} +
+
+
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+
+{nbsp} +
+
+
+
+image::../images/aeotec.minimote/config1.jpg[Config1,align="center"]
+
+{nbsp} +
+
+
+[underline]#Détails des paramètres :#
+
+{nbsp} +
+
+* 241: mode de fonctionnement du bouton 1 (laisser par défaut)
+* 242: mode de fonctionnement du bouton 2 (laisser par défaut)
+* 243: mode de fonctionnement du bouton 3 (laisser par défaut)
+* 244: mode de fonctionnement du bouton 4 (laisser par défaut)
+* 250: mode de fonctionnement de la télécommande (absolument laisser Scene pour s'en servir en télécommande)
+
+{nbsp} +
+
+==== Groupes
+
+{nbsp} +
+
+Ce module possède quatre groupes d'association, aucun n'est nécessaire pour s'en servir en télécommande dans Jeedom.
+
+{nbsp} +
+
+
+image::../images/aeotec.minimote/groupe.jpg[Groupe]
+
+{nbsp} +
+
+
+=== Bon à savoir
+
+{nbsp} +
+
+
+==== Spécificités
+
+=== Wakeup
+
+{nbsp} +
+
+
+Pour réveiller ce module il y a une seule et unique façon de procéder :
+
+* rester appuyé 3 secondes sur le bouton LEARN
+
+{nbsp} +
+
+
+=== F.A.Q.
+
+{nbsp} +
+
+
+[panel,primary]
+.J'ai l'impression que le module ne se réveille pas.
+--
+Ce module se réveille en restant appuyer 3 secondes sur le bouton LEARN.
+--
+
+{nbsp} +
+
+[panel,primary]
+.J'ai changé la configuration mais elle n'est pas prise en compte.
+--
+Ce module est un module sur batterie, la nouvelle configuration sera prise en compte que si vous réveillez la télécommande.
+--
+
+{nbsp} +
+
+=== Note importante
+{nbsp} +
+
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+[underline]#Il faut réveiller le module :#
+ après son inclusion, après un changement de la configuration
+, après un changement de wakeup, après un changement des groupes d'association
+
+{nbsp} +
+
+#_@sarakha63_#

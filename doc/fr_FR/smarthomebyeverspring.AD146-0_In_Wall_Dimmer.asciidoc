@@ -1,0 +1,241 @@
+:icons:
+== SmartHome by Everspring In Wall Dimmer - AD146-0
+
+{nbsp} +
+
+* *Le module*
+
+{nbsp} +
+
+image::../images/smarthomebyeverspring.AD146-0/module.jpg[width=256,align="center"]
+
+{nbsp} +
+
+* *Le visuel Jeedom*
+
+{nbsp} +
+
+image::../images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg[width=200,align="center"]
+
+{nbsp} +
+
+=== Résumé
+
+{nbsp} +
+
+Ce Micromodule Variateur Mural de la marque SmartHome Europe by Everspring, est conçu pour contrôler l'allumage et l'extinction des luminaires et des équipements électriques de votre maison.
+Il peut également fournir une fonction de variateur qui est uniquement compatible avec les ampoules.
+À une tension de 230V, ce module peut supporter jusqu’à 300 Watts en charge résistive ou incandescente, ou
+200 Watts de charge fluorescente.
+
+Il peut être utilisé en mode 2 fils (sans neutre), en remplacement d'un interrupteur existant, ou trois fils avec
+une alimentation classique du module (Phase + Neutre).
+
+Le Module Variateur Mural est un appareil compatible Z-Wave™ qui est destiné pour fonctionner avec tous les
+réseaux compatibles Z-Wave™. Il peut être contrôlé par une télécommande, un logiciel PC, ou n'importe quel
+contrôleur Z-Wave de votre réseau.
+
+{nbsp} +
+
+=== Fonctions
+
+{nbsp} +
+
+* Commandez un éclairage/appareil à distance
+* S'installe derrière un interrupteur existant
+* Fonction ON/OFF et variation
+* Faible consommation d'énergie
+* Très petit, dimensions réduites
+* Antenne longue portée
+* Technologie Z-Wave Plus
+* S'installe facilement dans une boîte d'encastrement standard
+* Utilisation en mode 2 fils (neutre pas nécessaire)
+* Compatible avec les ampoules Led Dimmable
+* Bouton pour inclure/exclure/associer le module
+* Fonction répéteur Z-Wave
+
+{nbsp} +
+
+=== Caractéristiques Techniques
+
+{nbsp} +
+
+* Type de module : Récepteur Z-Wave
+* Alimentation : 230 V, 50 Hz
+* Consommation : 0.5W
+* Puissance maximum :
+* Charge résistive : 300W
+* Ampoule à incandesence : 300W
+* Ampoule Fluocompacte : 200W
+* Fréquence : 868,42 Mhz
+* Portée : jusqu'à  70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+* Affichage: LED sur le bouton
+* Dimensions : 42mm x 43mm x 16mm
+
+{nbsp} +
+
+=== Données du module
+
+{nbsp} +
+
+* Marque : SmartHome by Everspring
+* Nom : In Wall Dimmer
+* Fabricant ID : 96
+* Type Produit : 3
+* Produit ID : 2
+
+{nbsp} +
+
+=== Configuration
+
+{nbsp} +
+
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
+
+{nbsp} +
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Pour mettre ce module en mode inclusion  il faut appuyer 3 fois sur son bouton, conformément à sa documentation papier.
+Il est important de noter que ce module se met directement en inclusion lorsqu'il n'appartient à aucun réseau et qu'il est alimenté
+
+{nbsp} +
+
+image::../images/smarthomebyeverspring.AD146-0/inclusion.jpg[width=350,align="center"]
+
+{nbsp} +
+
+[underline]#Une fois inclus vous devriez obtenir ceci :#
+
+{nbsp} +
+
+image::../images/smarthomebyeverspring.AD146-0/information.jpg[Plugin Zwave,align="center"]
+
+{nbsp} +
+
+==== Commandes
+
+{nbsp} +
+
+Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
+
+image::../images/smarthomebyeverspring.AD146-0/commandes.jpg[Commandes,align="center"]
+
+{nbsp} +
+
+[underline]#Voici la liste des commandes :#
+
+{nbsp} +
+
+* Intensité : C'est la commande permettant de régler l'intensité de la lumière
+* On : C'est la commande qui permet d'allumer la lumière
+* Off : C'est la commande qui permet d'éteindre la lumière
+* Etat : C'est la commande qui permet de connaitre le statut de la lumière
+
+{nbsp} +
+
+A noter que sur le dashboard, les infos Etat, ON/OFF, intensité se retrouvent sur le même icone.
+
+{nbsp} +
+
+==== Configuration du module
+
+{nbsp} +
+
+Vous pouvez effectuer la configuration du module en fonction de votre installation.
+Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+
+{nbsp} +
+
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
+
+{nbsp} +
+
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+
+{nbsp} +
+
+image::../images/smarthomebyeverspring.AD146-0/config1.jpg[Config1,align="center"]
+
+
+{nbsp} +
+
+[underline]#Détails des paramètres :#
+
+{nbsp} +
+
+* 1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas conseillé de changer cette valeur.
+* 2 : Ce paramètre définit le délai d'envoit du changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
+* 3 : Ce paramètre permet de définir si l'interrupteur reprendra son statut (ON ou OFF) après une reprise de courant.
+* 4 : Ce paramètre permet de définir le type d'interrupteur (poussoir/bistable)
+* 5 : Ce paramètre permet de définir si l'interrupteur fontionnera en mode variation ou en mode on/off
+
+==== Groupes
+
+{nbsp} +
+
+Ce module possède 2 groupes d'association.
+
+{nbsp} +
+
+image::../images/smarthomebyeverspring.AD146-0/groupe.jpg[Groupe]
+
+{nbsp} +
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+A minima Jeedom devrait se retrouver dans le groupe 1
+{nbsp} +
+
+=== Bon à savoir
+
+{nbsp} +
+
+==== Spécificités
+
+{nbsp} +
+
+* Le retour d'état ne peut pas être configuré en dessous de 3 secondes.
+{nbsp} +
+
+
+==== Visuel alternatif
+
+{nbsp} +
+
+image::../images//smarthomebyeverspring.AD146-0/vuewidget.jpg[width=200,align="center"]
+
+{nbsp} +
+
+=== Wakeup
+
+{nbsp} +
+
+Pas de notion de wakeup sur ce module.
+
+{nbsp} +
+
+=== F.A.Q.
+
+{nbsp} +
+
+[panel,primary]
+.Le retour d'état n'est pas instantané ?
+--
+Oui c'est le paramètre 2 et il ne peut pas être réglé en dessous de 3 secondes.
+--
+
+{nbsp} +
+
+[panel,primary]
+.Suis je obligé de démonter ma prise pour l'inclure ou l'exclure.
+--
+Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois sur l'interrupteur.
+--
+
+{nbsp} +
+
+
+#_@sarakha63_#
