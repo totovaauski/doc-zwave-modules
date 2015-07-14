@@ -1,0 +1,60 @@
+= Liste des équipements compatible RFXCOM
+
+[cols="3*", options="header"] 
+|===
+|Nom|Remarque|Lien
+
+|Aeotec - Keyfob Gen5 - Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html[Documentation]
+
+|Aeotec - Minimote - Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html[Documentation]
+
+|BeNext - Tag Reader|Il n'est pas possible de recuperer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
+
+|Everspring - AD147-6 - Miniplug Dimmer||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html[Documentation]
+
+|Everspring - AN180-6 - Miniplug On-Off||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AN180-6_-_Miniplug_On-Off.html[Documentation]
+
+|Fibaro - Fgd211 - Dimmer||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html[Documentation]
+
+|Fibaro - Fgk101 - Ouverture||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html[Documentation]
+
+|Fibaro - Fgms001 - Motion||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html[Documentation]
+
+|Fibaro - Fgrm222 - Volets||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html[Documentation]
+
+|Fibaro - Fgsd102 - Fumees||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html[Documentation]
+
+|Fibaro - Fgwpe101 - Wall Plug||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgwpe101_-_Wall_Plug.html[Documentation]
+
+|Fibaro - fgrgb101||
+
+|Greenwave - Powernode1 - Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html[Documentation]
+
+|Greenwave - Powernode - Multiprise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html[Documentation]
+
+|Nodon - Smartplug - Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.smartplug_-_Prise.html[Documentation]
+
+|Philio - Psp01 - Multicapteurs||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psp01_-_Multicapteurs.html[Documentation]
+
+|Philio - Pst02a - 4 en 1||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html[Documentation]
+
+|Philio - Pst02c - 3 en 1 Ouverture||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02c_-_3_en_1_Ouverture.html[Documentation]
+
+|Polycontrol - Polylock - Serrure||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.polylock_-_Serrure.html[Documentation]
+
+|Remotec - ZXT-120|Le module ne peut etre inclus en mode distant de plus certain paramètres ont du mal à passer|
+
+|Smart Home by Everspring - AD146-0 - In Wall Dimmer||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html[Documentation]
+
+|Smart Home by Everspring - AN179-0 - In Wall On-Off||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html[Documentation]
+
+|Swiid - Inter - Interrupteur Cordon||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html[Documentation]
+
+|Zipato - Minikeypad - Clavier Rfid|Il n'est pas possible de recuperer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
+
+|Zipato - Dual Sensor||
+
+|===
+
+[NOTE]
+Cette liste est basé sur des retours utilisateurs, l'équipement Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionels
