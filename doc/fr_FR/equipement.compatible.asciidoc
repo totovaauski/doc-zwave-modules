@@ -1,4 +1,4 @@
-= Liste des équipements compatible RFXCOM
+= Liste des équipements compatible Z-Wave
 
 [cols="3*", options="header"] 
 |===
