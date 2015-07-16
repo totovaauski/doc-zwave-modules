@@ -200,7 +200,7 @@ image::../images/greenwave.Powernode1/config2.jpg[Config2,align="center"]
 
 {nbsp} +
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système.
+Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système. Il faut choisir PressButton.
 
 {nbsp} +
 
