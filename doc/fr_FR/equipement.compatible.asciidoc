@@ -8,23 +8,23 @@
 
 |Aeotec - Minimote - Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html[Documentation]
 
-|Aeotec ZW078 Heavy Duty Smart Switch Gen5 ||
+|Aeotec - ZW078 Heavy Duty Smart Switch Gen5 - Interrupteur Forte Charge  ||
 
-|Aeotec DSB28 Home Energy Meter 3C 60A, Version G2||
+|Aeotec - DSB28 Home Energy Meter 3C 60A, Version G2||
 
-|Aeotec HEM2 Home Energy Meter 2Phases||
+|Aeotec - HEM2 Home Energy Meter 2Phases||
 
-|Aeotec Multi Sensor 4in1 G2|Attention ce module peut remonter de mauvaise de données, il faut bien faire attention sur la configuration|
+|Aeotec - Multi Sensor 4in1 G2|Attention ce module peut remonter de mauvaise de données, il faut bien faire attention sur la configuration|
 
-|Aeotec ZW078 Smart Energy Switch Gen5||
+|Aeotec - ZW078 Smart Energy Switch Gen5||
 
-|Aeotec DSB29 Door/Window Sensor G2||
+|Aeotec - DSB29 Door/Window Sensor G2||
 
 |BeNext - Tag Reader|Il n'est pas possible de recuperer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
 
-|Duwi 05443 Wireless Flush Mounted Switch||
+|Duwi - 05443 Wireless Flush Mounted Switch||
 
-|Duwi ZW EDAN 300 Flush Mounted Dimmer|Besoin d’activer le polling pour remonter le niveau|
+|Duwi - ZW EDAN 300 Flush Mounted Dimmer|Besoin d’activer le polling pour remonter le niveau|
 
 |Everspring - AD147-6 - Miniplug Dimmer||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html[Documentation]
 
@@ -68,15 +68,15 @@
 
 |Qees RETO Dimmer Plus 2013|Besoin d’activer le polling pour remonter la puissance|
 
-|Qubino ZMNHBA2 Flush 2 Relays|Problème de remonté de l’état des instances entre commande bouton vs zwave|
+|Qubino - ZMNHBA2 Flush 2 Relays|Problème de remonté de l’état des instances entre commande bouton vs zwave|
 
-|Smart Home by Everspring - AD146-0 - In Wall Dimmer||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html[Documentation]
+|SmartHome by Everspring - AD146-0 - In Wall Dimmer||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html[Documentation]
 
-|Smart Home by Everspring - AN179-0 - In Wall On-Off||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html[Documentation]
+|SmartHome by Everspring - AN179-0 - In Wall On-Off||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html[Documentation]
 
 |Swiid - Inter - Interrupteur Cordon||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html[Documentation]
 
-|Vision ZG8101 Garage Door Detector||
+|Vision - ZG8101 Garage Door Detector||
 
 |Zipato - Minikeypad - Clavier Rfid|Il n'est pas possible de recuperer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
 
