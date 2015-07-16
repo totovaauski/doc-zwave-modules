@@ -214,7 +214,7 @@ image::../images/fibaro.fgwpe101/config5.jpg[Config5,align="center"]
 
 {nbsp} +
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système.
+Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système. Il faut choisir PressButton.
 
 {nbsp} +
 
