@@ -215,7 +215,7 @@ image::../images/greenwave.powernode/groupe.jpg[Groupe]
 
 {nbsp} +
 
-==== Spécificités / CRON
+==== Spécificités / Polling
 
 {nbsp} +
 
@@ -257,7 +257,7 @@ image::../images/greenwave.powernode/config3.jpg[Config3,align="center"]
 
 {nbsp} +
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système. (Il y a un reset par prise)
+Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système. (Il y a un reset par prise). Il faut choisir PressButton.
 
 {nbsp} +
 
