@@ -42,7 +42,7 @@
 
 ||Fibaro|Fgms001 - Motion|Multicapteurs||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html[Documentation]
 
-|Fibaro|Fgrm222 - Volets|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html[Documentation]
+||Fibaro|Fgrm222 - Volets|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html[Documentation]
 
 ||Fibaro|Fgsd102 - Smoke sensor|Fumées||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html[Documentation]
 
