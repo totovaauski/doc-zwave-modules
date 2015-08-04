@@ -1,6 +1,6 @@
 = Liste des équipements compatibles Z-Wave 
 
-[big red]*Actuellement Jeedom est compatible avec* [big red yellow-background]*5* [red]*marques de modules différentes, soit un total de* [big red  yellow-background]*22* [big red]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*5* [green]*marques de modules différentes, soit un total de* [red]*22* [green]*modules.*
 
 == Aeotec
 
