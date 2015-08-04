@@ -1,232 +1,461 @@
-= Liste des équipements compatibles Z-Wave
+= Liste des équipements compatibles Z-Wave 
 
 == Aeotec
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html[Documentation]
+||Aeotec|Aeon Bulb [RGBW]||| 
 
-|image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html[Documentation]
+||Aeotec|Aeon DSB28||| 
 
-|image:../images/aeotec.panicbutton/module.jpg[width=150,align="center"]|Aeotec|Panic Button|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html[Documentation]
+||Aeotec|Aeon Door/Window Sensor||| 
 
-|image:../images/aeotec.minimote/module.jpg[width=150,align="center"]|Aeotec|Minimote|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html[Documentation]
+||Aeotec|Aeon HEM||| 
 
-||Aeotec|ZW078 Heavy Duty Smart Switch Gen5|Interrupteur Forte Charge||
+||Aeotec|Aeon Labs Blind Control Switch||| 
 
-||Aeotec|DSB28 Home Energy Meter 3C 60A, Version G2|||
+||Aeotec|Aeon Labs Door ZW089||| 
 
-||Aeotec|HEM2 Home Energy Meter 2Phases|||
+||Aeotec|Aeon Labs Double microSwitch G2||| 
 
-||Aeotec|Multi Sensor 4in1 G2|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration|
+||Aeotec|Aeon Labs Insert Dimmer||| 
 
-||Aeotec|ZW078 Smart Energy Switch Gen5|Prise||
+||Aeotec|Aeon Labs Insert Switch||| 
 
-||Aeotec|DSB29 Door/Window Sensor G2|Ouverture||
+||Aeotec|Aeon Labs Prise ZW075||| 
 
-||Aeotec|MultiSensor 6 |Multicapteurs||
+||Aeotec|Aeon Labs Siren ZW080||| 
 
-||Aeotec|Led Bulb|RGBW||
+||Aeotec|Aeon Labs Smart Energy Illuminator||| 
+
+||Aeotec|Aeon Labs Smart Energy Switch||| 
+
+||Aeotec|Aeon Labs SmartSwitch||| 
+
+||Aeotec|Aeon Multi-Sensor 6 en 1||| 
+
+||Aeotec|Aeon Multi-Sensor GEN 5||| 
+
+||Aeotec|Aeon Range Extender [Repeater]||| 
+
+||Aeotec|Keyfob Gen5|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation] 
+
+|image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html++[Documentation] 
+
+|image:../images/aeotec.minimote/module.jpg[width=150,align="center"]|Aeotec|Minimote|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html++[Documentation] link:++http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html++[Acheter]
+
+|image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 4 en 1|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration| 
+
+||Aeotec|Panic Button|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html++[Documentation] 
+
 
 |===
 
 == Benext
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|BeNext|Tag Reader|Clavier Rfid|Il n'est pas possible de récupérer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
+||Benext|Built In Dimmer||| 
+
+||Benext|Plug In Dimmer||| 
+
+||Benext|Scene Controller EU telecommande 7 boutons||| 
+
+||Benext|Zipato Mini Keypad RFID|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation] 
+
+
+|===
+
+== Chromagic
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Chromagic|Everspring HSP02||| 
+
+||Chromagic|Opening Detector HSM02||| 
+
+
+|===
+
+== Danfoss
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Danfoss|Thermostat Living Connect + retour consigne||| 
+
 
 |===
 
 == Duwi
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Duwi|05443 Wireless Flush Mounted Switch|Interrupteur||
+||Duwi|DUWI ZW ZS 3500 Plugin Switch||| 
 
-||Duwi|ZW EDAN 300 Flush Mounted Dimmer|Interrupteur|Besoin d’activer le polling pour remonter le niveau|
+||Duwi|Interrupteur Variateur Duro 2000||| 
+
+||Duwi|Wall Plug ZW_ES_1000||| 
+
+||Duwi|ZW EDAN 300 Dimmer||| 
+
 
 |===
 
 == Everspring
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/everspring.AD147-6/module.jpg[width=150,align="center"]|Everspring|AD147-6 - Miniplug Dimmer|Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html[Documentation]
+||Everspring|AD142-6||| 
 
-|image:../images/everspring.AN180-6/module.jpg[width=150,align="center"]|Everspring|AN180-6 - Miniplug On-Off|Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AN180-6_-_Miniplug_On-Off.html[Documentation]
+||Everspring|AN145||| 
 
-||Everspring|ST812 Flood Detector|Innondation||
+||Everspring|AN157-6||| 
 
-||Everspring|AN158 Plug-in Meter Appliance Module|Prise||
+||Everspring|AN158||| 
 
-||Everspring|SM103 Door/Window Sensor|Ouverture||
+||Everspring|HAC01||| 
+
+||Everspring|HAN01||| 
+
+||Everspring|Miniplug Dimmer|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html++[Documentation] 
+
+||Everspring|Miniplug On/Off|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AN180-6_-_Miniplug_On-Off.html++[Documentation] 
+
+||Everspring|SE812||| 
+
+||Everspring|SF812||| 
+
+||Everspring|SM103||| 
+
+||Everspring|SP103||| 
+
+||Everspring|SP814 Motion Detector||| 
+
+||Everspring|ST812||| 
+
+||Everspring|ST814||| 
+
+||Everspring|ST815||| 
+
+||Everspring|TSE03 Door Bell||| 
+
 
 |===
 
 == Fibaro
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/fibaro.fgd211/module.jpg[width=150,align="center"]|Fibaro|Fgd211 - Dimmer|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html[Documentation]
+||Fibaro|FGBS-001 [Universal Relay]||| 
 
-||Fibaro|Fgd212 - Dimmer|Micromodule||
+||Fibaro|FGD-211 [Dimmer]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html++[Documentation] 
 
-|image:../images/fibaro.fgk101-DS18B20/module.jpg[width=150,align="center"]|Fibaro|Fgk101|Ouverture||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html[Documentation]
+||Fibaro|FGD-212 [Dimmer 2]||| 
 
-|image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|Fgms001 - Motion|Multicapteurs||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html[Documentation]
+||Fibaro|FGFS-101 [Flood Sensor]||| 
 
-||Fibaro|Fgr221 - Volets|Micromodule||
+||Fibaro|FGK-101 [Doorsensor]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html++[Documentation] 
 
-||Fibaro|Fgrm221 - Volets|Micromodule||
+||Fibaro|FGMS-001 [Motion Sensor]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation] 
 
-|image:../images/fibaro.fgrm222/module.jpg[width=150,align="center"]|Fibaro|Fgrm222 - Volets|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html[Documentation]
+||Fibaro|FGRGB-101 [RGBW]||| 
 
-|image:../images/fibaro.fgsd102/module.jpg[width=150,align="center"]|Fibaro|Fgsd102 - Smoke sensor|Fumées||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html[Documentation]
+||Fibaro|FGRM-221 [Volet roulant]||| 
 
-||Fibaro|FGSS101 Smoke Sensor|Fumées||
+||Fibaro|FGRM-222 [Volet roulant]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html++[Documentation] 
 
-|image:../images/fibaro.fgwpe101/module.jpg[width=150,align="center"]|Fibaro|Fgwpe101 - Wall Plug|Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgwpe101_-_Wall_Plug.html[Documentation]
+||Fibaro|FGS-211 [Simple Relay]||| 
 
-||Fibaro|Fgrgb101|RGBW||
+||Fibaro|FGS-212 [Simple Relay]||| 
 
-||Fibaro|FGFS-101 Flood Sensor|Innondation||
+||Fibaro|FGS-221 Double charge||| 
 
-||Fibaro|FGBS-001 Universal Sensor|||
+||Fibaro|FGS-222 Double charge||| 
+
+||Fibaro|FGSD-002 [Smoke Sensor CE] |||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html++[Documentation] 
+
+||Fibaro|FGSS-001 [Smoke Sensor]||| 
+
+||Fibaro|FGWPE [Wall Plug]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgwpe101_-_Wall_Plug.html++[Documentation] 
+
 
 |===
 
-== Greeenwave
+== Fortrezz
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/greenwave.Powernode1/module.jpg[width=150,align="center"]|Greenwave|Powernode1|Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html[Documentation]
+||Fortrezz|SSA-02||| 
 
-|image:../images/greenwave.powernode/module.jpg[width=150,align="center"]|Greenwave|Powernode|Multiprise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html[Documentation]
+||Fortrezz|SSA-03||| 
+
+
+|===
+
+== Greenwave
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Greenwave|GreenWave[6 x prises]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html++[Documentation] 
+
+||Greenwave|Powernode 1|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html++[Documentation] 
+
+
+|===
+
+== Homeseer
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Homeseer|EZ Motion 3 in 1||| 
+
+
+|===
+
+== Horstmann
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Horstmann|ASR-ZW Thermostat Receiver||| 
+
+||Horstmann|HRT4-ZW Thermostat Transmitter||| 
+
+
+|===
+
+== Mco
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Mco|MCO Home MH-S411 [Simple]||| 
+
+||Mco|MCO Home MH-S412 [Double]||| 
+
 
 |===
 
 == Nodon
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/nodon.smartplug/module.jpg[width=150,align="center"]|Nodon|Smartplug|Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.smartplug_-_Prise.html[Documentation]
+||Nodon|CRC-3-1-00 Octan Remote||| 
+
+||Nodon|Smartplug|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.smartplug_-_Prise.html++[Documentation] 
+
+
+|===
+
+== Northq
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Northq|NorthQ Power Reader||| 
+
 
 |===
 
 == Philio
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/philio.psp01/module.jpg[width=150,align="center"]|Philio|Psp01|Multicapteurs||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psp01_-_Multicapteurs.html[Documentation]
+||Philio|4 in 1 Sensor|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html++[Documentation] 
 
-|image:../images/philio.pst02a/module.jpg[width=150,align="center"]|Philio|Pst02a - 4 en 1|Multicapteurs||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html[Documentation]
+||Philio|Door/Window Sensor|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02c_-_3_en_1_Ouverture.html++[Documentation] 
 
-|image:../images/philio.pst02c/module.jpg[width=150,align="center"]|Philio|Pst02c - 3 en 1 Ouverture|Multicapteurs||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02c_-_3_en_1_Ouverture.html[Documentation]
+||Philio|MultiSensor|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psp01_-_Multicapteurs.html++[Documentation] 
 
-|===
+||Philio|PAN06 In Wall Dual Relay (1 way) switch module||| 
 
-== Polylock
+||Philio|Zipato PAN04.eu||| 
 
-[cols="2,1s,2,2,10,3", options="header"] 
-|===
-||Marque|Nom|Type|Remarque|Lien
-
-|image:../images/polycontrol.polylock/module.jpg[width=150,align="center"]|Polycontrol|Polylock|Serrure||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.polylock_-_Serrure.html[Documentation]
 
 |===
 
-== Remotec
+== Polycontrol
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Remotec|ZXT-120|Thermostat IR|Le module ne peut etre inclus en mode distant de plus certain paramètres ont du mal à passer|
+||Polycontrol|Danalock||| 
+
+||Polycontrol|Polylock|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.polylock_-_Serrure.html++[Documentation] 
+
 
 |===
 
 == Qees
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Qees|RETO Dimmer Plus 2013|Interrupteur|Besoin d’activer le polling pour remonter la puissance|
+||Qees|QEES Turtle Switch||| 
+
 
 |===
 
 == Qubino
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Qubino|ZMNHBA2 Flush 2 Relays|Micromodule||
+||Qubino|Dimmer||| 
+
+||Qubino|Fil Pilote 6 ordres||| 
+
+||Qubino|Flush 1 relay||| 
+
+||Qubino|Flush 2 relay||| 
+
+||Qubino|Flush on/off thermostat||| 
+
+||Qubino|ZMNHCA2 Module Volets roulants Encastrable||| 
+
 
 |===
 
-== SmartHome by Everspring
+== Remotec
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/smarthomebyeverspring.AD146-0/module.jpg[width=150,align="center"]|SmartHome by Everspring|AD146-0 - In Wall Dimmer|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html[Documentation]
+||Remotec|ZXT-120||| 
 
-|image:../images/smarthomebyeverspring.AN179-0/module.jpg[width=150,align="center"]|SmartHome by Everspring|AN179-0 - In Wall On-Off|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html[Documentation]
+
+|===
+
+== Schlage
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Schlage|Zipato Mini Keypad RFID|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation] 
+
+
+|===
+
+== Smarthome By Everspring
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Smarthome By Everspring|In Wall Dimmer|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html++[Documentation] 
+
+||Smarthome By Everspring|In Wall On/Off|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html++[Documentation] 
+
 
 |===
 
 == Swiid
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/swiid.inter/module.jpg[width=150,align="center"]|Swiid|Inter|Interrupteur||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html[Documentation]
+||Swiid|SwiidInter|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html++[Documentation] 
+
+||Swiid|SwiidPlug||| 
+
 
 |===
 
-== Vision
+== Vision Security
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Vision|ZG8101 Garage Door Detector|Ouverture||
+||Vision Security|Détecteur ouverture porte ZG 8101||| 
+
+||Vision Security|Smoke Detector ZS 6101||| 
+
+||Vision Security|Vision Multi sensor Dual||| 
+
+||Vision Security|ZD2102||| 
+
+||Vision Security|ZM1601||| 
+
+||Vision Security|ZM1602||| 
+
+||Vision Security|ZP3102||| 
+
+||Vision Security|ZS 5101-5||| 
+
+||Vision Security|ZS 5101||| 
+
+||Vision Security|ZS6301||| 
+
+
+|===
+
+== Vitrum
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Vitrum|ZWE060||| 
+
+
+|===
+
+== Wenzhou
+
+[cols="2,1s,2,2,10,3", options="header"]
+|===
+||Marque|Nom|Type|Remarque|Lien
+
+||Wenzhou|TKBHOME TZ66S||| 
+
 
 |===
 
 == Zipato
 
-[cols="2,1s,2,2,10,3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"]
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Zipato|Minikeypad|Clavier Rfid|Il n'est pas possible de récupérer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
+||Zipato|Bulb [RGBW]||| 
 
-||Zipato|Dual Sensor|Multicapteurs||
-
-||Zipato|Led Bulb|RGBW||
 
 |===
 
+
 [NOTE]
-Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionels
+Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
