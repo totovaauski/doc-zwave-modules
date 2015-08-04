@@ -1,10 +1,10 @@
 = Liste des équipements compatible Z-Wave
 
-[cols="5*", options="header"] 
+[cols="^1,^2,^2,10,^3", options="header"] 
 |===
 |Marque|Nom|Type|Remarque|Lien
 
-|image::../images/aeotec.keyfob-gen5/module.jpg[width=50]Aeotec|Keyfob Gen5|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html[Documentation]
+|Aeotec|Keyfob Gen5|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html[Documentation]
 
 |Aeotec|Keyfob|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html[Documentation]
 
