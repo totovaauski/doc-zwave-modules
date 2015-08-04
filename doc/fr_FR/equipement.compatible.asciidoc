@@ -4,7 +4,7 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-|image:../images/aeotec.keyfob-gen5/module.jpg[width=50,align="center"]|Aeotec|Keyfob Gen5|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html[Documentation]
+|image:../images/aeotec.keyfob-gen5/module.jpg[width=100,align="center"]|Aeotec|Keyfob Gen5|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html[Documentation]
 
 ||Aeotec|Keyfob|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html[Documentation]
 
@@ -82,7 +82,7 @@
 
 ||Vision|ZG8101 Garage Door Detector|Ouverture||
 
-||Zipato|Minikeypad - Clavier Rfid|Il n'est pas possible de recuperer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
+||Zipato|Minikeypad|Clavier Rfid|Il n'est pas possible de recuperer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
 
 ||Zipato|Dual Sensor|Multicapteurs||
 
