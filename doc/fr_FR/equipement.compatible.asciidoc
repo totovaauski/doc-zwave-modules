@@ -1,6 +1,6 @@
 = Liste des équipements compatibles Z-Wave
 
-[cols="^2,^1,^2,^2,10,^3", options="header"] 
+[cols="2,1s,2,2,10,3", options="header"] 
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
