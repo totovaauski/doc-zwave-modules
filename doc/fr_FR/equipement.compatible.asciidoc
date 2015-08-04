@@ -19,7 +19,7 @@
 
 ||Aeotec|HEM2 Home Energy Meter 2Phases|||
 
-||Aeotec|Multi Sensor 4in1 G2|Multicapteurs|Attention ce module peut remonter de mauvaise de données, il faut bien faire attention sur la configuration|
+||Aeotec|Multi Sensor 4in1 G2|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration|
 
 ||Aeotec|ZW078 Smart Energy Switch Gen5|Prise||
 
