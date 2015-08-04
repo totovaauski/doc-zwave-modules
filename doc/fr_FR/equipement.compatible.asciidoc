@@ -40,9 +40,25 @@
 
 |image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|BeNext|Tag Reader|Clavier Rfid|Il n'est pas possible de récupérer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
 
+|===
+
+== Duwi
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
+
 ||Duwi|05443 Wireless Flush Mounted Switch|Interrupteur||
 
 ||Duwi|ZW EDAN 300 Flush Mounted Dimmer|Interrupteur|Besoin d’activer le polling pour remonter le niveau|
+
+|===
+
+== Everspring
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
 
 |image:../images/everspring.AD147-6/module.jpg[width=150,align="center"]|Everspring|AD147-6 - Miniplug Dimmer|Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html[Documentation]
 
@@ -53,6 +69,14 @@
 ||Everspring|AN158 Plug-in Meter Appliance Module|Prise||
 
 ||Everspring|SM103 Door/Window Sensor|Ouverture||
+
+|===
+
+== Fibaro
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
 
 |image:../images/fibaro.fgd211/module.jpg[width=150,align="center"]|Fibaro|Fgd211 - Dimmer|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html[Documentation]
 
@@ -80,11 +104,35 @@
 
 ||Fibaro|FGBS-001 Universal Sensor|||
 
+|===
+
+== Greeenwave
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
+
 |image:../images/greenwave.Powernode1/module.jpg[width=150,align="center"]|Greenwave|Powernode1|Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html[Documentation]
 
 |image:../images/greenwave.powernode/module.jpg[width=150,align="center"]|Greenwave|Powernode|Multiprise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html[Documentation]
 
+|===
+
+== Nodon
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
+
 |image:../images/nodon.smartplug/module.jpg[width=150,align="center"]|Nodon|Smartplug|Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.smartplug_-_Prise.html[Documentation]
+
+|===
+
+== Philio
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
 
 |image:../images/philio.psp01/module.jpg[width=150,align="center"]|Philio|Psp01|Multicapteurs||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psp01_-_Multicapteurs.html[Documentation]
 
@@ -92,21 +140,85 @@
 
 |image:../images/philio.pst02c/module.jpg[width=150,align="center"]|Philio|Pst02c - 3 en 1 Ouverture|Multicapteurs||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02c_-_3_en_1_Ouverture.html[Documentation]
 
+|===
+
+== Polylock
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
+
 |image:../images/polycontrol.polylock/module.jpg[width=150,align="center"]|Polycontrol|Polylock|Serrure||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.polylock_-_Serrure.html[Documentation]
+
+|===
+
+== Remotec
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
 
 ||Remotec|ZXT-120|Thermostat IR|Le module ne peut etre inclus en mode distant de plus certain paramètres ont du mal à passer|
 
+|===
+
+== Qees
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
+
 ||Qees|RETO Dimmer Plus 2013|Interrupteur|Besoin d’activer le polling pour remonter la puissance|
 
+|===
+
+== Qubino
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
+
 ||Qubino|ZMNHBA2 Flush 2 Relays|Micromodule||
+
+|===
+
+== SmartHome by Everspring
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
 
 |image:../images/smarthomebyeverspring.AD146-0/module.jpg[width=150,align="center"]|SmartHome by Everspring|AD146-0 - In Wall Dimmer|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html[Documentation]
 
 |image:../images/smarthomebyeverspring.AN179-0/module.jpg[width=150,align="center"]|SmartHome by Everspring|AN179-0 - In Wall On-Off|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html[Documentation]
 
+|===
+
+== Swiid
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
+
 |image:../images/swiid.inter/module.jpg[width=150,align="center"]|Swiid|Inter|Interrupteur||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html[Documentation]
 
+|===
+
+== Vision
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
+
 ||Vision|ZG8101 Garage Door Detector|Ouverture||
+
+|===
+
+== Zipato
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
 
 |image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Zipato|Minikeypad|Clavier Rfid|Il n'est pas possible de récupérer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
 
