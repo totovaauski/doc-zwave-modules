@@ -6,7 +6,7 @@
 
 |image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html[Documentation]
 
-== |image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html[Documentation]
+|image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html[Documentation]
 
 |image:../images/aeotec.panicbutton/module.jpg[width=150,align="center"]|Aeotec|Panic Button|Telecommande||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html[Documentation]
 
