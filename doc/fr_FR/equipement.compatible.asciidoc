@@ -9,39 +9,23 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Aeotec|Aeon Bulb [RGBW]||| 
+||Aeotec|Blind Control Switch||| 
 
-||Aeotec|Aeon DSB28||| 
+||Aeotec|Bulb [RGBW]||| 
 
-||Aeotec|Aeon HEM||| 
+||Aeotec|DSB28||| 
 
-||Aeotec|Aeon Labs Blind Control Switch||| 
-
-||Aeotec|Aeon Labs Door ZW089||| 
-
-||Aeotec|Aeon Labs Double microSwitch G2||| 
-
-||Aeotec|Aeon Labs Insert Dimmer||| 
-
-||Aeotec|Aeon Labs Insert Switch||| 
-
-||Aeotec|Aeon Labs Prise ZW075||| 
-
-||Aeotec|Aeon Labs Siren ZW080||| 
-
-||Aeotec|Aeon Labs Smart Energy Illuminator||| 
-
-||Aeotec|Aeon Labs Smart Energy Switch||| 
-
-||Aeotec|Aeon Labs SmartSwitch||| 
-
-||Aeotec|Aeon Multi-Sensor 6 en 1||| 
-
-||Aeotec|Aeon Multi-Sensor GEN 5||| 
-
-||Aeotec|Aeon Range Extender [Repeater]||| 
+||Aeotec|Door ZW089||| 
 
 |image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor|Ouverture|| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
+
+||Aeotec|Double microSwitch G2||| 
+
+||Aeotec|HEM||| 
+
+||Aeotec|Insert Dimmer||| 
+
+||Aeotec|Insert Switch||| 
 
 |image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 
@@ -51,7 +35,23 @@
 
 |image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 4 en 1|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration| 
 
+||Aeotec|Multi-Sensor 6 en 1||| 
+
+||Aeotec|Multi-Sensor GEN 5||| 
+
 |image:../images/aeotec.panicbutton/module.jpg[width=150,align="center"]|Aeotec|Panic Button|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html++[Acheter^]
+
+||Aeotec|Prise ZW075||| 
+
+||Aeotec|Range Extender [Repeater]||| 
+
+||Aeotec|Siren ZW080||| 
+
+||Aeotec|Smart Energy Illuminator||| 
+
+||Aeotec|Smart Energy Switch||| 
+
+||Aeotec|SmartSwitch||| 
 
 
 |===
@@ -64,11 +64,11 @@
 
 ||Benext|Built In Dimmer||| 
 
+||Benext|Mini Keypad RFID|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] 
+
 ||Benext|Plug In Dimmer||| 
 
 ||Benext|Scene Controller EU telecommande 7 boutons||| 
-
-||Benext|Zipato Mini Keypad RFID|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] 
 
 
 |===
@@ -79,7 +79,7 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Chromagic|Everspring HSP02||| 
+||Chromagic|HSP02||| 
 
 ||Chromagic|Opening Detector HSM02||| 
 
@@ -92,7 +92,7 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Danfoss|Thermostat Living Connect + retour consigne||| 
+||Danfoss|Thermostat Living Connect||| 
 
 
 |===
@@ -103,13 +103,13 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Duwi|DUWI ZW ZS 3500 Plugin Switch||| 
-
 ||Duwi|Interrupteur Variateur Duro 2000||| 
 
 ||Duwi|Wall Plug ZW_ES_1000||| 
 
 ||Duwi|ZW EDAN 300 Dimmer||| 
+
+||Duwi|ZW ZS 3500 Plugin Switch||| 
 
 
 |===
@@ -217,9 +217,9 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Greenwave|GreenWave[6 x prises]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html++[Documentation^] 
-
 ||Greenwave|Powernode 1|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html++[Documentation^] 
+
+||Greenwave|Powernode [6 x prises]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html++[Documentation^] 
 
 
 |===
@@ -254,9 +254,9 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Mco|MCO Home MH-S411 [Simple]||| 
+||Mco|MH-S411 [Simple]||| 
 
-||Mco|MCO Home MH-S412 [Double]||| 
+||Mco|MH-S412 [Double]||| 
 
 
 |===
@@ -280,7 +280,7 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Northq|NorthQ Power Reader||| 
+||Northq|Power Reader||| 
 
 
 |===
@@ -297,9 +297,9 @@
 
 ||Philio|MultiSensor|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psp01_-_Multicapteurs.html++[Documentation^] 
 
-||Philio|PAN06 In Wall Dual Relay (1 way) switch module||| 
+||Philio|PAN04.eu||| 
 
-||Philio|Zipato PAN04.eu||| 
+||Philio|PAN06 In Wall Dual Relay (1 way) switch module||| 
 
 
 |===
@@ -323,7 +323,7 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Qees|QEES Turtle Switch||| 
+||Qees|Turtle Switch||| 
 
 
 |===
@@ -344,7 +344,7 @@
 
 ||Qubino|Flush on/off thermostat||| 
 
-||Qubino|ZMNHCA2 Module Volets roulants Encastrable||| 
+||Qubino|ZMNHCA2||| 
 
 
 |===
@@ -366,7 +366,7 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Schlage|Zipato Mini Keypad RFID|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] 
+||Schlage|Mini Keypad RFID|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] 
 
 
 |===
@@ -403,13 +403,11 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Vision Security|Détecteur ouverture porte ZG 8101||| 
-
-||Vision Security|Smoke Detector ZS 6101||| 
-
-||Vision Security|Vision Multi sensor Dual||| 
+||Vision Security|Multi sensor Dual||| 
 
 ||Vision Security|ZD2102||| 
+
+||Vision Security|ZG 8101 Détecteur ouverture porte||| 
 
 ||Vision Security|ZM1601||| 
 
@@ -420,6 +418,8 @@
 ||Vision Security|ZS 5101-5||| 
 
 ||Vision Security|ZS 5101||| 
+
+||Vision Security|ZS 6101 Smoke Detector ||| 
 
 ||Vision Security|ZS6301||| 
 
@@ -443,7 +443,7 @@
 |===
 ||Marque|Nom|Type|Remarque|Lien
 
-||Wenzhou|TKBHOME TZ66S||| 
+||Wenzhou|TZ66S||| 
 
 
 |===
