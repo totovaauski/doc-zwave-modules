@@ -10,8 +10,6 @@
 
 ||Aeotec|Aeon DSB28||| 
 
-||Aeotec|Aeon Door/Window Sensor||| 
-
 ||Aeotec|Aeon HEM||| 
 
 ||Aeotec|Aeon Labs Blind Control Switch||| 
@@ -40,7 +38,9 @@
 
 ||Aeotec|Aeon Range Extender [Repeater]||| 
 
-||Aeotec|Keyfob Gen5|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation] 
+|image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor|Ouverture|| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter]
+
+|image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter]
 
 |image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html++[Documentation] 
 
@@ -48,7 +48,7 @@
 
 |image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 4 en 1|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration| 
 
-||Aeotec|Panic Button|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html++[Documentation] 
+|image:../images/aeotec.panicbutton/module.jpg[width=150,align="center"]|Aeotec|Panic Button|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html++[Documentation] link:++http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html++[Acheter]
 
 
 |===
