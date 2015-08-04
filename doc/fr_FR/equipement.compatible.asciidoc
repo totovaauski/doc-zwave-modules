@@ -1,4 +1,4 @@
-= Liste des équipements compatible Z-Wave
+= Liste des équipements compatibles Z-Wave
 
 [cols="^2,^1,^2,^2,10,^3", options="header"] 
 |===
