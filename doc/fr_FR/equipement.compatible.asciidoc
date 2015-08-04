@@ -24,6 +24,10 @@
 
 ||Aeotec|DSB29 Door/Window Sensor G2|Ouverture||
 
+||Aeotec|MultiSensor 6 |Multicapteurs||
+
+||Aeotec|Led Bulb|RGBW||
+
 |image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|BeNext|Tag Reader|Clavier Rfid|Il n'est pas possible de recuperer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
 
 ||Duwi|05443 Wireless Flush Mounted Switch|Interrupteur||
@@ -36,15 +40,27 @@
 
 ||Everspring|ST812 Flood Detector|Innondation||
 
+||Everspring|AN158 Plug-in Meter Appliance Module|Prise||
+
+||Everspring|SM103 Door/Window Sensor|Ouverture||
+
 |image:../images/fibaro.fgd211/module.jpg[width=150,align="center"]|Fibaro|Fgd211 - Dimmer|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html[Documentation]
+
+||Fibaro|Fgd212 - Dimmer|Micromodule||
 
 |image:../images/fibaro.fgk101-DS18B20/module.jpg[width=150,align="center"]|Fibaro|Fgk101|Ouverture||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html[Documentation]
 
 |image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|Fgms001 - Motion|Multicapteurs||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html[Documentation]
 
+||Fibaro|Fgr221 - Volets|Micromodule||
+
+||Fibaro|Fgrm221 - Volets|Micromodule||
+
 |image:../images/fibaro.fgrm222/module.jpg[width=150,align="center"]|Fibaro|Fgrm222 - Volets|Micromodule||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html[Documentation]
 
 |image:../images/fibaro.fgsd102/module.jpg[width=150,align="center"]|Fibaro|Fgsd102 - Smoke sensor|Fumées||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html[Documentation]
+
+||Fibaro|FGSS101 Smoke Sensor|Fumées||
 
 |image:../images/fibaro.fgwpe101/module.jpg[width=150,align="center"]|Fibaro|Fgwpe101 - Wall Plug|Prise||https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgwpe101_-_Wall_Plug.html[Documentation]
 
@@ -85,6 +101,8 @@
 |image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Zipato|Minikeypad|Clavier Rfid|Il n'est pas possible de recuperer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
 
 ||Zipato|Dual Sensor|Multicapteurs||
+
+||Zipato|Led Bulb|RGBW||
 
 |===
 
