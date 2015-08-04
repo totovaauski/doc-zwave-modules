@@ -1,5 +1,7 @@
 = Liste des équipements compatibles Z-Wave
 
+== Aeotec
+
 [cols="2,1s,2,2,10,3", options="header"] 
 |===
 ||Marque|Nom|Type|Remarque|Lien
@@ -27,6 +29,14 @@
 ||Aeotec|MultiSensor 6 |Multicapteurs||
 
 ||Aeotec|Led Bulb|RGBW||
+
+|===
+
+== Benext
+
+[cols="2,1s,2,2,10,3", options="header"] 
+|===
+||Marque|Nom|Type|Remarque|Lien
 
 |image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|BeNext|Tag Reader|Clavier Rfid|Il n'est pas possible de récupérer le dernier code si celui-ci a été enregistré en mémoire|https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html[Documentation]
 
