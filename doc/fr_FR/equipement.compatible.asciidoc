@@ -1,5 +1,5 @@
 = Liste des équipements compatibles Z-Wave
-:toc: macro
+:toc:
 
 [cols="2,1s,2,2,10,3", options="header"] 
 |===
