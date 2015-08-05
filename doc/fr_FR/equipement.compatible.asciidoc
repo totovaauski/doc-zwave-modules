@@ -89,7 +89,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |image:../images/benext.builtin-dimmer/module.jpg[width=150,align="center"]|Benext|Built In Dimmer|Micromodule|| link:++http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html++[Acheter^]
 // 138.13.256_benext.built.in.dimmer.json
 
-|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Benext|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Il est vendu sous la marque Zipato.|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
+|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Benext|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actullement vendu sous la marque Zipato|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
 // 138.7.257_zipato.minikeypad.json
 
 |image:../images/benext.plugin-dimmer/module.jpg[width=150,align="center"]|Benext|Plug In Dimmer|Prise|| link:++http://www.domadoo.fr/fr/peripheriques/2347-benext-module-prise-variateur-z-wave-avec-mesure-d-energie-0632181493779.html++[Acheter^]
@@ -107,11 +107,11 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Chromagic|HSP02||| 
-// 278.1.1_chromagic.hsp02.json
-
-||Chromagic|Opening Detector HSM02||| 
+|image:../images/chromagic.hsm02/module.jpg[width=150,align="center"]|Chromagic|HSM02|Ouverture|Ce module est actuellement vendu sous la marque Everspring| link:++http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html++[Acheter^]
 // 278.2.1_chromagic.opening.detector.hsm02.json
+
+|image:../images/chromagic.hsp02/module.jpg[width=150,align="center"]|Chromagic|HSP02|Multicapteurs|Ce module est actuellement vendu sous la marque Everspring| link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
+// 278.1.1_chromagic.hsp02.json
 
 
 |===
@@ -461,7 +461,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Schlage|Mini Keypad RFID|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] 
+|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Schlage|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actuellement vendu sous la marque Zipato|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
 // 151.24881.17665_mini.keypad.rfid.json
 
 
