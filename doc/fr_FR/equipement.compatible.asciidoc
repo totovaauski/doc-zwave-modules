@@ -29,7 +29,7 @@
 
 |image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 
-|image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html++[Documentation^] 
+|image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Télécommande|Remplacer dans les boutiques par le keyfob Gen5|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 
 |image:../images/aeotec.minimote/module.jpg[width=150,align="center"]|Aeotec|Minimote|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html++[Acheter^]
 
@@ -173,7 +173,7 @@
 
 ||Fibaro|FGK-101 [Doorsensor]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html++[Documentation^] 
 
-||Fibaro|FGMS-001 [Motion Sensor]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] 
+|image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|FGMS-001 [Motion Sensor]|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
 
 ||Fibaro|FGRGB-101 [RGBW]||| 
 
