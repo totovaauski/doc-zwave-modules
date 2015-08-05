@@ -60,18 +60,24 @@ for manuf in list_manuf:
                 remark_module=data.get("remark", '')#on lit la remarque
                 com_link=data.get("comlink", '')#on lit le lien com
                 image_module=data.get("imglink", '')
+                battery_type=data.get("battery_type", '')
+                if battery_type != '':
+                    if remark_module != '' :
+                        battery_type='- Piles : '+battery_type
+                    else:
+                        battery_type='Piles : '+battery_type
                 if image_module != '':
                     image_module='image:../images/'+image_module+'/module.jpg[width=150,align="center"]'
                 if com_link != '':
                     com_link='link:++http://www.domadoo.fr/fr/peripheriques/'+com_link+'.html++[Acheter^]'
-                list_module_parsed.append(name_module+'|'+image_module+'|'+manuf_name+'|'+type_module+'|'+remark_module+'|'+doc_module+'|'+com_link+'|'+module_file)
+                list_module_parsed.append(name_module+'|'+image_module+'|'+manuf_name+'|'+type_module+'|'+remark_module+'|'+doc_module+'|'+com_link+'|'+battery_type+'|'+module_file)
     list_module_parsed.sort()#on tri la liste
     treated_module=[]
     for module in list_module_parsed:
         detail_module=module.split('|')
         if detail_module[0] not in treated_module:
             count_modules+=1
-            text_to_write+='|' +detail_module[1].encode('utf-8')+'|'+detail_module[2].encode('utf-8')+'|'+detail_module[0].encode('utf-8')+'|'+detail_module[3].encode('utf-8')+'|'+detail_module[4].encode('utf-8')+'|'+detail_module[5].encode('utf-8')+' '+detail_module[6].encode('utf-8')+'\n// '+ detail_module[7].encode('utf-8')+'\n\n'
+            text_to_write+='|' +detail_module[1].encode('utf-8')+'|'+detail_module[2].encode('utf-8')+'|'+detail_module[0].encode('utf-8')+'|'+detail_module[3].encode('utf-8')+'|'+detail_module[4].encode('utf-8')+' '+detail_module[7].encode('utf-8')+'|'+detail_module[5].encode('utf-8')+' '+detail_module[6].encode('utf-8')+'\n// '+ detail_module[8].encode('utf-8')+'\n\n'
             treated_module.append(detail_module[0])
         else:
             print "Already a module with this name. Skipping"
