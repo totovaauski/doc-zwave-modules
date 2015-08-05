@@ -7,9 +7,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Aeotec
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Aeotec|Blind Control Switch||| 
 // 134.3.14_aeon.labs.aeon.labs.blind.control.switch.json
@@ -82,9 +82,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Benext
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Benext|Built In Dimmer||| 
 // 138.13.256_benext.built.in.dimmer.json
@@ -103,9 +103,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Chromagic
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Chromagic|HSP02||| 
 // 278.1.1_chromagic.hsp02.json
@@ -118,9 +118,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Danfoss
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Danfoss|Thermostat Living Connect||| 
 // 2.5.3_danfoss.danfoss.thermostat.living.connect.json
@@ -130,9 +130,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Duwi
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Duwi|Interrupteur Variateur Duro 2000||| 
 // 100.5002.0_duwi.popp.duwi.interrupteur.variateur.duro.2000.json
@@ -151,9 +151,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Everspring
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Everspring|AD142-6||| 
 // 96.3.1_everspring.everspring.ad142-6.json
@@ -211,9 +211,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Fibaro
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Fibaro|FGBS-001 [Universal Relay]||| 
 // 271.1281.16386_fibar.group.fibaro.fgbs-001.json
@@ -268,9 +268,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Fortrezz
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Fortrezz|SSA-02||| 
 // 132.785.265_fortrezz.fortrezz.ssa-02.json
@@ -283,9 +283,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Greenwave
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Greenwave|Powernode 1|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html++[Documentation^] 
 // 153.2.2_powernode.1.port.json
@@ -298,9 +298,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Homeseer
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Homeseer|EZ Motion 3 in 1||| 
 // 30.2.1_homeseer.ez.motion.ez.motion.3.in.1.json
@@ -310,9 +310,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Horstmann
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Horstmann|ASR-ZW Thermostat Receiver||| 
 // 89.3.1_horstmann.asr-zw.thermostat.receiver.json
@@ -325,9 +325,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Mco
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Mco|MH-S411 [Simple]||| 
 // 351.16642.513_mco.home.mco.home.mh-s411.simple.json
@@ -340,9 +340,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Nodon
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Nodon|CRC-3-1-00 Octan Remote||| 
 // 357.2.1_nodon.crc.3.1.00.octan.remote.json
@@ -355,9 +355,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Northq
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Northq|Power Reader||| 
 // 150.1.1_northq.nq-92021.power.reader.json
@@ -367,9 +367,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Philio
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Philio|4 in 1 Sensor|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html++[Documentation^] 
 // 316.2.12_pst02a.4..in.1.sensor.json
@@ -391,9 +391,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Polycontrol
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Polycontrol|Danalock||| 
 // 270.3.2_poly-control.danalock.json
@@ -406,9 +406,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Qees
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Qees|Turtle Switch||| 
 // 149.12545.1_qees.qees.turtle.switch.json
@@ -418,9 +418,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Qubino
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Qubino|Dimmer||| 
 // 345.1.1_qubino.qubino.dimmer.json
@@ -445,9 +445,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Remotec
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Remotec|ZXT-120||| 
 // 21076.257.33655_remotec.group.remotec.zxt-120.json
@@ -457,9 +457,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Schlage
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Schlage|Mini Keypad RFID|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] 
 // 151.24881.17665_mini.keypad.rfid.json
@@ -469,9 +469,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Smarthome By Everspring
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Smarthome By Everspring|In Wall Dimmer|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html++[Documentation^] 
 // 96.3.2_smarthome.by.everspring.in.wall.dimmer.ad.146.0.json
@@ -484,9 +484,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Swiid
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Swiid|SwiidInter|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html++[Documentation^] 
 // 358.256.256_swiid.inter.json
@@ -499,9 +499,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Vision Security
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Vision Security|Multi sensor Dual||| 
 // 265.8194.515_vision.multi.sensor.dual.json
@@ -538,9 +538,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Vitrum
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Vitrum|ZWE060||| 
 // 266.5120.26112_vitrum.vitrum.zwe060.json
@@ -550,9 +550,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Wenzhou
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Wenzhou|TZ66S||| 
 // 280.258.4128_tkbhome.tkbhome.tz66s.json
@@ -562,9 +562,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Zipato
 
-[cols="3,1s,3,2,10,3", options="header"]
+[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
 |===
-||Marque|Nom|Type|Remarque|Lien
+|Image|Marque|Nom|Type|Remarque|Lien
 
 ||Zipato|Bulb [RGBW]||| 
 // 305.2.2_zipato_rgbw_bulb.json
