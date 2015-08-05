@@ -62,7 +62,7 @@ for manuf in list_manuf:
                 image_module=data.get("imglink", '')
                 battery_type=data.get("battery_type", '')
                 if battery_type != '':
-                    if remark_module != '' :
+                    if remark_module.strip() != '' :
                         battery_type='- Piles : '+battery_type
                     else:
                         battery_type='Piles : '+battery_type
