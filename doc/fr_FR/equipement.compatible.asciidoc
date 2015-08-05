@@ -44,7 +44,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |image:../images/aeotec.minimote/module.jpg[width=150,align="center"]|Aeotec|Minimote|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html++[Acheter^]
 // 134.1.3_minimote.json
 
-|image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 4 en 1|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration| 
+|image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 4 en 1|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration. Remplacé en boutique par son équivalent Gen5| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
 // 134.2.5_aeon.labs.aeon.multi-sensor.json
 
 |image:../images/aeotec.multisensor6/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 6 en 1|Multicapteurs|| link:++http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html++[Acheter^]
@@ -86,16 +86,16 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Benext|Built In Dimmer||| 
+|image:../images/benext.builtin-dimmer/module.jpg[width=150,align="center"]|Benext|Built In Dimmer|Micromodule|| link:++http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html++[Acheter^]
 // 138.13.256_benext.built.in.dimmer.json
 
-||Benext|Mini Keypad RFID|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] 
+|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Benext|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Il est vendu sous la marque Zipato.|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
 // 138.7.257_zipato.minikeypad.json
 
-||Benext|Plug In Dimmer||| 
+|image:../images/benext.plugin-dimmer/module.jpg[width=150,align="center"]|Benext|Plug In Dimmer|Prise|| link:++http://www.domadoo.fr/fr/peripheriques/2347-benext-module-prise-variateur-z-wave-avec-mesure-d-energie-0632181493779.html++[Acheter^]
 // 138.24.256_benext.benext.plug.in.dimmer.json
 
-||Benext|Scene Controller EU telecommande 7 boutons||| 
+|image:../images/benext.scene-controller/module.jpg[width=150,align="center"]|Benext|Scene Controller 7 boutons|Télécommande|Télécommande non fonctionnelle, fonctionne cependant en association avec d'autres modules| link:++http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html++[Acheter^]
 // 138.23.256_benext.benext.scene.controller.eu.telecommande.7.boutons.json
 
 
