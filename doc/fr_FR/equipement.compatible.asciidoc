@@ -7,7 +7,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Aeotec
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -82,7 +82,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Benext
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -103,7 +103,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Chromagic
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -118,7 +118,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Danfoss
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -130,7 +130,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Duwi
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -151,7 +151,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Everspring
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -211,7 +211,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Fibaro
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -268,7 +268,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Fortrezz
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -283,7 +283,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Greenwave
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -298,7 +298,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Homeseer
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -310,7 +310,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Horstmann
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -325,7 +325,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Mco
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -340,7 +340,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Nodon
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -355,7 +355,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Northq
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -367,7 +367,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Philio
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -391,7 +391,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Polycontrol
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -406,7 +406,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Qees
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -418,7 +418,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Qubino
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -445,7 +445,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Remotec
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -457,7 +457,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Schlage
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -469,7 +469,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Smarthome By Everspring
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -484,7 +484,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Swiid
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -499,7 +499,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Vision Security
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -538,7 +538,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Vitrum
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -550,7 +550,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Wenzhou
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
@@ -562,7 +562,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 == Zipato
 
-[cols=".^3a,.^1s,.^3,.^2,.^10,.^3", options="header"]
+[cols=".^3a,.^1s,.^5,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
