@@ -3,6 +3,8 @@
 
 [green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*111* [green]*modules.*
 
+D'autres modules non présents sur cette liste peuvent être compatibles.
+
 == Aeotec
 
 [cols="2,1s,2,2,10,3", options="header"]
