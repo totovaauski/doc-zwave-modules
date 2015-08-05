@@ -42,7 +42,7 @@ for manuf in list_manuf:
     if os.path.isdir(os.path.join(conf_directory,manuf)):#si c'est bien un rep
         manuf_name=manuf.split("_")[0].title().encode('utf-8') #nom de marque
         manuf_dir=os.path.join(conf_directory,manuf) #repertoire de la marque
-        text_to_write+='== ' +manuf_name +'\n\n[cols="2,1s,2,2,10,3", options="header"]\n|===\n||Marque|Nom|Type|Remarque|Lien\n\n'#ecriture du debut du tableau
+        text_to_write+='== ' +manuf_name +'\n\n[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]\n|===\n|Image|Marque|Nom|Type|Remarque|Lien\n\n'#ecriture du debut du tableau
         list_module=[ f for f in os.listdir(manuf_dir) if os.path.isfile(os.path.join(manuf_dir,f)) and f.endswith(".json")]#liste des fichiers dans le rep qui finisse par json
         for module_file in list_module:
             with open(os.path.join(manuf_dir,module_file)) as data_file:#on ouvre le json
@@ -64,19 +64,19 @@ for manuf in list_manuf:
                     image_module='image:../images/'+image_module+'/module.jpg[width=150,align="center"]'
                 if com_link != '':
                     com_link='link:++http://www.domadoo.fr/fr/peripheriques/'+com_link+'.html++[Acheter^]'
-                list_module_parsed.append(name_module+'|'+image_module+'|'+manuf_name+'|'+type_module+'|'+remark_module+'|'+doc_module+'|'+com_link)
+                list_module_parsed.append(name_module+'|'+image_module+'|'+manuf_name+'|'+type_module+'|'+remark_module+'|'+doc_module+'|'+com_link+'|'+module_file)
     list_module_parsed.sort()#on tri la liste
     treated_module=[]
     for module in list_module_parsed:
         detail_module=module.split('|')
         if detail_module[0] not in treated_module:
             count_modules+=1
-            text_to_write+='|' +detail_module[1].encode('utf-8')+'|'+detail_module[2].encode('utf-8')+'|'+detail_module[0].encode('utf-8')+'|'+detail_module[3].encode('utf-8')+'|'+detail_module[4].encode('utf-8')+'|'+detail_module[5].encode('utf-8')+' '+detail_module[6].encode('utf-8')+'\n\n'
+            text_to_write+='|' +detail_module[1].encode('utf-8')+'|'+detail_module[2].encode('utf-8')+'|'+detail_module[0].encode('utf-8')+'|'+detail_module[3].encode('utf-8')+'|'+detail_module[4].encode('utf-8')+'|'+detail_module[5].encode('utf-8')+' '+detail_module[6].encode('utf-8')+'\n// '+ detail_module[7].encode('utf-8')+'\n\n'
             treated_module.append(detail_module[0])
         else:
             print "Already a module with this name. Skipping"
     text_to_write+='\n|===\n\n'
-fichier.write('[green]*Actuellement Jeedom est compatible avec* [red]*'+str(count_manuf)+'* [green]*marques de modules différentes, soit un total de* [red]*'+str(count_modules)+'* [green]*modules.*\n\n')
+fichier.write('[green]*Actuellement Jeedom est compatible avec* [red]*'+str(count_manuf)+'* [green]*marques de modules différentes, soit un total de* [red]*'+str(count_modules)+'* [green]*modules.*\n\nD’autres modules non présents sur cette liste peuvent être compatibles.\n\n')
 fichier.write(text_to_write)
 fichier.write('\n[NOTE]\nCette liste est basée sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels\n')
 fichier.close()
