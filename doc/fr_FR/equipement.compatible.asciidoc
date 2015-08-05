@@ -11,70 +11,70 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/aeotec.blind-control/module.jpg[width=150,align="center"]|Aeotec|Blind Control Switch|Volets|| link:++http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html++[Acheter^]
+|image:../images/aeotec.blind-control/module.jpg[width=150,align="center"]|Aeotec|Blind Control Switch|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html++[Acheter^]
 // 134.3.14_aeon.labs.aeon.labs.blind.control.switch.json
 
-|image:../images/aeotec.led-bulb/module.jpg[width=150,align="center"]|Aeotec|Bulb [RGBW]|Ampoule|| link:++http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html++[Acheter^]
+|image:../images/aeotec.led-bulb/module.jpg[width=150,align="center"]|Aeotec|Bulb [RGBW]|Ampoule| | link:++http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html++[Acheter^]
 // 134.3.98_aeon_rgbw_bulb.json
 
-|image:../images/aeotec.dsb28/module.jpg[width=150,align="center"]|Aeotec|DSB28 3 Pinces|Consommation|| link:++http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html++[Acheter^]
+|image:../images/aeotec.dsb28/module.jpg[width=150,align="center"]|Aeotec|DSB28 3 Pinces|Consommation| | link:++http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html++[Acheter^]
 // 134.2.28_aeon.labs.aeon.dsb28.json
 
-|image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor|Ouverture|| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
+|image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor|Ouverture| Piles : 2xAAA| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
 // 134.2.4_aeon.labs.aeon.doorwindow.sensor.json
 
-|image:../images/aeotec.double-microswitch/module.jpg[width=150,align="center"]|Aeotec|Double microSwitch G2|Micromodule|Module pratiquement plus commercialisé| 
+|image:../images/aeotec.double-microswitch/module.jpg[width=150,align="center"]|Aeotec|Double microSwitch G2|Micromodule|Module pratiquement plus commercialisé | 
 // 134.3.17_aeon.labs.aeon.labs.double.microswitch.g2.json
 
-|image:../images/aeotec.hem/module.jpg[width=150,align="center"]|Aeotec|HEM 2 Pinces|Consommation|| link:++http://www.domadoo.fr/fr/peripheriques/2289-aeon-labs-compteur-de-consommation-electrique-z-wave-2c-200a-1220000010598.html++[Acheter^]
+|image:../images/aeotec.hem/module.jpg[width=150,align="center"]|Aeotec|HEM 2 Pinces|Consommation| Piles : 4xAA| link:++http://www.domadoo.fr/fr/peripheriques/2289-aeon-labs-compteur-de-consommation-electrique-z-wave-2c-200a-1220000010598.html++[Acheter^]
 // 134.2.9_aeon.labs.aeon.hem.json
 
-|image:../images/aeotec.insert-dimmer/module.jpg[width=150,align="center"]|Aeotec|Insert Dimmer|Micromodule|| link:++http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html++[Acheter^]
+|image:../images/aeotec.insert-dimmer/module.jpg[width=150,align="center"]|Aeotec|Insert Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html++[Acheter^]
 // 134.3.19_aeon.labs.aeon.labs.insert.dimmer.json
 
-|image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Insert Switch|Micromodule|| link:++http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html++[Acheter^]
+|image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Insert Switch|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html++[Acheter^]
 // 134.3.12_aeon.labs.aeon.labs.insert.switch.json
 
-|image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
+|image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Télécommande| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 // 134.1.88_zw088.key.fob.gen5.json
 
-|image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Télécommande|Remplacé dans les boutiques par le keyfob Gen5|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
+|image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Télécommande|Remplacé dans les boutiques par le keyfob Gen5 Piles : 1xCR2450|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 // 134.1.22_key.fob.json
 
-|image:../images/aeotec.minimote/module.jpg[width=150,align="center"]|Aeotec|Minimote|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html++[Acheter^]
+|image:../images/aeotec.minimote/module.jpg[width=150,align="center"]|Aeotec|Minimote|Télécommande| Piles : batterie|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html++[Acheter^]
 // 134.1.3_minimote.json
 
-|image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 4 en 1|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration. Remplacé en boutique par son équivalent Gen5| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
+|image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 4 en 1|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration. Remplacé en boutique par son équivalent Gen5 Piles : 2xAAA| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
 // 134.2.5_aeon.labs.aeon.multi-sensor.json
 
-|image:../images/aeotec.multisensor6/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 6 en 1|Multicapteurs|| link:++http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html++[Acheter^]
+|image:../images/aeotec.multisensor6/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 6 en 1|Multicapteurs| Piles : 2xCR123A| link:++http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html++[Acheter^]
 // 134.2.100_aeon.labs.6.en.1.multisensor.json
 
-|image:../images/aeotec.multisensor-gen5/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor GEN 5|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
+|image:../images/aeotec.multisensor-gen5/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor GEN 5|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration Piles : 4xAAA| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
 // 134.2.74_aeon.labs.aeon.multi-sensor.gen5.json
 
-|image:../images/aeotec.panicbutton/module.jpg[width=150,align="center"]|Aeotec|Panic Button|Télécommande||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html++[Acheter^]
+|image:../images/aeotec.panicbutton/module.jpg[width=150,align="center"]|Aeotec|Panic Button|Télécommande| Piles : 1xCR2450|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html++[Acheter^]
 // 134.1.38_panic.button.json
 
-|image:../images/aeotec.extender/module.jpg[width=150,align="center"]|Aeotec|Range Extender|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau| link:++http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html++[Acheter^]
+|image:../images/aeotec.extender/module.jpg[width=150,align="center"]|Aeotec|Range Extender|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau | link:++http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html++[Acheter^]
 // 134.4.37_aeon.labs.aeon.range.extender.repeater.json
 
-|image:../images/aeotec.smart-energy-illuminator/module.jpg[width=150,align="center"]|Aeotec|Smart Energy Illuminator|Prise|| link:++http://www.domadoo.fr/fr/peripheriques/283-aeon-labs-smart-energy-illuminator-z-wave-1220000010499.html++[Acheter^]
+|image:../images/aeotec.smart-energy-illuminator/module.jpg[width=150,align="center"]|Aeotec|Smart Energy Illuminator|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/283-aeon-labs-smart-energy-illuminator-z-wave-1220000010499.html++[Acheter^]
 // 134.3.8_aeon.labs.aeon.labs.smart.energy.illuminator.json
 
-|image:../images/aeotec.smart-energy-switch/module.jpg[width=150,align="center"]|Aeotec|Smart Energy Switch|Prise|| link:++http://www.domadoo.fr/fr/peripheriques/282-aeon-labs-smart-energy-switch-z-wave-1220000010369.html++[Acheter^]
+|image:../images/aeotec.smart-energy-switch/module.jpg[width=150,align="center"]|Aeotec|Smart Energy Switch|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/282-aeon-labs-smart-energy-switch-z-wave-1220000010369.html++[Acheter^]
 // 134.3.6_aeon.labs.aeon.labs.smart.energy.switch.json
 
-|image:../images/aeotec.smartswitch/module.jpg[width=150,align="center"]|Aeotec|SmartSwitch|Prise|| link:++http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html++[Acheter^]
+|image:../images/aeotec.smartswitch/module.jpg[width=150,align="center"]|Aeotec|SmartSwitch|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html++[Acheter^]
 // 134.3.96_aeon.labs.smart.switch.gen5.json
 
-|image:../images/aeotec.zw075/module.jpg[width=150,align="center"]|Aeotec|ZW075|Prise|| link:++http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html++[Acheter^]
+|image:../images/aeotec.zw075/module.jpg[width=150,align="center"]|Aeotec|ZW075|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html++[Acheter^]
 // 134.3.75_aeon.labs.aeon.labs.prise.zw075.json
 
-|image:../images/aeotec.zw080/module.jpg[width=150,align="center"]|Aeotec|ZW080|Sirène|| link:++http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html++[Acheter^]
+|image:../images/aeotec.zw080/module.jpg[width=150,align="center"]|Aeotec|ZW080|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html++[Acheter^]
 // 134.4.80_aeon.labs.aeon.labs.siren.zw080.json
 
-|image:../images/aeotec.zw089/module.jpg[width=150,align="center"]|Aeotec|ZW089 Door|Ouverture|| link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
+|image:../images/aeotec.zw089/module.jpg[width=150,align="center"]|Aeotec|ZW089 Door|Ouverture| Piles : 1xCR2| link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
 // 134.2.89_aeon.labs.aeon.labs.door.zw089.json
 
 
@@ -86,16 +86,16 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/benext.builtin-dimmer/module.jpg[width=150,align="center"]|Benext|Built In Dimmer|Micromodule|| link:++http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html++[Acheter^]
+|image:../images/benext.builtin-dimmer/module.jpg[width=150,align="center"]|Benext|Built In Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html++[Acheter^]
 // 138.13.256_benext.built.in.dimmer.json
 
-|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Benext|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actullement vendu sous la marque Zipato|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
+|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Benext|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actullement vendu sous la marque Zipato Piles : 2xAA|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
 // 138.7.257_zipato.minikeypad.json
 
-|image:../images/benext.plugin-dimmer/module.jpg[width=150,align="center"]|Benext|Plug In Dimmer|Prise|| link:++http://www.domadoo.fr/fr/peripheriques/2347-benext-module-prise-variateur-z-wave-avec-mesure-d-energie-0632181493779.html++[Acheter^]
+|image:../images/benext.plugin-dimmer/module.jpg[width=150,align="center"]|Benext|Plug In Dimmer|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2347-benext-module-prise-variateur-z-wave-avec-mesure-d-energie-0632181493779.html++[Acheter^]
 // 138.24.256_benext.benext.plug.in.dimmer.json
 
-|image:../images/benext.scene-controller/module.jpg[width=150,align="center"]|Benext|Scene Controller 7 boutons|Télécommande|Télécommande non fonctionnelle, fonctionne cependant en association avec d'autres modules| link:++http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html++[Acheter^]
+|image:../images/benext.scene-controller/module.jpg[width=150,align="center"]|Benext|Scene Controller 7 boutons|Télécommande|Télécommande non fonctionnelle, fonctionne cependant en association avec d'autres modules | link:++http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html++[Acheter^]
 // 138.23.256_benext.benext.scene.controller.eu.telecommande.7.boutons.json
 
 
@@ -107,10 +107,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/chromagic.hsm02/module.jpg[width=150,align="center"]|Chromagic|HSM02|Ouverture|Ce module est actuellement vendu sous la marque Everspring| link:++http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html++[Acheter^]
+|image:../images/chromagic.hsm02/module.jpg[width=150,align="center"]|Chromagic|HSM02|Ouverture|Ce module est actuellement vendu sous la marque Everspring Piles : 1xCR2450| link:++http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html++[Acheter^]
 // 278.2.1_chromagic.opening.detector.hsm02.json
 
-|image:../images/chromagic.hsp02/module.jpg[width=150,align="center"]|Chromagic|HSP02|Multicapteurs|Ce module est actuellement vendu sous la marque Everspring| link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
+|image:../images/chromagic.hsp02/module.jpg[width=150,align="center"]|Chromagic|HSP02|Multicapteurs|Ce module est actuellement vendu sous la marque Everspring Piles : 1xCR2| link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
 // 278.1.1_chromagic.hsp02.json
 
 
@@ -122,7 +122,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Danfoss|Thermostat Living Connect||| 
+|image:../images/danfoss.living-connect/module.jpg[width=150,align="center"]|Danfoss|Thermostat Living Connect|Thermostat| Piles : 2xAA| link:++http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html++[Acheter^]
 // 2.5.3_danfoss.danfoss.thermostat.living.connect.json
 
 
@@ -134,16 +134,16 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Duwi|Interrupteur Variateur Duro 2000||| 
+||Duwi|Interrupteur Variateur Duro 2000|| | 
 // 100.5002.0_duwi.popp.duwi.interrupteur.variateur.duro.2000.json
 
-||Duwi|Wall Plug ZW_ES_1000||| 
+||Duwi|Wall Plug ZW_ES_1000|| | 
 // 100.8193.0_duwi.everlux.duwi.wall.plug.zw_es_1000.json
 
-||Duwi|ZW EDAN 300 Dimmer||| 
+||Duwi|ZW EDAN 300 Dimmer|| | 
 // 100.1.0_duwi.popp.duwi.zw.edan.300.dimmer.json
 
-||Duwi|ZW ZS 3500 Plugin Switch||| 
+||Duwi|ZW ZS 3500 Plugin Switch|| | 
 // 100.12289.0_popp..duwi.duwi.zw.zs.3500.plugin.switch.json
 
 
@@ -155,55 +155,55 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Everspring|AD142-6||| 
+||Everspring|AD142-6|| | 
 // 96.3.1_everspring.everspring.ad142-6.json
 
-||Everspring|AN145||| 
+||Everspring|AN145|| | 
 // 96.260.1_everspring.everspring.an145.json
 
-||Everspring|AN157-6||| 
+||Everspring|AN157-6|| | 
 // 96.4.1_everspring.everspring.an157-6.json
 
-||Everspring|AN158||| 
+||Everspring|AN158|| | 
 // 96.4.2_everspring.everspring.an158.json
 
-||Everspring|HAC01||| 
+||Everspring|HAC01|| | 
 // 96.16.1_everspring.everspring.hac01.json
 
-||Everspring|HAN01||| 
+||Everspring|HAN01|| | 
 // 96.17.1_everspring.everspring.han01.json
 
-||Everspring|Miniplug Dimmer|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html++[Documentation^] 
+||Everspring|Miniplug Dimmer|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html++[Documentation^] 
 // 96.3.3_miniplug.dimmer.json
 
-||Everspring|Miniplug On/Off|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AN180-6_-_Miniplug_On-Off.html++[Documentation^] 
+||Everspring|Miniplug On/Off|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AN180-6_-_Miniplug_On-Off.html++[Documentation^] 
 // 96.4.7_miniplug.onoff.json
 
-||Everspring|SE812||| 
+||Everspring|SE812|| | 
 // 96.12.1_everspring.everspring.se812.json
 
-||Everspring|SF812||| 
+||Everspring|SF812|| | 
 // 96.13.1_everspring.everspring.sf812.json
 
-||Everspring|SM103||| 
+||Everspring|SM103|| | 
 // 96.2.1_everspring.everspring.sm103.json
 
-||Everspring|SP103||| 
+||Everspring|SP103|| | 
 // 96.257.1_everspring.group.everspring.sp103.json
 
-||Everspring|SP814 Motion Detector||| 
+||Everspring|SP814 Motion Detector|| | 
 // 96.1.2_everspring.group.everspring.sp814.motion.detector.json
 
-||Everspring|ST812||| 
+||Everspring|ST812|| | 
 // 96.11.1_everspring.everspring.st812.json
 
-||Everspring|ST814||| 
+||Everspring|ST814|| | 
 // 96.6.1_st814.temperature.and.humidity.sensor.json
 
-||Everspring|ST815||| 
+||Everspring|ST815|| | 
 // 96.7.1_everspring.everspring.st815.json
 
-||Everspring|TSE03 Door Bell||| 
+||Everspring|TSE03 Door Bell|| | 
 // 96.9.1_everspring.everspring.tse03.door.bell.json
 
 
@@ -215,52 +215,52 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Fibaro|FGBS-001 [Universal Relay]||| 
+||Fibaro|FGBS-001 [Universal Relay]|| | 
 // 271.1281.16386_fibar.group.fibaro.fgbs-001.json
 
-|image:../images/fibaro.fgd211/module.jpg[width=150,align="center"]|Fibaro|FGD-211 [Dimmer]|Micromodule|Ce module est remplacé dans les boutiques par le FGD-212|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
+|image:../images/fibaro.fgd211/module.jpg[width=150,align="center"]|Fibaro|FGD-211 [Dimmer]|Micromodule|Ce module est remplacé dans les boutiques par le FGD-212 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
 // 271.256.12298_fgd211.universal.dimmer.500w.json
 
-||Fibaro|FGD-212 [Dimmer 2]||| 
+||Fibaro|FGD-212 [Dimmer 2]|| | 
 // 271.258.4096_fgd212.dimmer2.json
 
-||Fibaro|FGFS-101 [Flood Sensor]||| 
+||Fibaro|FGFS-101 [Flood Sensor]|| | 
 // 271.2816.12289_fibaro.flood.sensor.json
 
-||Fibaro|FGK-101 [Doorsensor]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html++[Documentation^] 
+||Fibaro|FGK-101 [Doorsensor]|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html++[Documentation^] 
 // 271.1792.16384_fgk101.door.opening.sensor.json
 
-|image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|FGMS-001 [Motion Sensor]|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
+|image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|FGMS-001 [Motion Sensor]|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement Piles : 1xCR123A|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
 // 271.2048.16385_fgms001.motion.sensor.json
 
-||Fibaro|FGRGB-101 [RGBW]||| 
+||Fibaro|FGRGB-101 [RGBW]|| | 
 // 271.2304.16384_fgrgbwm441.rgbw.controller.json
 
-||Fibaro|FGRM-221 [Volet roulant]||| 
+||Fibaro|FGRM-221 [Volet roulant]|| | 
 // 271.768.260_fibar.group.fibaro.fgrm-221.volet.roulant.json
 
-||Fibaro|FGRM-222 [Volet roulant]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html++[Documentation^] 
+||Fibaro|FGRM-222 [Volet roulant]|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html++[Documentation^] 
 // 271.769.4097_fibar.group.fibaro.fgrm-222.volet.roulant.json
 
-||Fibaro|FGS-211 [Simple Relay]||| 
+||Fibaro|FGS-211 [Simple Relay]|| | 
 // 271.1024.260_fibar.group.fibaro.fgs-211.json
 
-||Fibaro|FGS-212 [Simple Relay]||| 
+||Fibaro|FGS-212 [Simple Relay]|| | 
 // 271.1026.4098_fibaro.fgs212.simple.relay.json
 
-||Fibaro|FGS-221 Double charge||| 
+||Fibaro|FGS-221 Double charge|| | 
 // 271.512.12298_fibar.group.fibaro.fgs-221.double.charge.json
 
-||Fibaro|FGS-222 Double charge||| 
+||Fibaro|FGS-222 Double charge|| | 
 // 271.514.4098_fibar.group.fibaro.fgs-222.double.charge.json
 
-|image:../images/fibaro.fgsd102/module.jpg[width=150,align="center"]|Fibaro|FGSD-002 [Smoke Sensor CE] |Fumées||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
+|image:../images/fibaro.fgsd102/module.jpg[width=150,align="center"]|Fibaro|FGSD-002 [Smoke Sensor CE] |Fumées| Piles : 1xCR123A|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
 // 271.3074.4098_fgsd002.smoke.sensor.json
 
-||Fibaro|FGSS-001 [Smoke Sensor]||| 
+||Fibaro|FGSS-001 [Smoke Sensor]|| | 
 // 271.3072.4096_fgss101.smoke.sensor.json
 
-||Fibaro|FGWPE [Wall Plug]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgwpe101_-_Wall_Plug.html++[Documentation^] 
+||Fibaro|FGWPE [Wall Plug]|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgwpe101_-_Wall_Plug.html++[Documentation^] 
 // 271.1536.4096_fgwpe.wall.plug.json
 
 
@@ -272,10 +272,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Fortrezz|SSA-02||| 
+||Fortrezz|SSA-02|| | 
 // 132.785.265_fortrezz.fortrezz.ssa-02.json
 
-||Fortrezz|SSA-03||| 
+||Fortrezz|SSA-03|| | 
 // 132.817.267_fortrezz.fortrezz.ssa-03.json
 
 
@@ -287,10 +287,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Greenwave|Powernode 1|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html++[Documentation^] 
+||Greenwave|Powernode 1|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html++[Documentation^] 
 // 153.2.2_powernode.1.port.json
 
-||Greenwave|Powernode [6 x prises]|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html++[Documentation^] 
+||Greenwave|Powernode [6 x prises]|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html++[Documentation^] 
 // 153.3.4_powernode.6.port.json
 
 
@@ -302,7 +302,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Homeseer|EZ Motion 3 in 1||| 
+||Homeseer|EZ Motion 3 in 1|| | 
 // 30.2.1_homeseer.ez.motion.ez.motion.3.in.1.json
 
 
@@ -314,10 +314,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Horstmann|ASR-ZW Thermostat Receiver||| 
+||Horstmann|ASR-ZW Thermostat Receiver|| | 
 // 89.3.1_horstmann.asr-zw.thermostat.receiver.json
 
-||Horstmann|HRT4-ZW Thermostat Transmitter||| 
+||Horstmann|HRT4-ZW Thermostat Transmitter|| | 
 // 89.1.3_horstmann.hrt4-zw.thermostat.transmitter.json
 
 
@@ -329,10 +329,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Mco|MH-S411 [Simple]||| 
+||Mco|MH-S411 [Simple]|| | 
 // 351.16642.513_mco.home.mco.home.mh-s411.simple.json
 
-||Mco|MH-S412 [Double]||| 
+||Mco|MH-S412 [Double]|| | 
 // 351.16642.514_mco.home.mco.home.mh-s412.double.json
 
 
@@ -344,10 +344,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Nodon|CRC-3-1-00 Octan Remote||| 
+||Nodon|CRC-3-1-00 Octan Remote|| | 
 // 357.2.1_nodon.crc.3.1.00.octan.remote.json
 
-||Nodon|Smartplug|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.smartplug_-_Prise.html++[Documentation^] 
+||Nodon|Smartplug|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.smartplug_-_Prise.html++[Documentation^] 
 // 357.1.1_smartplug.nodon.json
 
 
@@ -359,7 +359,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Northq|Power Reader||| 
+||Northq|Power Reader|| | 
 // 150.1.1_northq.nq-92021.power.reader.json
 
 
@@ -371,19 +371,19 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Philio|4 in 1 Sensor|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html++[Documentation^] 
+||Philio|4 in 1 Sensor|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html++[Documentation^] 
 // 316.2.12_pst02a.4..in.1.sensor.json
 
-||Philio|Door/Window Sensor|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02c_-_3_en_1_Ouverture.html++[Documentation^] 
+||Philio|Door/Window Sensor|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02c_-_3_en_1_Ouverture.html++[Documentation^] 
 // 316.2.14_pst02c.door.window.3.in.1.sensor.json
 
-||Philio|MultiSensor|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psp01_-_Multicapteurs.html++[Documentation^] 
+||Philio|MultiSensor|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psp01_-_Multicapteurs.html++[Documentation^] 
 // 316.2.2_psm02-1.slim.multi-sensor.json
 
-||Philio|PAN04.eu||| 
+||Philio|PAN04.eu|| | 
 // 316.1.18_philio.pan04.eu.json
 
-||Philio|PAN06 In Wall Dual Relay (1 way) switch module||| 
+||Philio|PAN06 In Wall Dual Relay (1 way) switch module|| | 
 // 316.1.4_philio.technology.corporation.philio.pan06.in.wall.dual.relay.1.way.switch.module.json
 
 
@@ -395,10 +395,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Polycontrol|Danalock||| 
+||Polycontrol|Danalock|| | 
 // 270.3.2_poly-control.danalock.json
 
-||Polycontrol|Polylock|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.polylock_-_Serrure.html++[Documentation^] 
+||Polycontrol|Polylock|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.polylock_-_Serrure.html++[Documentation^] 
 // 270.1.1_poly-control.polylock.json
 
 
@@ -410,7 +410,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Qees|Turtle Switch||| 
+||Qees|Turtle Switch|| | 
 // 149.12545.1_qees.qees.turtle.switch.json
 
 
@@ -422,22 +422,22 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Qubino|Dimmer||| 
+||Qubino|Dimmer|| | 
 // 345.1.1_qubino.qubino.dimmer.json
 
-||Qubino|Fil Pilote 6 ordres||| 
+||Qubino|Fil Pilote 6 ordres|| | 
 // 345.4.1_zmnhja2.flush.dimmer.fil.pilote.json
 
-||Qubino|Flush 1 relay||| 
+||Qubino|Flush 1 relay|| | 
 // 345.2.2_qubino.qubino.flush.1.relay.json
 
-||Qubino|Flush 2 relay||| 
+||Qubino|Flush 2 relay|| | 
 // 345.2.1_qubino.qubino.flush.2.relay.json
 
-||Qubino|Flush on/off thermostat||| 
+||Qubino|Flush on/off thermostat|| | 
 // 345.5.1_qubino.qubino.flush.onoff.thermostat.json
 
-||Qubino|ZMNHCA2||| 
+||Qubino|ZMNHCA2|| | 
 // 345.3.2_qubino.qubino.zmnhca2.module.volets.roulants.encastrable.json
 
 
@@ -449,7 +449,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Remotec|ZXT-120||| 
+||Remotec|ZXT-120|| | 
 // 21076.257.33655_remotec.group.remotec.zxt-120.json
 
 
@@ -461,7 +461,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Schlage|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actuellement vendu sous la marque Zipato|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
+|image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Schlage|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actuellement vendu sous la marque Zipato Piles : 2xAA|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
 // 151.24881.17665_mini.keypad.rfid.json
 
 
@@ -473,10 +473,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Smarthome By Everspring|In Wall Dimmer|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html++[Documentation^] 
+||Smarthome By Everspring|In Wall Dimmer|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html++[Documentation^] 
 // 96.3.2_smarthome.by.everspring.in.wall.dimmer.ad.146.0.json
 
-||Smarthome By Everspring|In Wall On/Off|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html++[Documentation^] 
+||Smarthome By Everspring|In Wall On/Off|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html++[Documentation^] 
 // 96.4.8_smarthome.by.everspring.in.wall.on.off.an.179.0.json
 
 
@@ -488,10 +488,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Swiid|SwiidInter|||link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html++[Documentation^] 
+||Swiid|SwiidInter|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html++[Documentation^] 
 // 358.256.256_swiid.inter.json
 
-||Swiid|SwiidPlug||| 
+||Swiid|SwiidPlug|| | 
 // 358.8199.1798_swiid.swiidplug.json
 
 
@@ -503,34 +503,34 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Vision Security|Multi sensor Dual||| 
+||Vision Security|Multi sensor Dual|| | 
 // 265.8194.515_vision.multi.sensor.dual.json
 
-||Vision Security|ZD2102||| 
+||Vision Security|ZD2102|| | 
 // 265.8193.258_vision.security.vision.security.zd2102.json
 
-||Vision Security|ZG 8101 Détecteur ouverture porte||| 
+||Vision Security|ZG 8101 Détecteur ouverture porte|| | 
 // 265.8202.2562_vision.security.detecteur.ouverture.porte.vision.security.zg.8101.json
 
-||Vision Security|ZM1601||| 
+||Vision Security|ZM1601|| | 
 // 265.8197.1283_vision.security.vision.security.zm1601.json
 
-||Vision Security|ZM1602||| 
+||Vision Security|ZM1602|| | 
 // 266.8201.2307_vision.security.vision.security.zm1602.json
 
-||Vision Security|ZP3102||| 
+||Vision Security|ZP3102|| | 
 // 265.8194.513_vision.security.vision.security.zp3102.json
 
-||Vision Security|ZS 5101-5||| 
+||Vision Security|ZS 5101-5|| | 
 // 265.8195.774_vision.security.vision.security.zs.5101.json
 
-||Vision Security|ZS 5101||| 
+||Vision Security|ZS 5101|| | 
 // 265.8195.769_vision.security.vision.security.zs.5101.json
 
-||Vision Security|ZS 6101 Smoke Detector ||| 
+||Vision Security|ZS 6101 Smoke Detector || | 
 // 265.8196.1027_vision.security.vision.security.smoke.detector.zs.6101.json
 
-||Vision Security|ZS6301||| 
+||Vision Security|ZS6301|| | 
 // 265.8194.513_vision.security.vision.security.zs6301.json
 
 
@@ -542,7 +542,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Vitrum|ZWE060||| 
+||Vitrum|ZWE060|| | 
 // 266.5120.26112_vitrum.vitrum.zwe060.json
 
 
@@ -554,7 +554,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Wenzhou|TZ66S||| 
+||Wenzhou|TZ66S|| | 
 // 280.258.4128_tkbhome.tkbhome.tz66s.json
 
 
@@ -566,7 +566,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Zipato|Bulb [RGBW]||| 
+||Zipato|Bulb [RGBW]|| | 
 // 305.2.2_zipato_rgbw_bulb.json
 
 
