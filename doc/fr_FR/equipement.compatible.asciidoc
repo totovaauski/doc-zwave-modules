@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*112* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*111* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles.
 
@@ -257,9 +257,6 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |image:../images/fibaro.fgs222/module.jpg[width=150,align="center"]|Fibaro|FGS-222 Double charge|Micromodule|Remplace le FGS-221 | link:++http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html++[Acheter^]
 // 271.514.4098_fibar.group.fibaro.fgs-222.double.charge.json
 
-|image:../images/fibaro.fgsd102/module.jpg[width=150,align="center"]|Fibaro|FGSD-002 Smoke Sensor CE|Fumées| Piles : 1xCR123A|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
-// 271.3074.4098_fgsd002.smoke.sensor.json
-
 |image:../images/fibaro.fgss001/module.jpg[width=150,align="center"]|Fibaro|FGSS-001 Smoke Sensor|Fumée|Remplacé par son équivalent aux normes le FGSD-002 - Piles : 1xCR123A| link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
 // 271.3072.4096_fgss101.smoke.sensor.json
 
@@ -275,10 +272,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Fortrezz|SSA-02|| | 
+|image:../images/fortrezz.ssa02/module.jpg[width=150,align="center"]|Fortrezz|SSA-02|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/980-fortrezz-sirene-z-wave-flash-rouge-ssa2-0661799486026.html++[Acheter^]
 // 132.785.265_fortrezz.fortrezz.ssa-02.json
 
-||Fortrezz|SSA-03|| | 
+|image:../images/fortrezz.ssa03/module.jpg[width=150,align="center"]|Fortrezz|SSA-03|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html++[Acheter^]
 // 132.817.267_fortrezz.fortrezz.ssa-03.json
 
 
