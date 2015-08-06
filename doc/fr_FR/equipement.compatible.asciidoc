@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*111* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*110* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles.
 
@@ -231,9 +231,6 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 // 271.1792.16384_fgk101.door.opening.sensor.json
 
 |image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|FGMS-001 Motion Sensor|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement - Piles : 1xCR123A|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
-// 271.2048.4097_fgms001.motion.sensor.json
-
-|image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|FGMS-001 [Motion Sensor]|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement - Piles : 1xCR123A|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
 // 271.2048.16385_fgms001.motion.sensor.json
 
 |image:../images/fibaro.fgrgb101/module.jpg[width=150,align="center"]|Fibaro|FGRGB-101 RGBW|RGBW|Peut aussi servir de capteurs multisondes | link:++http://www.domadoo.fr/fr/peripheriques/2367-fibaro-controleur-rgbw-z-wave-fgrgb-101-5902020528159.html++[Acheter^]
