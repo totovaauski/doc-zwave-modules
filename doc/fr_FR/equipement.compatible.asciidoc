@@ -284,10 +284,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Greenwave|Powernode 1|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html++[Documentation^] 
+|image:../images/greenwave.Powernode1/module.jpg[width=150,align="center"]|Greenwave|Powernode 1|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2857-greenwave-module-prise-z-wave-powernode-schuko-8886464000235.html++[Acheter^]
 // 153.2.2_powernode.1.port.json
 
-||Greenwave|Powernode [6 x prises]|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html++[Documentation^] 
+|image:../images/greenwave.powernode/module.jpg[width=150,align="center"]|Greenwave|Powernode 6 prises|Multiprise|Bien lire la documentation pour la remontée automatique des consommations |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2728-greenwave-multiprise-z-wave-6-ports-powernode-schuko--8886464000242.html++[Acheter^]
 // 153.3.4_powernode.6.port.json
 
 
@@ -299,7 +299,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Homeseer|EZ Motion 3 in 1|| | 
+|image:../images/homeseer.ezmotion3en1/module.jpg[width=150,align="center"]|Homeseer|EZ Motion 3 in 1|Multicapteurs| Piles : 3xAAA| 
 // 30.2.1_homeseer.ez.motion.ez.motion.3.in.1.json
 
 
