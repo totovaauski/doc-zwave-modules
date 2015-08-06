@@ -218,10 +218,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 ||Fibaro|FGBS-001 [Universal Relay]|| | 
 // 271.1281.16386_fibar.group.fibaro.fgbs-001.json
 
-|image:../images/fibaro.fgd211/module.jpg[width=150,align="center"]|Fibaro|FGD-211 [Dimmer]|Micromodule|Ce module est remplacé dans les boutiques par le FGD-212 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
+|image:../images/fibaro.fgd211/module.jpg[width=150,align="center"]|Fibaro|FGD-211 Dimmer|Micromodule|Ce module est remplacé dans les boutiques par le FGD-212 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
 // 271.256.12298_fgd211.universal.dimmer.500w.json
 
-||Fibaro|FGD-212 [Dimmer 2]|| | 
+|image:../images/fibaro.fgd212/module.jpg[width=150,align="center"]|Fibaro|FGD-212 Dimmer 2|Micromodule|Remplace le FGD-211 | link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
 // 271.258.4096_fgd212.dimmer2.json
 
 ||Fibaro|FGFS-101 [Flood Sensor]|| | 
@@ -236,22 +236,22 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 ||Fibaro|FGRGB-101 [RGBW]|| | 
 // 271.2304.16384_fgrgbwm441.rgbw.controller.json
 
-||Fibaro|FGRM-221 [Volet roulant]|| | 
+|image:../images/fibaro.fgrm222/module.jpg[width=150,align="center"]|Fibaro|FGRM-221 Volet roulant|Volets|Module équivalent au FGRM-222 | link:++http://www.domadoo.fr/fr/peripheriques/2604-fibaro-micromodule-pour-volet-roulant-z-wave-fgrm-222-5902020528227.html++[Acheter^]
 // 271.768.260_fibar.group.fibaro.fgrm-221.volet.roulant.json
 
-||Fibaro|FGRM-222 [Volet roulant]|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html++[Documentation^] 
+|image:../images/fibaro.fgrm222/module.jpg[width=150,align="center"]|Fibaro|FGRM-222 Volet roulant|Volets|Nouveau nom du module FGRM-221 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2604-fibaro-micromodule-pour-volet-roulant-z-wave-fgrm-222-5902020528227.html++[Acheter^]
 // 271.769.4097_fibar.group.fibaro.fgrm-222.volet.roulant.json
 
-||Fibaro|FGS-211 [Simple Relay]|| | 
+|image:../images/fibaro.fgs211/module.jpg[width=150,align="center"]|Fibaro|FGS-211 Simple Charge|Micromodule|Module remplacé par le FGS-212 | link:++http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html++[Acheter^]
 // 271.1024.260_fibar.group.fibaro.fgs-211.json
 
-||Fibaro|FGS-212 [Simple Relay]|| | 
+|image:../images/fibaro.fgs212/module.jpg[width=150,align="center"]|Fibaro|FGS-212 Simple Charge|Micromodule|Remplace le FGS-211 | link:++http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html++[Acheter^]
 // 271.1026.4098_fibaro.fgs212.simple.relay.json
 
-||Fibaro|FGS-221 Double charge|| | 
+|image:../images/fibaro.fgs221/module.jpg[width=150,align="center"]|Fibaro|FGS-221 Double charge|Micromodule|Ce module est remplacé dans les boutiques par le FGS-222 | link:++http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html++[Acheter^]
 // 271.512.12298_fibar.group.fibaro.fgs-221.double.charge.json
 
-||Fibaro|FGS-222 Double charge|| | 
+|image:../images/fibaro.fgs222/module.jpg[width=150,align="center"]|Fibaro|FGS-222 Double charge|Micromodule|Remplace le FGS-221 | link:++http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html++[Acheter^]
 // 271.514.4098_fibar.group.fibaro.fgs-222.double.charge.json
 
 |image:../images/fibaro.fgsd102/module.jpg[width=150,align="center"]|Fibaro|FGSD-002 [Smoke Sensor CE] |Fumées| Piles : 1xCR123A|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
