@@ -134,17 +134,17 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Duwi|Interrupteur Variateur Duro 2000|| | 
+|image:../images/duwi.duro-2000/module.jpg[width=150,align="center"]|Duwi|Interrupteur Variateur Duro 2000|Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/758-duwi-interrupteur-variateur-duro-2000-z-wave-4008297054580.html++[Acheter^]
 // 100.5002.0_duwi.popp.duwi.interrupteur.variateur.duro.2000.json
 
-||Duwi|Wall Plug ZW_ES_1000|| | 
-// 100.8193.0_duwi.everlux.duwi.wall.plug.zw_es_1000.json
-
-||Duwi|ZW EDAN 300 Dimmer|| | 
+|image:../images/duwi.edan-300/module.jpg[width=150,align="center"]|Duwi|ZW EDAN 300 Dimmer|Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/749-duwi-interrupteur-variateur-everlux-z-wave-4008297054337.html++[Acheter^]
 // 100.1.0_duwi.popp.duwi.zw.edan.300.dimmer.json
 
-||Duwi|ZW ZS 3500 Plugin Switch|| | 
+|image:../images/duwi.zwzs-3500/module.jpg[width=150,align="center"]|Duwi|ZW ZS 3500 Plugin Switch|Prise|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/752-duwi-module-prise-on-off-z-wave-pour-l-exterieur-4008297054382.html++[Acheter^]
 // 100.12289.0_popp..duwi.duwi.zw.zs.3500.plugin.switch.json
+
+|image:../images/duwi.zwes-1000/module.jpg[width=150,align="center"]|Duwi|ZW_ES_1000 Wall Plug |Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/748-duwi-interrupteur-on-off-everlux-z-wave-4008297054313.html++[Acheter^]
+// 100.8193.0_duwi.everlux.duwi.wall.plug.zw_es_1000.json
 
 
 |===
