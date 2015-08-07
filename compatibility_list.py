@@ -101,7 +101,7 @@ os.chdir(os.path.join(curdir,'doc-zwave-modules'))
 os.system('git add -A')
 os.system('git commit -a -m "Auto Compatibility List Generation"')
 os.system('git push')
-print "Génération terminée avec " +count_error+ " erreur(s)"
+print "Génération terminée avec " +str(count_error)+ " erreur(s)"
         
         
         
