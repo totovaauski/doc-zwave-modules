@@ -1,9 +1,18 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*110* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*113* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles.
+
+== Act
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+
+|===
 
 == Aeotec
 
@@ -14,7 +23,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |image:../images/aeotec.blind-control/module.jpg[width=150,align="center"]|Aeotec|Blind Control Switch|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html++[Acheter^]
 // 134.3.14_aeon.labs.aeon.labs.blind.control.switch.json
 
-|image:../images/aeotec.led-bulb/module.jpg[width=150,align="center"]|Aeotec|Bulb [RGBW]|Ampoule| | link:++http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html++[Acheter^]
+|image:../images/aeotec.led-bulb/module.jpg[width=150,align="center"]|Aeotec|Bulb RGBW|Ampoule| | link:++http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html++[Acheter^]
 // 134.3.98_aeon_rgbw_bulb.json
 
 |image:../images/aeotec.dsb28/module.jpg[width=150,align="center"]|Aeotec|DSB28 3 Pinces|Consommation| | link:++http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html++[Acheter^]
@@ -112,6 +121,15 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 |image:../images/chromagic.hsp02/module.jpg[width=150,align="center"]|Chromagic|HSP02|Multicapteurs|Ce module est actuellement vendu sous la marque Everspring - Piles : 1xCR2| link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
 // 278.1.1_chromagic.hsp02.json
+
+
+|===
+
+== Cooper
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
 
 
 |===
@@ -278,6 +296,15 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 |===
 
+== Gig
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+
+|===
+
 == Greenwave
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -311,11 +338,29 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Horstmann|ASR-ZW Thermostat Receiver|| | 
+|image:../images/horstmann.asrzw/module.jpg[width=150,align="center"]|Horstmann|ASR-ZW Receiver|Thermostat|Module vendu sous la marque Secure | link:++http://www.domadoo.fr/fr/peripheriques/1987-secure-actionneur-de-chaudiere-ssr303-z-wave-5015914250095.html++[Acheter^]
 // 89.3.1_horstmann.asr-zw.thermostat.receiver.json
 
-||Horstmann|HRT4-ZW Thermostat Transmitter|| | 
+|image:../images/horstmann.hrt4/module.jpg[width=150,align="center"]|Horstmann|HRT4-ZW Transmitter|Thermostat|Module vendu sous la marque Secure - Piles : 2xAAA| link:++http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html++[Acheter^]
 // 89.1.3_horstmann.hrt4-zw.thermostat.transmitter.json
+
+
+|===
+
+== Intermatic
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+
+|===
+
+== Leviton
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
 
 
 |===
@@ -326,11 +371,20 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Mco|MH-S411 [Simple]|| | 
-// 351.16642.513_mco.home.mco.home.mh-s411.simple.json
+||Mco|MH-S311 Simple|| | 
+// 351.12546.513_mco.home.mh-s311.simple.json
 
-||Mco|MH-S412 [Double]|| | 
-// 351.16642.514_mco.home.mco.home.mh-s412.double.json
+||Mco|MH-S312 Double|| | 
+// 351.12546.514_mco.home.mh-s312.double.json
+
+||Mco|MH-S314 Four-load|| | 
+// 351.12546.516_mco.home.mh-s314.four.load.json
+
+||Mco|MH-S411 Simple|| | 
+// 351.16642.513_mco.home.mh-s411.simple.json
+
+||Mco|MH-S412 Double|| | 
+// 351.16642.514_mco.home.mh-s412.double.json
 
 
 |===
@@ -401,6 +455,15 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 |===
 
+== Popp
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+
+|===
+
 == Qees
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -436,6 +499,15 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 ||Qubino|ZMNHCA2|| | 
 // 345.3.2_qubino.qubino.zmnhca2.module.volets.roulants.encastrable.json
+
+
+|===
+
+== Rcs
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
 
 
 |===
@@ -545,6 +617,15 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 |===
 
+== Wayne
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+
+|===
+
 == Wenzhou
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -565,6 +646,15 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 ||Zipato|Bulb [RGBW]|| | 
 // 305.2.2_zipato_rgbw_bulb.json
+
+
+|===
+
+== Zwaveme
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
 
 
 |===
