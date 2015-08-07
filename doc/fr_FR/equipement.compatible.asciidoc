@@ -326,19 +326,19 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Mco|MH-S311 Simple|| | 
+|image:../images/mco.mhs311/module.jpg[width=150,align="center"]|Mco|MH-S311 Simple|Interrupteur|Remplacé par le MH-S411 | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
 // 351.12546.513_mco.home.mh-s311.simple.json
 
-||Mco|MH-S312 Double|| | 
+|image:../images/mco.mhs312/module.jpg[width=150,align="center"]|Mco|MH-S312 Double|Interrupteur|Remplacé par le MH-S412 | link:++http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html++[Acheter^]
 // 351.12546.514_mco.home.mh-s312.double.json
 
-||Mco|MH-S314 Four-load|| | 
+|image:../images/mco.mhs314/module.jpg[width=150,align="center"]|Mco|MH-S314 Four-load|Interrupteur| | 
 // 351.12546.516_mco.home.mh-s314.four.load.json
 
-||Mco|MH-S411 Simple|| | 
+|image:../images/mco.mhs411/module.jpg[width=150,align="center"]|Mco|MH-S411 Simple|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
 // 351.16642.513_mco.home.mh-s411.simple.json
 
-||Mco|MH-S412 Double|| | 
+|image:../images/mco.mhs412/module.jpg[width=150,align="center"]|Mco|MH-S412 Double|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html++[Acheter^]
 // 351.16642.514_mco.home.mh-s412.double.json
 
 
