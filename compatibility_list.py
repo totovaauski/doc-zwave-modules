@@ -37,13 +37,17 @@ list_manuf=os.listdir(conf_directory)#liste des marques
 list_manuf.sort()#tri alphabetique
 for manuf in list_manuf:
     print "Analysing "+manuf
-    count_manuf+=1
     list_module_parsed=[]
     if os.path.isdir(os.path.join(conf_directory,manuf)):#si c'est bien un rep
         manuf_name=manuf.split("_")[0].title().encode('utf-8') #nom de marque
         manuf_dir=os.path.join(conf_directory,manuf) #repertoire de la marque
-        text_to_write+='== ' +manuf_name +'\n\n[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]\n|===\n|Image|Marque|Nom|Type|Remarque|Lien\n\n'#ecriture du debut du tableau
         list_module=[ f for f in os.listdir(manuf_dir) if os.path.isfile(os.path.join(manuf_dir,f)) and f.endswith(".json")]#liste des fichiers dans le rep qui finisse par json
+        if len(list_module) != 0:
+            text_to_write+='== ' +manuf_name +'\n\n[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]\n|===\n|Image|Marque|Nom|Type|Remarque|Lien\n\n'#ecriture du debut du tableau
+            count_manuf+=1
+        else:
+            print "No conf file found for manuf : "+manuf+" skipping."
+            continue
         for module_file in list_module:
             with open(os.path.join(manuf_dir,module_file)) as data_file:#on ouvre le json
                 print "Parsing " +module_file
