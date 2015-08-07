@@ -9,6 +9,7 @@ import json
 #Initilaisation de l'environnement
 count_modules=0
 count_manuf=0
+count_error=0
 text_to_write=''
 curdir=os.path.dirname(os.path.abspath(__file__))
 list_git=["git@github.com:jeedom/plugin-openzwave.git","git@github.com:jeedom/doc-zwave-modules.git"]
@@ -54,6 +55,7 @@ for manuf in list_manuf:
                 try:
                     data = json.load(data_file)#on charge le json
                 except:
+                    count_error+=1
                     print 'ERROR : '+module_file+ ' is an invalid json'
                     continue
                 name_module=data.get("name", '').replace(manuf_name+' ','')#on lit le nom en enlevant la marque
@@ -99,6 +101,7 @@ os.chdir(os.path.join(curdir,'doc-zwave-modules'))
 os.system('git add -A')
 os.system('git commit -a -m "Auto Compatibility List Generation"')
 os.system('git push')
+print "Génération terminée avec " +count_error+ " erreur(s)"
         
         
         
