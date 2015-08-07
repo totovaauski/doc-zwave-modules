@@ -1,18 +1,9 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*113* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*113* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles.
-
-== Act
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
-
-
-|===
 
 == Aeotec
 
@@ -121,15 +112,6 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 |image:../images/chromagic.hsp02/module.jpg[width=150,align="center"]|Chromagic|HSP02|Multicapteurs|Ce module est actuellement vendu sous la marque Everspring - Piles : 1xCR2| link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
 // 278.1.1_chromagic.hsp02.json
-
-
-|===
-
-== Cooper
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
 
 
 |===
@@ -296,15 +278,6 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 |===
 
-== Gig
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
-
-
-|===
-
 == Greenwave
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -343,24 +316,6 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 |image:../images/horstmann.hrt4/module.jpg[width=150,align="center"]|Horstmann|HRT4-ZW Transmitter|Thermostat|Module vendu sous la marque Secure - Piles : 2xAAA| link:++http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html++[Acheter^]
 // 89.1.3_horstmann.hrt4-zw.thermostat.transmitter.json
-
-
-|===
-
-== Intermatic
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
-
-
-|===
-
-== Leviton
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
 
 
 |===
@@ -455,15 +410,6 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 |===
 
-== Popp
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
-
-
-|===
-
 == Qees
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -499,15 +445,6 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 ||Qubino|ZMNHCA2|| | 
 // 345.3.2_qubino.qubino.zmnhca2.module.volets.roulants.encastrable.json
-
-
-|===
-
-== Rcs
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
 
 
 |===
@@ -617,15 +554,6 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 |===
 
-== Wayne
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
-
-
-|===
-
 == Wenzhou
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -646,15 +574,6 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 
 ||Zipato|Bulb [RGBW]|| | 
 // 305.2.2_zipato_rgbw_bulb.json
-
-
-|===
-
-== Zwaveme
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
 
 
 |===
