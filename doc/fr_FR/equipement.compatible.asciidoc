@@ -618,5 +618,8 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2605-
 // 351.12546.516_mco.home.mh-s314.four.load.json
 
 
+|===
+
+
 [NOTE]
 Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
