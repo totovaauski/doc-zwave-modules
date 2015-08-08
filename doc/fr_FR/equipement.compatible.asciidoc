@@ -500,10 +500,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Swiid|SwiidInter|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html++[Documentation^] 
+|image:../images/swiid.inter/module.jpg[width=150,align="center"]|Swiid|SwiidInter|Interrupteur| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2675-swiid-interrupteur-sur-cordon-z-wave-swiidinter-blanc-370092591002.html++[Acheter^]
 // 358.256.256_swiid.inter.json
 
-||Swiid|SwiidPlug|| | 
+|image:../images/swiid.plug/module.jpg[width=150,align="center"]|Swiid|SwiidPlug|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2737-swiid-prise-gigogne-z-wave-plus-swiidplug-format-francais-370092591101.html++[Acheter^]
 // 358.8199.1798_swiid.swiidplug.json
 
 
