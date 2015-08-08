@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*109* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*112* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -346,6 +346,15 @@ _[small]#Piles : 2xAAA#_| link:++http://www.domadoo.fr/fr/peripheriques/1982-sec
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/mco.mhs311/module.jpg[width=150,align="center"]|Mco|MH-S311 Simple|Interrupteur|Equivalent au MH-S411 | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
+// 351.12546.513_mco.home.mh-s311.simple.json
+
+|image:../images/mco.mhs312/module.jpg[width=150,align="center"]|Mco|MH-S312 Double|Interrupteur|Equivalent au MH-S412 | link:++http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html++[Acheter^]
+// 351.12546.514_mco.home.mh-s312.double.json
+
+|image:../images/mco.mhs314/module.jpg[width=150,align="center"]|Mco|MH-S314 Four-load|Interrupteur| | 
+// 351.12546.516_mco.home.mh-s314.four.load.json
 
 |image:../images/mco.mhs411/module.jpg[width=150,align="center"]|Mco|MH-S411 Simple|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
 // 351.16642.513_mco.home.mh-s411.simple.json
