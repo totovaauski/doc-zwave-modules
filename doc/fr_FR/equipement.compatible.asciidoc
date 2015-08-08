@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*115* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*112* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles.
 
@@ -515,35 +515,26 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Vision Security|Multi sensor Dual|| | 
-// 265.8194.515_vision.multi.sensor.dual.json
-
-||Vision Security|ZD2102|| | 
+|image:../images/vision.zd2102/module.jpg[width=150,align="center"]|Vision Security|ZD2102|Ouverture|Vendu aussi sous la marque Zipato - Piles : 1xCR123A| link:++http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html++[Acheter^]
 // 265.8193.258_vision.security.vision.security.zd2102.json
 
-||Vision Security|ZG 8101 Détecteur ouverture porte|| | 
+|image:../images/vision.zg8101/module.jpg[width=150,align="center"]|Vision Security|ZG8101|Ouverture| Piles : 1xCR123A| link:++http://www.domadoo.fr/fr/peripheriques/2434-vision-security-detecteur-de-porte-de-garage-z-wave-zg8101-0696859123412.html.html++[Acheter^]
 // 265.8202.2562_vision.security.detecteur.ouverture.porte.vision.security.zg.8101.json
 
-||Vision Security|ZM1601|| | 
+|image:../images/vision.zm1601/module.jpg[width=150,align="center"]|Vision Security|ZM1601|Sirène| Piles : 4xAA| link:++http://www.domadoo.fr/fr/peripheriques/2435-vision-security-sirene-z-wave-zm1601-alimentee-sur-batterie.html++[Acheter^]
 // 265.8197.1283_vision.security.vision.security.zm1601.json
 
-||Vision Security|ZM1602|| | 
+|image:../images/vision.zm1602/module.jpg[width=150,align="center"]|Vision Security|ZM1602|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2436-vision-security-sirene-z-wave-zm1602-alimentee-sur-secteur.html++[Acheter^]
 // 266.8201.2307_vision.security.vision.security.zm1602.json
 
-||Vision Security|ZP3102|| | 
+|image:../images/vision.zp3102/module.jpg[width=150,align="center"]|Vision Security|ZP3102|Multicapteurs|Vendu aussi sous la marque Zipato - Piles : 1xCR123A| link:++http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html++[Acheter^]
 // 265.8194.513_vision.security.vision.security.zp3102.json
 
-||Vision Security|ZS 5101-5|| | 
-// 265.8195.774_vision.security.vision.security.zs.5101.json
-
-||Vision Security|ZS 5101|| | 
+|image:../images/vision.zs5101/module.jpg[width=150,align="center"]|Vision Security|ZS5101|Vibration| Piles : 1xCR123A| link:++http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave.html++[Acheter^]
 // 265.8195.769_vision.security.vision.security.zs.5101.json
 
-||Vision Security|ZS 6101 Smoke Detector || | 
+|image:../images/vision.zs6101/module.jpg[width=150,align="center"]|Vision Security|ZS6101 Smoke Detector |Fumée| Piles : 1xCR123A| 
 // 265.8196.1027_vision.security.vision.security.smoke.detector.zs.6101.json
-
-||Vision Security|ZS6301|| | 
-// 265.8194.513_vision.security.vision.security.zs6301.json
 
 
 |===
@@ -566,7 +557,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/tkb.tz66s/module.jpg[width=150,align="center"]|Wenzhou|TZ66S|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2060-tkb-home-tz66-s-interrupteur-simple-z-wave-blanc-6959174466508.html++[Acheter^]
+|image:../images/tkb.tz66s/module.jpg[width=150,align="center"]|Wenzhou|TZ66S|Interrupteur|Vendu aussi sous la marque TkbHome | link:++http://www.domadoo.fr/fr/peripheriques/2060-tkb-home-tz66-s-interrupteur-simple-z-wave-blanc-6959174466508.html++[Acheter^]
 // 280.258.4128_tkbhome.tkbhome.tz66s.json
 
 
