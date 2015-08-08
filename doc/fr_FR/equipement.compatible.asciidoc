@@ -422,7 +422,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Qees|Turtle Switch|| | 
+|image:../images/qees.turtle-switch/module.jpg[width=150,align="center"]|Qees|Turtle Switch|Interrupteur| | 
 // 149.12545.1_qees.qees.turtle.switch.json
 
 
@@ -434,23 +434,23 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Qubino|Dimmer|| | 
-// 345.1.1_qubino.qubino.dimmer.json
-
-||Qubino|Fil Pilote 6 ordres|| | 
-// 345.4.1_zmnhja2.flush.dimmer.fil.pilote.json
-
-||Qubino|Flush 1 relay|| | 
+|image:../images/qubino.zmnhaa2/module.jpg[width=150,align="center"]|Qubino|ZMNHAA2 Simple Charge|Micromodule|Remplacé par ZMNHAD1 | link:++http://www.domadoo.fr/fr/peripheriques/3060-qubino-micromodule-commutateur-1-relai-et-consometre-z-wave-zmnhad1-3830062070102.html++[Acheter^]
 // 345.2.2_qubino.qubino.flush.1.relay.json
 
-||Qubino|Flush 2 relay|| | 
+|image:../images/qubino.zmnhba2/module.jpg[width=150,align="center"]|Qubino|ZMNHBA2 Double Charge|Micromodule|Remplacé par ZMNHBD1 | link:++http://www.domadoo.fr/fr/peripheriques/3062-qubino-micromodule-commutateur-2-relais-et-consometre-z-wave-zmnhbd1-3830062070119.html.html++[Acheter^]
 // 345.2.1_qubino.qubino.flush.2.relay.json
 
-||Qubino|Flush on/off thermostat|| | 
+|image:../images/qubino.zmnhca2/module.jpg[width=150,align="center"]|Qubino|ZMNHCA2 Volets|Volets|Remplacé par ZMNHCD1 | link:++http://www.domadoo.fr/fr/peripheriques/3061-qubino-micromodule-pour-volet-roulant-et-consometre-z-wave-zmnhcd1-3830062070126.html++[Acheter^]
+// 345.3.2_qubino.qubino.zmnhca2.module.volets.roulants.encastrable.json
+
+|image:../images/qubino.zmnhda2/module.jpg[width=150,align="center"]|Qubino|ZMNHDA2 Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2567-qubino-micromodule-variateur-et-consometre-z-wave-zmnhda2-3830062070003.html++[Acheter^]
+// 345.1.1_qubino.qubino.dimmer.json
+
+|image:../images/qubino.zmnhia2/module.jpg[width=150,align="center"]|Qubino|ZMNHIA2 Thermostat|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2653-qubino-micromodule-thermostat-encastrable-z-wave-zmnhia2-3830062070041.html++[Acheter^]
 // 345.5.1_qubino.qubino.flush.onoff.thermostat.json
 
-||Qubino|ZMNHCA2|| | 
-// 345.3.2_qubino.qubino.zmnhca2.module.volets.roulants.encastrable.json
+|image:../images/qubino.zmnhja2/module.jpg[width=150,align="center"]|Qubino|ZMNHJA2 Fil Pilote|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2654-qubino-module-fil-pilote-encastrable-z-wave-zmnhja2.html++[Acheter^]
+// 345.4.1_zmnhja2.flush.dimmer.fil.pilote.json
 
 
 |===
