@@ -461,7 +461,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Remotec|ZXT-120|| | 
+|image:../images/remotec.zxt120/module.jpg[width=150,align="center"]|Remotec|ZXT-120|Thermostat|Pose soucis sur des réseaux avec d'autres modules - Piles : 3xAAA| link:++http://www.domadoo.fr/fr/peripheriques/826-remotec-zxt-120-passerelle-z-wave-vers-ir-pour-climatiseur-ac.html++[Acheter^]
 // 21076.257.33655_remotec.group.remotec.zxt-120.json
 
 
@@ -485,10 +485,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Smarthome By Everspring|In Wall Dimmer|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html++[Documentation^] 
+|image:../images/smarthomebyeverspring.AD146-0/module.jpg[width=150,align="center"]|Smarthome By Everspring|AD146-0 Variateur|Micromodule| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2688-smarthome-europe-micromodule-variateur-mural-z-wave-plus-ad146-3700946500356.html++[Acheter^]
 // 96.3.2_smarthome.by.everspring.in.wall.dimmer.ad.146.0.json
 
-||Smarthome By Everspring|In Wall On/Off|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html++[Documentation^] 
+|image:../images/smarthomebyeverspring.AN179-0/module.jpg[width=150,align="center"]|Smarthome By Everspring|AN179-0 On/Off|Micromodule| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2689-smarthome-europe-micromodule-mural-onoff-z-wave-plus-an179-3700946500387.html++[Acheter^]
 // 96.4.8_smarthome.by.everspring.in.wall.on.off.an.179.0.json
 
 
