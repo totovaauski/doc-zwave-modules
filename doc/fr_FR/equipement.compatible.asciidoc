@@ -407,10 +407,10 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Polycontrol|Danalock|| | 
+|image:../images/polycontrol.danalock/module.jpg[width=150,align="center"]|Polycontrol|Danalock|Serrure| Piles : 1xER26500M| 
 // 270.3.2_poly-control.danalock.json
 
-||Polycontrol|Polylock|| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.polylock_-_Serrure.html++[Documentation^] 
+|image:../images/polycontrol.polylock/module.jpg[width=150,align="center"]|Polycontrol|Polylock|Serrure| Piles : 1xER26500M|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.polylock_-_Serrure.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/1752-poly-control-serrure-motorisee-poly-lock-z-wave.html++[Acheter^]
 // 270.1.1_poly-control.polylock.json
 
 
