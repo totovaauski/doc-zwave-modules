@@ -39,6 +39,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 // 134.1.88_zw088.key.fob.gen5.json
 
 |image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Télécommande|Remplacé dans les boutiques par le keyfob Gen5
+
 Piles : 1xCR2450|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 // 134.1.22_key.fob.json
 
