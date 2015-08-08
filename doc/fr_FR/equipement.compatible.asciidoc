@@ -554,7 +554,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Vitrum|ZWE060|| | 
+|image:../images/vitrum.zwe060/module.jpg[width=150,align="center"]|Vitrum|ZWE060 6 boutons|Interrupteur| | 
 // 266.5120.26112_vitrum.vitrum.zwe060.json
 
 
@@ -566,7 +566,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Wenzhou|TZ66S|| | 
+|image:../images/tkb.tz66s/module.jpg[width=150,align="center"]|Wenzhou|TZ66S|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2060-tkb-home-tz66-s-interrupteur-simple-z-wave-blanc-6959174466508.html++[Acheter^]
 // 280.258.4128_tkbhome.tkbhome.tz66s.json
 
 
@@ -578,7 +578,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Zipato|Bulb [RGBW]|| | 
+|image:../images/zipato.bulb/module.jpg[width=150,align="center"]|Zipato|Bulb RGBW|Ampoule| | link:++http://www.domadoo.fr/fr/peripheriques/2541-zipato-ampoule-led-rgbw-z-wave-3858890731026.html++[Acheter^]
 // 305.2.2_zipato_rgbw_bulb.json
 
 
