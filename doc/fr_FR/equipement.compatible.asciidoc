@@ -372,7 +372,7 @@ _[small]#Piles : 1xCR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/2939-
 
 |image:../images/nodon.wallswitch/module.jpg[width=150,align="center"]|Nodon|Wall Switch|Interrupteur|Fonctionne en mode scene et non central scene 
 
-_[small]#Piles : 1xCR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html++[Acheter^]
+_[small]#Piles : 1xCR2032#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.wall_-_Switch_-_Interrupteur.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html++[Acheter^]
 // 357.2.3_nodon.cws.3.1.01.wall.switch.json
 
 
