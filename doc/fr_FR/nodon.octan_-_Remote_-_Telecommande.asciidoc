@@ -1,5 +1,5 @@
 :icons:
-== Nodon Interrupteur - Wall Switch
+== Nodon Télécommande - Octan
 
 {nbsp} +
 
@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/nodon.wallswitch/module.jpg[width=256,align="center"]
+image::../images/nodon.octan/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -15,7 +15,7 @@ image::../images/nodon.wallswitch/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-image::../images/nodon.wallswitch/vuedefaut1.jpg[width=200,align="center"]
+image::../images/nodon.octan/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
@@ -23,9 +23,9 @@ image::../images/nodon.wallswitch/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-L'interrupteur mural NodOn® peut contrôler directement n’importe quel appareil compatible Z-Wave® ou Z- Wave Plus® tel que la prise intelligente NodOn® ou encore déclencher des scènes via une centrale domotique compatible.
+La Octan Remote NodOn® permet de contrôler n’importe quels récepteurs compatibles Z- Wave® ou Z-Wave Plus® tels que la prise télécommandée NodOn® (mode Contrôleur Principal - Standalone), ou encore déclencher des scènes / actions via une centrale domotique compatible (mode Gateway)
 
-L’interrupteur possède une platine de fixation pour le monter facilement dans la maison: En utilisant les vis d’un pot d’encastrement, en le vissant au mur, ou tout simplement en le collant via les adhésifs double-face présents au dos de la platine.
+Son aimant intégré permet de la fixer partout, du radiateur à la porte de réfrigérateur, en passant par son support mural. Entre télécommande et interrupteur, la Octan Remote révolutionne le contrôle des objets domestiques
 
 {nbsp} +
 
@@ -34,9 +34,9 @@ L’interrupteur possède une platine de fixation pour le monter facilement dans
 {nbsp} +
 
 * Contrôle seul ou avec une centrale domotique
-* Facile à monter et démonter
-* Sensation d'appui agréable
-* Sans Fil
+* Aimant intégré
+* Led de couleurs
+* Platine Murale
 * 2 ans de batterie
 
 {nbsp} +
@@ -47,18 +47,12 @@ L’interrupteur possède une platine de fixation pour le monter facilement dans
 
 * Alimentation : Pile CR2032 – Autonomie 1,5 - 2ans
 * 4 boutons
-* Montage mural par adhésif double face (inclus) ou vis (non incluses)
-* Température de fonctionnement : 0°C à 40°C
-* Altitude : 2000m
-* Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave Plus® SDK 06.51.06
-* Portée : 40m en intérieur / 70m en extérieur
-* Dimensions : 80*80*15mm
+* Support mural fixé par adhésif double face (inclus) ou vis (non incluses)
+* Aimant intégré pour fixation sur surface métallique
+* Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
+* Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave Plus® SDK 06.51.01 Portée: 40m indoor / 80m outdoor
+* Dimension : 80*80*15mm
 * Garantie 2 ans
-* EN 60950-1:2006 +A11:2009 + A1:2010 + A12:2011 + A2:2013
-* EN 300 220-2 V2.4.1
-* EN301 489-1 V1.9.2
-* EN301 489-3 V1.6.1
-* EN 62479:2010
 
 {nbsp} +
 
@@ -67,10 +61,10 @@ L’interrupteur possède une platine de fixation pour le monter facilement dans
 {nbsp} +
 
 * Marque : Nodon
-* Nom : CWS-3-1-01 Wall Switch
+* Nom : CRC-3-1-00 Octan Remote
 * Fabricant ID : 357
 * Type Produit : 2
-* Produit ID : 3
+* Produit ID : 1
 
 {nbsp} +
 
@@ -88,7 +82,7 @@ Pour mettre ce module en mode inclusion  il faut appuyer sur les deux bouton (1 
 
 {nbsp} +
 
-image::../images/nodon.wallswitch/inclusion.jpg[width=350,align="center"]
+image::../images/nodon.octan/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
@@ -96,7 +90,7 @@ image::../images/nodon.wallswitch/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-image::../images/nodon.wallswitch/information.jpg[Plugin Zwave,align="center"]
+image::../images/nodon.octan/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
@@ -108,7 +102,7 @@ Une fois le module reconnu, les commandes associées aux modules seront disponib
 
 {nbsp} +
 
-image::../images/nodon.wallswitch/commandes.jpg[Commandes,align="center"]
+image::../images/nodon.octan/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
@@ -158,7 +152,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-image::../images/nodon.wallswitch/config1.jpg[Config1,align="center"]
+image::../images/nodon.octan/config1.jpg[Config1,align="center"]
 
 
 {nbsp} +
@@ -181,8 +175,8 @@ Ce module possède 7 groupes d'association.
 
 {nbsp} +
 
-image::../images/nodon.wallswitch/groupe.jpg[Groupe]
-image::../images/nodon.wallswitch/groupe2.jpg[Groupe]
+image::../images/nodon.octan/groupe.jpg[Groupe]
+image::../images/nodon.octan/groupe2.jpg[Groupe]
 
 {nbsp} +
 
