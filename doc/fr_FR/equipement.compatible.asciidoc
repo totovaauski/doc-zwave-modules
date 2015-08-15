@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*109* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*110* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -76,6 +76,9 @@ _[small]#Piles : 4xAAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeo
 
 |image:../images/aeotec.zw075/module.jpg[width=150,align="center"]|Aeotec|ZW075|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html++[Acheter^]
 // 134.3.75_aeon.labs.aeon.labs.prise.zw075.json
+
+|image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|ZW078|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html++[Acheter^]
+// 134.3.78_aeon.labs.heavy.duty.smart.switch.gen5.json
 
 |image:../images/aeotec.zw080/module.jpg[width=150,align="center"]|Aeotec|ZW080|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html++[Acheter^]
 // 134.4.80_aeon.labs.aeon.labs.siren.zw080.json
@@ -318,8 +321,8 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2751-
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/homeseer.ezmotion3en1/module.jpg[width=150,align="center"]|Homeseer|EZ Motion 3 in 1|Multicapteurs| _[small]#Piles : 3xAAA#_| 
-// 30.2.1_homeseer.ez.motion.ez.motion.3.in.1.json
+|image:../images/homeseer.ezmotion3en1/module.jpg[width=150,align="center"]|Homeseer|EZ Motion+ 3 in 1|Multicapteurs| _[small]#Piles : 3xAAA#_| 
+// 30.2.2_homeseer.ez.motion.ez.motion.3.in.1.json
 
 
 |===
@@ -607,6 +610,11 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2605-
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/homeseer.ezmotion3en1/module.jpg[width=150,align="center"]|Homeseer|EZ Motion 3 in 1|Multicapteurs|Remonte très mal la détection de mouvement 
+
+_[small]#Piles : 3xAAA#_| 
+// 30.2.1_homeseer.ez.motion.ez.motion.3.in.1.json
 
 |image:../images/mco.mhs311/module.jpg[width=150,align="center"]|Mco|MH-S311 Simple|Interrupteur|Equivalent au MH-S411 | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
 // 351.12546.513_mco.home.mh-s311.simple.json
