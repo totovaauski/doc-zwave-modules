@@ -143,6 +143,8 @@ image::../images/fibaro.fgd212/commandes.jpg[Commandes,align="center"]
 * On : C'est la commande qui permet d'allumer la lumière
 * Off : C'est la commande qui permet d'éteindre la lumière
 * Etat : C'est la commande qui permet de connaitre le statut de la lumière
+* Consommation : C'est la commande qui permet de remonter la consommation du module
+* Puissance : C'est la commande qui permet de remonter la puissance instantanée du module
 
 A noter que sur le dashboard toutes les infos se retrouvent sur le même icone
 
