@@ -236,7 +236,7 @@ _[small]#Piles : 1xCR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-ever
 |image:../images/fibaro.fgd211/module.jpg[width=150,align="center"]|Fibaro|FGD-211 Dimmer|Micromodule|Ce module est remplacé dans les boutiques par le FGD-212 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
 // 271.256.12298_fgd211.universal.dimmer.500w.json
 
-|image:../images/fibaro.fgd212/module.jpg[width=150,align="center"]|Fibaro|FGD-212 Dimmer 2|Micromodule|Remplace le FGD-211 | link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
+|image:../images/fibaro.fgd212/module.jpg[width=150,align="center"]|Fibaro|FGD-212 Dimmer 2|Micromodule|Remplace le FGD-211 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd212_-_Dimmer2.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
 // 271.258.4096_fgd212.dimmer2.json
 
 |image:../images/fibaro.fgfs101/module.jpg[width=150,align="center"]|Fibaro|FGFS-101 Flood Sensor|Fuite| _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2365-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528142.html++[Acheter^]
