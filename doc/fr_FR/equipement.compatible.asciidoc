@@ -303,13 +303,13 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2751-
 
 |===
 
-== Gr
+== Gr-Smarthome
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/gr.autovalve/module.jpg[width=150,align="center"]|Gr|Vanne 1/4 de tour|Vanne| | link:++http://www.domadoo.fr/fr/peripheriques/2958-gr-smarthome-motorisation-z-wave-pour-vanne-14-de-tour.html++[Acheter^]
+|image:../images/gr.autovalve/module.jpg[width=150,align="center"]|Gr-Smarthome|Vanne 1/4 de tour|Vanne| | link:++http://www.domadoo.fr/fr/peripheriques/2958-gr-smarthome-motorisation-z-wave-pour-vanne-14-de-tour.html++[Acheter^]
 // 338.514.1297_gr.auto_valve.json
 
 
