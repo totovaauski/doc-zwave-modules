@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*110* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*111* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -71,11 +71,14 @@ _[small]#Piles : 4xAAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeo
 |image:../images/aeotec.smart-energy-switch/module.jpg[width=150,align="center"]|Aeotec|Smart Energy Switch|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/282-aeon-labs-smart-energy-switch-z-wave-1220000010369.html++[Acheter^]
 // 134.3.6_aeon.labs.aeon.labs.smart.energy.switch.json
 
+||Aeotec|Smart Switch 2dn Edition|Prise| | 
+// 134.3.18_smart.switch2e.json
+
 |image:../images/aeotec.smartswitch/module.jpg[width=150,align="center"]|Aeotec|SmartSwitch|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html++[Acheter^]
-// 134.3.96_aeon.labs.smart.switch.gen5.json
+// 134.259.96_aeon.labs.smart.switch.gen5.json
 
 |image:../images/aeotec.zw075/module.jpg[width=150,align="center"]|Aeotec|ZW075|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html++[Acheter^]
-// 134.3.75_aeon.labs.aeon.labs.prise.zw075.json
+// 134.259.75_aeon.labs.aeon.labs.prise.zw075.json
 
 |image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|ZW078|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html++[Acheter^]
 // 134.3.78_aeon.labs.heavy.duty.smart.switch.gen5.json
