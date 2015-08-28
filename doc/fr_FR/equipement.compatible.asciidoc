@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*26* [green]*marques de modules différentes, soit un total de* [red]*111* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*27* [green]*marques de modules différentes, soit un total de* [red]*112* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -71,7 +71,7 @@ _[small]#Piles : 4xAAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeo
 |image:../images/aeotec.smart-energy-switch/module.jpg[width=150,align="center"]|Aeotec|Smart Energy Switch|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/282-aeon-labs-smart-energy-switch-z-wave-1220000010369.html++[Acheter^]
 // 134.3.6_aeon.labs.aeon.labs.smart.energy.switch.json
 
-||Aeotec|Smart Switch 2dn Edition|Prise| | 
+|image:../images/aeotec.smartswitch2e/module.jpg[width=150,align="center"]|Aeotec|Smart Switch 2dn Edition|Prise| | 
 // 134.3.18_smart.switch2e.json
 
 |image:../images/aeotec.smartswitch/module.jpg[width=150,align="center"]|Aeotec|SmartSwitch|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html++[Acheter^]
@@ -299,6 +299,18 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2751-
 
 |image:../images/fortrezz.ssa03/module.jpg[width=150,align="center"]|Fortrezz|SSA-03|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html++[Acheter^]
 // 132.817.267_fortrezz.fortrezz.ssa-03.json
+
+
+|===
+
+== Gr
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/gr.autovalve/module.jpg[width=150,align="center"]|Gr|Vanne 1/4 de tour|Vanne| | link:++http://www.domadoo.fr/fr/peripheriques/2958-gr-smarthome-motorisation-z-wave-pour-vanne-14-de-tour.html++[Acheter^]
+// 338.514.1297_gr.auto_valve.json
 
 
 |===
