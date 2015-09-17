@@ -330,18 +330,6 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2751-
 
 |===
 
-== Heatit
-
-[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
-|===
-|Image|Marque|Nom|Type|Remarque|Lien
-
-|image:../images/heatit.thermostat/module.jpg[width=150,align="center"]|Heatit|Z-Wave thermostat|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html++[Acheter^]
-// 411.1.1_thermostat.json
-
-
-|===
-
 == Homeseer
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -563,6 +551,18 @@ _[small]#Piles : 2xAA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules
 
 |image:../images/swiid.plug/module.jpg[width=150,align="center"]|Swiid|SwiidPlug|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2737-swiid-prise-gigogne-z-wave-plus-swiidplug-format-francais-370092591101.html++[Acheter^]
 // 358.8199.1798_swiid.swiidplug.json
+
+
+|===
+
+== Thermofloor
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/heatit.thermostat/module.jpg[width=150,align="center"]|Thermofloor|Heatit Z-Wave thermostat|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html++[Acheter^]
+// 411.1.1_thermostat.json
 
 
 |===
