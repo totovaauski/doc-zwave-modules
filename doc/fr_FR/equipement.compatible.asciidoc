@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*28* [green]*marques de modules différentes, soit un total de* [red]*116* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*29* [green]*marques de modules différentes, soit un total de* [red]*117* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -326,6 +326,18 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2751-
 
 |image:../images/greenwave.powernode/module.jpg[width=150,align="center"]|Greenwave|Powernode 6 prises|Multiprise|Bien lire la documentation pour la remontée automatique des consommations |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2728-greenwave-multiprise-z-wave-6-ports-powernode-schuko--8886464000242.html++[Acheter^]
 // 153.3.4_powernode.6.port.json
+
+
+|===
+
+== Heatit
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/heatit.thermostat/module.jpg[width=150,align="center"]|Heatit|Z-Wave thermostat|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html++[Acheter^]
+// 411.1.1_thermostat.json
 
 
 |===
