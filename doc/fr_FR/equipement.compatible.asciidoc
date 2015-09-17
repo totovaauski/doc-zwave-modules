@@ -626,13 +626,13 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2605-
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-||Zwaveme|KFOB Key Chain Controller|Télécommande| _[small]#Piles : 1xCR2032#_| 
+|image:../images/zwaveme.keyfob4/module.jpg[width=150,align="center"]|Zwaveme|KFOB Key Chain Controller|Télécommande| _[small]#Piles : 1xCR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/2311-z-waveme-telecommande-porte-cles-4-boutons-z-wave-0696859123344.html++[Acheter^]
 // 277.256.1_kfob_4.json
 
-||Zwaveme|KFOB Secure 4 Button Key Chain Controller|Télécommande| _[small]#Piles : 1xCR2032#_| 
+|image:../images/zwaveme.keyfobs4/module.jpg[width=150,align="center"]|Zwaveme|KFOB Secure 4 Button Key Chain Controller|Télécommande| _[small]#Piles : 1xCR2032#_| 
 // 277.256.258_kfob_s4.json
 
-||Zwaveme|KFOB|Télécommande| _[small]#Piles : 1xCR2032#_| 
+|image:../images/zwaveme.keyfob1/module.jpg[width=150,align="center"]|Zwaveme|KFOB|Télécommande| _[small]#Piles : 1xCR2032#_| 
 // 277.1.105_key.fob_1.json
 
 
