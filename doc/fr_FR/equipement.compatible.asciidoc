@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*27* [green]*marques de modules différentes, soit un total de* [red]*112* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*28* [green]*marques de modules différentes, soit un total de* [red]*115* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -35,7 +35,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 |image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Insert Switch|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html++[Acheter^]
 // 134.3.12_aeon.labs.aeon.labs.insert.switch.json
 
-|image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Télécommande| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
+|image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Télécommande| _[small]#Piles : 1xCR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 // 134.1.88_zw088.key.fob.gen5.json
 
 |image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Keyfob|Télécommande|Remplacé dans les boutiques par le keyfob Gen5 
@@ -616,6 +616,24 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2605-
 
 |image:../images/zipato.bulb/module.jpg[width=150,align="center"]|Zipato|Bulb RGBW|Ampoule| | link:++http://www.domadoo.fr/fr/peripheriques/2541-zipato-ampoule-led-rgbw-z-wave-3858890731026.html++[Acheter^]
 // 305.2.2_zipato_rgbw_bulb.json
+
+
+|===
+
+== Zwaveme
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+||Zwaveme|KFOB Key Chain Controller|Télécommande| _[small]#Piles : 1xCR2032#_| 
+// 277.256.1_kfob_4.json
+
+||Zwaveme|KFOB Secure 4 Button Key Chain Controller|Télécommande| _[small]#Piles : 1xCR2032#_| 
+// 277.256.258_kfob_s4.json
+
+||Zwaveme|KFOB|Télécommande| _[small]#Piles : 1xCR2032#_| 
+// 277.1.105_key.fob_1.json
 
 
 |===
