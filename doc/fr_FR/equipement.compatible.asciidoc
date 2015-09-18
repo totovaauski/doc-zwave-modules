@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*29* [green]*marques de modules différentes, soit un total de* [red]*117* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*29* [green]*marques de modules différentes, soit un total de* [red]*119* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -12,28 +12,28 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 |Image|Marque|Nom|Type|Remarque|Lien
 
 |image:../images/aeotec.blind-control/module.jpg[width=150,align="center"]|Aeotec|Blind Control Switch|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html++[Acheter^]
-// 134.3.14_aeon.labs.aeon.labs.blind.control.switch.json
+// 134.3.14_blind.control.switch.json
 
 |image:../images/aeotec.led-bulb/module.jpg[width=150,align="center"]|Aeotec|Bulb RGBW|Ampoule| | link:++http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html++[Acheter^]
-// 134.3.98_aeon_rgbw_bulb.json
+// 134.3.98_rgbw_bulb.json
 
 |image:../images/aeotec.dsb28/module.jpg[width=150,align="center"]|Aeotec|DSB28 3 Pinces|Consommation| | link:++http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html++[Acheter^]
-// 134.2.28_aeon.labs.aeon.dsb28.json
+// 134.2.28_dsb28_hem.g2.json
 
 |image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor|Ouverture| _[small]#Piles : 2xAAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
-// 134.2.4_aeon.labs.aeon.doorwindow.sensor.json
+// 134.2.29_door.window.sensor.json
 
 |image:../images/aeotec.double-microswitch/module.jpg[width=150,align="center"]|Aeotec|Double microSwitch G2|Micromodule|Module pratiquement plus commercialisé | 
-// 134.3.17_aeon.labs.aeon.labs.double.microswitch.g2.json
+// 134.3.17_micro.double.switch_g2.json
 
 |image:../images/aeotec.hem/module.jpg[width=150,align="center"]|Aeotec|HEM 2 Pinces|Consommation| _[small]#Piles : 4xAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2289-aeon-labs-compteur-de-consommation-electrique-z-wave-2c-200a-1220000010598.html++[Acheter^]
-// 134.2.9_aeon.labs.aeon.hem.json
+// 134.2.9_hem_2.json
 
 |image:../images/aeotec.insert-dimmer/module.jpg[width=150,align="center"]|Aeotec|Insert Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html++[Acheter^]
-// 134.3.19_aeon.labs.aeon.labs.insert.dimmer.json
+// 134.3.19_insert.dimmer.json
 
 |image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Insert Switch|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html++[Acheter^]
-// 134.3.12_aeon.labs.aeon.labs.insert.switch.json
+// 134.3.12_micro.smart.energy.switch.json
 
 |image:../images/aeotec.keyfob-gen5/module.jpg[width=150,align="center"]|Aeotec|Keyfob Gen5|Télécommande| _[small]#Piles : 1xCR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 // 134.1.88_zw088.key.fob.gen5.json
@@ -49,45 +49,48 @@ _[small]#Piles : 1xCR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-mod
 |image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 4 en 1|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration. Remplacé en boutique par son équivalent Gen5 
 
 _[small]#Piles : 2xAAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
-// 134.2.5_aeon.labs.aeon.multi-sensor.json
+// 134.2.5_multi.sensor.json
 
 |image:../images/aeotec.multisensor6/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor 6 en 1|Multicapteurs| _[small]#Piles : 2xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html++[Acheter^]
-// 134.2.100_aeon.labs.6.en.1.multisensor.json
+// 134.2.100_6in1.multisensor.json
 
 |image:../images/aeotec.multisensor-gen5/module.jpg[width=150,align="center"]|Aeotec|Multi-Sensor GEN 5|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration 
 
 _[small]#Piles : 4xAAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
-// 134.2.74_aeon.labs.aeon.multi-sensor.gen5.json
+// 134.2.74_multi-sensor.gen5.json
 
 |image:../images/aeotec.panicbutton/module.jpg[width=150,align="center"]|Aeotec|Panic Button|Télécommande| _[small]#Piles : 1xCR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html++[Acheter^]
 // 134.1.38_panic.button.json
 
 |image:../images/aeotec.extender/module.jpg[width=150,align="center"]|Aeotec|Range Extender|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau | link:++http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html++[Acheter^]
-// 134.4.37_aeon.labs.aeon.range.extender.repeater.json
+// 134.0.0_range.extender.repeater.json
 
 |image:../images/aeotec.smart-energy-illuminator/module.jpg[width=150,align="center"]|Aeotec|Smart Energy Illuminator|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/283-aeon-labs-smart-energy-illuminator-z-wave-1220000010499.html++[Acheter^]
-// 134.3.8_aeon.labs.aeon.labs.smart.energy.illuminator.json
+// 134.3.8_smart.energy.illuminator.json
 
 |image:../images/aeotec.smart-energy-switch/module.jpg[width=150,align="center"]|Aeotec|Smart Energy Switch|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/282-aeon-labs-smart-energy-switch-z-wave-1220000010369.html++[Acheter^]
-// 134.3.6_aeon.labs.aeon.labs.smart.energy.switch.json
+// 134.3.6_smart.energy.switch.json
 
 |image:../images/aeotec.smartswitch2e/module.jpg[width=150,align="center"]|Aeotec|Smart Switch 2dn Edition|Prise| | 
 // 134.3.18_smart.switch2e.json
 
 |image:../images/aeotec.smartswitch/module.jpg[width=150,align="center"]|Aeotec|SmartSwitch|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2918-aeon-labs-mini-prise-commutateur-z-wave-plus-avec-consometre-smart-switch-6-1220000013049.html++[Acheter^]
-// 134.259.96_aeon.labs.smart.switch.gen5.json
+// 134.259.96_smart.switch.gen5.json
+
+|image:../images/aeotec.zw054/module.jpg[width=150,align="center"]|Aeotec|ZW054 Door|Ouverture| _[small]#Piles : 1xCR2#_| 
+// 134.2.54_zw054_recessed.door.sensor.json
 
 |image:../images/aeotec.zw075/module.jpg[width=150,align="center"]|Aeotec|ZW075|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html++[Acheter^]
-// 134.259.75_aeon.labs.aeon.labs.prise.zw075.json
+// 134.259.75_zw075_switch.json
 
 |image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|ZW078|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html++[Acheter^]
-// 134.3.78_aeon.labs.heavy.duty.smart.switch.gen5.json
+// 134.3.78_heavy.duty.smart.switch.gen5.json
 
 |image:../images/aeotec.zw080/module.jpg[width=150,align="center"]|Aeotec|ZW080|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html++[Acheter^]
-// 134.4.80_aeon.labs.aeon.labs.siren.zw080.json
+// 134.4.80_zw080.siren.json
 
 |image:../images/aeotec.zw089/module.jpg[width=150,align="center"]|Aeotec|ZW089 Door|Ouverture| _[small]#Piles : 1xCR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
-// 134.2.89_aeon.labs.aeon.labs.door.zw089.json
+// 134.2.89_zw089_recessed.door.sensor.json
 
 
 |===
@@ -651,6 +654,9 @@ _[small]#Piles : 1xCR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2605-
 
 |image:../images/zwaveme.keyfob1/module.jpg[width=150,align="center"]|Zwaveme|KFOB|Télécommande| _[small]#Piles : 1xCR2032#_| 
 // 277.1.105_key.fob_1.json
+
+|image:../images/zwaveme.rc2/module.jpg[width=150,align="center"]|Zwaveme|ZME_RC2 Remote Control|Télécommande| _[small]#Piles : 4xAAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html++[Acheter^]
+// 277.4096.768_zme_rc2.json
 
 
 |===
