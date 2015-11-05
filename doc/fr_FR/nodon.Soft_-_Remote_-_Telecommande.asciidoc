@@ -15,7 +15,7 @@ image::../images/nodon.softremote/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-image::../images/nodon.softremote/vuedefaut1.jpg[width=200,align="center"]
+image::../images/nodon.softremote/vuedefaut1.png[width=200,align="center"]
 
 {nbsp} +
 
@@ -90,7 +90,7 @@ image::../images/nodon.softremote/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-image::../images/nodon.softremote/information.jpg[Plugin Zwave,align="center"]
+image::../images/nodon.softremote/information.png[Plugin Zwave,align="center"]
 
 {nbsp} +
 
@@ -102,7 +102,7 @@ Une fois le module reconnu, les commandes associées aux modules seront disponib
 
 {nbsp} +
 
-image::../images/nodon.softremote/commandes.jpg[Commandes,align="center"]
+image::../images/nodon.softremote/commandes.png[Commandes,align="center"]
 
 {nbsp} +
 
@@ -144,7 +144,7 @@ il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Je
 
 {nbsp} +
 
-image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
+image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave,align="center"]
 
 {nbsp} +
 
@@ -152,7 +152,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-image::../images/nodon.softremote/config1.jpg[Config1,align="center"]
+image::../images/nodon.softremote/config1.png[Config1,align="center"]
 
 
 {nbsp} +
@@ -175,7 +175,7 @@ Ce module possède 7 groupes d'association.
 
 {nbsp} +
 
-image::../images/nodon.softremote/groupe.jpg[Groupe]
+image::../images/nodon.softremote/groupe.png[Groupe]
 
 {nbsp} +
 
