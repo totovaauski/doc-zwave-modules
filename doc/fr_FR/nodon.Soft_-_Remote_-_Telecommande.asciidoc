@@ -125,6 +125,8 @@ image::../images/nodon.softremote/commandes.png[Commandes,align="center"]
 
 |===
 
+* Batterie : c'est la commande qui remonte niveau des piles
+
 {nbsp} +
 
 ==== Configuration du module
@@ -144,7 +146,7 @@ il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Je
 
 {nbsp} +
 
-image::../images/plugin/bouton_configuration.png[Configuration plugin Zwave,align="center"]
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
 
 {nbsp} +
 
