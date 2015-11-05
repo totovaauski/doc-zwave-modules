@@ -125,6 +125,8 @@ image::../images/nodon.softremote/commandes.png[Commandes,align="center"]
 
 |===
 
+* Batterie : c'est la commande qui remonte niveau des piles
+
 {nbsp} +
 
 ==== Configuration du module
