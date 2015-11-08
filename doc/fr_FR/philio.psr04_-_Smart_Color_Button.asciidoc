@@ -1,0 +1,268 @@
+:icons:
+== Philio Smart Color Button
+
+{nbsp} +
+
+
+* *Le module*
+
+{nbsp} +
+
+
+image::../images/philio.psr04/module.jpg[width=256,align="center"]
+
+{nbsp} +
+
+
+* *Le visuel Jeedom*
+
+{nbsp} +
+
+
+image::../images/philio.psr04/vuedefaut1.jpg[width=200,align="center"]
+
+{nbsp} +
+
+=== Résumé
+
+{nbsp} +
+
+Cet interrupteur au design unique propose plusieurs fonctions. Vous pourrez l'utiliser pour allumer, éteindre ou varier l'éclairage, ajuster la position de vos volets, régler la température du thermostat ou l'utiliser comme une minuterie.
+
+Une fois inclus dans votre réseau Z-Wave, l'interrupteur PSR04 de Philio devra être associé au(x) périphérique(s) que vous souhaitez contrôler. Il peut fonctionner uniquement par association directe avec des périphériques, et ne peut lancer de scènes créées dans votre contrôleur domotique Z-Wave.
+
+Utilisé comme un variateur, il a le même comportement qu'un variateur traditionnel. Tournez le bouton vers la droite pour augmentez la lumière, et vers la gauche pour la diminuer.
+
+De plus, vous pouvez facilement déplacer et positionner cet interrupteur à l'endroit de votre choix grâce à son support magnétique. Sa conception étanche permet de l'installer dans un endroit à forte humidité comme une salle de bains.
+
+Il utilise la dernière puce Z-Wave série 500, offrant une augmentation de la portée radio de 50% et une vitesse de communication de 250% plus rapide par rapport aux précédents produits Z-Wave, ainsi qu'une plus faible consomation d'énergie permettant une plus grande autonomie.
+
+{nbsp} +
+
+=== Fonctions
+
+{nbsp} +
+
+* Interrupteur multifonctions
+* Technologie Z-Wave+
+* Fonction ON/OFF et variation (éclairage ou volets)
+* Fonction minuterie intégrée
+* Etanche
+* S'adapte à tout style de décoration
+* Batterie rechargeable
+* Très faible consommation d'énergie
+* Longue durée de vie de la batterie (6 mois par charge)
+* Support magnétique
+* LED d'indication RGBW
+* Facile à installer
+
+{nbsp} +
+
+
+=== Caractéristiques Techniques
+
+{nbsp} +
+
+* Alimentation : Batterie Lithium Polymère 3.7V, 220mA
+vAutonomie de la batterie : 6 mois pour 2h de charge
+* Consommation en veille : 18µA
+* Consommation en fonctionnement : 45mA
+* Fréquence : 868.42 MHz
+* Distance de transmission : 100m en extérieur, 40m en intérieur
+* Dimensions :
+
+Support : 71,16 x 10,94 mm (diamétre x épaisseur)
+Bouton : 59,99 x 14,89 mm (diamétre x épaisseur)
+Support + Bouton : 71,16 x 17,22 mm (diamétre x épaisseur)
+* Certifications :
+
+EN 301 489-1, EN 301 489-3
+EN 300 220-1, EN 300 220-2
+EN62479, EN60950
+FCC Part 15 B, FCC Part 15 C
+
+{nbsp} +
+
+
+=== Données du module
+
+{nbsp} +
+
+
+* Marque : Philio
+* Nom : PSR04 Smart Color Button
+* Fabricant ID : 316
+* Type Produit : 9
+* Produit ID : 34
+
+{nbsp} +
+
+=== Configuration
+
+{nbsp} +
+
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
+
+{nbsp} +
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Pour mettre ce module en mode inclusion il faut le mettre en position basse (inclusion) et appuyer sur le bouton, conformément à sa documentation papier.
+
+{nbsp} +
+
+image::../images/philio.psr04/inclusion.jpg[width=350,align="center"]
+
+{nbsp} +
+
+[underline]#Une fois inclus vous devriez obtenir ceci :#
+
+{nbsp} +
+
+image::../images/philio.psr04/information.jpg[Plugin Zwave,align="center"]
+
+{nbsp} +
+
+
+==== Commandes
+
+{nbsp} +
+
+
+Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+
+{nbsp} +
+
+
+image::../images/philio.psr04/commandes.jpg[Commandes,align="center"]
+
+{nbsp} +
+
+
+[underline]#Voici la liste des commandes :#
+
+{nbsp} +
+
+
+* Etat : c'est la commande qui remontera la position du bouton de 0 à 100%
+
+* Batterie : c'est la commande qui remonte l'état de batterie du module
+
+{nbsp} +
+
+==== Configuration du module
+
+{nbsp} +
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+Lors d'une première inclusion réveillez toujours le module juste après l'inclusion.
+
+
+{nbsp} +
+
+
+Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
+il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+
+{nbsp} +
+
+
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
+
+{nbsp} +
+
+
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+
+{nbsp} +
+
+
+
+image::../images/philio.psr04/config1.jpg[Config1,align="center"]
+
+{nbsp} +
+
+
+[underline]#Détails des paramètres :#
+
+{nbsp} +
+
+* 1: définit la borne la plus basse (position complètement à gauche)
+* 2 : définit la borne la plus haute (position complètement à droite)
+* 10 : intervalle de temps de remontée de batterie
+* 25 : permet de définir si le module envoie sa positon automatiquement après rotation (1s de délai) ou si il faut appuyer sur le bouton pour valider l'envoie
+* 26 : active l'envoie de scène ou non sur appui du bouton centrale (paramètre non pris en compte dans jeedom)
+
+{nbsp} +
+
+==== Groupes
+
+{nbsp} +
+
+Ce module possède deux groupes d'association, le premier est le seul indispensable. Le deuxième permet de remonter la position à jeedom
+
+{nbsp} +
+
+
+image::../images/philio.psr04/groupe.jpg[Groupe]
+
+
+{nbsp} +
+
+
+=== Bon à savoir
+
+{nbsp} +
+
+
+==== Spécificités
+
+Pour utiliser ce module en télécommande il faut procéder comme suit :
+
+* Rajouter le contrôleur dans le groupe 2
+
+En effet ce type de module n'est pas fait pour interagir directement avec une box mais directement avec d'autres modules. Cependant en rajoutant Jeedom au groupe 2, cela permet de recevoir la position du bouton et donc de s'en servir pour contrôller un scénario (régler un volume par exemple)
+
+=== Wakeup
+
+{nbsp} +
+
+
+Pour réveiller ce module il y a une seule et unique façon de procéder :
+
+* mettre le module en position basse et appuyer sur le bouton
+
+{nbsp} +
+
+
+=== F.A.Q.
+
+{nbsp} +
+
+
+[panel,primary]
+
+{nbsp} +
+
+[panel,primary]
+.J'ai changé la configuration mais elle n'est pas prise en compte.
+--
+Ce module est un module sur batterie, la nouvelle configuration sera prise en compte que si vous réveillez le module.
+--
+
+{nbsp} +
+
+=== Note importante
+{nbsp} +
+
+
+[icon="../images/plugin/important.png"]
+[IMPORTANT]
+[underline]#Il faut réveiller le module :#
+ après son inclusion, après un changement de la configuration
+, après un changement de wakeup, après un changement des groupes d'association
+
+{nbsp} +
+
+#_@sarakha63_#
