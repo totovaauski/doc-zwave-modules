@@ -195,14 +195,6 @@ Ce module est sur batterie. Donc il est important de noter qu'un changement de c
 
 {nbsp} +
 
-==== Visuel alternatif
-
-{nbsp} +
-
-image::../images/secure.srt323/widget1.jpg[width=350,align="center"]
-
-{nbsp} +
-
 === Wakeup
 
 {nbsp} +
