@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*34* [green]*marques de modules différentes, soit un total de* [red]*149* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*34* [green]*marques de modules différentes, soit un total de* [red]*150* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -120,21 +120,21 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/268
 |Image|Marque|Nom|Type|Remarque|Lien
 
 |image:../images/benext.builtin-dimmer/module.jpg[width=150,align="center"]|Benext|Built In Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html++[Acheter^]
-// 138.13.256_benext.built.in.dimmer.json
+// 138.13.256_built.in.dimmer.json
 
 |image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Benext|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actuellement vendu sous la marque Zipato 
 
 _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
-// 138.7.257_zipato.minikeypad.json
+// 138.7.257_minikeypad.json
 
 |image:../images/benext.molite/module.jpg[width=150,align="center"]|Benext|MoLite Sensor|Multicapteurs| _[small]#Piles : 2x1.5V AAA#_| 
-// 138.3.257_benext.dhs-zw-snmt-01.multi.sensor_1.json
+// 138.3.257_zw-snmt-01.multi.sensor.json
 
 |image:../images/benext.plugin-dimmer/module.jpg[width=150,align="center"]|Benext|Plug In Dimmer|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2347-benext-module-prise-variateur-z-wave-avec-mesure-d-energie-0632181493779.html++[Acheter^]
-// 138.24.256_benext.benext.plug.in.dimmer.json
+// 138.24.256_plug.in.dimmer.json
 
 |image:../images/benext.scene-controller/module.jpg[width=150,align="center"]|Benext|Scene Controller 7 boutons|Télécommande|Télécommande non fonctionnelle, fonctionne cependant en association avec d'autres modules | link:++http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html++[Acheter^]
-// 138.23.256_benext.benext.scene.controller.eu.telecommande.7.boutons.json
+// 138.23.256_scene.controller.json
 
 
 |===
@@ -291,16 +291,16 @@ _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-e
 |Image|Marque|Nom|Type|Remarque|Lien
 
 |image:../images/fibaro.fgbs001/module.jpg[width=150,align="center"]|Fibaro|FGBS-001 Universal Relay|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/916-fibaro-detecteur-universel-z-wave-fgbs-001-5902020528074.html++[Acheter^]
-// 271.1281.16386_fibar.group.fibaro.fgbs-001.json
+// 271.1281.16386_fgbs001.universal.binary.sensor.json
 
 |image:../images/fibaro.fgd211/module.jpg[width=150,align="center"]|Fibaro|FGD-211 Dimmer|Micromodule|Ce module est remplacé dans les boutiques par le FGD-212 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
 // 271.256.12298_fgd211.universal.dimmer.500w.json
 
 |image:../images/fibaro.fgd212/module.jpg[width=150,align="center"]|Fibaro|FGD-212 Dimmer 2|Micromodule|Remplace le FGD-211 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd212_-_Dimmer2.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
-// 271.258.4096_fgd212.dimmer2.json
+// 271.258.4096_fgd212.dimmer.json
 
 |image:../images/fibaro.fgfs101/module.jpg[width=150,align="center"]|Fibaro|FGFS-101 Flood Sensor|Fuite| _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2365-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528142.html++[Acheter^]
-// 271.2816.12289_fibaro.flood.sensor.json
+// 271.2816.12289_fgfs101.flood.sensor.json
 
 |image:../images/fibaro.fgk101-DS18B20/module.jpg[width=150,align="center"]|Fibaro|FGK-101 Door Sensor|Ouverture| _[small]#Piles : 1x3.6V ER14250#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/922-fibaro-detecteur-d-ouverture-z-wave-avec-entree-contact-sec-blanc-5902020528111.html++[Acheter^]
 // 271.1792.4096_fgk101.door.opening.sensor.json
@@ -311,28 +311,28 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 // 271.2048.16385_fgms001.motion.sensor.json
 
 |image:../images/fibaro.fgr222/module.jpg[width=150,align="center"]|Fibaro|FGR-222 Volet roulant|Volets|Nouveau nom du module FGR-221 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgr222_-_Volets.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3250-fibaro-micromodule-pour-volet-roulant-z-wave-fgr-222.html++[Acheter^]
-// 271.770.4096_fibar.group.fibaro.fgr-222.volet.roulant.json
+// 271.770.4096_fgr222.roller.shutter.controller.json
 
 |image:../images/fibaro.fgrgb101/module.jpg[width=150,align="center"]|Fibaro|FGRGB-101 RGBW|RGBW|Peut aussi servir de capteurs multisondes | link:++http://www.domadoo.fr/fr/peripheriques/2367-fibaro-controleur-rgbw-z-wave-fgrgb-101-5902020528159.html++[Acheter^]
 // 271.2304.16384_fgrgbwm441.rgbw.controller.json
 
 |image:../images/fibaro.fgrm222/module.jpg[width=150,align="center"]|Fibaro|FGRM-221 Volet roulant|Volets|Module équivalent au FGRM-222 | link:++http://www.domadoo.fr/fr/peripheriques/2604-fibaro-micromodule-pour-volet-roulant-z-wave-fgrm-222-5902020528227.html++[Acheter^]
-// 271.768.260_fibar.group.fibaro.fgrm-221.volet.roulant.json
+// 271.768.260_fgr221.roller.shutter.controller.json
 
 |image:../images/fibaro.fgrm222/module.jpg[width=150,align="center"]|Fibaro|FGRM-222 Volet roulant|Volets|Nouveau nom du module FGRM-221 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2604-fibaro-micromodule-pour-volet-roulant-z-wave-fgrm-222-5902020528227.html++[Acheter^]
-// 271.769.4097_fibar.group.fibaro.fgrm-222.volet.roulant.json
+// 271.769.4097_fgrm222.roller.shutter.controller.json
 
 |image:../images/fibaro.fgs211/module.jpg[width=150,align="center"]|Fibaro|FGS-211 Simple Charge|Micromodule|Module remplacé par le FGS-212 | link:++http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html++[Acheter^]
-// 271.1024.260_fibar.group.fibaro.fgs-211.json
+// 271.1024.260_fgs211.switch.3kw.json
 
 |image:../images/fibaro.fgs212/module.jpg[width=150,align="center"]|Fibaro|FGS-212 Simple Charge|Micromodule|Remplace le FGS-211 | link:++http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html++[Acheter^]
-// 271.1026.4098_fibaro.fgs212.simple.relay.json
+// 271.1026.4098_fgs212.simple.relay.json
 
 |image:../images/fibaro.fgs221/module.jpg[width=150,align="center"]|Fibaro|FGS-221 Double charge|Micromodule|Ce module est remplacé dans les boutiques par le FGS-222 | link:++http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html++[Acheter^]
-// 271.512.12298_fibar.group.fibaro.fgs-221.double.charge.json
+// 271.512.12298_fgs-221.double.charge.json
 
 |image:../images/fibaro.fgs222/module.jpg[width=150,align="center"]|Fibaro|FGS-222 Double charge|Micromodule|Remplace le FGS-221 | link:++http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html++[Acheter^]
-// 271.514.4098_fibar.group.fibaro.fgs-222.double.charge.json
+// 271.514.4098_fgs-222.double.charge.json
 
 |image:../images/fibaro.fgsd102/module.jpg[width=150,align="center"]|Fibaro|FGSD-002 Smoke Sensor CE|Fumée| _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
 // 271.3074.4098_fgsd002.smoke.sensor.json
@@ -495,8 +495,10 @@ _[small]#Piles : 1x3V CR2032#_|link:++https://jeedom.fr/doc/documentation/zwave-
 _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html++[Acheter^]
 // 150.16.1_nq-9121.gaz.meter.json
 
-|image:../images/northq.powerreader/module.jpg[width=150,align="center"]|Northq|Power Reader|Compteur| _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html++[Acheter^]
-// 150.1.1_northq.nq-92021.power.reader.json
+|image:../images/northq.powerreader/module.jpg[width=150,align="center"]|Northq|Power Reader|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports 
+
+_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html++[Acheter^]
+// 150.1.2_nq-9021.power.reader.json
 
 
 |===
@@ -583,16 +585,19 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |Image|Marque|Nom|Type|Remarque|Lien
 
 |image:../images/qubino.zmnhaa2/module.jpg[width=150,align="center"]|Qubino|ZMNHAA2 Simple Charge|Micromodule|Remplacé par ZMNHAD1 | link:++http://www.domadoo.fr/fr/peripheriques/3060-qubino-micromodule-commutateur-1-relai-et-consometre-z-wave-zmnhad1-3830062070102.html++[Acheter^]
-// 345.2.2_qubino.qubino.flush.1.relay.json
+// 345.2.2_zmnhaa2.flush.1.relay.json
 
-|image:../images/qubino.zmnhba2/module.jpg[width=150,align="center"]|Qubino|ZMNHBA2 Double Charge|Micromodule|Remplacé par ZMNHBD1 | link:++http://www.domadoo.fr/fr/peripheriques/3062-qubino-micromodule-commutateur-2-relais-et-consometre-z-wave-zmnhbd1-3830062070119.html.html++[Acheter^]
-// 345.2.1_qubino.qubino.flush.2.relay.json
+|image:../images/qubino.zmnhba2/module.jpg[width=150,align="center"]|Qubino|ZMNHBA2 Double Charge|Micromodule|Problème connue de remonté d'état, Switch1 et Puissance. Remplacé par ZMNHBD1 | link:++http://www.domadoo.fr/fr/peripheriques/3062-qubino-micromodule-commutateur-2-relais-et-consometre-z-wave-zmnhbd1-3830062070119.html.html++[Acheter^]
+// 345.2.1_zmnhba2.flush.2.relays.json
+
+|image:../images/qubino.zmnhbdx/module.jpg[width=150,align="center"]|Qubino|ZMNHBDx Double Charge|Micromodule|Problème connue de remonté d'état, Switch1 et Puissance | link:++http://www.domadoo.fr/fr/peripheriques/3062-qubino-micromodule-commutateur-2-relais-et-consometre-z-wave-zmnhbd1-3830062070119.html++[Acheter^]
+// 345.2.81_zmnhbdx.flush.2.relay.json
 
 |image:../images/qubino.zmnhca2/module.jpg[width=150,align="center"]|Qubino|ZMNHCA2 Volets|Volets|Remplacé par ZMNHCD1 | link:++http://www.domadoo.fr/fr/peripheriques/3061-qubino-micromodule-pour-volet-roulant-et-consometre-z-wave-zmnhcd1-3830062070126.html++[Acheter^]
-// 345.3.2_qubino.zmnhca2.flush.shutter.json
+// 345.3.2_zmnhca2.flush.shutter.json
 
 |image:../images/qubino.zmnhda2/module.jpg[width=150,align="center"]|Qubino|ZMNHDA2 Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2567-qubino-micromodule-variateur-et-consometre-z-wave-zmnhda2-3830062070003.html++[Acheter^]
-// 345.1.1_qubino.qubino.dimmer.json
+// 345.1.1_zmnhda2.dimmer.json
 
 |image:../images/qubino.zmnhddx/module.jpg[width=150,align="center"]|Qubino|ZMNHDDx Dimmer|Micromodule|Remplace le ZMNHDA2 | link:++http://www.domadoo.fr/fr/peripheriques/3063-qubino-micromodule-variateur-et-consometre-z-wave-zmnhdd1-3830062070096.html++[Acheter^]
 // 345.1.81_zmnhddx_dimmer.json
@@ -700,30 +705,34 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/vision.zd2102/module.jpg[width=150,align="center"]|Vision Security|ZD2102|Ouverture|Vendu aussi sous la marque Zipato 
+|image:../images/vision.zd2102/module.jpg[width=150,align="center"]|Vision Security|ZD2102|Ouverture|Vendu aussi sous la marque Zipato. Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
 
 _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html++[Acheter^]
-// 265.8193.258_vision.security.vision.security.zd2102.json
+// 265.8193.258_zd2102.au.doorwindow.sensor.json
 
-|image:../images/vision.zg8101/module.jpg[width=150,align="center"]|Vision Security|ZG8101|Ouverture| _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2434-vision-security-detecteur-de-porte-de-garage-z-wave-zg8101-0696859123412.html.html++[Acheter^]
-// 265.8202.2562_vision.security.detecteur.ouverture.porte.vision.security.zg.8101.json
+|image:../images/vision.zg8101/module.jpg[width=150,align="center"]|Vision Security|ZG8101|Ouverture|Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
+
+_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2434-vision-security-detecteur-de-porte-de-garage-z-wave-zg8101-0696859123412.html.html++[Acheter^]
+// 265.8202.2562_zg8101.garage.door.detector.json
 
 |image:../images/vision.zm1601/module.jpg[width=150,align="center"]|Vision Security|ZM1601|Sirène| _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2435-vision-security-sirene-z-wave-zm1601-alimentee-sur-batterie.html++[Acheter^]
-// 265.8197.1283_vision.security.vision.security.zm1601.json
+// 265.8197.1283_zm1601.battery.operated.siren.json
 
 |image:../images/vision.zm1602/module.jpg[width=150,align="center"]|Vision Security|ZM1602|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2436-vision-security-sirene-z-wave-zm1602-alimentee-sur-secteur.html++[Acheter^]
-// 265.8201.2307_vision.security.vision.security.zm1602.json
+// 265.8201.2307_zm1602.json
 
-|image:../images/vision.zp3102/module.jpg[width=150,align="center"]|Vision Security|ZP3102|Multicapteurs|Vendu aussi sous la marque Zipato 
+|image:../images/vision.zp3102/module.jpg[width=150,align="center"]|Vision Security|ZP3102|Multicapteurs|Vendu aussi sous la marque Zipato. Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
 
 _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html++[Acheter^]
-// 265.8194.513_vision.security.vision.security.zp3102.json
+// 265.8194.513_zp3102.eu.pir.motion.sensor.json
 
-|image:../images/vision.zs5101/module.jpg[width=150,align="center"]|Vision Security|ZS5101|Vibration| _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave.html++[Acheter^]
-// 265.8195.769_vision.security.vision.security.zs.5101.json
+|image:../images/vision.zs5101/module.jpg[width=150,align="center"]|Vision Security|ZS5101|Vibration|Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
+
+_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave.html++[Acheter^]
+// 265.8195.769_zs5101.shock.and.vibration.sensor.json
 
 |image:../images/vision.zs6101/module.jpg[width=150,align="center"]|Vision Security|ZS6101 Smoke Detector |Fumée| _[small]#Piles : 1x3V CR123A#_| 
-// 265.8196.1027_vision.security.vision.security.smoke.detector.zs.6101.json
+// 265.8196.1027_zs6101.smoke.detector.json
 
 
 |===
@@ -829,16 +838,13 @@ _[small]#Piles : 3x1.5V AAA#_|
 // 351.12546.516_mco.home.mh-s314.four.load.json
 
 |image:../images/qubino.zmnhadx/module.jpg[width=150,align="center"]|Qubino|ZMNHADx Simple Charge|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/3060-qubino-micromodule-commutateur-1-relai-et-consometre-z-wave-zmnhad1-3830062070102.html++[Acheter^]
-// 345.2.82_flush.1.relay.json
-
-|image:../images/qubino.zmnhbdx/module.jpg[width=150,align="center"]|Qubino|ZMNHBDx Double Charge|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/3062-qubino-micromodule-commutateur-2-relais-et-consometre-z-wave-zmnhbd1-3830062070119.html++[Acheter^]
-// 345.2.81_flush.2.relay.json
+// 345.2.82_zmnhadx.flush.1.relay.json
 
 |image:../images/qubino.zmnhcdx/module.jpg[width=150,align="center"]|Qubino|ZMNHCDx Volets|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/3061-qubino-micromodule-pour-volet-roulant-et-consometre-z-wave-zmnhcd1-3830062070126.html++[Acheter^]
 // 345.3.82_zmnhcdx.volets.roulants.json
 
 |image:../images/qubino.zmnhndx/module.jpg[width=150,align="center"]|Qubino|ZMNHNDx Contact sec Z-Wave+|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2950-qubino-micromodule-contact-sec-z-wave-zmnhnd1-3830062070072.html++[Acheter^]
-// 345.2.83_flush.1d.relay.json
+// 345.2.83_zmnhndx.flush.1d.relay.json
 
 |image:../images/vitrum.zwe060/module.jpg[width=150,align="center"]|Vitrum|ZWE060 6 boutons|Interrupteur| | 
 // 266.5120.26112_vitrum.vitrum.zwe060.json
