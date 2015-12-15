@@ -101,13 +101,13 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/268
 |image:../images/aeotec.dsb45/module.jpg[width=150,align="center"]|Aeotec|Water Sensor (DSB45)|Fuite| _[small]#Piles : 1x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3182-aeon-labs-capteur-d-eau-z-wave-1220000012486.html++[Acheter^]
 // 134.2.45_dsb45_aeon.labs.water.sensor.json
 
-|image:../images/aeotec.zw090/module.jpg[width=150,align="center"]|Aeotec|Z-Stick Gen5 (ZW090)|controleur| | link:++http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html++[Acheter^]
+|image:../images/aeotec.zw090/module.jpg[width=150,align="center"]|Aeotec|Z-Stick Gen5 (ZW090)|Contrôlleur| | link:++http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html++[Acheter^]
 // 134.1.90 ZW090  z-stick-gen5.json
 
-|image:../images/aeotec.zw092/module.jpg[width=150,align="center"]|Aeotec|Z-Stick Lite Gen5 (ZW092)|controleur| | 
+|image:../images/aeotec.zw092/module.jpg[width=150,align="center"]|Aeotec|Z-Stick Lite Gen5 (ZW092)|Contrôlleur| | 
 // 134.1.92 ZW092  Z-Stick Lite Gen5.json
 
-|image:../images/aeotec.dsa02203/module.jpg[width=150,align="center"]|Aeotec|Z-Stick S2 (DSA02203)|controleur| | 
+|image:../images/aeotec.dsa02203/module.jpg[width=150,align="center"]|Aeotec|Z-Stick S2 (DSA02203)|Contrôlleur| | 
 // 134.1.2 DSA02203 z-stick-s2.json
 
 
@@ -651,7 +651,7 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/sigma.usb/module.jpg[width=150,align="center"]|Sigma|Z-Wave Plus USB Controller|controleur| | link:++http://www.domadoo.fr/fr/peripheriques/3171-sigma-designs-controleur-z-wave-plus-usb.html++[Acheter^]
+|image:../images/sigma.usb/module.jpg[width=150,align="center"]|Sigma|Z-Wave Plus USB Controller|Contrôlleur| | link:++http://www.domadoo.fr/fr/peripheriques/3171-sigma-designs-controleur-z-wave-plus-usb.html++[Acheter^]
 // 0.1.1 usb adapter.json
 
 
@@ -788,7 +788,7 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/21
 |image:../images/zwaveme.rc2/module.jpg[width=150,align="center"]|Zwaveme|Remote Control 2|Télécommande| _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html++[Acheter^]
 // 277.4096.768_zme_rc2.json
 
-|image:../images/zwaveme.uzb/module.jpg[width=150,align="center"]|Zwaveme|USB Stick|controleur| | 
+|image:../images/zwaveme.uzb/module.jpg[width=150,align="center"]|Zwaveme|USB Stick|Contrôlleur| | 
 // 277.1.1 usb stick.json
 
 |image:../images/popp.zweather/module.jpg[width=150,align="center"]|Zwaveme|Z-Weather Wind and Weather Sensor|Multicapteurs|Vendu sous le nom POPP - Station météo Z-Wave+ Z-Weather 
@@ -808,10 +808,10 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/zwaveme.razberry/module.jpg[width=150,align="center"]|Zwaveme|RaZberry Controller ZWave+|controleur| | link:++http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html++[Acheter^]
+|image:../images/zwaveme.razberry/module.jpg[width=150,align="center"]|Zwaveme|RaZberry Controller ZWave+|Contrôlleur| | link:++http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html++[Acheter^]
 // 277.1024.1 RaZberry Controller ZWavePlus.json
 
-|image:../images/zwaveme.razberry/module.jpg[width=150,align="center"]|Zwaveme|RaZberry Controller|controleur| | 
+|image:../images/zwaveme.razberry/module.jpg[width=150,align="center"]|Zwaveme|RaZberry Controller|Contrôlleur| | 
 // 277.2.3 RaZberry Controller.json
 
 
