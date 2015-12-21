@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*34* [green]*marques de modules différentes, soit un total de* [red]*153* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*156* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -355,10 +355,10 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/27
 |Image|Marque|Nom|Type|Remarque|Lien
 
 |image:../images/fortrezz.ssa02/module.jpg[width=150,align="center"]|Fortrezz|SSA-02|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/980-fortrezz-sirene-z-wave-flash-rouge-ssa2-0661799486026.html++[Acheter^]
-// 132.785.265_fortrezz.fortrezz.ssa-02.json
+// 132.785.265_ssa2.json
 
 |image:../images/fortrezz.ssa03/module.jpg[width=150,align="center"]|Fortrezz|SSA-03|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html++[Acheter^]
-// 132.817.267_fortrezz.fortrezz.ssa-03.json
+// 132.817.267_ssa3.json
 
 
 |===
@@ -557,6 +557,9 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
+|image:../images/popp.009303/module.jpg[width=150,align="center"]|Popp|009303 Z-Wave Plus Battery Wall Controller|Télécommande| _[small]#Piles : 1x3V CR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/3074-popp-controleur-mural-sans-fil-z-wave.html++[Acheter^]
+// 340.256.257_009303_wall_controller.json
+
 |image:../images/popp.smoke-detector/module.jpg[width=150,align="center"]|Popp|Smoke Detector and Siren|Fumée| _[small]#Piles : 1x9V#_| link:++http://www.domadoo.fr/fr/peripheriques/3073-popp-detecteur-de-fumee-et-sirene-d-interieur-z-wave-0019962004100.html++[Acheter^]
 // 340.256.513_popp.smoke.sensor.json
 
@@ -650,6 +653,18 @@ _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/826
 
 _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
 // 151.24881.17665_mini.keypad.rfid.json
+
+
+|===
+
+== Sensative
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/strips/module.jpg[width=150,align="center"]|Sensative|Strips|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/3200-sensative-capteur-d-ouverture-extra-fin-strips-z-wave-7330985122972.html++[Acheter^]
+// 410.3.3_strips.json
 
 
 |===
@@ -796,6 +811,9 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/21
 
 |image:../images/zwaveme.rc2/module.jpg[width=150,align="center"]|Zwaveme|Remote Control 2|Télécommande| _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html++[Acheter^]
 // 277.4096.768_zme_rc2.json
+
+|image:../images/zwaveme.wallcs/module.jpg[width=150,align="center"]|Zwaveme|Secure Wall Controller|Télécommande| _[small]#Piles : 1x3V CR2032#_| 
+// 277.256.257_wall-s.json
 
 |image:../images/zwaveme.uzb/module.jpg[width=150,align="center"]|Zwaveme|USB Stick|Contrôleur| | 
 // 277.1.1 usb stick.json
