@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*156* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*159* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -509,6 +509,9 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/153
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
+|image:../images/philio.pan03/module.jpg[width=150,align="center"]|Philio|PAN03 Switch Module Single load|Micromodule|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2959-zipato-micromodule-commutateur-z-wave-avec-mesure-d-energie-3858890733242.html++[Acheter^]
+// 316.1.15_philio.pan03.json
+
 |image:../images/philio.pan04/module.jpg[width=150,align="center"]|Philio|PAN04 Double Charge|Micromodule|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html++[Acheter^]
 // 316.1.18_philio.pan04.eu.json
 
@@ -653,6 +656,9 @@ _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/826
 
 _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
 // 151.24881.17665_mini.keypad.rfid.json
+
+|image:../images/taphome.onwallpowersocket/module.jpg[width=150,align="center"]|Schlage|On-Wall Power Socket|Prise|Ce module est actuellement vendu sous la marque TapHome | 
+// 151.26947.17665_on_wall_power_socket.json
 
 
 |===
@@ -808,6 +814,9 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/21
 
 |image:../images/zwaveme.keyfob1/module.jpg[width=150,align="center"]|Zwaveme|KFOB|Télécommande| _[small]#Piles : 1x3V CR2032#_| 
 // 277.1.105_key.fob_1.json
+
+|image:../images/zwaveme.keyfobc/module.jpg[width=150,align="center"]|Zwaveme|Popp KFOB-C Remote Control|Télécommande| _[small]#Piles : 1x3V CR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave.html++[Acheter^]
+// 277.256.259_popp_kfob_c.json
 
 |image:../images/zwaveme.rc2/module.jpg[width=150,align="center"]|Zwaveme|Remote Control 2|Télécommande| _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html++[Acheter^]
 // 277.4096.768_zme_rc2.json
