@@ -98,8 +98,10 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/268
 |image:../images/aeotec.zw075/module.jpg[width=150,align="center"]|Aeotec|Smart Switch Gen5 (ZW075)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html++[Acheter^]
 // 134.259.75_zw075_switch.json
 
-|image:../images/aeotec.dsb45/module.jpg[width=150,align="center"]|Aeotec|Water Sensor (DSB45)|Fuite| _[small]#Piles : 1x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3182-aeon-labs-capteur-d-eau-z-wave-1220000012486.html++[Acheter^]
-// 134.2.45_dsb45_aeon.labs.water.sensor.json
+|image:../images/aeotec.dsb45/module.jpg[width=150,align="center"]|Aeotec|Water Sensor (DSB45)|Fuite|Paramètre 121 doit être forcé a 4113 
+
+_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3182-aeon-labs-capteur-d-eau-z-wave-1220000012486.html++[Acheter^]
+// 134.2.45_dsb45_water.sensor.json
 
 |image:../images/aeotec.zw090/module.jpg[width=150,align="center"]|Aeotec|Z-Stick Gen5 (ZW090)|Contrôleur| | link:++http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html++[Acheter^]
 // 134.1.90 ZW090  z-stick-gen5.json
@@ -743,7 +745,7 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 |image:../images/vision.zd2102/module.jpg[width=150,align="center"]|Vision Security|ZD2102|Ouverture|Vendu aussi sous la marque Zipato. Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
 
 _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html++[Acheter^]
-// 265.8193.258_zd2102.au.doorwindow.sensor.json
+// 265.8193.257_zd2102.us.doorwindow.sensor.json
 
 |image:../images/vision.zg8101/module.jpg[width=150,align="center"]|Vision Security|ZG8101|Ouverture|Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
 
