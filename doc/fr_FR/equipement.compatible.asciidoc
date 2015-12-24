@@ -880,6 +880,11 @@ _[small]#Piles : 3x1.5V AAA#_|
 |image:../images/mco.mhs314/module.jpg[width=150,align="center"]|Mco|MH-S314 Four-load|Interrupteur| | 
 // 351.12546.516_mco.home.mh-s314.four.load.json
 
+|image:../images/vision.zd2201/module.jpg[width=150,align="center"]|Vision Security|ZD2201 Multisensor 4in1|Ouverture|Vendu aussi sous la marque Zipato. 
+
+_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3150-zipato-detecteur-z-wave-plus-4-en-1-3858890732931.html++[Acheter^]
+// 265.8223.7952_zd2201.multisensor.4in1.json
+
 |image:../images/vitrum.zwe060/module.jpg[width=150,align="center"]|Vitrum|ZWE060 6 boutons|Interrupteur| | 
 // 266.5120.26112_vitrum.vitrum.zwe060.json
 
