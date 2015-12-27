@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*160* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*162* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -755,6 +755,9 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/24
 |image:../images/vision.zm1601/module.jpg[width=150,align="center"]|Vision Security|ZM1601|Sirène| _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2435-vision-security-sirene-z-wave-zm1601-alimentee-sur-batterie.html++[Acheter^]
 // 265.8197.1283_zm1601.battery.operated.siren.json
 
+|image:../images/vision.zm1602/module.jpg[width=150,align="center"]|Vision Security|ZM1602+|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2436-vision-security-sirene-z-wave-zm1602-alimentee-sur-secteur-0019962005602.html++[Acheter^]
+// 265.8201.2312_zm1602.json
+
 |image:../images/vision.zm1602/module.jpg[width=150,align="center"]|Vision Security|ZM1602|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2436-vision-security-sirene-z-wave-zm1602-alimentee-sur-secteur.html++[Acheter^]
 // 265.8201.2307_zm1602.json
 
@@ -762,6 +765,9 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/24
 
 _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html++[Acheter^]
 // 265.8194.513_zp3102.eu.pir.motion.sensor.json
+
+|image:../images/vision.zs6301/module.jpg[width=150,align="center"]|Vision Security|ZS 6301 Wireless CO Detector|CO| _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2159-vision-security-detecteur-de-monoxyde-de-carbone-z-wave.html++[Acheter^]
+// 265.8207.3842_zs6301.co.detector.json
 
 |image:../images/vision.zs5101/module.jpg[width=150,align="center"]|Vision Security|ZS5101|Vibration|Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
 
