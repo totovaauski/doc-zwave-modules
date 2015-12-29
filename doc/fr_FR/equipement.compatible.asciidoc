@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*164* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*168* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -801,8 +801,20 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/21
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
+|image:../images/tkb.tz67/module.jpg[width=150,align="center"]|Wenzhou|TZ65D|Interrupteur|Vendu aussi sous la marque TkbHome. Bouton de droit fonctionne en association seulement. | 
+// 280.2056.2056_tz65d.dual.wall.dimmer.json
+
 |image:../images/tkb.tz66s/module.jpg[width=150,align="center"]|Wenzhou|TZ66S|Interrupteur|Vendu aussi sous la marque TkbHome | link:++http://www.domadoo.fr/fr/peripheriques/2060-tkb-home-tz66-s-interrupteur-simple-z-wave-blanc-6959174466508.html++[Acheter^]
-// 280.258.4128_tkbhome.tkbhome.tz66s.json
+// 280.258.4128_tz66s.single.switch.json
+
+|image:../images/tkb.tz67/module.jpg[width=150,align="center"]|Wenzhou|TZ67|Prise|Vendu aussi sous la marque TkbHome. | 
+// 280.514.1553_tz67.wall.plug.dimmer.json
+
+|image:../images/tkb.tz68e/module.jpg[width=150,align="center"]|Wenzhou|TZ68e|Prise|Vendu aussi sous la marque TkbHome | 
+// 280.257.259_tz68e.wall.plug.json
+
+|image:../images/tkb.tz88/module.jpg[width=150,align="center"]|Wenzhou|TZ88|Prise|Vendu aussi sous la marque TkbHome | 
+// 280.1.1_tz88.smart.energy.plug.json
 
 
 |===
