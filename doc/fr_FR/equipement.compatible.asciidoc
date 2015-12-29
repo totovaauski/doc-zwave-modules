@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*168* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*169* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -403,8 +403,11 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/27
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/homeseer.ezmotion3en1/module.jpg[width=150,align="center"]|Homeseer|EZ Motion 3 in 1|Multicapteurs| _[small]#Piles : 3x1.5V AAA#_| 
+|image:../images/homeseer.ezmotion3en1/module.jpg[width=150,align="center"]|Homeseer|EZMotion 3in1|Multicapteurs| _[small]#Piles : 3x1.5V AAA#_| 
 // 30.2.1_hsm100.ez.motion.3in1.json
+
+|image:../images/homeseer.ezmotion3en1/module.jpg[width=150,align="center"]|Homeseer|EZMotion+ 3in1|Multicapteurs| _[small]#Piles : 3x1.5V AAA#_| 
+// 30.2.2_hsm100.ez.motion.3in1.json
 
 
 |===
