@@ -812,7 +812,7 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/21
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/tkb.tz67/module.jpg[width=150,align="center"]|Wenzhou|TZ65D|Interrupteur|Vendu aussi sous la marque TkbHome. Bouton de droit fonctionne en association seulement. | 
+|image:../images/tkb.tz65d/module.jpg[width=150,align="center"]|Wenzhou|TZ65D|Interrupteur|Vendu aussi sous la marque TkbHome. Bouton de droit fonctionne en association seulement. | 
 // 280.2056.2056_tz65d.dual.wall.dimmer.json
 
 |image:../images/tkb.tz66d/module.jpg[width=150,align="center"]|Wenzhou|TZ66D|Interrupteur|Vendu aussi sous la marque TkbHome. Bouton de droit fonctionne en association seulement. | link:++http://www.domadoo.fr/fr/peripheriques/2058-tkb-home-tz66d-interrupteur-double-z-wave-blanc-6959174466010.html++[Acheter^]
