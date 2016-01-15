@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*172* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*173* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -577,6 +577,9 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/popp.009105/module.jpg[width=150,align="center"]|Popp|009105 Wall Plug Switch Schuko (IP44)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/3070-popp-z-wave-plugin-switch-ip44-outdoor-use.html++[Acheter^]
+// 340.3.1_009105.wall.plug.switch.json
 
 |image:../images/popp.009303/module.jpg[width=150,align="center"]|Popp|009303 Z-Wave Plus Battery Wall Controller|Télécommande| _[small]#Piles : 1x3V CR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/3074-popp-controleur-mural-sans-fil-z-wave.html++[Acheter^]
 // 340.256.257_009303_wall_controller.json
