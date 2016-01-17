@@ -46,7 +46,7 @@ _[small]#Piles : 1x3V CR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/aeotec.insert-dimmer/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Dimmer (2nd Edition) (DSC19103)|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html++[Acheter^]
 // 134.3.19_dsc19103_insert.dimmer.json
 
-|image:../images/aeotec.micro-smart-energy-illuminator/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Energy Illuminator|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html++[Acheter^]
+|image:../images/aeotec.micro-smart-energy-illuminator/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Energy Illuminator|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html++[Acheter^]
 // 134.3.13_micro.smart.energy.illuminator.json
 
 |image:../images/aeotec.smartswitch2e/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Switch (2nd Edition) (DSC18103)|Prise| | 
