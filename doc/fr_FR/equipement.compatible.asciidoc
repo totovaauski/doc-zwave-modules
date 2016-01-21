@@ -17,7 +17,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 |image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 2E (DSB29)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
 // 134.2.29_dsb29_door.window.sensor.json
 
-|image:../images/aeotec.doorwindow6/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 6 (ZW112)|Ouverture| _[small]#Piles : Rechargeable internal#_| 
+|image:../images/aeotec.doorwindow6/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 6 (ZW112)|Ouverture| _[small]#Piles : Interne rechargeable#_| 
 // 134.2.112_zw112_door.window.sensor6.json
 
 |image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|Heavy Duty Smart Switch (ZW078)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html++[Acheter^]
