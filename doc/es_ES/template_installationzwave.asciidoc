@@ -1,10 +1,10 @@
-:icons:
-=== Installation du plugin Z-wave
+:iconos:
+=== Instalación del plugin Z-wave
 
 {nbsp} +
 
-Si vous n’en disposez pas encore, il va vous falloir installer le plugin Z-Wave, pas d’inquiétude, cela ne demande que quelques secondes.
-Pour ce faire, il suffit de se rendre dans le menu « Général », puis « Plugins »
+Si aún no lo tiene, usted tendrá que instalar el plugin Z-Wave. No se preocupes, sólo tardará unos segundos.
+Para ello, basta con ir al menú « General », luego « Plugins »
 
 {nbsp} +
 
@@ -12,7 +12,7 @@ image::../images/plugin/innstallationzwave1.jpg[width=180]
 
 {nbsp} +
 
-Enfin, cliquez sur le bouton « Market » situé en haut à gauche.
+Por último, haga clic en el « Market » en la parte superior izquierda.
 
 {nbsp} +
 
@@ -20,8 +20,8 @@ image::../images/plugin/innstallationzwave2.jpg[width=356]
 
 {nbsp} +
 
-Une fois sur le Market, dans la barre de recherche en haut à droite, tapez le mot Z-wave et validez par la touche entrée.
-Sélectionnez le plugin et installez le, ensuite, il suffit de l’activer en cliquant sur le bouton « activer » qui apparait.
+Una vez en el Market, escriba la palabra Z-wave en la barrra de búsqueda de la parte superior derecha y pulse la tecla Intro.
+Seleccione el plugin e instálelo. A continuación, sólo tiene que activarlo haciendo clic en el botón "activar" que aparece.
 
 {nbsp} +
 
@@ -29,8 +29,8 @@ image::../images/plugin/innstallationzwave3.jpg[]
 
 {nbsp} +
 
-Une fois le plugin activé, vous avez accès à sa configuration. Si vous utilisez une box Jeedom Officiel (Mini, Mini+) veuillez ne pas toucher à la configuration, cependant vous pouvez renseigner un nom dans le champ « Serveur Z-wave nom » (ici Jeebox), même chose si vous êtes sur une installation DIY mais sans mode déporté.
-Dans le cas contraire, la configuration sera à adapter en fonction de votre type d’installation (Mode déporté, Openzwave, etc…
+Una vez activado el plugin, podrá tener acceso a su configuración. Si utiliza una caja Jeedom Oficial (Mini, Mini +) no necesita modificar la configuración, sin embargo puede introducir un nombre en el campo « nombre del servidor de Z-Wave » (aquí Jeebox), y lo mismo si se encuentra en una instalación DIY pero el modo remoto.
+De lo contrario, la configuración se adaptará de acuerdo con el tipo de instalación (modo remoto, Openzwave, etc ...
 
 {nbsp} +
 
