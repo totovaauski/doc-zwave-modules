@@ -656,7 +656,7 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/qubino.zmnhndx/module.jpg[width=150,align="center"]|Qubino|ZMNHNDx Contact sec Z-Wave+|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2950-qubino-micromodule-contact-sec-z-wave-zmnhnd1-3830062070072.html++[Acheter^]
 // 345.2.83_zmnhndx.flush.1d.relay.json
 
-|image:../images/qubino.zmnhtax/module.jpg[width=150,align="center"]|Qubino|ZMNHTAx Smart Meter|Rail-din| | 
+|image:../images/qubino.zmnhtax/module.jpg[width=150,align="center"]|Qubino|ZMNHTAx Smart Meter|Rail-din|Problème de remonté de la puissance, requière le rafraichissement manuel 5 minutes | 
 // 345.7.82_zmnhtax.smart.meter.json
 
 
