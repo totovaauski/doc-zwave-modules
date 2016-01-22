@@ -1,4 +1,4 @@
-== Fibaro FGRM-222 "Volet roulant"
+== Fibaro FGR-222 "Volet roulant"
 
 {nbsp} +
 
@@ -7,7 +7,7 @@
 
 {nbsp} +
 
-image::../images/fibaro.fgrm222/module.jpg[width=256,align="center"]
+image::../images/fibaro.fgr222/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
@@ -24,7 +24,7 @@ image::../images/fibaro.fgrm222/vuedefaut1.jpg[width=250,align="center"]
 
 {nbsp} +
 
-Le micromodule FGRM-222 va vous permettre de gérer les motorisations de volet à butée électronique, les stores vénitiens ou en encore les portes de garage grâce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.
+Le micromodule FGR-222 va vous permettre de gérer les motorisations de volet à butée électronique, les stores vénitiens ou en encore les portes de garage grâce au protocole Z-Wave tout en conservant votre interrupteur existant. Vous allez donc pouvoir actionner le moteur connecté en utilisant l'interrupteur existant, un émetteur Z-Wave ou directement depuis le bouton présent sur le micromodule.
 
 De plus, ce micromodule est capable de transmettre la consommation électrique instantanée (W) et cumulée (KWh) de l'équipement qui lui est rattaché.
 
@@ -80,10 +80,10 @@ Note : Ce module nécessite le neutre pour fonctionner.
 {nbsp} +
 
 * Marque : Fibar Group
-* Nom : Fibaro FGRM-222
+* Nom : Fibaro FGR-222
 * Fabricant ID : 271
-* Type Produit : 769
-* Produit ID : 4097
+* Type Produit : 770
+* Produit ID : 4096
 
 {nbsp} +
 
