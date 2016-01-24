@@ -17,13 +17,15 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 |image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 2E (DSB29)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
 // 134.2.29_dsb29_door.window.sensor.json
 
-|image:../images/aeotec.doorwindow6/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 6 (ZW112)|Ouverture| _[small]#Piles : Interne rechargeable#_| 
+|image:../images/aeotec.doorwindow6/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 6 (ZW112)|Ouverture| _[small]#Piles : Batterie#_| 
 // 134.2.112_zw112_door.window.sensor6.json
 
 |image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|Heavy Duty Smart Switch (ZW078)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html++[Acheter^]
 // 134.3.78_zw078_heavy.duty.smart.switch.gen5.json
 
-|image:../images/aeotec.hem/module.jpg[width=150,align="center"]|Aeotec|Home Energy Meter (DSB09104)|Consommation| _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2289-aeon-labs-compteur-de-consommation-electrique-z-wave-2c-200a-1220000010598.html++[Acheter^]
+|image:../images/aeotec.hem/module.jpg[width=150,align="center"]|Aeotec|Home Energy Meter (DSB09104)|Consommation|Remplacé par le Home Energy Meter 2G (DSB28) 
+
+_[small]#Piles : 4x1.5V AAA#_| 
 // 134.2.9_dsb09104_hem_2.json
 
 |image:../images/aeotec.dsb28/module.jpg[width=150,align="center"]|Aeotec|Home Energy Meter 2G (DSB28)|Consommation| | link:++http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html++[Acheter^]
@@ -484,7 +486,7 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 _[small]#Piles : 1x3V CR2032#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.octan_-_Remote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2939-nodon-octan-telecommande-murale-z-wave-3700313920282.html++[Acheter^]
 // 357.2.1_nodon.crc.3.1.00.octan.remote.json
 
-|image:../images/nodon.smartplug/module.jpg[width=150,align="center"]|Nodon|Smartplug|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.smartplug_-_Prise.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2939-nodon-octan-telecommande-murale-z-wave-3700313920282.html++[Acheter^]
+|image:../images/nodon.smartplug/module.jpg[width=150,align="center"]|Nodon|Smartplug|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.smartplug_-_Prise.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2892-nodon-prise-intelligente-z-wave-type-schuko-3700313920206.html++[Acheter^]
 // 357.1.1_smartplug.nodon.json
 
 |image:../images/nodon.softremote/module.jpg[width=150,align="center"]|Nodon|Soft Remote|Télécommande|Fonctionne en mode scene et non central scene 
