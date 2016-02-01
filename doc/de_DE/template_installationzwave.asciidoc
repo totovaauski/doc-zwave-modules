@@ -1,4 +1,4 @@
-:icons:
+:Symbole:
 === Installation du plugin Z-wave
 
 {nbsp} +
