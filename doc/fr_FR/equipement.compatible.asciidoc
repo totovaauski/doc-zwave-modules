@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*174* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*175* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -19,6 +19,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 
 |image:../images/aeotec.doorwindow6/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 6 (ZW112)|Ouverture| _[small]#Piles : Batterie#_| 
 // 134.2.112_zw112_door.window.sensor6.json
+
+|image:../images/aeotec.zw120doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor Gen5 (ZW120)|Ouverture| _[small]#Piles : 2×1.5V AAA#_| 
+// 134.2.120_zw120_door.window.sensor.gen5.json
 
 |image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|Heavy Duty Smart Switch (ZW078)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html++[Acheter^]
 // 134.3.78_zw078_heavy.duty.smart.switch.gen5.json
