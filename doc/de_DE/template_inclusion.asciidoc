@@ -1,5 +1,5 @@
 :Symbole:
-==== Inclusion du module
+==== Modul Inclusion
 
 {nbsp} +
 
