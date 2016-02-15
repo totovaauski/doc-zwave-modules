@@ -23,9 +23,9 @@ image::../images/fibaro.fgfs101/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-Le capteur FGFS-101 est compacte et possède une grande variété de fonctions.Avec sa technologie de pointe et de précision,le capteur Flood Fibaro vous alerte d’une inondation menaçante, ou une augmentation ou baisse rapide de la température.
+Le capteur FGFS-101 est compacte et possède une grande variété de fonctions. Avec sa technologie de pointe et de précision, le capteur Flood Fibaro vous alerte d’une inondation menaçante, ou une augmentation ou baisse rapide de la température.
 
-Il est équipé d’un capteur d’inclinaison qui envoie une alerte immédiatement au réseau Z-Wave si le détecteur est déplacé ou volé(remonte au contrôleur Z-Wave l’information d’inclinaison ou de mouvement).
+Il est équipé d’un capteur d’inclinaison qui envoie une alerte immédiatement au réseau Z-Wave si le détecteur est déplacé ou volé (remonte au contrôleur Z-Wave l’information d’inclinaison ou de mouvement).
 
 Ce détecteur d’inondation et de température universel peut être alimenté par batterie ou par une alimentation externe 12 ou 24 VDC. Lorsqu’il est connecté à une source d’alimentation externe, la batterie sert de source d’alimentation de secours.
 
@@ -95,7 +95,7 @@ Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton central d'inclusion,repéré TMP, conformément à sa documentation papier.(la languette noir)
+Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton central d'inclusion,repéré TMP, conformément à sa documentation papier (la languette noir).
 
 {nbsp} +
 
@@ -130,8 +130,6 @@ image::../images/fibaro.fgfs101/commandes.jpg[Commandes]
 * Fuite : c'est la commande d'alerte du module (pour la présence d'eau, inondation ...)
 * Température : c'est la commande de mesure de la température
 * Sabotage : c'est la commande de sabotage. Elle signale l'ouverture du boitier
-* Alerte Test : c'est la commande qui remontera le fait que le module est en mode test
-* Alerte Chaleur : c'est la commande qui remontera une alerte chaleur (pas fiable encore)
 * Batterie : c'est la commande batterie
 
 {nbsp} +
@@ -257,7 +255,8 @@ Ce module est, par défaut, un module sur batterie, la nouvelle configuration se
 {nbsp} +
 
 {nbsp} +
-A noter, un test détaillé à été effectué par un des membres de l'équipe içi :
-http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/
+Detail d'utilsation : http://blog.domadoo.fr/2014/12/18/jeedom-guide-dutilisation-du-detecteur-dinondation-fibaro-fgfs-001/
+Documentation fibaro (en) : http://www.fibaro.com/manuals/en/FGFS-101-Flood-Sensor/FGFS-101-Flood-Sensor-en-2.1-2.3.pdf 
+
 {nbsp} +
 
