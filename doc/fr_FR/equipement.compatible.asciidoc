@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*176* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*178* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -542,10 +542,15 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/153
 |image:../images/philio.pan06/module.jpg[width=150,align="center"]|Philio|PAN06 Double Charge|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2482-philio-micromodule-commutateur-double-z-wave-4713698570019.html++[Acheter^]
 // 316.1.4_pan06.in.wall.dual.relay.1.way.json
 
-|image:../images/philio.phpat02/module.jpg[width=150,align="center"]|Philio|PH-PAT02 Multisensor 3in1|Multicapteurs|Vendu aussi sous la marque Zipato 
+|image:../images/philio.phpat02/module.jpg[width=150,align="center"]|Philio|PH-PAT02-A Multisensor 3in1|Multicapteurs|Vendu aussi sous la marque Zipato 
 
 _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3152-zipato-detecteur-d-inondation-3-en-1-z-wave-plus-3858890733112.html++[Acheter^]
-// 316.2.31_phpat02.flood.3.in.1.json
+// 316.2.31_phpat02a.flood.3.in.1.json
+
+|image:../images/philio.phpat02b/module.jpg[width=150,align="center"]|Philio|PH-PAT02-B Multisensor 2in1|Multicapteurs|La première valeur d'humidité peut mettre un certain temps à remonter. Vendu aussi sous la marque Zipato 
+
+_[small]#Piles : 1x3V CR123A#_| 
+// 316.2.32_phpat02b.flood.2.in.1.json
 
 |image:../images/philio.psp01/module.jpg[width=150,align="center"]|Philio|PSP01/PSM02|Multicapteurs|Vendu aussi sous la marque Zipato 
 
@@ -663,6 +668,9 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 
 |image:../images/qubino.zmnhndx/module.jpg[width=150,align="center"]|Qubino|ZMNHNDx Contact sec Z-Wave+|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2950-qubino-micromodule-contact-sec-z-wave-zmnhnd1-3830062070072.html++[Acheter^]
 // 345.2.83_zmnhndx.flush.1d.relay.json
+
+|image:../images/qubino.zmnhod1/module.jpg[width=150,align="center"]|Qubino|ZMNHOD1 Flush shutter DC|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/2951-qubino-z-wave-flush-shutter-dc-zmnhod1-3830062070089.html++[Acheter^]
+// 345.3.83_qubino.qubino.zmnhod1.flush.shutter.dc.json
 
 |image:../images/qubino.zmnhtax/module.jpg[width=150,align="center"]|Qubino|ZMNHTAx Smart Meter|Rail-din|Problème de remonté de la puissance, requière le rafraichissement manuel 5 minutes | 
 // 345.7.82_zmnhtax.smart.meter.json
