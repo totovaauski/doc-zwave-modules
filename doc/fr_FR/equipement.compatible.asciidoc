@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*35* [green]*marques de modules différentes, soit un total de* [red]*178* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*181* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -185,6 +185,18 @@ _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-e
 
 |image:../images/danfoss.living-connect/module.jpg[width=150,align="center"]|Danfoss|Thermostat Living Connect|Thermostat| _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html++[Acheter^]
 // 2.5.3_danfoss.danfoss.thermostat.living.connect.json
+
+
+|===
+
+== Dlink
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/dlink.dchz110/module.jpg[width=150,align="center"]|Dlink|DCH-Z110|Ouverture| _[small]#Piles : 1x3V CR123A#_| 
+// 264.2.14_dchz110.doorsensor.json
 
 
 |===
@@ -560,6 +572,11 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/philio.psr04/module.jpg[width=150,align="center"]|Philio|PSR04 Smart Color Button|Interrupteur| _[small]#Piles : Batterie#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psr04_-_Smart_Color_Button.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3207-philio-interrupteurtelecommande-mural-z-wave-4713698571542.html++[Acheter^]
 // 316.9.34_psr04.smart.color.button.json
 
+|image:../images/philio.pst021b/module.jpg[width=150,align="center"]|Philio|PST02-1B 3 en 1|Multicapteurs|Vendu aussi sous la marque Zipato 
+
+_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3067-philio-detecteur-z-wave-3-en-1-mouvement-luminosite-temperature-4713698570170.html++[Acheter^]
+// 316.2.13_pst02-b.pirmotion.3.in.1.json
+
 |image:../images/philio.pst02a/module.jpg[width=150,align="center"]|Philio|PST02-A 4 en 1|Multicapteurs|Vendu aussi sous la marque Zipato 
 
 _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html++[Acheter^]
@@ -670,7 +687,7 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 // 345.2.83_zmnhndx.flush.1d.relay.json
 
 |image:../images/qubino.zmnhod1/module.jpg[width=150,align="center"]|Qubino|ZMNHOD1 Flush shutter DC|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/2951-qubino-z-wave-flush-shutter-dc-zmnhod1-3830062070089.html++[Acheter^]
-// 345.3.83_qubino.qubino.zmnhod1.flush.shutter.dc.json
+// 345.3.83_zmnhodx.flush.shutter.dc.json
 
 |image:../images/qubino.zmnhtax/module.jpg[width=150,align="center"]|Qubino|ZMNHTAx Smart Meter|Rail-din|Problème de remonté de la puissance, requière le rafraichissement manuel 5 minutes | 
 // 345.7.82_zmnhtax.smart.meter.json
@@ -780,6 +797,9 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/vision.zu1401/module.jpg[width=150,align="center"]|Vision Security|USB Stick ZU 1401|Contrôleur| | 
+// 265.4097.257_zu1401.z-wave.usb.stick.json
 
 |image:../images/vision.zd2102/module.jpg[width=150,align="center"]|Vision Security|ZD2102|Ouverture|Vendu aussi sous la marque Zipato. Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
 
@@ -914,10 +934,10 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 |Image|Marque|Nom|Type|Remarque|Lien
 
 |image:../images/zwaveme.razberry/module.jpg[width=150,align="center"]|Zwaveme|RaZberry Controller ZWave+|Contrôleur| | link:++http://www.domadoo.fr/fr/peripheriques/2312-z-waveme-carte-d-extension-razberry-z-wave-pour-raspberry-pi-696859123290.html++[Acheter^]
-// 277.1024.1_RaZberry Controller ZWavePlus.json
+// 327.1024.1_RaZberry Controller ZWavePlus.json
 
 |image:../images/zwaveme.razberry/module.jpg[width=150,align="center"]|Zwaveme|RaZberry Controller|Contrôleur| | 
-// 277.2.3_RaZberry Controller.json
+// 327.2.3_RaZberry Controller.json
 
 
 |===
@@ -927,6 +947,9 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/aeotec.zw097/module.jpg[width=150,align="center"]|Aeotec|Dry Contact Sensor Gen5 (ZW097)|Ouverture| _[small]#Piles : 2×1.5V AAA#_| 
+// 134.2.97_zw097_dry.contact.sensor.gen5.json
 
 |image:../images/mco.mhs311/module.jpg[width=150,align="center"]|Mco|MH-S311 Simple|Interrupteur|Equivalent au MH-S411 | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
 // 351.12546.513_mco.home.mh-s311.simple.json
