@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*181* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*182* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -36,6 +36,9 @@ _[small]#Piles : 4x1.5V AAA#_|
 
 |image:../images/aeotec.dsb28/module.jpg[width=150,align="center"]|Aeotec|Home Energy Meter 2G (DSB28)|Consommation| | link:++http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html++[Acheter^]
 // 134.2.28_dsb28_hem.g2.json
+
+|image:../images/aeotec.zw095/module.jpg[width=150,align="center"]|Aeotec|Home Energy Meter Gen5 (ZW095)|Consommation| | 
+// 134.2.95_zw095_hem_gen5.json
 
 |image:../images/aeotec.keyfob/module.jpg[width=150,align="center"]|Aeotec|Key Fob (DSA22)|Télécommande|Remplacé dans les boutiques par le keyfob Gen5 
 
