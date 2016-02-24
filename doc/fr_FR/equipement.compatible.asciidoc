@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*182* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*183* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -22,6 +22,9 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 
 |image:../images/aeotec.zw120doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor Gen5 (ZW120)|Ouverture| _[small]#Piles : 2×1.5V AAA#_| 
 // 134.2.120_zw120_door.window.sensor.gen5.json
+
+|image:../images/aeotec.zw097/module.jpg[width=150,align="center"]|Aeotec|Dry Contact Sensor Gen5 (ZW097)|Ouverture| _[small]#Piles : 1×3V CR123A#_| 
+// 134.2.97_zw097_dry.contact.sensor.gen5.json
 
 |image:../images/aeotec.garagedoorcontroller/module.jpg[width=150,align="center"]|Aeotec|Garage Door Controller (ZW062)|Porte| | 
 // 134.3.62_zw62.garage.door.controller.json
@@ -950,9 +953,6 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
-
-|image:../images/aeotec.zw097/module.jpg[width=150,align="center"]|Aeotec|Dry Contact Sensor Gen5 (ZW097)|Ouverture| _[small]#Piles : 2×1.5V AAA#_| 
-// 134.2.97_zw097_dry.contact.sensor.gen5.json
 
 |image:../images/mco.mhs311/module.jpg[width=150,align="center"]|Mco|MH-S311 Simple|Interrupteur|Equivalent au MH-S411 | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
 // 351.12546.513_mco.home.mh-s311.simple.json
