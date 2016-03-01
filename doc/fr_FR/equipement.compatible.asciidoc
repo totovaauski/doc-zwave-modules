@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*185* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*186* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -127,7 +127,7 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/318
 // 134.1.92_zw092  Z-Stick Lite Gen5.json
 
 |image:../images/aeotec.dsa02203/module.jpg[width=150,align="center"]|Aeotec|Z-Stick S2 (DSA02203)|Contrôleur| | 
-// 134.1.2_dsa02203 z-stick-s2.json
+// 134.2.1_dsa02203 z-stick-s2.json
 
 
 |===
@@ -346,6 +346,11 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 
 |image:../images/fibaro.fgk101-DS18B20/module.jpg[width=150,align="center"]|Fibaro|FGK-101 Door Sensor|Ouverture| _[small]#Piles : 1x3.6V ER14250#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/922-fibaro-detecteur-d-ouverture-z-wave-avec-entree-contact-sec-blanc-5902020528111.html++[Acheter^]
 // 271.1792.16384_fgk101.door.opening.sensor.json
+
+|image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|FGMS-001 Motion Sensor ZWave+|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement. Faire les associations à jeedom pour les groupes 1, 4 et 5 
+
+_[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
+// 271.2049.4097_fgms001.motion.sensor.plus.json
 
 |image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|FGMS-001 Motion Sensor|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement 
 
