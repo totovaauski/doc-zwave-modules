@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*187* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*188* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -203,6 +203,9 @@ _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-e
 
 |image:../images/dlink.dchz110/module.jpg[width=150,align="center"]|Dlink|DCH-Z110|Ouverture| _[small]#Piles : 1x3V CR123A#_| 
 // 264.2.14_dchz110.doorsensor.json
+
+|image:../images/dlink.dchz120/module.jpg[width=150,align="center"]|Dlink|DCH-Z120|Présence| _[small]#Piles : 1x3V CR123A#_| 
+// 264.2.13_dchz120.3in1.sensor.json
 
 |image:../images/dlink.dchz510/module.jpg[width=150,align="center"]|Dlink|DCH-Z510|Sirène| | 
 // 264.4.10_dchz510.siren.json
@@ -466,7 +469,7 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/198
 |image:../images/horstmann.scs317/module.jpg[width=150,align="center"]|Horstmann|SCS317, 7 Day Programmable Room Thermostat|Thermostat|Module vendu sous la marque Secure 
 
 _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2419-secure-thermostat-electronique-programmable-z-wave-scs317-5015914370083.html++[Acheter^]
-// 89.4.1_scs317.json
+// 89.4.1_scsc17.json
 
 |image:../images/horstmann.ses302/module.jpg[width=150,align="center"]|Horstmann|SES 302 Temperature Sensor|Température|Module vendu sous la marque Secure 
 
