@@ -360,7 +360,7 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/fibaro.fgr222/module.jpg[width=150,align="center"]|Fibaro|FGR-222 Volet roulant|Volets|Nouveau nom du module FGR-221 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgr222_-_Volets.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3250-fibaro-micromodule-pour-volet-roulant-z-wave-fgr-222.html++[Acheter^]
 // 271.770.4096_fgr222.roller.shutter.controller.json
 
-|image:../images/fibaro.fgrgb101/module.jpg[width=150,align="center"]|Fibaro|FGRGB-101 RGBW|RGBW|Peut aussi servir de capteurs multisondes | link:++http://www.domadoo.fr/fr/peripheriques/2367-fibaro-controleur-rgbw-z-wave-fgrgb-101-5902020528159.html++[Acheter^]
+|image:../images/fibaro.fgrgb101/module.jpg[width=150,align="center"]|Fibaro|FGRGB-101 RGBW|RGBW|Peut aussi servir de capteurs multisondes |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrgb101_-_RGVBControler.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2367-fibaro-controleur-rgbw-z-wave-fgrgb-101-5902020528159.html++[Acheter^]
 // 271.2304.16384_fgrgbwm441.rgbw.controller.json
 
 |image:../images/fibaro.fgrm222/module.jpg[width=150,align="center"]|Fibaro|FGRM-221 Volet roulant|Volets|Module équivalent au FGRM-222 | link:++http://www.domadoo.fr/fr/peripheriques/2604-fibaro-micromodule-pour-volet-roulant-z-wave-fgrm-222-5902020528227.html++[Acheter^]
@@ -466,7 +466,7 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/198
 |image:../images/horstmann.scs317/module.jpg[width=150,align="center"]|Horstmann|SCS317, 7 Day Programmable Room Thermostat|Thermostat|Module vendu sous la marque Secure 
 
 _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2419-secure-thermostat-electronique-programmable-z-wave-scs317-5015914370083.html++[Acheter^]
-// 89.4.1_scsc17.json
+// 89.4.1_scs317.json
 
 |image:../images/horstmann.ses302/module.jpg[width=150,align="center"]|Horstmann|SES 302 Temperature Sensor|Température|Module vendu sous la marque Secure 
 
