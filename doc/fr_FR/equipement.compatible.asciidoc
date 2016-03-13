@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*189* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*190* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -71,6 +71,9 @@ _[small]#Piles : 1x3V CR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-
 
 |image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Switch|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html++[Acheter^]
 // 134.3.12_micro.smart.energy.switch.json
+
+|image:../images/aeotec.smartswitch2e/module.jpg[width=150,align="center"]|Aeotec|Micro Switch (2nd Edition) (DSC26103)|Prise| | 
+// 134.3.26_dsc26103_micro.switch.2nd.edition.json
 
 |image:../images/aeotec.minimote/module.jpg[width=150,align="center"]|Aeotec|Minimote (DSA03202)|Télécommande| _[small]#Piles : Batterie#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html++[Acheter^]
 // 134.1.3_dsa03202_minimote.json
@@ -562,24 +565,24 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/153
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/philio.pan03/module.jpg[width=150,align="center"]|Philio|PAN03 Switch Module Single load|Micromodule|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2959-zipato-micromodule-commutateur-z-wave-avec-mesure-d-energie-3858890733242.html++[Acheter^]
-// 316.1.15_philio.pan03.json
+|image:../images/philio.pan03/module.jpg[width=150,align="center"]|Philio|PAN03 Switch Module with meter 3 KW X1|Micromodule|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2959-zipato-micromodule-commutateur-z-wave-avec-mesure-d-energie-3858890733242.html++[Acheter^]
+// 316.1.15_pan03.json
 
-|image:../images/philio.pan04/module.jpg[width=150,align="center"]|Philio|PAN04 Double Charge|Micromodule|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html++[Acheter^]
+|image:../images/philio.pan04/module.jpg[width=150,align="center"]|Philio|PAN04 In Wall Switch Module with meter 2X1.5KW|Micromodule|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2610-zipato-micromodule-commutateur-double-z-wave-avec-mesure-d-energie-3858890730821.html++[Acheter^]
 // 316.1.18_pan04-1.double.relay.switch.json
 
-|image:../images/philio.pan06/module.jpg[width=150,align="center"]|Philio|PAN06 Double Charge|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2482-philio-micromodule-commutateur-double-z-wave-4713698570019.html++[Acheter^]
+|image:../images/philio.pan06/module.jpg[width=150,align="center"]|Philio|PAN06 In Wall Switch Module 2X1.5KW|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2482-philio-micromodule-commutateur-double-z-wave-4713698570019.html++[Acheter^]
 // 316.1.4_pan06.in.wall.dual.relay.1.way.json
 
-|image:../images/philio.phpat02/module.jpg[width=150,align="center"]|Philio|PH-PAT02-A Multisensor 3in1|Multicapteurs|Vendu aussi sous la marque Zipato 
-
-_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3152-zipato-detecteur-d-inondation-3-en-1-z-wave-plus-3858890733112.html++[Acheter^]
-// 316.2.31_phpat02a.flood.3.in.1.json
-
-|image:../images/philio.phpat02b/module.jpg[width=150,align="center"]|Philio|PH-PAT02-B Multisensor 2in1|Multicapteurs|La première valeur d'humidité peut mettre un certain temps à remonter. Vendu aussi sous la marque Zipato 
+|image:../images/philio.phpat02b/module.jpg[width=150,align="center"]|Philio|PAT02-B 2in1 Multi Sensor|Multicapteurs|La première valeur d'humidité peut mettre un certain temps à remonter. Vendu aussi sous la marque Zipato 
 
 _[small]#Piles : 1x3V CR123A#_| 
-// 316.2.32_phpat02b.flood.2.in.1.json
+// 316.2.32_phpat02b.multisensor.2in1.json
+
+|image:../images/philio.phpat02/module.jpg[width=150,align="center"]|Philio|PAT02-C Flood Sensor|Multicapteurs|Vendu aussi sous la marque Zipato 
+
+_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3152-zipato-detecteur-d-inondation-3-en-1-z-wave-plus-3858890733112.html++[Acheter^]
+// 316.2.31_phpat02a.flood.3in1.json
 
 |image:../images/philio.psp01/module.jpg[width=150,align="center"]|Philio|PSP01/PSM02|Multicapteurs|Vendu aussi sous la marque Zipato 
 
@@ -589,17 +592,17 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/philio.psr04/module.jpg[width=150,align="center"]|Philio|PSR04 Smart Color Button|Interrupteur| _[small]#Piles : Batterie#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psr04_-_Smart_Color_Button.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3207-philio-interrupteurtelecommande-mural-z-wave-4713698571542.html++[Acheter^]
 // 316.9.34_psr04.smart.color.button.json
 
-|image:../images/philio.pst021b/module.jpg[width=150,align="center"]|Philio|PST02-1B 3 en 1|Multicapteurs|modifier les paramètres: 5 Operation Mode sur 12 et le 7 Customer Function sur 18. Vendu aussi sous la marque Zipato 
-
-_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3067-philio-detecteur-z-wave-3-en-1-mouvement-luminosite-temperature-4713698570170.html++[Acheter^]
-// 316.2.13_pst02-b.pirmotion.3.in.1.json
-
-|image:../images/philio.pst02a/module.jpg[width=150,align="center"]|Philio|PST02-A 4 en 1|Multicapteurs|Vendu aussi sous la marque Zipato 
+|image:../images/philio.pst02a/module.jpg[width=150,align="center"]|Philio|PST02-A 4in1 Multi-Sensor|Multicapteurs|Vendu aussi sous la marque Zipato 
 
 _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html++[Acheter^]
 // 316.2.12_pst02-a.4.in.1.json
 
-|image:../images/philio.pst02c/module.jpg[width=150,align="center"]|Philio|PST02-B 3 en 1|Multicapteurs|Vendu aussi sous la marque Zipato 
+|image:../images/philio.pst021b/module.jpg[width=150,align="center"]|Philio|PST02-B PIR/Motion 3in1 Sensor|Multicapteurs|modifier les paramètres: 5 Operation Mode sur 12 et le 7 Customer Function sur 18. Vendu aussi sous la marque Zipato 
+
+_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3067-philio-detecteur-z-wave-3-en-1-mouvement-luminosite-temperature-4713698570170.html++[Acheter^]
+// 316.2.13_pst02-b.pirmotion.3.in.1.json
+
+|image:../images/philio.pst02c/module.jpg[width=150,align="center"]|Philio|PST02-C Door/Window 3in1 sensor|Multicapteurs|Vendu aussi sous la marque Zipato 
 
 _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02c_-_3_en_1_Ouverture.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2606-zipato-detecteur-z-wave-3-en-1-ouverture-luminosite-temperature-3858890730371.html++[Acheter^]
 // 316.2.14_pst02-c.doorwindow.3.in.1.json
