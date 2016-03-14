@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*193* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*194* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -133,13 +133,16 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/318
 // 134.2.45_dsb45_water.sensor.json
 
 |image:../images/aeotec.zw090/module.jpg[width=150,align="center"]|Aeotec|Z-Stick Gen5 (ZW090)|Contrôleur| | link:++http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html++[Acheter^]
-// 134.1.90_zw090  z-stick-gen5.json
+// 134.1.90_zw090.z-stick-gen5.json
+
+|image:../images/aeotec.dsa02203/module.jpg[width=150,align="center"]|Aeotec|Z-Stick Lite (DSA07203)|Contrôleur| | 
+// 134.1.1_dsa07203.z-stick.lite.json
 
 |image:../images/aeotec.zw092/module.jpg[width=150,align="center"]|Aeotec|Z-Stick Lite Gen5 (ZW092)|Contrôleur| | 
-// 134.1.92_zw092  Z-Stick Lite Gen5.json
+// 134.1.92_zw092.z-stick.lite.gen5.json
 
 |image:../images/aeotec.dsa02203/module.jpg[width=150,align="center"]|Aeotec|Z-Stick S2 (DSA02203)|Contrôleur| | 
-// 134.2.1_dsa02203 z-stick-s2.json
+// 134.2.1_dsa02203.z-stick-s2.json
 
 
 |===
