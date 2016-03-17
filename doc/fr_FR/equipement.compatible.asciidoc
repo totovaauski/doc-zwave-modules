@@ -216,7 +216,7 @@ _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-e
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/dlink.dchz110/module.jpg[width=150,align="center"]|Dlink|DCH-Z110|Ouverture| _[small]#Piles : 1x3V CR123A#_| 
+|image:../images/dlink.dchz110/module.jpg[width=150,align="center"]|Dlink|DCH-Z110|Ouverture| _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-dlink.dchz110_-_3en1_Ouverture.html++[Documentation^] 
 // 264.2.14_dchz110.doorsensor.json
 
 |image:../images/dlink.dchz120/module.jpg[width=150,align="center"]|Dlink|DCH-Z120|Présence| _[small]#Piles : 1x3V CR123A#_| 
