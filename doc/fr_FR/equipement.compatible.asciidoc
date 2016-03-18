@@ -75,7 +75,7 @@ _[small]#Piles : 1x3V CR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Energy Switch (DSC12103)|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html++[Acheter^]
 // 134.3.12_dsc12103.micro.smart.energy.switch.json
 
-|image:../images/aeotec.smartswitch2e/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Switch (DSC18103)|Micromodule| | 
+|image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Switch (DSC18103)|Micromodule| | 
 // 134.3.18_dsc18103_micro.switch.2nd.edition.json
 
 |image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Micro Switch (DSC26103)|Micromodule| | 
