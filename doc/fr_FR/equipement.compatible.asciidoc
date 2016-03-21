@@ -365,15 +365,15 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 |image:../images/fibaro.fgk101-DS18B20/module.jpg[width=150,align="center"]|Fibaro|FGK-101 Door Sensor|Ouverture| _[small]#Piles : 1x3.6V ER14250#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/922-fibaro-detecteur-d-ouverture-z-wave-avec-entree-contact-sec-blanc-5902020528111.html++[Acheter^]
 // 271.1792.16384_fgk101.door.opening.sensor.json
 
-|image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|FGMS-001 Motion Sensor ZWave+|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement. Faire les associations à jeedom pour les groupes 1, 4 et 5 
-
-_[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
-// 271.2049.4097_fgms001.motion.sensor.plus.json
-
 |image:../images/fibaro.fgms001/module.jpg[width=150,align="center"]|Fibaro|FGMS-001 Motion Sensor|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement 
 
 _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
 // 271.2048.16385_fgms001.motion.sensor.json
+
+|image:../images/fibaro.fgms001zw5/module.jpg[width=150,align="center"]|Fibaro|FGMS-001-ZW5 Motion Sensor ZWave+|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement. Faire les associations à jeedom pour les groupes 1, 4 et 5 
+
+_[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001ZW5_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3422-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528579.html++[Acheter^]
+// 271.2049.4097_fgms001.motion.sensor.plus.json
 
 |image:../images/fibaro.fgr222/module.jpg[width=150,align="center"]|Fibaro|FGR-222 Volet roulant|Volets|Nouveau nom du module FGR-221 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgr222_-_Volets.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3250-fibaro-micromodule-pour-volet-roulant-z-wave-fgr-222.html++[Acheter^]
 // 271.770.4096_fgr222.roller.shutter.controller.json
