@@ -18,16 +18,16 @@ image::../images/dlink.dchz110/module.jpg[width=256,align="center"]
 image::../images/dlink.dchz110/vuedefaut1.jpg[width=350,align="center"]
 {nbsp} +
 
-=== Résumé
+=== RÃ©sumÃ©
 
 {nbsp} +
 
-Le détecteur DCH-Z110 propose 3 fonctions différentes : détection d’ouverture, capteur de température et détecteur de luminosité. Il se compose de deux parties : un détecteur et d’un aimant. Ils sont conçus pour être placés sur une porte ou une fenêtre avec l’aimant fixé sur la partie qui s’ouvre et le détecteur sur la partie fixe.
+Le dÃ©tecteur DCH-Z110 propose 3 fonctions diffÃ©rentes : dÃ©tection dâ€™ouverture, capteur de tempÃ©rature et dÃ©tecteur de luminositÃ©. Il se compose de deux parties : un dÃ©tecteur et dâ€™un aimant. Ils sont conÃ§us pour Ãªtre placÃ©s sur une porte ou une fenÃªtre avec lâ€™aimant fixÃ© sur la partie qui sâ€™ouvre et le dÃ©tecteur sur la partie fixe.
 
-L’ouverture de la porte ou de la fenêtre éloignera l’aimant du détecteur, ce qui enclenchera le détecteur qui enverra un signal Z-Wave d’alarme, si le système est armé (ce signal peut être exploité par une sirène ou par une box domotique par exemple). Le capteur peut également être utilisé pour le contrôle automatique de l’éclairage, en fonction du niveau de luminosité. Par exemple, le capteur enverra un signal à l’interrupteur Z-Wave pour allumer la lumière lorsque la porte s’ouvre et que la pièce est sombre.
+Lâ€™ouverture de la porte ou de la fenÃªtre Ã©loignera lâ€™aimant du dÃ©tecteur, ce qui enclenchera le dÃ©tecteur qui enverra un signal Z-Wave dâ€™alarme, si le systÃ¨me est armÃ© (ce signal peut Ãªtre exploitÃ© par une sirÃ¨ne ou par une box domotique par exemple). Le capteur peut Ã©galement Ãªtre utilisÃ© pour le contrÃ´le automatique de lâ€™Ã©clairage, en fonction du niveau de luminositÃ©. Par exemple, le capteur enverra un signal Ã  lâ€™interrupteur Z-Wave pour allumer la lumiÃ¨re lorsque la porte sâ€™ouvre et que la piÃ¨ce est sombre.
 
-Le détecteur remontera aussi la luminosité et la température, soit en cas de changement important, et à chaque fois que l’ouverture/fermeture est détectée.
-Un contrôleur Z-Wave (télécommande, dongle …?) est nécessaire afin d’intégrer ce détecteur dans votre réseau si vous avez déjà un réseau existant.
+Le dÃ©tecteur remontera aussi la luminositÃ© et la tempÃ©rature, soit en cas de changement important, et Ã  chaque fois que lâ€™ouverture/fermeture est dÃ©tectÃ©e.
+Un contrÃ´leur Z-Wave (tÃ©lÃ©commande, dongle â€¦?) est nÃ©cessaire afin dâ€™intÃ©grer ce dÃ©tecteur dans votre rÃ©seau si vous avez dÃ©jÃ  un rÃ©seau existant.
 
 {nbsp} +
 
@@ -35,18 +35,18 @@ Un contrôleur Z-Wave (télécommande, dongle …?) est nécessaire afin d’intégrer ce
 
 {nbsp} +
 
-* Détecteur 3 en 1: Ouverture, température, lumière
-* Portée de l’antenne optimisée
-* Utilisation pour des applications domotique ou de sécurité
-* Bouton pour inclure/exclure le détecteur
+* DÃ©tecteur 3 en 1: Ouverture, tempÃ©rature, lumiÃ¨re
+* PortÃ©e de lâ€™antenne optimisÃ©e
+* Utilisation pour des applications domotique ou de sÃ©curitÃ©
+* Bouton pour inclure/exclure le dÃ©tecteur
 * Autoprotection
 * Indication de batterie faible
-* Petit, discret et esthétique
-* Facilité d’utilisation et d’installation
+* Petit, discret et esthÃ©tique
+* FacilitÃ© dâ€™utilisation et dâ€™installation
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== CaractÃ©ristiques Techniques
 
 {nbsp} +
 
@@ -58,12 +58,12 @@ image::../images/dlink.dchz110/caracteristiques_techniques.jpg[width=850,align="
 
 {nbsp} +
 
-=== Données du module
+=== DonnÃ©es du module
 
 {nbsp} +
 
 * Marque : D-Link
-* Modèle : DCH-Z110 Détecteur d’ouverture de porte et de fenêtre mydlink™ Home
+* ModÃ¨le : DCH-Z110 DÃ©tecteur dâ€™ouverture de porte et de fenÃªtre mydlinkâ„¢ Home
 * Fabricant : FIBARO System
 * Fabricant ID : 264 [0x0108]
 * Type Produit : 2 [0x0002]
@@ -75,14 +75,14 @@ image::../images/dlink.dchz110/caracteristiques_techniques.jpg[width=850,align="
 
 {nbsp} +
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion rÃ©fÃ©rez-vous Ã  cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
 
 {nbsp} +
 
 [icon="../images/plugin/attention.jpg"]
 [IMPORTANT]
-Ne pas installer le module sur la fenêtre/porte avant de l’avoir correctement configuré, et bien faire attention à l’alignement de l’aimant lors des essais sur surface plane et lors de la pose. (Utiliser des cales si nécessaire)
-Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d’association en 1.5 seconde, conformément à sa documentation. (clignotement rouge constant en mode association)
+Ne pas installer le module sur la fenÃªtre/porte avant de lâ€™avoir correctement configurÃ©, et bien faire attention Ã  lâ€™alignement de lâ€™aimant lors des essais sur surface plane et lors de la pose. (Utiliser des cales si nÃ©cessaire)
+Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton dâ€™association en 1.5 seconde, conformÃ©ment Ã  sa documentation. (clignotement rouge constant en mode association)
 
 {nbsp} +
 
@@ -102,7 +102,7 @@ image::../images/dlink.dchz110/apres_inclusion.jpg[Plugin Zwave]
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associÃ©es aux modules seront disponibles.
 
 {nbsp} +
 
@@ -114,11 +114,11 @@ image::../images/dlink.dchz110/commandes.jpg[Commandes]
 
 {nbsp} +
 
-* Ouverture : c’est la commande qui remontera une détection d’ouverture
-* Température : c’est la commande qui permet de remonter la température
-* Luminosité : c’est la commande qui permet de remonter la luminosité
-* Sabotage : c’est la commande sabotage (elle est déclenchée en cas d’arrachement)
-* Batterie : c’est la commande batterie
+* Ouverture : câ€™est la commande qui remontera une dÃ©tection dâ€™ouverture
+* TempÃ©rature : câ€™est la commande qui permet de remonter la tempÃ©rature
+* LuminositÃ© : câ€™est la commande qui permet de remonter la luminositÃ©
+* Sabotage : câ€™est la commande sabotage (elle est dÃ©clenchÃ©e en cas dâ€™arrachement)
+* Batterie : câ€™est la commande batterie
 
 {nbsp} +
 
@@ -128,11 +128,11 @@ image::../images/dlink.dchz110/commandes.jpg[Commandes]
 
 [icon="../images/plugin/attention.jpg"]
 [IMPORTANT]
-Lors d’une première inclusion ou d’une modification sauvegarder puis réveillez toujours le module en appuyant sur le bouton d’association. Il devrait clignoter rouge et changer de statut. 
+Lors dâ€™une premiÃ¨re inclusion ou dâ€™une modification sauvegarder puis rÃ©veillez toujours le module en appuyant sur le bouton dâ€™association. Il devrait clignoter rouge et changer de statut. 
 
 {nbsp} +
 
-Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
+Ensuite il est nÃ©cessaire dâ€™effectuer la configuration du module en fonction de votre installation.
 Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
 
 {nbsp} +
@@ -141,7 +141,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (aprÃ¨s avoir cliquÃ© sur l'onglet paramÃ¨tres)
 
 {nbsp} +
 
@@ -150,35 +150,35 @@ image::../images/dlink.dchz110/config2.jpg[Config2]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#DÃ©tails des paramÃ¨tres :#
 
 {nbsp} +
 
-* 2: permet de régler le signal envoyé aux modules dans le groupe d’association 2
+* 2: permet de rÃ©gler le signal envoyÃ© aux modules dans le groupe dâ€™association 2
 
-* 4: permet de régler le niveau de luminosité à partir duquel le signal défini en paramètre 2 sera envoyé aux modules associés au groupe 2
+* 4: permet de rÃ©gler le niveau de luminositÃ© Ã  partir duquel le signal dÃ©fini en paramÃ¨tre 2 sera envoyÃ© aux modules associÃ©s au groupe 2
 
 * 5: mode de fonctionnement (se reporter sur la documentation constructeur)
 
-* 6: mode de fonctionnement du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandée : 7
+* 6: mode de fonctionnement du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandÃ©e : 7
 
-* 7: mode de fonctionnement personnalisée du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandée : 20 (pour avoir l’ouverture de fonctionnelle)
+* 7: mode de fonctionnement personnalisÃ©e du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandÃ©e : 20 (pour avoir lâ€™ouverture de fonctionnelle)
 
-* 9: permet de définir au bout de combien de temps le signal OFF sera envoyé aux modules associés au groupe 2
+* 9: permet de dÃ©finir au bout de combien de temps le signal OFF sera envoyÃ© aux modules associÃ©s au groupe 2
 
-* 10: permet de définir la durée entre deux rapports de batterie (une unité = parametre 20)
+* 10: permet de dÃ©finir la durÃ©e entre deux rapports de batterie (une unitÃ© = parametre 20)
 
-* 11: permet de définir la durée entre deux rapports auto d’ouverture (une unité = parametre 20)
+* 11: permet de dÃ©finir la durÃ©e entre deux rapports auto dâ€™ouverture (une unitÃ© = parametre 20)
 
-* 12: permet de définir la durée entre deux rapports auto de luminosité (une unité = parametre 20) Valeur recommandée : 6
+* 12: permet de dÃ©finir la durÃ©e entre deux rapports auto de luminositÃ© (une unitÃ© = parametre 20) Valeur recommandÃ©e : 6
 
-* 13: permet de définir la durée entre deux rapports auto de température (une unité = parametre 20) Valeur recommandée : 2
+* 13: permet de dÃ©finir la durÃ©e entre deux rapports auto de tempÃ©rature (une unitÃ© = parametre 20) Valeur recommandÃ©e : 2
 
-* 20: durée d’un intervalle pour les paramètres 10 à 13 Valeur recommandée : 10
+* 20: durÃ©e dâ€™un intervalle pour les paramÃ¨tres 10 Ã  13 Valeur recommandÃ©e : 10
 
-* 21: valeur de variation en °F de température pour déclencher un rapport
+* 21: valeur de variation en Â°F de tempÃ©rature pour dÃ©clencher un rapport
 
-* 22: valeur en % de variation de luminosité pour déclencher un rapport Valeur recommandée : 10
+* 22: valeur en % de variation de luminositÃ© pour dÃ©clencher un rapport Valeur recommandÃ©e : 10
 
 
 {nbsp} +
@@ -187,7 +187,7 @@ image::../images/dlink.dchz110/config2.jpg[Config2]
 
 {nbsp} +
 
-Ce module possède deux groupes d’association, seul le premier est indispensable.
+Ce module possÃ¨de deux groupes dâ€™association, seul le premier est indispensable.
 
 {nbsp} +
 
@@ -195,8 +195,8 @@ image::../images/dlink.dchz110/groupe.jpg[Groupe]
 
 {nbsp} +
 
-=== Bon à savoir
-Association/Notification possible avec d'autre modules (exemple: Sirène DCH-Z510 notification carillon sur ouverture porte/fenêtre)
+=== Bon Ã  savoir
+Association/Notification possible avec d'autre modules (exemple: SirÃ¨ne DCH-Z510 notification carillon sur ouverture porte/fenÃªtre)
 
 {nbsp} +
 
@@ -212,10 +212,10 @@ image::../images/dlink.dchz110/autre_visuel_jeedom.jpg[Groupe]
 
 {nbsp} +
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Pour rÃ©veiller ce module il y a une seule et unique faÃ§on de procÃ©der :
 
-* Relachez le bouton association et réappuyez dessus
-* Baisser le wake-up interval dans la configuration/système du module (en secondes)
+* Relachez le bouton association et rÃ©appuyez dessus
+* Baisser le wake-up interval dans la configuration/systÃ¨me du module (en secondes)
 
 {nbsp} +
 
@@ -224,17 +224,17 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 {nbsp} +
 
 [panel,primary]
-.J'ai l'impression que le module ne se réveille pas.
+.J'ai l'impression que le module ne se rÃ©veille pas.
 --
-Ce module se réveille en appuyant sur son bouton association.
+Ce module se rÃ©veille en appuyant sur son bouton association.
 --
 
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+.J'ai changÃ© la configuration mais elle n'est pas prise en compte.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup. (bouton d'association pour le forcer, d'ou l'interêt de ne pas mettre en place le module avant sa bonne configuration)
+Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup. (bouton d'association pour le forcer, d'ou l'interÃªt de ne pas mettre en place le module avant sa bonne configuration)
 --
 
 {nbsp} +
@@ -245,8 +245,8 @@ Ce module est un module sur batterie, la nouvelle configuration sera prise en co
 
 [icon="../images/plugin/attention.jpg"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Il faut rÃ©veiller le module :#
+ aprÃ¨s son inclusion, aprÃ¨s un changement de la configuration
+, aprÃ¨s un changement de wakeup, aprÃ¨s un changement des groupes d'association
 
 {nbsp} +
