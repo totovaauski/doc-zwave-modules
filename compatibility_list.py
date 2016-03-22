@@ -107,7 +107,7 @@ for soon in list_coming_soon:
     else:
         print "Already a module with this name. Skipping"
 if count_ignore !=0:
-    fichier.write('== Bientôt Compatible\n\n[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]\n|===\n|Image|Marque|Nom|Type|Remarque|Lien\n\n')
+    fichier.write('== Non compatible pour le moment\n\n[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]\n|===\n|Image|Marque|Nom|Type|Remarque|Lien\n\n')
     fichier.write(coming_soon)
     fichier.write('\n|===\n\n')
 fichier.write('\n[NOTE]\nCette liste est basée sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels\n')
