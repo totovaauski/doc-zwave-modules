@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*191* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*190* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -298,9 +298,6 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 
 |image:../images/everspring.se812/module.jpg[width=150,align="center"]|Everspring|SE812|Sirène| _[small]#Piles : 4xLR14#_| link:++http://www.domadoo.fr/fr/peripheriques/845-everspring-sirene-z-wave-se812-3700946500189.html++[Acheter^]
 // 96.12.1_se812.siren.json
-
-|image:../images/everspring.sf812/module.jpg[width=150,align="center"]|Everspring|SF812|Fumée| _[small]#Piles : 1x9V#_| link:++http://www.domadoo.fr/fr/peripheriques/848-everspring-detecteur-de-fumee-z-wave-sf812-3700946500219.html++[Acheter^]
-// 96.13.1_sf812.smoke.alarm.json
 
 |image:../images/everspring.sm103/module.jpg[width=150,align="center"]|Everspring|SM103|Ouverture| _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/851-everspring-capteur-d-ouverture-z-wave-sm103-3700946500233.html++[Acheter^]
 // 96.2.1_sm103.json
@@ -980,11 +977,14 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 
 |===
 
-== Bientôt Compatible
+== Non compatible pour le moment
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/everspring.sf812/module.jpg[width=150,align="center"]|Everspring|SF812|Fumée| _[small]#Piles : 1x9V#_| link:++http://www.domadoo.fr/fr/peripheriques/848-everspring-detecteur-de-fumee-z-wave-sf812-3700946500219.html++[Acheter^]
+// 96.13.1_sf812.smoke.alarm.json
 
 |image:../images/fakro.zws12/module.jpg[width=150,align="center"]|Fakro|ZWS12 Chain actuator 12VDC|Volets| | 
 // 133.3.1_zws12.json
