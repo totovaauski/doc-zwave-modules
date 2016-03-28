@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*191* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*192* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -292,6 +292,9 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 
 |image:../images/everspring.han02/module.jpg[width=150,align="center"]|Everspring|HAN02|Ouverture| | 
 // 96.17.2_han02.in-wall.remote.json
+
+|image:../images/everspring.hsp02/module.jpg[width=150,align="center"]|Everspring|HSP02 Motion Detector|Multicapteurs| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
+// 96.1.1_hsp02.motion.detector.json
 
 |image:../images/everspring.AD147-6/module.jpg[width=150,align="center"]|Everspring|Miniplug Dimmer|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2687-everspring-mini-prise-variateur-z-wave-plus-ad147-6-prise-francaise-3700946500370.html++[Acheter^]
 // 96.3.3_ad147.miniplug.dimmer.json
