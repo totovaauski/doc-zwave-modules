@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*190* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*191* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -284,11 +284,14 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 |image:../images/everspring.an158/module.jpg[width=150,align="center"]|Everspring|AN158|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/835-everspring-module-prise-on-off-z-wave-mesure-d-energie-an158-2-ger-3700946500097.html++[Acheter^]
 // 96.4.2_an158.plug-in.meter.appliance.json
 
-|image:../images/everspring.hac01/module.jpg[width=150,align="center"]|Everspring|HAC01|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/837-everspring-micromodule-emetteur-z-wave-hac01-3700946500110.html++[Acheter^]
+|image:../images/everspring.hac01/module.jpg[width=150,align="center"]|Everspring|HAC01|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/837-everspring-micromodule-emetteur-z-wave-hac01-3700946500110.html++[Acheter^]
 // 96.16.1_hac01.in-wall.remote.json
 
-|image:../images/everspring.han01/module.jpg[width=150,align="center"]|Everspring|HAN01|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2497-everspring-micromodule-commutateur-z-wave-han01-3700946500042.html++[Acheter^]
-// 96.17.1_hac01.in-wall.remote.json
+|image:../images/everspring.han01/module.jpg[width=150,align="center"]|Everspring|HAN01|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/2497-everspring-micromodule-commutateur-z-wave-han01-3700946500042.html++[Acheter^]
+// 96.17.1_han01.in-wall.remote.json
+
+|image:../images/everspring.han02/module.jpg[width=150,align="center"]|Everspring|HAN02|Ouverture| | 
+// 96.17.2_han02.in-wall.remote.json
 
 |image:../images/everspring.AD147-6/module.jpg[width=150,align="center"]|Everspring|Miniplug Dimmer|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2687-everspring-mini-prise-variateur-z-wave-plus-ad147-6-prise-francaise-3700946500370.html++[Acheter^]
 // 96.3.3_ad147.miniplug.dimmer.json
