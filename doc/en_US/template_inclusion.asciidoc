@@ -1,5 +1,5 @@
 :icons:
-==== Inclusion du module
+==== Module inclusion
 
 {nbsp} +
 
