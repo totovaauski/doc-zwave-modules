@@ -223,6 +223,7 @@ image::../images/fibaro.fgms001zw5/groupe.jpg[Groupe]
 
 {nbsp} +
 
+[icon="../images/plugin/tip.png"]
 [TIP]
 Ce module possède cinq groupes d'association, il faut ajouter le contrôleur sur le 1, 4 et 5 et retirer le 3.
 
