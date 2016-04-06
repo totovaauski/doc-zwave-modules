@@ -83,7 +83,7 @@ Qu'il soit utilisé par le moteur ou manuellement, le détecteur intelligent liv
 
 
 * Marque : Aeotec
-* Nom : Garage Door Controller
+* Nom : Garage Door Controller (ZW062)
 * Fabricant ID : 134
 * Type Produit : 3
 * Produit ID : 62
@@ -100,7 +100,7 @@ Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Pour mettre ce module en mode inclusion il faut appuyer sur le bouton LEARN, conformément à sa documentation papier.
+Pour mettre ce module en mode inclusion il faut appuyer sur le bouton Z-Wave, conformément à sa documentation papier.
 
 {nbsp} +
 
@@ -157,7 +157,7 @@ il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Je
 {nbsp} +
 
 
-image::../images/plugin/garagedoorcontroller.jpg[Configuration plugin Zwave,align="center"]
+image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,align="center"]
 
 {nbsp} +
 
@@ -169,7 +169,7 @@ image::../images/plugin/garagedoorcontroller.jpg[Configuration plugin Zwave,alig
 
 
 image::../images/aeotec.garagedoorcontroller/config1.jpg[Config1,align="center"]
-
+image::../images/aeotec.garagedoorcontroller/config2.jpg[Config1,align="center"]
 {nbsp} +
 
 
