@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*36* [green]*marques de modules différentes, soit un total de* [red]*193* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*38* [green]*marques de modules différentes, soit un total de* [red]*194* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -26,7 +26,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 |image:../images/aeotec.zw097/module.jpg[width=150,align="center"]|Aeotec|Dry Contact Sensor Gen5 (ZW097)|Ouverture| _[small]#Piles : 1×3V CR123A#_| 
 // 134.2.97_zw097_dry.contact.sensor.gen5.json
 
-|image:../images/aeotec.garagedoorcontroller/module.jpg[width=150,align="center"]|Aeotec|Garage Door Controller (ZW062)|Porte| | 
+|image:../images/aeotec.garagedoorcontroller/module.jpg[width=150,align="center"]|Aeotec|Garage Door Controller (ZW062)|Porte| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.zw062_garage_door_controller.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html++[Acheter^]
 // 134.3.62_zw62.garage.door.controller.json
 
 |image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|Heavy Duty Smart Switch (DSC10)|Prise| | 
@@ -109,8 +109,8 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/268
 |image:../images/aeotec.zw080/module.jpg[width=150,align="center"]|Aeotec|Siren Gen5 (ZW080)|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html++[Acheter^]
 // 134.4.80_zw080.siren.json
 
-|image:../images/aeotec.zw100/module.jpg[width=150,align="center"]|Aeotec|Smart Dimmer 6 (ZW100)|Prise| | 
-// 134.3.99_zw100_smart.dimmer6.json
+|image:../images/aeotec.zw099/module.jpg[width=150,align="center"]|Aeotec|Smart Dimmer 6 (ZW099)|Prise| | 
+// 134.3.99_zw099_smart.dimmer6.json
 
 |image:../images/aeotec.smart-energy-illuminator/module.jpg[width=150,align="center"]|Aeotec|Smart Energy Illuminator (DSC08101)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/283-aeon-labs-smart-energy-illuminator-z-wave-1220000010499.html++[Acheter^]
 // 134.3.8_dsc08101_smart.energy.illuminator.json
@@ -262,6 +262,18 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 
 |image:../images/duwi.zwes-1000/module.jpg[width=150,align="center"]|Duwi|ZW_ES_1000 Wall Plug |Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/748-duwi-interrupteur-on-off-everlux-z-wave-4008297054313.html++[Acheter^]
 // 100.8193.0_duwi.everlux.duwi.wall.plug.zw_es_1000.json
+
+
+|===
+
+== Eurotronic
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/eurotronic.cometz/module.jpg[width=150,align="center"]|Eurotronic|Vanne thermostatique Z-Wave+ Comet|Thermostat| | 
+// 328.2.1_eur_cometz.json
 
 
 |===
@@ -508,6 +520,15 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 
 |image:../images/horstmann.asrzw/module.jpg[width=150,align="center"]|Horstmann|SSR303 ASR-ZW Receiver|Thermostat|Module vendu sous la marque Secure | link:++http://www.domadoo.fr/fr/peripheriques/1987-secure-actionneur-de-chaudiere-ssr303-z-wave-5015914250095.html++[Acheter^]
 // 89.3.1_ssr303.json
+
+
+|===
+
+== Kwikset
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
 
 
 |===
@@ -1002,6 +1023,9 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 
 |image:../images/fakro.zws230/module.jpg[width=150,align="center"]|Fakro|ZWS230 Chain actuator 230VAC|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/2362-fakro-moteur-pour-fenetre-de-toit-z-wave-zws230-5900988500378.html++[Acheter^]
 // 133.3.2_zws230.json
+
+|image:../images/kwikset.smartcode912/module.jpg[width=150,align="center"]|Kwikset|Smartcode 912|Serrure| | 
+// 144.0.0_smartcode912.json
 
 |image:../images/mco.mhs311/module.jpg[width=150,align="center"]|Mco|MH-S311 Simple|Interrupteur|Equivalent au MH-S411 | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
 // 351.12546.513_mco.home.mh-s311.simple.json
