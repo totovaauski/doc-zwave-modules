@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*38* [green]*marques de modules différentes, soit un total de* [red]*194* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*38* [green]*marques de modules différentes, soit un total de* [red]*196* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -156,10 +156,13 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/318
 |image:../images/benext.builtin-dimmer/module.jpg[width=150,align="center"]|Benext|Built In Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html++[Acheter^]
 // 138.13.256_built.in.dimmer.json
 
+|image:../images/benext.door/module.jpg[width=150,align="center"]|Benext|Door sensor|Ouverture| _[small]#Piles : 2x1.5V AAA#_| 
+// 138.4.256_door.sensor.json
+
 |image:../images/zipato.minikeypad/module.jpg[width=150,align="center"]|Benext|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actuellement vendu sous la marque Zipato 
 
 _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
-// 138.7.257_minikeypad.json
+// 138.7.256_minikeypad.json
 
 |image:../images/benext.molite/module.jpg[width=150,align="center"]|Benext|MoLite Sensor|Multicapteurs| _[small]#Piles : 2x1.5V AAA#_| 
 // 138.3.257_zw-snmt-01.multi.sensor.json
@@ -606,6 +609,9 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/153
 |image:../images/philio.pan06/module.jpg[width=150,align="center"]|Philio|PAN06 In Wall Switch Module 2X1.5KW|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2482-philio-micromodule-commutateur-double-z-wave-4713698570019.html++[Acheter^]
 // 316.1.4_pan06.in.wall.dual.relay.1.way.json
 
+|image:../images/philio.pan08/module.jpg[width=150,align="center"]|Philio|PAN08-1 In Wall Roller Shutter Controller|Volets| | 
+// 316.1.21_pan08-1.in.wall.roller.shutter.json
+
 |image:../images/philio.phpat02b/module.jpg[width=150,align="center"]|Philio|PAT02-B 2in1 Multi Sensor|Multicapteurs|La première valeur d'humidité peut mettre un certain temps à remonter. Vendu aussi sous la marque Zipato 
 
 _[small]#Piles : 1x3V CR123A#_| 
@@ -1024,8 +1030,8 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 |image:../images/fakro.zws230/module.jpg[width=150,align="center"]|Fakro|ZWS230 Chain actuator 230VAC|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/2362-fakro-moteur-pour-fenetre-de-toit-z-wave-zws230-5900988500378.html++[Acheter^]
 // 133.3.2_zws230.json
 
-|image:../images/kwikset.smartcode912/module.jpg[width=150,align="center"]|Kwikset|Smartcode 912|Serrure| | 
-// 144.0.0_smartcode912.json
+|image:../images/kwikset.smartcode912/module.jpg[width=150,align="center"]|Kwikset|Electronic Deadbolt Smartcode|Serrure| | 
+// 144.1.1_smartcode912.json
 
 |image:../images/mco.mhs311/module.jpg[width=150,align="center"]|Mco|MH-S311 Simple|Interrupteur|Equivalent au MH-S411 | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
 // 351.12546.513_mco.home.mh-s311.simple.json
