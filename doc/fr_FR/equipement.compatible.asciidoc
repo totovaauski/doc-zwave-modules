@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*38* [green]*marques de modules différentes, soit un total de* [red]*196* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*38* [green]*marques de modules différentes, soit un total de* [red]*197* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -14,7 +14,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 |image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor (DSB04100)|Ouverture| _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
 // 134.2.4_dsb04100_door.window.sensor.json
 
-|image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 2E (DSB29)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
+|image:../images/aeotec.doorwindow/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 2nd Edition (DSB29)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
 // 134.2.29_dsb29_door.window.sensor.json
 
 |image:../images/aeotec.doorwindow6/module.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 6 (ZW112)|Ouverture| _[small]#Piles : Batterie#_| 
@@ -26,13 +26,13 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 |image:../images/aeotec.zw097/module.jpg[width=150,align="center"]|Aeotec|Dry Contact Sensor Gen5 (ZW097)|Ouverture| _[small]#Piles : 1×3V CR123A#_| 
 // 134.2.97_zw097_dry.contact.sensor.gen5.json
 
-|image:../images/aeotec.garagedoorcontroller/module.jpg[width=150,align="center"]|Aeotec|Garage Door Controller (ZW062)|Porte| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.zw062_garage_door_controller.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html++[Acheter^]
+|image:../images/aeotec.garagedoorcontroller/module.jpg[width=150,align="center"]|Aeotec|Garage Door Controller Gen5 (ZW062)|Porte| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.zw062_garage_door_controller.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html++[Acheter^]
 // 134.3.62_zw62.garage.door.controller.json
 
 |image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|Heavy Duty Smart Switch (DSC10)|Prise| | 
 // 134.3.10_dsc10_heavy.duty.smart.switch.json
 
-|image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|Heavy Duty Smart Switch (ZW078)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html++[Acheter^]
+|image:../images/aeotec.zw078/module.jpg[width=150,align="center"]|Aeotec|Heavy Duty Smart Switch Gen5 (ZW078)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html++[Acheter^]
 // 134.3.78_zw078_heavy.duty.smart.switch.gen5.json
 
 |image:../images/aeotec.hem/module.jpg[width=150,align="center"]|Aeotec|Home Energy Meter (DSB09104)|Consommation|Remplacé par le Home Energy Meter 2G (DSB28) 
@@ -40,7 +40,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles. Pour
 _[small]#Piles : 4x1.5V AAA#_| 
 // 134.2.9_dsb09104_hem_2.json
 
-|image:../images/aeotec.dsb28/module.jpg[width=150,align="center"]|Aeotec|Home Energy Meter 2G (DSB28)|Consommation| | link:++http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html++[Acheter^]
+|image:../images/aeotec.dsb28/module.jpg[width=150,align="center"]|Aeotec|Home Energy Meter 2nd Edition (DSB28)|Consommation| | link:++http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html++[Acheter^]
 // 134.2.28_dsb28_hem.g2.json
 
 |image:../images/aeotec.zw095/module.jpg[width=150,align="center"]|Aeotec|Home Energy Meter Gen5 (ZW095)|Consommation| | 
@@ -66,7 +66,7 @@ _[small]#Piles : 1x3V CR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/aeotec.blind-control/module.jpg[width=150,align="center"]|Aeotec|Micro Motor Controller (DSC14104)|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html++[Acheter^]
 // 134.3.14_dsc14104_blind.control.switch.json
 
-|image:../images/aeotec.insert-dimmer/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Dimmer (2nd Edition) (DSC19103)|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html++[Acheter^]
+|image:../images/aeotec.insert-dimmer/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Dimmer 2nd Edition (DSC19103)|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html++[Acheter^]
 // 134.3.19_dsc19103_insert.dimmer.json
 
 |image:../images/aeotec.micro-smart-energy-illuminator/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Energy Illuminator (DSC13103)|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html++[Acheter^]
@@ -75,21 +75,21 @@ _[small]#Piles : 1x3V CR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Energy Switch (DSC12103)|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html++[Acheter^]
 // 134.3.12_dsc12103.micro.smart.energy.switch.json
 
-|image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Switch (DSC18103)|Micromodule| | 
+|image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Micro Smart Switch 2nd Edition (DSC18103)|Micromodule| | 
 // 134.3.18_dsc18103_micro.switch.2nd.edition.json
 
-|image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Micro Switch (DSC26103)|Micromodule| | 
+|image:../images/aeotec.insert-switch/module.jpg[width=150,align="center"]|Aeotec|Micro Switch 2nd Edition (DSC26103)|Micromodule| | 
 // 134.3.26_dsc26103_micro.switch.2nd.edition.json
 
 |image:../images/aeotec.minimote/module.jpg[width=150,align="center"]|Aeotec|Minimote (DSA03202)|Télécommande| _[small]#Piles : Batterie#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html++[Acheter^]
 // 134.1.3_dsa03202_minimote.json
 
-|image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|MultiSensor 4in1 (DSB05) |Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration. Remplacé en boutique par son équivalent Gen5 
+|image:../images/aeotec.multisensor/module.jpg[width=150,align="center"]|Aeotec|MultiSensor (DSB05) |Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration. Remplacé en boutique par son équivalent Gen5 
 
 _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
 // 134.2.5_dsb05_multi.sensor.json
 
-|image:../images/aeotec.multisensor6/module.jpg[width=150,align="center"]|Aeotec|MultiSensor 6in1 (ZW100)|Multicapteurs| _[small]#Piles : 2x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html++[Acheter^]
+|image:../images/aeotec.multisensor6/module.jpg[width=150,align="center"]|Aeotec|MultiSensor 6 (ZW100)|Multicapteurs| _[small]#Piles : 2x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html++[Acheter^]
 // 134.2.100_zw100_6in1.multisensor.json
 
 |image:../images/aeotec.multisensor-gen5/module.jpg[width=150,align="center"]|Aeotec|MultiSensor Gen5 (ZW074)|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration 
@@ -106,7 +106,10 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/268
 |image:../images/aeotec.dsb54/module.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor (DSB54)|Ouverture| _[small]#Piles : 1x3V CR2#_| 
 // 134.2.54_dsb54_recessed.door.sensor.json
 
-|image:../images/aeotec.zw089/module.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor (ZW089)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
+|image:../images/aeotec.zw089/module.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor Gen5 (ZW089)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
+// 134.258.89_zw089_recessed.door.sensor.json
+
+|image:../images/aeotec.zw089/module.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor Gen5 ZW089)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
 // 134.2.89_zw089_recessed.door.sensor.json
 
 |image:../images/aeotec.zw080/module.jpg[width=150,align="center"]|Aeotec|Siren Gen5 (ZW080)|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html++[Acheter^]
