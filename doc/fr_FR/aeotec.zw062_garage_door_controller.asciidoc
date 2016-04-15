@@ -210,10 +210,12 @@ Calibration du temps d'ouverture de la porte de garage:
 * 1 : La porte de garage doit être entièrement fermé.
 * 2 : Activer le parametre 34 sur "Do calibration".
 * 3 : Lancer l'ouverture de la porte
-* 4 : Lancer la fermeture de la porte
+* 4 : Attendre que la porte soit completement ouverte.
+* 5 : Lancer la fermeture de la porte
 
 La calibration est  complétée
 
+* Le parametre 34 sera actualiser sur "Normal".
 * Le parametre 35 sera mis ajour avec le temps d'ouverture calculé.
 
 {nbsp} +
