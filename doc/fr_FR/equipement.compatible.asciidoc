@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*38* [green]*marques de modules différentes, soit un total de* [red]*197* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*38* [green]*marques de modules différentes, soit un total de* [red]*196* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -107,9 +107,6 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/268
 // 134.2.54_dsb54_recessed.door.sensor.json
 
 |image:../images/aeotec.zw089/module.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor Gen5 (ZW089)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
-// 134.258.89_zw089_recessed.door.sensor.json
-
-|image:../images/aeotec.zw089/module.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor Gen5 ZW089)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
 // 134.2.89_zw089_recessed.door.sensor.json
 
 |image:../images/aeotec.zw080/module.jpg[width=150,align="center"]|Aeotec|Siren Gen5 (ZW080)|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html++[Acheter^]
