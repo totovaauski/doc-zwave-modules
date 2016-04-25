@@ -1,7 +1,7 @@
 = Liste des équipements compatibles Z-Wave 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*38* [green]*marques de modules différentes, soit un total de* [red]*196* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*38* [green]*marques de modules différentes, soit un total de* [red]*197* [green]*modules.*
 
 D’autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -729,6 +729,9 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 
 |image:../images/qubino.zmnhia2/module.jpg[width=150,align="center"]|Qubino|ZMNHIA2 Thermostat|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2653-qubino-micromodule-thermostat-encastrable-z-wave-zmnhia2-3830062070041.html++[Acheter^]
 // 345.5.1_zmnhia2.onoff.thermostat.json
+
+|image:../images/qubino.zmnhid1/module.jpg[width=150,align="center"]|Qubino|ZMNHID1 On/Off Thermostat|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/3319-qubino-micromodule-thermostat-encastrable-z-wave-zmnhid1.html++[Acheter^]
+// 345.5.81_zmnhid1.onoff.thermostat.json
 
 |image:../images/qubino.zmnhja2/module.jpg[width=150,align="center"]|Qubino|ZMNHJA2 Fil Pilote|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2654-qubino-module-fil-pilote-encastrable-z-wave-zmnhja2.html++[Acheter^]
 // 345.4.1_zmnhja2.flush.dimmer.fil.pilote.json
