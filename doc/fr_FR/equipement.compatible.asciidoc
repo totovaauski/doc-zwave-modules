@@ -645,7 +645,7 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html++[Acheter^]
 // 316.2.12_pst02-a.4.in.1.json
 
-|image:../images/philio.pst021b/module.jpg[width=150,align="center"]|Philio|PST02-B PIR/Motion 3in1 Sensor|Multicapteurs|modifier les paramètres: 5 Operation Mode sur 12 et le 7 Customer Function sur 18. Vendu aussi sous la marque Zipato 
+|image:../images/philio.pst021b/module.jpg[width=150,align="center"]|Philio|PST02-B PIR/Motion 3in1 Sensor|Multicapteurs|Vendu aussi sous la marque Zipato 
 
 _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3067-philio-detecteur-z-wave-3-en-1-mouvement-luminosite-temperature-4713698570170.html++[Acheter^]
 // 316.2.13_pst02-b.pirmotion.3.in.1.json
