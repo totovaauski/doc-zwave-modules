@@ -4,7 +4,7 @@
 {nbsp} +
 
 
-* *Le module*
+* *Module*
 
 {nbsp} +
 
@@ -23,7 +23,7 @@ image::../images/philio.pst02c/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Resume
 
 {nbsp} +
 
