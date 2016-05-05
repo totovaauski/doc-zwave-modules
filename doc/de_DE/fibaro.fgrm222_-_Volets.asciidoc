@@ -1,9 +1,9 @@
-== Fibaro FGRM-222 "Volet roulant"
+== Fibaro FGRM-222 "Rolladen"
 
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/fibaro.fgrm222/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom Sichtbar*
 
 {nbsp} +
 
@@ -20,7 +20,7 @@ image::../images/fibaro.fgrm222/vuedefaut1.jpg[width=250,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -37,7 +37,7 @@ Note : Ce module nécessite le neutre pour fonctionner.
 {nbsp} +
 
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -55,21 +55,21 @@ Note : Ce module nécessite le neutre pour fonctionner.
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
-* Type de module : Récepteur Z-Wave
-* Alimentation : 230V, 50 Hz
-* Consommation électrique : < 0,8W
-* Câblage : 3 fils, neutre nécessaire
-* Charge maxi : 1000W
-* Fréquence : 868,42 Mhz
-* Puissance du signal : 1mW
-* Distance de transmission : 50m champ libre, 30m en intérieur
-* Dimensions: 17 x 42 x 37 mm
-* Température de fonctionnement : 0-40°C
-* Température limite : 105°C
+* Modultyp : Z-Wave-Empfänger
+* Stromversorgung : 230 V, 50 Hz
+* Leistungsaufnahme : < 0.8W
+* Verdrahtung : 3 Adern, Neutralleiter notwendig
+* Max. Belastbarkeit : 1000W
+* Frequenz : 868,42 MHz
+* Signalstärke : 1 mW
+* Übertragungsreichweite : 50m Freiland, 30m Innenraum
+* Abmessungen : 17 x 42 x 37 mm
+* Betriebstemperatur : 0-40 ° C
+* Maximale Temperatur : 105 ° C
 * Normes : LVD (2006/95/EC), EMC (2004/10B/EC), R&TTE(1999/5/EC)
 
 
@@ -204,7 +204,7 @@ image::../images/fibaro.fgrm222/config4.jpg[Config4,align="center"]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -218,11 +218,11 @@ image::../images/fibaro.fgrm222/groupe.jpg[Groupe]
 {nbsp} +
 
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
-==== Reset
+==== zurücksetzen
 
 {nbsp} +
 
@@ -234,7 +234,7 @@ Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce 
 
 {nbsp} +
 
-==== Important
+==== Wichtig
 
 {nbsp} +
 
@@ -244,7 +244,7 @@ Pour que le retour d'état fonctionne dans Jeedom, il est nécessaire de forcer 
 
 {nbsp} +
 
-==== Visuel alternatif
+==== visuelle Alternative
 
 {nbsp} +
 
@@ -254,7 +254,7 @@ image::../images/fibaro.fgrm222/vuewidget.jpg[width=250,align="center"]
 {nbsp} +
 
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 

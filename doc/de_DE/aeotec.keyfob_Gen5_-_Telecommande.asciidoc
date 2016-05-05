@@ -4,7 +4,7 @@
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/aeotec.keyfob-gen5/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-* *Le visuel Jeedom*
+* *In Jeedom Sichtbar*
 
 {nbsp} +
 
@@ -23,79 +23,79 @@ image::../images/aeotec.keyfob-gen5/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
-La télécommande porte clés Aeon Labs au design moderne et agréable dispose de 4 boutons permettant de contrôler tout type de dispositifs Z-Wave tels que des lampes, stores, etc
+Der Schlüsselanhänger von Aeon Labs, in einem attraktiven modernen Design, verfügt über 4 Tasten, um jede Art von Z-Wave-Geräten zu steuern, wie Leuchten, Jalousien etc.
 
 Avec ses dimensions très réduites, vous pourrez facilement la mettre dans votre poche. Facile à utiliser et élégante, elle est équipée d'un anneau permettant de l'attacher à des clés, ce qui la rend disponible au moment de quitter la maison ou lors du retour à votre domicile.
 
-Chaque bouton permet de contrôler deux dispositifs ou scènes grâce à la gestion des appuis courts et longs. Cette télécommande peut être aussi bien utilisée comme contrôleur principal ou secondaire.
+Jede Taste kann dank der Verwaltung zwei Geräte oder Szenen steuern, indem Sie kurz oder lang drücken. Diese Fernbedienung kann sowohl als primärer oder sekundärer Controller verwendet werden.
 
 Et parce que la télécommande porte-clés Keyfob Gen5 fait partie de la gamme Gen5 de Aeotec, elle surpasse tout ce qui existait auparavant. Elle utilise la dernière puce Z-Wave série 500, offrant une augmentation de la portée radio de 50% et une vitesse de communication de 250% plus rapide par rapport aux précédents produits Z-Wave.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
-* Télécommande porte clés
-* Contrôleur principal ou secondaire
-* Ultra-compacte et ultra-design
-* 4 boutons configurables
-* Gère jusqu'à 8 périphériques/scènes
-* Volet de protection coulissant
-* Fait partie de la gamme Gen5 de Aeon Labs
-* Sécurité de la communication radio via le chiffrement AES-128
-* Intègre la puce Z-Wave série 500
-* Communication 250% plus rapide comparé à des périphériques Z-Wave standard 
-* Optimisation de l'antenne, portée 100 mètres
-* Facilité d'utilisation et d'installation
-
-{nbsp} +
-
-
-=== Caractéristiques Techniques
-
-{nbsp} +
-
-* Type de module : Emetteur Z-Wave
-* Alimentation : 1 pile Lithium 3V CR2450
-* Durée de vie de la batterie : 1 an
-* Fréquence: 868.42 MHz
-* Distance de transmission : 100m en champ libre
-* Température d'utilisation : -10°C à 50°C
-* Dimensions : 55 x 30 x 13mm (L x l x h)
+`* Fernbedienung Tür-Schlüssel
+* primär oder sekundär Controller
+* Ultra-kompakt und ultra-Design
+* 4 konfigurierbare Tasten
+* Unterstützt bis zu 8 Geräte/Szenen
+* Schiebe-Schutzkappe
+* gehört zum Gen5 Programm von Aeon Labs 
+* Sicherheit der Funkkommunikation über die AES-128-Verschlüsselung
+Z-Wave-Chip Serie-500 integriert
+* Kommunikation 250 % schneller im Vergleich zu standard-Z-Wave-Geräten 
+* Optimierung der Antenne, Reichweite 100 Meter
+* Einfache Bedienung und Installation
 
 {nbsp} +
 
 
-=== Données du module
+=== Technische Daten
+
+{nbsp} +
+
+* Modultyp : Z-Wave-Sender
+* Stromversorgung : 1 Batterie CR2450 3V Lithium
+* Lebensdauer der Batterie : 1 Jahr
+* Frequenz : 868,42 MHz
+* Übertragungsreichweite : 100 m im Freiland
+* Betriebstemperatur : -10°C bis 50°C
+* Abmessungen : 55 x 30 x 13mm (L x b x h)
 
 {nbsp} +
 
 
-* Marque : Aeotec
-* Nom : ZW088 Key Fob Gen5
-* Fabricant ID : 134
-* Type Produit : 1
-* Produit ID : 88
+=== Moduldaten
 
 {nbsp} +
 
-=== Configuration
+
+* Marke : Aeotec
+* Name : ZW088 Key Fob Gen5
+* Hersteller-ID : 134
+* Produkttyp : 1
+* Produkt-ID : 88
 
 {nbsp} +
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
+=== Konfiguration
+
+{nbsp} +
+
+Um das OpenZwave Plugin zu konfigurieren und um zu wissen, wie man es in Jeedom includiert, schauen Sie sich die  link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[Dokumentation] an.
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Pour mettre ce module en mode inclusion il faut appuyer sur le bouton LEARN, conformément à sa documentation papier.
+Um dieses Modul in den Einbeziehungsmodus zu versetzen muss man auf den Einlern-Taste, gemäß seiner Papierdokumentation, drücken.
 
 {nbsp} +
 
@@ -103,7 +103,7 @@ image::../images/aeotec.keyfob-gen5/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -112,12 +112,12 @@ image::../images/aeotec.keyfob-gen5/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -127,32 +127,32 @@ image::../images/aeotec.keyfob-gen5/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
 
-* Boutons : c'est la commande qui remontera le bouton appuyé
+* Tasten : Dies ist der Befehl, der die gedrückte Taste ausführen wird 
 
-1 : Bouton 1 appui court
+1 : kurzes Drücken der Taste 1
 
-2 : Bouton 1 appui long
+2 : langes Drücken der Taste 1 
 
-3 : Bouton 2 appui court
+3 : kurzes Drücken der Taste 2
 
-4 : Bouton 2 appui long
+4 : langes Drücken der Taste 2 
 
-5 : Bouton 3 appui court
+5 : kurzes Drücken der Taste 3
 
-6 : Bouton 3 appui long
+6 : langes Drücken der Taste 3
 
-7 : Bouton 4 appui court
+7 : kurzes Drücken der Taste 4
 
-8 : Bouton 4 appui long
+8 : langes Drücken der Taste 4 
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -164,8 +164,8 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche „Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -175,7 +175,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -186,20 +186,20 @@ image::../images/aeotec.keyfob-gen5/config1.jpg[Config1,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
-* 250: mode de fonctionnement de la télécommande (absolument mettre Scene pour s'en servir en télécommande)
-* 255 : permet de resetter d'usine le Keyfob
+* 250 : Betriebsart der Fernbedienung (Szenen unbedingt in Fernbedienung festlegen, um sie zu benutzen)
+* 255: ermöglicht das Rücksetzer Keyfob Fabrik Einstellungen
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
-Ce module possède deux groupes d'association, le premier est le seul indispensable.
+Dieses Modul verfügt über zwei Assoziation-Gruppen, das Erste 
 
 {nbsp} +
 
@@ -209,29 +209,29 @@ image::../images/aeotec.keyfob-gen5/groupe.jpg[Groupe]
 {nbsp} +
 
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
 
-==== Spécificités
+==== Spezifikationen
 
-Pour utiliser ce module en télécommande il faut procéder comme suit :
+Um dieses Fernbedienungs-Modul zu verwenden, müssen Sie wie folgt vorgehen :
 
-* 1 : Inclure la télécommande
-* 2 : Réveiller la télécommande
-* 3 : Changer le paramètre 250 à Scene
-* 4 : Réveiller la télécommande et s'assurer que le changement à été pris en compte
-* 5 : Changer le mode de focntionnement de la télécommande en restant appuyer sur les deux boutons au dos pendant 3 secondes.
+* 1 : Die Fernbedienung includieren
+* 2 : die Fernbedienung aufwecken
+* 3 : Ändern von Parameter 250 
+* 4 : Wecken Sie die Fernbedienung auf, um sicherzustellen, dass die Änderung berücksichtigt wurden
+* 5 : Wechsel in den Arbeitsmodus der Fernbedienung, indem man 3 Sekunden auf den zwei Tasten auf der Rückseite bleibt.
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Um dieses Modul zu wecken, gibt es eine einzige Verfahrensweise :
 
-* rester appuyé 3 secondes sur le bouton LEARN
+* Bleiben Sie 3 Sekunden lang auf der LERN-Taste
 
 {nbsp} +
 
@@ -242,30 +242,30 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 
 [panel,primary]
-.J'ai l'impression que le module ne se réveille pas.
+.Ich habe den Eindruck, daß das Modul nicht aufwacht.
 --
-Ce module se réveille en restant appuyer 3 secondes sur le bouton LEARN.
+Dieses Modul wacht auf, drücken Sie 3 Sekunden auf die Taste LERN.
 --
 
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte que si vous réveillez la télécommande.
+Dieses Modul ist ein Batterie-Modul, die neue Konfiguration wird berücksichtigt werden, wenn die Fernbedienung aufwacht.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 {nbsp} +
 
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 
