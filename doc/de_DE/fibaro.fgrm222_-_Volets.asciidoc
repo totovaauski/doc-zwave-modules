@@ -70,34 +70,34 @@ Note : Ce module nécessite le neutre pour fonctionner.
 * Abmessungen : 17 x 42 x 37 mm
 * Betriebstemperatur : 0-40 ° C
 * Maximale Temperatur : 105 ° C
-* Normes : LVD (2006/95/EC), EMC (2004/10B/EC), R&TTE(1999/5/EC)
+* Normen : LVD (2006/95/EC), EMC (2004/10B/EC), R&TTE(1999/5/EC)
 
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
-* Marque : Fibar Group
-* Nom : Fibaro FGRM-222
-* Fabricant ID : 271
-* Type Produit : 769
-* Produit ID : 4097
+* Marke : Fibar Group
+* Name : Fibaro FGRM-222
+* Hersteller-ID : 271
+* Produkttyp : 769
+* Produkt-ID : 4097
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
+Um das OpenZwave Plugin zu konfigurieren und um zu wissen, wie man es in Jeedom includiert, schauen Sie sich die  link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[Dokumentation] an.
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Pour mettre ce module en mode inclusion il faut appuyer 3 fois sur le bouton d'inclusion, conformément à sa documentation papier.
+Um dieses Modul in den Inklusionsmodus zu versetzen muss man 3 Mal auf die Inklusionstaste, gemäß seiner Papierdokumentation, drücken.
 
 {nbsp} +
 
@@ -105,7 +105,7 @@ image::../images/fibaro.fgrm222/inclusion.jpg[width=250,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -113,12 +113,12 @@ image::../images/fibaro.fgrm222/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -129,32 +129,32 @@ image::../images/fibaro.fgrm222/commandes2.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
 
-* Etat : C'est la commande qui permet de connaitre la position de votre volet
-* Positionnement : C'est la commande qui permet de définir le pourcentage d'ouverture
-* Up : C'est la commande qui permet d'ouvrir complétement le volet
-* Down : C'est la commande qui permet de fermer complétement le volet
-* Rafraichir : C'est la commande qui permet de redemander la position du volet
-* Puissance : Commande permettant d'avoir la consommation du module
-* Consommation : Commande permettant de connaitre la puissance instantanée utilisée par le module
-* STOP : Commande pour Stopper le mouvement du volet
-* STOP BSO : Commande pour stopper le mouvement (en mode lamelle orientable)
-* Incliner : Permet d'incliner les lamelles (mode lamelle orientable)
-* Décliner : Permet de décliner les lamelles (mode lamelle orientable)
+* Status : Dies ist der Befehl, der die Position Ihres Rollos zu wissen erlaubt
+* Positionierung : Dies ist der Befehl, der es erlaubt den Öffnungsgrad einzustellen
+* Up : Dies ist der Befehl, der es erlaubt den Bereich vollständig zu öffnen
+* Down : Dies ist der Befehl, der es erlaubt den Bereich vollständig zu schließen
+* Rafraichir : Dies ist der Befehl, der es erlaubt, die Position des Bereichs anzufordern
+* Puissance : Befehl, um den Verbrauch des Moduls zu bekommen
+* Consommation : Befehl, um den momentanen Stromverbrauch des Modules zu bekommen
+* STOP : Befehl, um die Bewegung der Komponente zu stoppen
+* STOP BSO : Befehl zum Stoppen der Bewegung (im Modus, verstellbarer Lamellen)
+* Incliner : Um die Lamellen (verstellbare Lamellen Modus) zu kippen
+* Décliner : Um die Lamellen (verstellbare Lamellen Modus) zu senken
 * Pas : Permet de définir le pas pour un appui sur Décliner ou Incliner
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche „Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -164,7 +164,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -178,23 +178,23 @@ image::../images/fibaro.fgrm222/config4.jpg[Config4,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
 
 
-* 1: permet de bloquer le module (pour figer un volet) (dasn el cas d'appui sur un interrupteur)
-* 2: idem mais pour les commandes zwave
-* 3: type de rapports (classique ou fibar)
-* 10: mode de fonctionnement (store venitien, volet etc...)
-* 12: durée d'un tour complet (en mode store venitien)
-* 13: permet de choisir quand les lamelles doivent revenir à leur précédente position
-* 14: permet de choisir le type d'interrupteur
+* 1 : ermöglicht das Modul (um einen Bereich zu fixieren) zu blockieren (Fall einen Schalter betätigt wurde)
+* 2 : Das gleiche aber für Zwave Befehle
+* 3 : Art der Berichte (Classic oder Fibar)
+* 10 : Betriebsart (Jalousie, Rollo etc ...)
+* 12 : Zeitraum einer vollständigen Umdrehung (im Jalousie-Modus)
+* 13 : können Sie wählen, ob die Lamellen an ihre vorherige Position zurückgehen muss
+* 14 : um den Schalter-Typ auszuwählen
 * 17: permet de choisir combien de temps après la limite définit en 18 le volet s'arrete
 * 18: puissance de sécurité pour le moteur
 * 22: NA
-* 29: permet de calibrer le volet
+* 29 : ermöglicht, den Bereich zu kalibrieren
 * 30 à 35: permet de définir le comportement du module face aux différentes alarmes zwave
 * 40: delta de puissance pour déclencher une remontée d'infos (même en dehors de la période définie en 42)
 * 42: période de remontée d'infos
@@ -208,7 +208,7 @@ image::../images/fibaro.fgrm222/config4.jpg[Config4,align="center"]
 
 {nbsp} +
 
-Ce module possède 3 groupes d'association, seul le troisième est indispensable.
+Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist unerlässlich.
 
 {nbsp} +
 

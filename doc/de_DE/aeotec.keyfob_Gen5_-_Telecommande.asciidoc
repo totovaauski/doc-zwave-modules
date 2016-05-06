@@ -95,7 +95,7 @@ Um das OpenZwave Plugin zu konfigurieren und um zu wissen, wie man es in Jeedom 
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Um dieses Modul in den Einbeziehungsmodus zu versetzen muss man auf den Einlern-Taste, gemäß seiner Papierdokumentation, drücken.
+Um dieses Modul in den Inklusionsmodus zu versetzen muss man auf die Einlern-Taste, gemäß seiner Papierdokumentation, drücken.
 
 {nbsp} +
 
