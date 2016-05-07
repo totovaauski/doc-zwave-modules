@@ -1,7 +1,7 @@
 = Liste der Z-Wave-kompatible Geräte 
 :linkattrs:
 
-[green]*Derzeit ist Jeedom kompatibel mit* [red]*39* [green]*Marken mit verschiedenen Modulen, d.h. insgesamt* [red]*198* [green]*Modulen.*
+[green]*Actuellement Jeedom est compatible avec* [red]*39* [green]*marques de modules différentes, soit un total de* [red]*199* [green]*modules.*
 
 Weitere Module, die nicht auf dieser Liste vorhanden sind, können kompatibel sein. Für eine Bitte um Kompatibilität : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Hier klicken^]
 
@@ -596,6 +596,11 @@ _[small]#Piles : 1x3V CR2032#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |===
 |Bild|Marke|Name|Typ|Hinweis|Link
 
+|image:../images/northq.nq9121/module.jpg[width=150,align="center"]|Northq|NQ-9121 Gaz Meter|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Gaz pour avoir les rapports 
+
+_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html++[Acheter^]
+// 150.16.1_nq-9121.gaz.meter.json
+
 |image:../images/northq.powerreader/module.jpg[width=150,align="center"]|Northq|Power Reader|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports 
 
 _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html++[Acheter^]
@@ -1057,6 +1062,9 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 
 |image:../images/mco.mhs412/module.jpg[width=150,align="center"]|Mco|MH-S412 Double|Interrupteur| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-mco.MH-S412_Double_-_Interrupteur.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html++[Acheter^]
 // 351.16642.514_mco.home.mh-s412.double.json
+
+|image:../images/polycontrol.danalock/module.jpg[width=150,align="center"]|Polycontrol|Danalock V2 BTZE|Serrure| _[small]#Piles : 1xER26500M#_| 
+// 270.8.2_danalock.json
 
 |image:../images/vitrum.zwe060/module.jpg[width=150,align="center"]|Vitrum|ZWE060 6 boutons|Interrupteur| | 
 // 266.5120.26112_vitrum.vitrum.zwe060.json
