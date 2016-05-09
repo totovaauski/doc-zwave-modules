@@ -916,7 +916,7 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/26
 
 |image:../images/vision.zs6301/module.jpg[width=150,align="center"]|Vision Security|ZS 6301 Wireless CO Detector|CO|Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
 
-_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2159-vision-security-detecteur-de-monoxyde-de-carbone-z-wave.html++[Acheter^]
+_[small]#Piles : 3x1.5V AA#_| link:++http://www.domadoo.fr/fr/peripheriques/2159-vision-security-detecteur-de-monoxyde-de-carbone-z-wave.html++[Acheter^]
 // 265.8207.3842_zs6301.co.detector.json
 
 |image:../images/vision.zs5101/module.jpg[width=150,align="center"]|Vision Security|ZS5101|Vibration|Ce module peut dans certaine circonstance rester éveillé lors de l’interview. Il faut enlever et remettre la pile pour remédier à la situation. 
