@@ -1063,7 +1063,7 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 |image:../images/mco.mhs412/module.jpg[width=150,align="center"]|Mco|MH-S412 Double|Interrupteur| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-mco.MH-S412_Double_-_Interrupteur.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html++[Acheter^]
 // 351.16642.514_mco.home.mh-s412.double.json
 
-|image:../images/polycontrol.danalock/module.jpg[width=150,align="center"]|Polycontrol|Danalock V2 BTZE|Serrure| _[small]#Piles : 1xER26500M#_| 
+|image:../images/polycontrol.danalock/module.jpg[width=150,align="center"]|Polycontrol|Danalock V2 BTZE|Serrure| _[small]#Piles : 4x3V CR123A#_| 
 // 270.8.2_danalock.json
 
 |image:../images/vitrum.zwe060/module.jpg[width=150,align="center"]|Vitrum|ZWE060 6 boutons|Interrupteur| | 
