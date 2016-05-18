@@ -765,8 +765,8 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/qubino.zmnhod1/module.jpg[width=150,align="center"]|Qubino|ZMNHOD1 Flush shutter DC|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/2951-qubino-z-wave-flush-shutter-dc-zmnhod1-3830062070089.html++[Acheter^]
 // 345.3.83_zmnhodx.flush.shutter.dc.json
 
-|image:../images/qubino.zmnhtax/module.jpg[width=150,align="center"]|Qubino|ZMNHTAx Smart Meter|Rail-din|Problème de remonté de la puissance, requière le rafraichissement manuel 5 minutes | 
-// 345.7.82_zmnhtax.smart.meter.json
+|image:../images/qubino.zmnhtdx/module.jpg[width=150,align="center"]|Qubino|ZMNHTDx Smart meter|Rail-din| | 
+// 345.7.82_zmnhtdx.smart.meter.json
 
 |image:../images/qubino.zmnhud1/module.jpg[width=150,align="center"]|Qubino|ZMNHUD1 DIN Pilot Wire|Rail-din| | link:++http://www.domadoo.fr/fr/peripheriques/3409-qubino-module-rail-din-fil-pilote-z-wave-zmnhud1.html++[Acheter^]
 // 345.4.82_zmnhud1.din.fil.pilote.plus.json
