@@ -735,14 +735,11 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/qubino.zmnhcdx/module.jpg[width=150,align="center"]|Qubino|ZMNHCDx Volets|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/3061-qubino-micromodule-pour-volet-roulant-et-consometre-z-wave-zmnhcd1-3830062070126.html++[Acheter^]
 // 345.3.82_zmnhcdx.volets.roulants.json
 
-|image:../images/qubino.zmnhda2/module.jpg[width=150,align="center"]|Qubino|ZMNHDA2 Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2567-qubino-micromodule-variateur-et-consometre-z-wave-zmnhda2-3830062070003.html++[Acheter^]
+|image:../images/qubino.zmnhda2/module.jpg[width=150,align="center"]|Qubino|ZMNHDA2 Dimmer|Micromodule|Remplacé par le ZMNHDDx Dimmer | 
 // 345.1.1_zmnhda2.dimmer.json
 
-|image:../images/qubino.zmnhddx/module.jpg[width=150,align="center"]|Qubino|ZMNHDDx Dimmer|Micromodule|Remplace le ZMNHDA2 | link:++http://www.domadoo.fr/fr/peripheriques/3063-qubino-micromodule-variateur-et-consometre-z-wave-zmnhdd1-3830062070096.html++[Acheter^]
+|image:../images/qubino.zmnhddx/module.jpg[width=150,align="center"]|Qubino|ZMNHDDx Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/3063-qubino-micromodule-variateur-et-consometre-z-wave-zmnhdd1-3830062070096.html++[Acheter^]
 // 345.1.81_zmnhddx_dimmer.json
-
-|image:../images/qubino.zmnhsdx/module.jpg[width=150,align="center"]|Qubino|ZMNHDDx Din Dimmer|Rail-din| | link:++http://www.domadoo.fr/fr/peripheriques/3063-qubino-micromodule-variateur-et-consometre-z-wave-zmnhdd1-3830062070096.html++[Acheter^]
-// 345.1.82_zmnhsdx.din.dimmer.json
 
 |image:../images/qubino.zmnhia2/module.jpg[width=150,align="center"]|Qubino|ZMNHIA2 Thermostat|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2653-qubino-micromodule-thermostat-encastrable-z-wave-zmnhia2-3830062070041.html++[Acheter^]
 // 345.5.1_zmnhia2.onoff.thermostat.json
@@ -764,6 +761,9 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 
 |image:../images/qubino.zmnhod1/module.jpg[width=150,align="center"]|Qubino|ZMNHOD1 Flush shutter DC|Volets| | link:++http://www.domadoo.fr/fr/peripheriques/2951-qubino-z-wave-flush-shutter-dc-zmnhod1-3830062070089.html++[Acheter^]
 // 345.3.83_zmnhodx.flush.shutter.dc.json
+
+|image:../images/qubino.zmnhsdx/module.jpg[width=150,align="center"]|Qubino|ZMNHSDx Din Dimmer|Rail-din| | link:++http://www.domadoo.fr/fr/peripheriques/3256-qubino-module-rail-din-variateur-z-wave-zmnhsd1-3830062070386.html++[Acheter^]
+// 345.1.82_zmnhsdx.din.dimmer.json
 
 |image:../images/qubino.zmnhtdx/module.jpg[width=150,align="center"]|Qubino|ZMNHTDx Smart meter|Rail-din| | 
 // 345.7.82_zmnhtdx.smart.meter.json
