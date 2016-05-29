@@ -1,7 +1,7 @@
 = Liste der Z-Wave-kompatible Geräte 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*39* [green]*marques de modules différentes, soit un total de* [red]*202* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*39* [green]*marques de modules différentes, soit un total de* [red]*203* [green]*modules.*
 
 Weitere Module, die nicht auf dieser Liste vorhanden sind, können kompatibel sein. Für eine Bitte um Kompatibilität : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Hier klicken^]
 
@@ -253,10 +253,10 @@ _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-e
 |Bild|Marke|Name|Typ|Hinweis|Link
 
 |image:../images/duwi.05458/module.jpg[width=150,align="center"]|Duwi|DURO 2000 Dimmer 05458|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2307-z-waveme-interrupteur-variateur-z-wave-avance-finition-duro-2000-0019962003509.html++[Acheter^]
-// 100.4096.9_duwi.popp.duwi.05458.dimmer.json
+// 100.4096.9_05458.dimmer.json
 
 |image:../images/duwi.duro-2000/module.jpg[width=150,align="center"]|Duwi|Interrupteur Variateur Duro 2000|Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/758-duwi-interrupteur-variateur-duro-2000-z-wave-4008297054580.html++[Acheter^]
-// 100.5002.0_duwi.popp.duwi.interrupteur.variateur.duro.2000.json
+// 100.5002.0_duro.2000.json
 
 |image:../images/duwi.rzwfb/module.jpg[width=150,align="center"]|Duwi|Wireless remote control 10-channel|Télécommande|Remplacé par la Z-WAVE.ME RC2 
 
@@ -264,13 +264,16 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 // 100.20481.0_zwfb.json
 
 |image:../images/duwi.edan-300/module.jpg[width=150,align="center"]|Duwi|ZW EDAN 300 Dimmer|Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/749-duwi-interrupteur-variateur-everlux-z-wave-4008297054337.html++[Acheter^]
-// 100.1.0_duwi.popp.duwi.zw.edan.300.dimmer.json
+// 100.1.0_zw.edan.300.flush.mounted.dimmer.json
+
+|image:../images/duwi.zwesjblind/module.jpg[width=150,align="center"]|Duwi|ZW ESJ Blind Control|Volets| | 
+// 100.16385.0_zw.esj.blind.control.json
 
 |image:../images/duwi.zwzs-3500/module.jpg[width=150,align="center"]|Duwi|ZW ZS 3500 Plugin Switch|Prise|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/752-duwi-module-prise-on-off-z-wave-pour-l-exterieur-4008297054382.html++[Acheter^]
-// 100.12289.0_popp..duwi.duwi.zw.zs.3500.plugin.switch.json
+// 100.12289.0_zw.zs.3500.plugin.switch.json
 
 |image:../images/duwi.zwes-1000/module.jpg[width=150,align="center"]|Duwi|ZW_ES_1000 Wall Plug |Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/748-duwi-interrupteur-on-off-everlux-z-wave-4008297054313.html++[Acheter^]
-// 100.8193.0_duwi.everlux.duwi.wall.plug.zw_es_1000.json
+// 100.8193.0_zw.es.1000.flush.mounted.switch.json
 
 
 |===
